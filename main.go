@@ -57,6 +57,8 @@ func main() {
 		log.Fatalf("Error getting source: %v", err)
 	}
 
+	allTracks := make([]spotify.SimpleTrack, 0)
+
 	for _, album := range albums {
 		log.Printf("Album: %v (%v)", album.Name, album.ReleaseDate)
 
@@ -66,14 +68,40 @@ func main() {
 		}
 
 		log.Printf("   Tracks: %v", len(tracks))
+
+		for _, track := range tracks {
+			log.Printf("   Track: %v", track.Name)
+
+			allTracks = append(allTracks, track)
+		}
 	}
 
-	/*
-		source, err := GetPlaylist(spotifyClient, options.User, "the beatles (all)")
-		if err != nil {
-			log.Fatalf("Error getting source: %v", err)
-		}
+	log.Printf("Total Tracks: %v", len(allTracks))
 
+	allTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, "the beatles (all)")
+	if err != nil {
+		log.Fatalf("Error getting source: %v", err)
+	}
+
+	cacher.Invalidate(allTracksPlaylist.ID)
+
+	allTracksPlaylistTracks, err := cacher.GetPlaylistTracks(options.User, allTracksPlaylist.ID)
+	if err != nil {
+		log.Fatalf("Error getting source %v", err)
+	}
+
+	update := NewPlaylistUpdate(GetTrackIdsFromPlaylistTracks(allTracksPlaylistTracks))
+
+	for _, track := range allTracks {
+		update.AddTrack(track.ID)
+	}
+
+	adding := update.GetIdsToAdd()
+	removing := update.GetIdsToRemove()
+
+	log.Printf("Modifying all tracks: %d adding %v removing", len(adding.ToArray()), len(removing.ToArray()))
+
+	if false {
 		excluding, err := GetPlaylist(spotifyClient, options.User, "the beatles (excluded)")
 		if err != nil {
 			log.Fatalf("Error getting excluded: %v", err)
@@ -84,14 +112,8 @@ func main() {
 			log.Fatalf("Error getting filtered: %v", err)
 		}
 
-		cacher.Invalidate(source.ID)
 		cacher.Invalidate(excluding.ID)
 		cacher.Invalidate(filtered.ID)
-
-		sourceTracks, err := cacher.GetPlaylistTracks(options.User, source.ID)
-		if err != nil {
-			log.Fatalf("Error getting source %v", err)
-		}
 
 		excludingTracks, err := cacher.GetPlaylistTracks(options.User, excluding.ID)
 		if err != nil {
@@ -103,6 +125,6 @@ func main() {
 			log.Fatalf("Error getting filtered %v", err)
 		}
 
-		log.Printf("Have %v tracks excluding %v tracks into filtered (%v tracks)", len(sourceTracks), len(excludingTracks), len(filteredTracks))
-	*/
+		log.Printf("Have %v tracks excluding %v tracks into filtered (%v tracks)", len(allTracksPlaylistTracks), len(excludingTracks), len(filteredTracks))
+	}
 }

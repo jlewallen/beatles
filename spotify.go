@@ -117,7 +117,7 @@ func GetPlaylist(spotifyClient *spotify.Client, user string, name string) (pl *s
 			return nil, fmt.Errorf("Unable to create playlist: %v", err)
 		}
 
-		log.Printf("Created destination: %v", created)
+		log.Printf("Created playlist: %v", created)
 
 		pl, err = GetPlaylistByTitle(spotifyClient, user, name)
 		if err != nil {
@@ -144,20 +144,20 @@ func (pu *PlaylistUpdate) AddTrack(id spotify.ID) {
 	pu.idsAfter = append(pu.idsAfter, id)
 }
 
-func (pu *PlaylistUpdate) GetIdsToRemove() []spotify.ID {
+func (pu *PlaylistUpdate) GetIdsToRemove() *TracksSet {
 	afterSet := mapset.NewSetFromSlice(MapIds(pu.idsAfter))
 	idsToRemove := pu.idsBefore.Difference(afterSet)
-	return ToSpotifyIds(idsToRemove.ToSlice())
+	return NewTracksSet(ToSpotifyIds(idsToRemove.ToSlice()))
 }
 
-func (pu *PlaylistUpdate) GetIdsToAdd() []spotify.ID {
+func (pu *PlaylistUpdate) GetIdsToAdd() *TracksSet {
 	ids := make([]spotify.ID, 0)
 	for _, id := range pu.idsAfter {
 		if !pu.idsBefore.Contains(id) {
 			ids = append(ids, id)
 		}
 	}
-	return ids
+	return NewTracksSet(ids)
 }
 
 func (pu *PlaylistUpdate) MergeBeforeAndToAdd() {
@@ -240,11 +240,23 @@ type TracksSet struct {
 	Ids map[spotify.ID]bool
 }
 
-func NewEmptyTracksSet() (ts *TracksSet) {
-	ids := make(map[spotify.ID]bool)
+func NewTracksSet(ids []spotify.ID) (ts *TracksSet) {
+	idsMap := make(map[spotify.ID]bool)
+
+	for _, id := range ids {
+		idsMap[id] = true
+	}
 
 	return &TracksSet{
-		Ids: ids,
+		Ids: idsMap,
+	}
+}
+
+func NewEmptyTracksSet() (ts *TracksSet) {
+	idsMap := make(map[spotify.ID]bool)
+
+	return &TracksSet{
+		Ids: idsMap,
 	}
 }
 
@@ -290,7 +302,7 @@ func (ts *TracksSet) ToArray() []spotify.ID {
 	return array
 }
 
-func removeTracksSetFromPlaylist(spotifyClient *spotify.Client, user string, id spotify.ID, ts *TracksSet) (err error) {
+func RemoveTracksSetFromPlaylist(spotifyClient *spotify.Client, id spotify.ID, ts *TracksSet) (err error) {
 	removals := ts.ToArray()
 
 	for i := 0; i < len(removals); i += 50 {
@@ -304,7 +316,7 @@ func removeTracksSetFromPlaylist(spotifyClient *spotify.Client, user string, id 
 	return nil
 }
 
-func addTracksSetToPlaylist(spotifyClient *spotify.Client, user string, id spotify.ID, ts *TracksSet) (err error) {
+func AddTracksSetToPlaylist(spotifyClient *spotify.Client, id spotify.ID, ts *TracksSet) (err error) {
 	additions := ts.ToArray()
 
 	for i := 0; i < len(additions); i += 50 {
@@ -344,6 +356,22 @@ func (ps *PlaylistSet) GetAllTracks() (nps *PlaylistSet) {
 	return &PlaylistSet{}
 }
 
+func GetTrackIdsFromPlaylistTracks(tracks []spotify.PlaylistTrack) (ids []spotify.ID) {
+	for _, track := range tracks {
+		ids = append(ids, track.Track.ID)
+	}
+
+	return
+}
+
+func GetTrackIdsFromSimpleTracks(tracks []spotify.SimpleTrack) (ids []spotify.ID) {
+	for _, track := range tracks {
+		ids = append(ids, track.ID)
+	}
+
+	return
+}
+
 func GetTrackIds(tracks []spotify.FullTrack) (ids []spotify.ID) {
 	for _, track := range tracks {
 		ids = append(ids, track.ID)
@@ -355,6 +383,20 @@ func GetTrackIds(tracks []spotify.FullTrack) (ids []spotify.ID) {
 func ToSpotifyIds(ids []interface{}) (ifaces []spotify.ID) {
 	for _, id := range ids {
 		ifaces = append(ifaces, id.(spotify.ID))
+	}
+	return
+}
+
+func MapIdsFromPlaylistTracks(tracks []spotify.PlaylistTrack) (ifaces []interface{}) {
+	for _, t := range tracks {
+		ifaces = append(ifaces, t.Track.ID)
+	}
+	return
+}
+
+func MapIdsFromSimpleTracks(tracks []spotify.SimpleTrack) (ifaces []interface{}) {
+	for _, t := range tracks {
+		ifaces = append(ifaces, t.ID)
 	}
 	return
 }
