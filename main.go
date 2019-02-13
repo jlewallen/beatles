@@ -38,6 +38,10 @@ func main() {
 
 	spotifyClient, _ := AuthenticateSpotify()
 
+	cacher := SpotifyCacher{
+		spotifyClient: spotifyClient,
+	}
+
 	// https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2?si=BPm1QDocRxW3JkNDNbmGxg
 
 	artistId := spotify.ID("3WrFJ7ztbogyGnTHbHJFl2?si=BPm1QDocRxW3JkNDNbmGxg")
@@ -48,7 +52,7 @@ func main() {
 
 	log.Printf("Artist: %v", artist.Name)
 
-	albums, err := GetArtistAlbums(spotifyClient, artist.ID)
+	albums, err := cacher.GetArtistAlbums(artist.ID)
 	if err != nil {
 		log.Fatalf("Error getting source: %v", err)
 	}
@@ -56,7 +60,7 @@ func main() {
 	for _, album := range albums {
 		log.Printf("Album: %v (%v)", album.Name, album.ReleaseDate)
 
-		tracks, err := GetAlbumTracks(spotifyClient, album.ID)
+		tracks, err := cacher.GetAlbumTracks(album.ID)
 		if err != nil {
 			log.Fatalf("Error getting source: %v", err)
 		}
@@ -65,10 +69,6 @@ func main() {
 	}
 
 	/*
-		cacher := SpotifyCacher{
-			spotifyClient: spotifyClient,
-		}
-
 		source, err := GetPlaylist(spotifyClient, options.User, "the beatles (all)")
 		if err != nil {
 			log.Fatalf("Error getting source: %v", err)

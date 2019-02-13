@@ -212,6 +212,30 @@ func GetAlbumTracks(spotifyClient *spotify.Client, id spotify.ID) ([]spotify.Sim
 	return all, nil
 }
 
+func GetPlaylistTracks(spotifyClient *spotify.Client, id spotify.ID) ([]spotify.PlaylistTrack, error) {
+	all := make([]spotify.PlaylistTrack, 0)
+	limit := 100
+	offset := 0
+	options := spotify.Options{Limit: &limit, Offset: &offset}
+	for {
+		tracks, err := spotifyClient.GetPlaylistTracksOpt(id, &options, "")
+		if err != nil {
+			return nil, err
+		}
+
+		all = append(all, tracks.Tracks...)
+
+		if len(tracks.Tracks) < *options.Limit {
+			break
+		}
+
+		offset := *options.Limit + *options.Offset
+		options.Offset = &offset
+	}
+
+	return all, nil
+}
+
 type TracksSet struct {
 	Ids map[spotify.ID]bool
 }
