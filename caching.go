@@ -37,8 +37,6 @@ func (sc *SpotifyCacher) GetPlaylists(user string) (playlists *PlaylistSet, err 
 		return playlists, nil
 	}
 
-	log.Printf("HI")
-
 	limit := 50
 	offset := 0
 	options := spotify.Options{Limit: &limit, Offset: &offset}

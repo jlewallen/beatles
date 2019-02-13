@@ -295,15 +295,14 @@ func NewTracksSetFromPlaylist(tracks []spotify.PlaylistTrack) (ts *TracksSet) {
 	}
 }
 
-/*
 func (ts *TracksSet) MergeInPlace(tracks []spotify.PlaylistTrack) (ns *TracksSet) {
 	for _, t := range tracks {
 		ts.Ids[t.Track.ID] = true
+		ts.Ordered = append(ts.Ordered, t.Track.ID)
 	}
 
 	return ts
 }
-*/
 
 func (ts *TracksSet) Contains(id spotify.ID) bool {
 	_, ok := ts.Ids[id]

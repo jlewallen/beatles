@@ -119,9 +119,14 @@ func main() {
 
 	log.Printf("Total Tracks: %v", len(allTracks))
 
+	playlists, err := cacher.GetPlaylists(options.User)
+	if err != nil {
+		log.Fatalf("Error getting playlists: %v", err)
+	}
+
 	allTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, "the beatles (all)")
 	if err != nil {
-		log.Fatalf("Error getting all tracks playlist:: %v", err)
+		log.Fatalf("Error getting all tracks playlist: %v", err)
 	}
 
 	shortTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, "the beatles (short)")
@@ -139,19 +144,24 @@ func main() {
 		log.Fatalf("Error getting removing tracks: %v", err)
 	}
 
-	excludedTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, "the beatles (excluded)")
-	if err != nil {
-		log.Fatalf("Error getting excluded tracks playlist: %v", err)
+	excludedTracksSet := NewEmptyTracksSet()
+
+	for _, playlist := range playlists.Playlists {
+		if strings.HasPrefix(playlist.Name, "the beatles") {
+			if strings.Contains(playlist.Name, "excluded") {
+				log.Printf("Applying exclusion playlist '%s'...", playlist.Name)
+
+				excludedTracks, err := cacher.GetPlaylistTracks(options.User, playlist.ID)
+				if err != nil {
+					log.Fatalf("Error getting tracks: %v", err)
+				}
+
+				excludedTracksSet.MergeInPlace(excludedTracks)
+			}
+		}
 	}
 
-	excludedTracks, err := cacher.GetPlaylistTracks(options.User, excludedTracksPlaylist.ID)
-	if err != nil {
-		log.Fatalf("Error getting excluded tracks: %v", err)
-	}
-
-	log.Printf("Have %d excluded tracks", len(excludedTracks))
-
-	excludedTracksSet := NewTracksSetFromPlaylist(excludedTracks)
+	log.Printf("Have %d excluded tracks", len(excludedTracksSet.ToArray() ))
 
 	sort.Sort(ByName(allTracks))
 
@@ -171,10 +181,10 @@ func main() {
 				if false {
 					log.Printf("%v", track)
 				}
-			}
 
-			if !excludedTracksSet.Contains(track.ID) {
-				addingToCandidates = append(addingToCandidates, track.ID)
+				if !excludedTracksSet.Contains(track.ID) {
+					addingToCandidates = append(addingToCandidates, track.ID)
+				}
 			}
 
 			titles[track.Name] = true
