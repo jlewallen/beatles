@@ -2,10 +2,10 @@ package main
 
 import (
 	"encoding/json"
-	"io/ioutil"
 	"fmt"
-	"os"
+	"io/ioutil"
 	"log"
+	"os"
 
 	"github.com/zmb3/spotify"
 )

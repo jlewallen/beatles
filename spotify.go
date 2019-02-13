@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"log"
-	"time"
 	"strings"
+	"time"
 
 	"net/http"
 
@@ -164,4 +164,180 @@ func (pu *PlaylistUpdate) MergeBeforeAndToAdd() {
 	for _, id := range pu.idsAfter {
 		pu.idsBefore.Add(id)
 	}
+}
+
+func GetArtistAlbums(spotifyClient *spotify.Client, id spotify.ID) ([]spotify.SimpleAlbum, error) {
+	all := make([]spotify.SimpleAlbum, 0)
+	limit := 20
+	offset := 0
+	options := spotify.Options{Limit: &limit, Offset: &offset}
+	for {
+		albums, err := spotifyClient.GetArtistAlbumsOpt(id, &options, nil)
+		if err != nil {
+			return nil, fmt.Errorf("Unable to get albums: %v", err)
+		}
+
+		all = append(all, albums.Albums...)
+
+		if len(albums.Albums) < *options.Limit {
+			break
+		}
+
+		offset := *options.Limit + *options.Offset
+		options.Offset = &offset
+	}
+
+	return all, nil
+}
+
+func GetAlbumTracks(spotifyClient *spotify.Client, id spotify.ID) ([]spotify.SimpleTrack, error) {
+	all := make([]spotify.SimpleTrack, 0)
+	limit := 20
+	offset := 0
+	for {
+		tracks, err := spotifyClient.GetAlbumTracksOpt(id, limit, offset)
+		if err != nil {
+			return nil, fmt.Errorf("Unable to get tracks: %v", err)
+		}
+
+		all = append(all, tracks.Tracks...)
+
+		if len(tracks.Tracks) < limit {
+			break
+		}
+
+		offset = offset + limit
+	}
+
+	return all, nil
+}
+
+type TracksSet struct {
+	Ids map[spotify.ID]bool
+}
+
+func NewEmptyTracksSet() (ts *TracksSet) {
+	ids := make(map[spotify.ID]bool)
+
+	return &TracksSet{
+		Ids: ids,
+	}
+}
+
+func NewTracksSetFromPlaylist(tracks []spotify.PlaylistTrack) (ts *TracksSet) {
+	ids := make(map[spotify.ID]bool)
+
+	for _, t := range tracks {
+		ids[t.Track.ID] = true
+	}
+
+	return &TracksSet{
+		Ids: ids,
+	}
+}
+
+func (ts *TracksSet) MergeInPlace(tracks []spotify.PlaylistTrack) (ns *TracksSet) {
+	for _, t := range tracks {
+		ts.Ids[t.Track.ID] = true
+	}
+
+	return ts
+}
+
+func (ts *TracksSet) Remove(removing *TracksSet) (ns *TracksSet) {
+	ids := make(map[spotify.ID]bool)
+
+	for k, _ := range ts.Ids {
+		if _, ok := removing.Ids[k]; !ok {
+			ids[k] = true
+		}
+	}
+
+	return &TracksSet{
+		Ids: ids,
+	}
+}
+
+func (ts *TracksSet) ToArray() []spotify.ID {
+	array := make([]spotify.ID, 0)
+	for id, _ := range ts.Ids {
+		array = append(array, id)
+	}
+	return array
+}
+
+func removeTracksSetFromPlaylist(spotifyClient *spotify.Client, user string, id spotify.ID, ts *TracksSet) (err error) {
+	removals := ts.ToArray()
+
+	for i := 0; i < len(removals); i += 50 {
+		batch := removals[i:min(i+50, len(removals))]
+		_, err := spotifyClient.RemoveTracksFromPlaylist(id, batch...)
+		if err != nil {
+			return fmt.Errorf("Error removing tracks: %v", err)
+		}
+	}
+
+	return nil
+}
+
+func addTracksSetToPlaylist(spotifyClient *spotify.Client, user string, id spotify.ID, ts *TracksSet) (err error) {
+	additions := ts.ToArray()
+
+	for i := 0; i < len(additions); i += 50 {
+		batch := additions[i:min(i+50, len(additions))]
+		_, err := spotifyClient.AddTracksToPlaylist(id, batch...)
+		if err != nil {
+			return fmt.Errorf("Error adding tracks: %v", err)
+		}
+	}
+
+	return nil
+}
+
+func min(a, b int) int {
+	if a <= b {
+		return a
+	}
+	return b
+}
+
+type Playlist struct {
+	ID   spotify.ID
+	User string
+	Name string
+}
+
+type Track struct {
+	ID    spotify.ID
+	Title string
+}
+
+type PlaylistSet struct {
+	Playlists []Playlist
+}
+
+func (ps *PlaylistSet) GetAllTracks() (nps *PlaylistSet) {
+	return &PlaylistSet{}
+}
+
+func GetTrackIds(tracks []spotify.FullTrack) (ids []spotify.ID) {
+	for _, track := range tracks {
+		ids = append(ids, track.ID)
+	}
+
+	return
+}
+
+func ToSpotifyIds(ids []interface{}) (ifaces []spotify.ID) {
+	for _, id := range ids {
+		ifaces = append(ifaces, id.(spotify.ID))
+	}
+	return
+}
+
+func MapIds(ids []spotify.ID) (ifaces []interface{}) {
+	for _, id := range ids {
+		ifaces = append(ifaces, id)
+	}
+	return
 }
