@@ -3,10 +3,14 @@ package main
 import (
 	"fmt"
 	"log"
-	"net/http"
 	"time"
+	"strings"
+
+	"net/http"
 
 	"golang.org/x/oauth2"
+
+	mapset "github.com/deckarep/golang-set"
 
 	"github.com/zmb3/spotify"
 )
@@ -73,4 +77,91 @@ func CompleteAuth(w http.ResponseWriter, r *http.Request) {
 
 	client := authenticator.NewClient(token)
 	clientChannel <- &client
+}
+
+func GetPlaylistByTitle(spotifyClient *spotify.Client, user, name string) (*spotify.SimplePlaylist, error) {
+	limit := 20
+	offset := 0
+	options := spotify.Options{Limit: &limit, Offset: &offset}
+	for {
+		playlists, err := spotifyClient.GetPlaylistsForUserOpt(user, &options)
+		if err != nil {
+			return nil, fmt.Errorf("Unable to get playlists: %v", err)
+		}
+
+		for _, iter := range playlists.Playlists {
+			if strings.EqualFold(iter.Name, name) {
+				return &iter, nil
+			}
+		}
+
+		if len(playlists.Playlists) < *options.Limit {
+			break
+		}
+
+		offset := *options.Limit + *options.Offset
+		options.Offset = &offset
+	}
+
+	return nil, nil
+}
+
+func GetPlaylist(spotifyClient *spotify.Client, user string, name string) (pl *spotify.SimplePlaylist, err error) {
+	pl, err = GetPlaylistByTitle(spotifyClient, user, name)
+	if err != nil {
+		return nil, fmt.Errorf("Error getting '%s': %v", name, err)
+	}
+	if pl == nil {
+		created, err := spotifyClient.CreatePlaylistForUser(user, name, "description", true)
+		if err != nil {
+			return nil, fmt.Errorf("Unable to create playlist: %v", err)
+		}
+
+		log.Printf("Created destination: %v", created)
+
+		pl, err = GetPlaylistByTitle(spotifyClient, user, name)
+		if err != nil {
+			return nil, fmt.Errorf("Error getting %s: %v", name, err)
+		}
+	}
+
+	return pl, nil
+}
+
+type PlaylistUpdate struct {
+	idsBefore mapset.Set
+	idsAfter  []spotify.ID
+}
+
+func NewPlaylistUpdate(idsBefore []spotify.ID) *PlaylistUpdate {
+	return &PlaylistUpdate{
+		idsBefore: mapset.NewSetFromSlice(MapIds(idsBefore)),
+		idsAfter:  make([]spotify.ID, 0),
+	}
+}
+
+func (pu *PlaylistUpdate) AddTrack(id spotify.ID) {
+	pu.idsAfter = append(pu.idsAfter, id)
+}
+
+func (pu *PlaylistUpdate) GetIdsToRemove() []spotify.ID {
+	afterSet := mapset.NewSetFromSlice(MapIds(pu.idsAfter))
+	idsToRemove := pu.idsBefore.Difference(afterSet)
+	return ToSpotifyIds(idsToRemove.ToSlice())
+}
+
+func (pu *PlaylistUpdate) GetIdsToAdd() []spotify.ID {
+	ids := make([]spotify.ID, 0)
+	for _, id := range pu.idsAfter {
+		if !pu.idsBefore.Contains(id) {
+			ids = append(ids, id)
+		}
+	}
+	return ids
+}
+
+func (pu *PlaylistUpdate) MergeBeforeAndToAdd() {
+	for _, id := range pu.idsAfter {
+		pu.idsBefore.Add(id)
+	}
 }

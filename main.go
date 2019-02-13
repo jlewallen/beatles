@@ -2,16 +2,11 @@ package main
 
 import (
 	"bytes"
-	"encoding/json"
 	"flag"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"log"
 	"os"
-	"strings"
-
-	mapset "github.com/deckarep/golang-set"
 
 	"github.com/zmb3/spotify"
 )
@@ -35,155 +30,6 @@ func (ps *PlaylistSet) GetAllTracks() (nps *PlaylistSet) {
 	return &PlaylistSet{}
 }
 
-type SpotifyCacher struct {
-	spotifyClient *spotify.Client
-}
-
-func GetPlaylistByTitle(spotifyClient *spotify.Client, user, name string) (*spotify.SimplePlaylist, error) {
-	limit := 20
-	offset := 0
-	options := spotify.Options{Limit: &limit, Offset: &offset}
-	for {
-		playlists, err := spotifyClient.GetPlaylistsForUserOpt(user, &options)
-		if err != nil {
-			return nil, err
-		}
-
-		for _, iter := range playlists.Playlists {
-			if strings.EqualFold(iter.Name, name) {
-				return &iter, nil
-			}
-		}
-
-		if len(playlists.Playlists) < *options.Limit {
-			break
-		}
-
-		offset := *options.Limit + *options.Offset
-		options.Offset = &offset
-	}
-
-	return nil, nil
-}
-
-func (sc *SpotifyCacher) GetPlaylists(user string) (playlists *PlaylistSet, err error) {
-	cachedFile := fmt.Sprintf("playlists-%s.json", user)
-	if _, err := os.Stat(cachedFile); !os.IsNotExist(err) {
-		file, err := ioutil.ReadFile(cachedFile)
-		if err != nil {
-			return nil, err
-		}
-
-		playlists = &PlaylistSet{}
-		err = json.Unmarshal(file, playlists)
-		if err != nil {
-			return nil, err
-		}
-
-		log.Printf("Returning cached %v", cachedFile)
-
-		return playlists, nil
-	}
-
-	limit := 50
-	offset := 0
-	options := spotify.Options{Limit: &limit, Offset: &offset}
-	playlists = &PlaylistSet{
-		Playlists: make([]Playlist, 0),
-	}
-	for {
-		page, err := sc.spotifyClient.GetPlaylistsForUserOpt(user, &options)
-		if err != nil {
-			return nil, err
-		}
-
-		for _, iter := range page.Playlists {
-			playlists.Playlists = append(playlists.Playlists, Playlist{
-				ID:   iter.ID,
-				Name: iter.Name,
-				User: user,
-			})
-		}
-
-		if len(page.Playlists) < *options.Limit {
-			break
-		}
-
-		offset := *options.Limit + *options.Offset
-		options.Offset = &offset
-	}
-
-	json, err := json.Marshal(playlists)
-	if err != nil {
-		return nil, fmt.Errorf("Error saving Playlists: %v", err)
-	}
-
-	err = ioutil.WriteFile(cachedFile, json, 0644)
-	if err != nil {
-		return nil, fmt.Errorf("Error saving Playlists: %v", err)
-	}
-
-	return
-}
-
-func (sc *SpotifyCacher) Invalidate(id spotify.ID) {
-	cachedFile := fmt.Sprintf("playlist-%s.json", id)
-	os.Remove(cachedFile)
-
-	log.Printf("Invalidating playlist %v", id)
-}
-
-func (sc *SpotifyCacher) GetPlaylistTracks(userId string, id spotify.ID) (allTracks []spotify.PlaylistTrack, err error) {
-	cachedFile := fmt.Sprintf("playlist-%s.json", id)
-	if _, err := os.Stat(cachedFile); !os.IsNotExist(err) {
-		file, err := ioutil.ReadFile(cachedFile)
-		if err != nil {
-			return nil, fmt.Errorf("Error opening %v", err)
-		}
-
-		allTracks = make([]spotify.PlaylistTrack, 0)
-		err = json.Unmarshal(file, &allTracks)
-		if err != nil {
-			return nil, fmt.Errorf("Error unmarshalling %v", err)
-		}
-
-		log.Printf("Returning cached %s", cachedFile)
-
-		return allTracks, nil
-	}
-
-	limit := 100
-	offset := 0
-	options := spotify.Options{Limit: &limit, Offset: &offset}
-	for {
-		tracks, spotifyErr := sc.spotifyClient.GetPlaylistTracksOpt(id, &options, "")
-		if spotifyErr != nil {
-			err = spotifyErr
-			return
-		}
-
-		allTracks = append(allTracks, tracks.Tracks...)
-
-		if len(tracks.Tracks) < *options.Limit {
-			break
-		}
-
-		offset := *options.Limit + *options.Offset
-		options.Offset = &offset
-	}
-
-	json, err := json.Marshal(allTracks)
-	if err != nil {
-		return nil, fmt.Errorf("Error saving playlist tracks: %v", err)
-	}
-
-	err = ioutil.WriteFile(cachedFile, json, 0644)
-	if err != nil {
-		return nil, fmt.Errorf("Error saving playlist tracks: %v", err)
-	}
-
-	return
-}
 
 func GetTrackIds(tracks []spotify.FullTrack) (ids []spotify.ID) {
 	for _, track := range tracks {
@@ -205,66 +51,6 @@ func MapIds(ids []spotify.ID) (ifaces []interface{}) {
 		ifaces = append(ifaces, id)
 	}
 	return
-}
-
-type PlaylistUpdate struct {
-	idsBefore mapset.Set
-	idsAfter  []spotify.ID
-}
-
-func NewPlaylistUpdate(idsBefore []spotify.ID) *PlaylistUpdate {
-	return &PlaylistUpdate{
-		idsBefore: mapset.NewSetFromSlice(MapIds(idsBefore)),
-		idsAfter:  make([]spotify.ID, 0),
-	}
-}
-
-func (pu *PlaylistUpdate) AddTrack(id spotify.ID) {
-	pu.idsAfter = append(pu.idsAfter, id)
-}
-
-func (pu *PlaylistUpdate) GetIdsToRemove() []spotify.ID {
-	afterSet := mapset.NewSetFromSlice(MapIds(pu.idsAfter))
-	idsToRemove := pu.idsBefore.Difference(afterSet)
-	return ToSpotifyIds(idsToRemove.ToSlice())
-}
-
-func (pu *PlaylistUpdate) GetIdsToAdd() []spotify.ID {
-	ids := make([]spotify.ID, 0)
-	for _, id := range pu.idsAfter {
-		if !pu.idsBefore.Contains(id) {
-			ids = append(ids, id)
-		}
-	}
-	return ids
-}
-
-func (pu *PlaylistUpdate) MergeBeforeAndToAdd() {
-	for _, id := range pu.idsAfter {
-		pu.idsBefore.Add(id)
-	}
-}
-
-func getPlaylist(spotifyClient *spotify.Client, user string, name string) (pl *spotify.SimplePlaylist, err error) {
-	pl, err = GetPlaylistByTitle(spotifyClient, user, name)
-	if err != nil {
-		return nil, fmt.Errorf("Error getting %s: %v", name, err)
-	}
-	if pl == nil {
-		created, err := spotifyClient.CreatePlaylistForUser(user, name, "description", true)
-		if err != nil {
-			return nil, fmt.Errorf("Unable to create playlist: %v", err)
-		}
-
-		log.Printf("Created destination: %v", created)
-
-		pl, err = GetPlaylistByTitle(spotifyClient, user, name)
-		if err != nil {
-			return nil, fmt.Errorf("Error getting %s: %v", name, err)
-		}
-	}
-
-	return pl, nil
 }
 
 type Options struct {
@@ -298,26 +84,41 @@ func main() {
 		spotifyClient: spotifyClient,
 	}
 
-	pl, err := getPlaylist(spotifyClient, options.User, "the beatles (all minus revolver and white)")
+	source, err := GetPlaylist(spotifyClient, options.User, "the beatles (all minus revolver and white)")
 	if err != nil {
-		log.Fatalf("Error opening file: %v", err)
+		log.Fatalf("Error getting source: %v", err)
 	}
 
-	cacher.Invalidate(pl.ID)
-
-	existingTracks, err := cacher.GetPlaylistTracks(options.User, pl.ID)
+	excluding, err := GetPlaylist(spotifyClient, options.User, "the beatles (excluded)")
 	if err != nil {
-		log.Fatalf("%v", err)
+		log.Fatalf("Error getting excluded: %v", err)
 	}
 
-	log.Printf("Have %v (%v tracks)", pl, len(existingTracks))
-
-	playlists, err := cacher.GetPlaylists(options.User)
+	filtered, err := GetPlaylist(spotifyClient, options.User, "the beatles (filtered)")
 	if err != nil {
-		log.Fatalf("%v", err)
+		log.Fatalf("Error getting filtered: %v", err)
 	}
 
-	log.Printf("Have %v playlists", len(playlists.Playlists))
+	cacher.Invalidate(source.ID)
+	cacher.Invalidate(excluding.ID)
+	cacher.Invalidate(filtered.ID)
+
+	sourceTracks, err := cacher.GetPlaylistTracks(options.User, source.ID)
+	if err != nil {
+		log.Fatalf("Error getting source %v", err)
+	}
+
+	excludingTracks, err := cacher.GetPlaylistTracks(options.User, excluding.ID)
+	if err != nil {
+		log.Fatalf("Error getting excluding %v", err)
+	}
+
+	filteredTracks, err := cacher.GetPlaylistTracks(options.User, filtered.ID)
+	if err != nil {
+		log.Fatalf("Error getting filtered %v", err)
+	}
+
+	log.Printf("Have %v tracks excluding %v tracks into filtered (%v tracks)", len(sourceTracks), len(excludingTracks), len(filteredTracks))
 }
 
 type TracksSet struct {
