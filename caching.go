@@ -10,6 +10,8 @@ import (
 	"github.com/zmb3/spotify"
 )
 
+const VerboseLogging = false
+
 type SpotifyCacher struct {
 	spotifyClient *spotify.Client
 }
@@ -28,7 +30,9 @@ func (sc *SpotifyCacher) GetPlaylists(user string) (playlists *PlaylistSet, err 
 			return nil, err
 		}
 
-		log.Printf("Returning cached %v", cachedFile)
+		if VerboseLogging {
+			log.Printf("Returning cached %v", cachedFile)
+		}
 
 		return playlists, nil
 	}
@@ -97,7 +101,9 @@ func (sc *SpotifyCacher) GetPlaylistTracks(userId string, id spotify.ID) (allTra
 			return nil, fmt.Errorf("Error unmarshalling %v", err)
 		}
 
-		log.Printf("Returning cached %s", cachedFile)
+		if VerboseLogging {
+			log.Printf("Returning cached %s", cachedFile)
+		}
 
 		return allTracks, nil
 	}
@@ -135,7 +141,9 @@ func (sc *SpotifyCacher) GetAlbumTracks(id spotify.ID) (allTracks []spotify.Simp
 			return nil, fmt.Errorf("Error unmarshalling %v", err)
 		}
 
-		log.Printf("Returning cached %s", cachedFile)
+		if VerboseLogging {
+			log.Printf("Returning cached %s", cachedFile)
+		}
 
 		return allTracks, nil
 	}
@@ -173,7 +181,9 @@ func (sc *SpotifyCacher) GetArtistAlbums(id spotify.ID) (allAlbums []spotify.Sim
 			return nil, fmt.Errorf("Error unmarshalling %v", err)
 		}
 
-		log.Printf("Returning cached %s", cachedFile)
+		if VerboseLogging {
+			log.Printf("Returning cached %s", cachedFile)
+		}
 
 		return allAlbums, nil
 	}

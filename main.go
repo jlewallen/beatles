@@ -6,6 +6,8 @@ import (
 	"io"
 	"log"
 	"os"
+	"sort"
+	"strings"
 
 	"github.com/zmb3/spotify"
 )
@@ -13,14 +15,57 @@ import (
 type Options struct {
 	Dry  bool
 	User string
-	Name string
-	Size int
+	Rebuild bool
+}
+
+type TrackInfo struct {
+	ID        spotify.ID
+	Name      string
+	Duration  int
+	Dissected []string
+}
+
+type ByName []TrackInfo
+
+func (s ByName) Len() int {
+	return len(s)
+}
+
+func (s ByName) Swap(i, j int) {
+	s[i], s[j] = s[j], s[i]
+}
+
+func (s ByName) Less(i, j int) bool {
+	if strings.Compare(s[i].Name, s[j].Name) > 0 {
+		return false
+	}
+	return true
+}
+
+func NewTrackInfo(track spotify.SimpleTrack) TrackInfo {
+	return TrackInfo{
+		ID:        track.ID,
+		Name:      track.Name,
+		Duration:  track.Duration,
+		Dissected: DisectTrackName(track.Name),
+	}
+}
+
+func DisectTrackName(name string) []string {
+	parts := strings.Split(name, "-")
+
+	for i, p := range parts {
+		parts[i] = strings.TrimSpace(p)
+	}
+
+	return parts
 }
 
 func main() {
 	var options Options
 
 	flag.BoolVar(&options.Dry, "dry", false, "dry")
+	flag.BoolVar(&options.Rebuild, "rebuild", false, "rebuild")
 	flag.StringVar(&options.User, "user", "jlewalle", "user")
 
 	flag.Parse()
@@ -57,22 +102,18 @@ func main() {
 		log.Fatalf("Error getting source: %v", err)
 	}
 
-	allTracks := make([]spotify.SimpleTrack, 0)
+	allTracks := make([]TrackInfo, 0)
 
 	for _, album := range albums {
-		log.Printf("Album: %v (%v)", album.Name, album.ReleaseDate)
-
 		tracks, err := cacher.GetAlbumTracks(album.ID)
 		if err != nil {
 			log.Fatalf("Error getting source: %v", err)
 		}
 
-		log.Printf("   Tracks: %v", len(tracks))
+		log.Printf("Album: %v (%v) (%v tracks)", album.Name, album.ReleaseDate, len(tracks))
 
 		for _, track := range tracks {
-			log.Printf("   Track: %v", track.Name)
-
-			allTracks = append(allTracks, track)
+			allTracks = append(allTracks, NewTrackInfo(track))
 		}
 	}
 
@@ -80,51 +121,103 @@ func main() {
 
 	allTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, "the beatles (all)")
 	if err != nil {
-		log.Fatalf("Error getting source: %v", err)
+		log.Fatalf("Error getting all tracks playlist:: %v", err)
 	}
 
-	cacher.Invalidate(allTracksPlaylist.ID)
-
-	allTracksPlaylistTracks, err := cacher.GetPlaylistTracks(options.User, allTracksPlaylist.ID)
+	shortTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, "the beatles (short)")
 	if err != nil {
-		log.Fatalf("Error getting source %v", err)
+		log.Fatalf("Error getting short tracks playlist: %v", err)
 	}
 
-	update := NewPlaylistUpdate(GetTrackIdsFromPlaylistTracks(allTracksPlaylistTracks))
+	candidatesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, "the beatles (candidates)")
+	if err != nil {
+		log.Fatalf("Error getting candidates tracks playlist: %v", err)
+	}
 
+	err = RemoveAllPlaylistTracks(spotifyClient, candidatesTracksPlaylist.ID)
+	if err != nil {
+		log.Fatalf("Error getting removing tracks: %v", err)
+	}
+
+	excludedTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, "the beatles (excluded)")
+	if err != nil {
+		log.Fatalf("Error getting excluded tracks playlist: %v", err)
+	}
+
+	excludedTracks, err := cacher.GetPlaylistTracks(options.User, excludedTracksPlaylist.ID)
+	if err != nil {
+		log.Fatalf("Error getting excluded tracks: %v", err)
+	}
+
+	log.Printf("Have %d excluded tracks", len(excludedTracks))
+
+	excludedTracksSet := NewTracksSetFromPlaylist(excludedTracks)
+
+	sort.Sort(ByName(allTracks))
+
+	titles := make(map[string]bool)
+	addingToAll := make([]spotify.ID, 0)
+	addingToShort := make([]spotify.ID, 0)
+	addingToCandidates := make([]spotify.ID, 0)
 	for _, track := range allTracks {
-		update.AddTrack(track.ID)
+		if _, ok := titles[track.Name]; !ok {
+			if track.Duration < 60*1000 {
+				addingToShort = append(addingToShort, track.ID)
+				if false {
+					log.Printf("%v (SHORT)", track)
+				}
+			} else {
+				addingToAll = append(addingToAll, track.ID)
+				if false {
+					log.Printf("%v", track)
+				}
+			}
+
+			if !excludedTracksSet.Contains(track.ID) {
+				addingToCandidates = append(addingToCandidates, track.ID)
+			}
+
+			titles[track.Name] = true
+		}
 	}
 
-	adding := update.GetIdsToAdd()
-	removing := update.GetIdsToRemove()
+	if options.Rebuild {
+		log.Printf("Building '%s'...", allTracksPlaylist.Name)
 
-	log.Printf("Modifying all tracks: %d adding %v removing", len(adding.ToArray()), len(removing.ToArray()))
-
-	if false {
-		excluding, err := GetPlaylist(spotifyClient, options.User, "the beatles (excluded)")
+		err = RemoveAllPlaylistTracks(spotifyClient, allTracksPlaylist.ID)
 		if err != nil {
-			log.Fatalf("Error getting excluded: %v", err)
+			log.Fatalf("Error getting removing tracks: %v", err)
 		}
 
-		filtered, err := GetPlaylist(spotifyClient, options.User, "the beatles (filtered)")
+		err = AddTracksToPlaylist(spotifyClient, allTracksPlaylist.ID, addingToAll)
 		if err != nil {
-			log.Fatalf("Error getting filtered: %v", err)
+			log.Fatalf("Error adding tracks: %v", err)
 		}
 
-		cacher.Invalidate(excluding.ID)
-		cacher.Invalidate(filtered.ID)
+		log.Printf("Building '%s'...", shortTracksPlaylist.Name)
 
-		excludingTracks, err := cacher.GetPlaylistTracks(options.User, excluding.ID)
+		err = RemoveAllPlaylistTracks(spotifyClient, shortTracksPlaylist.ID)
 		if err != nil {
-			log.Fatalf("Error getting excluding %v", err)
+			log.Fatalf("Error getting removing tracks: %v", err)
 		}
 
-		filteredTracks, err := cacher.GetPlaylistTracks(options.User, filtered.ID)
+		err = AddTracksToPlaylist(spotifyClient, shortTracksPlaylist.ID, addingToShort)
 		if err != nil {
-			log.Fatalf("Error getting filtered %v", err)
+			log.Fatalf("Error adding tracks: %v", err)
 		}
-
-		log.Printf("Have %v tracks excluding %v tracks into filtered (%v tracks)", len(allTracksPlaylistTracks), len(excludingTracks), len(filteredTracks))
 	}
+
+	log.Printf("Building '%s'...", candidatesTracksPlaylist.Name)
+
+	err = RemoveAllPlaylistTracks(spotifyClient, candidatesTracksPlaylist.ID)
+	if err != nil {
+		log.Fatalf("Error getting removing tracks: %v", err)
+	}
+
+	err = AddTracksToPlaylist(spotifyClient, candidatesTracksPlaylist.ID, addingToCandidates)
+	if err != nil {
+		log.Fatalf("Error adding tracks: %v", err)
+	}
+
+	log.Printf("DONE")
 }

@@ -107,6 +107,8 @@ func GetPlaylistByTitle(spotifyClient *spotify.Client, user, name string) (*spot
 }
 
 func GetPlaylist(spotifyClient *spotify.Client, user string, name string) (pl *spotify.SimplePlaylist, err error) {
+	log.Printf("Looking for '%s'...", name)
+
 	pl, err = GetPlaylistByTitle(spotifyClient, user, name)
 	if err != nil {
 		return nil, fmt.Errorf("Error getting '%s': %v", name, err)
@@ -164,6 +166,10 @@ func (pu *PlaylistUpdate) MergeBeforeAndToAdd() {
 	for _, id := range pu.idsAfter {
 		pu.idsBefore.Add(id)
 	}
+}
+
+func (pu *PlaylistUpdate) Contains(id spotify.ID) bool {
+	return pu.idsBefore.Contains(id)
 }
 
 func GetArtistAlbums(spotifyClient *spotify.Client, id spotify.ID) ([]spotify.SimpleAlbum, error) {
@@ -236,42 +242,60 @@ func GetPlaylistTracks(spotifyClient *spotify.Client, id spotify.ID) ([]spotify.
 	return all, nil
 }
 
+func RemoveAllPlaylistTracks(spotifyClient *spotify.Client, id spotify.ID) error {
+	tracks, err := GetPlaylistTracks(spotifyClient, id)
+	if err != nil {
+		return err
+	}
+
+	return RemoveTracksFromPlaylist(spotifyClient, id, GetTrackIdsFromPlaylistTracks(tracks))
+}
+
 type TracksSet struct {
-	Ids map[spotify.ID]bool
+	Ordered []spotify.ID
+	Ids     map[spotify.ID]bool
 }
 
 func NewTracksSet(ids []spotify.ID) (ts *TracksSet) {
 	idsMap := make(map[spotify.ID]bool)
+	ordered := make([]spotify.ID, 0)
 
 	for _, id := range ids {
 		idsMap[id] = true
 	}
 
 	return &TracksSet{
-		Ids: idsMap,
+		Ordered: ordered,
+		Ids:     idsMap,
 	}
 }
 
 func NewEmptyTracksSet() (ts *TracksSet) {
 	idsMap := make(map[spotify.ID]bool)
+	ordered := make([]spotify.ID, 0)
 
 	return &TracksSet{
-		Ids: idsMap,
+		Ordered: ordered,
+		Ids:     idsMap,
 	}
 }
 
 func NewTracksSetFromPlaylist(tracks []spotify.PlaylistTrack) (ts *TracksSet) {
 	ids := make(map[spotify.ID]bool)
+	ordered := make([]spotify.ID, 0)
 
 	for _, t := range tracks {
 		ids[t.Track.ID] = true
+		ordered = append(ordered, t.Track.ID)
 	}
 
 	return &TracksSet{
-		Ids: ids,
+		Ordered: ordered,
+		Ids:     ids,
 	}
 }
 
+/*
 func (ts *TracksSet) MergeInPlace(tracks []spotify.PlaylistTrack) (ns *TracksSet) {
 	for _, t := range tracks {
 		ts.Ids[t.Track.ID] = true
@@ -279,11 +303,17 @@ func (ts *TracksSet) MergeInPlace(tracks []spotify.PlaylistTrack) (ns *TracksSet
 
 	return ts
 }
+*/
+
+func (ts *TracksSet) Contains(id spotify.ID) bool {
+	_, ok := ts.Ids[id]
+	return ok
+}
 
 func (ts *TracksSet) Remove(removing *TracksSet) (ns *TracksSet) {
 	ids := make(map[spotify.ID]bool)
 
-	for k, _ := range ts.Ids {
+	for _, k := range ts.Ordered {
 		if _, ok := removing.Ids[k]; !ok {
 			ids[k] = true
 		}
@@ -295,18 +325,12 @@ func (ts *TracksSet) Remove(removing *TracksSet) (ns *TracksSet) {
 }
 
 func (ts *TracksSet) ToArray() []spotify.ID {
-	array := make([]spotify.ID, 0)
-	for id, _ := range ts.Ids {
-		array = append(array, id)
-	}
-	return array
+	return ts.Ordered
 }
 
-func RemoveTracksSetFromPlaylist(spotifyClient *spotify.Client, id spotify.ID, ts *TracksSet) (err error) {
-	removals := ts.ToArray()
-
-	for i := 0; i < len(removals); i += 50 {
-		batch := removals[i:min(i+50, len(removals))]
+func RemoveTracksFromPlaylist(spotifyClient *spotify.Client, id spotify.ID, ids []spotify.ID) (err error) {
+	for i := 0; i < len(ids); i += 50 {
+		batch := ids[i:min(i+50, len(ids))]
 		_, err := spotifyClient.RemoveTracksFromPlaylist(id, batch...)
 		if err != nil {
 			return fmt.Errorf("Error removing tracks: %v", err)
@@ -316,11 +340,9 @@ func RemoveTracksSetFromPlaylist(spotifyClient *spotify.Client, id spotify.ID, t
 	return nil
 }
 
-func AddTracksSetToPlaylist(spotifyClient *spotify.Client, id spotify.ID, ts *TracksSet) (err error) {
-	additions := ts.ToArray()
-
-	for i := 0; i < len(additions); i += 50 {
-		batch := additions[i:min(i+50, len(additions))]
+func AddTracksToPlaylist(spotifyClient *spotify.Client, id spotify.ID, ids []spotify.ID) (err error) {
+	for i := 0; i < len(ids); i += 50 {
+		batch := ids[i:min(i+50, len(ids))]
 		_, err := spotifyClient.AddTracksToPlaylist(id, batch...)
 		if err != nil {
 			return fmt.Errorf("Error adding tracks: %v", err)
@@ -328,6 +350,14 @@ func AddTracksSetToPlaylist(spotifyClient *spotify.Client, id spotify.ID, ts *Tr
 	}
 
 	return nil
+}
+
+func RemoveTracksSetFromPlaylist(spotifyClient *spotify.Client, id spotify.ID, ts *TracksSet) (err error) {
+	return RemoveTracksFromPlaylist(spotifyClient, id, ts.ToArray())
+}
+
+func AddTracksSetToPlaylist(spotifyClient *spotify.Client, id spotify.ID, ts *TracksSet) (err error) {
+	return AddTracksToPlaylist(spotifyClient, id, ts.ToArray())
 }
 
 func min(a, b int) int {
