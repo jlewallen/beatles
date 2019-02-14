@@ -13,10 +13,11 @@ import (
 )
 
 type Options struct {
-	Dry            bool
-	User           string
-	RebuildSingles bool
-	RebuildBase    bool
+	Dry             bool
+	User            string
+	RebuildSingles  bool
+	RebuildMultiple bool
+	RebuildBase     bool
 }
 
 type TrackInfo struct {
@@ -73,6 +74,7 @@ func main() {
 	flag.BoolVar(&options.Dry, "dry", false, "dry")
 	flag.BoolVar(&options.RebuildSingles, "rebuild-singles", false, "rebuild")
 	flag.BoolVar(&options.RebuildBase, "rebuild-base", false, "rebuild")
+	flag.BoolVar(&options.RebuildMultiple, "rebuild-multiple", true, "rebuild")
 	flag.StringVar(&options.User, "user", "jlewalle", "user")
 
 	flag.Parse()
@@ -160,6 +162,8 @@ func main() {
 			if strings.Contains(playlist.Name, "excluded") {
 				log.Printf("Applying exclusion playlist '%s'...", playlist.Name)
 
+				cacher.Invalidate(playlist.ID)
+
 				excludedTracks, err := cacher.GetPlaylistTracks(options.User, playlist.ID)
 				if err != nil {
 					log.Fatalf("Error getting tracks: %v", err)
@@ -207,28 +211,36 @@ func main() {
 		}
 	}
 
-	if true {
-		singlesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (3 or more recordings)")
+	if options.RebuildMultiple {
+		multipleRecordingsPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (3 or more recordings)")
 		if err != nil {
-			log.Fatalf("Error getting singles tracks playlist: %v", err)
+			log.Fatalf("Error getting multiple recordings playlist: %v", err)
 		}
 
-		addingTo3OrMore := make([]spotify.ID, 0)
-
+		has3OrMoreRecordsings := make(map[spotify.ID]bool)
 		for _, v := range byShortNames {
 			if len(v) >= 3 {
 				for _, track := range v {
+					has3OrMoreRecordsings[track.ID] = true
+				}
+			}
+		}
+
+		addingTo3OrMore := make([]spotify.ID, 0)
+		for _, track := range allTracks {
+			if !excludedTracksSet.Contains(track.ID) {
+				if _, ok := has3OrMoreRecordsings[track.ID]; ok {
 					addingTo3OrMore = append(addingTo3OrMore, track.ID)
 				}
 			}
 		}
 
-		err = RemoveAllPlaylistTracks(spotifyClient, singlesTracksPlaylist.ID)
+		err = RemoveAllPlaylistTracks(spotifyClient, multipleRecordingsPlaylist.ID)
 		if err != nil {
 			log.Fatalf("Error getting removing tracks: %v", err)
 		}
 
-		err = AddTracksToPlaylist(spotifyClient, singlesTracksPlaylist.ID, addingTo3OrMore)
+		err = AddTracksToPlaylist(spotifyClient, multipleRecordingsPlaylist.ID, addingTo3OrMore)
 		if err != nil {
 			log.Fatalf("Error adding tracks: %v", err)
 		}
