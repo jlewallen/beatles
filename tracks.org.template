@@ -1,0 +1,15 @@
+* Has3OrMoreRecordings and !Excluded
+| Name | Album |
+{{- range .Tracks}}
+{{- if .Excluded}}{{else}}
+{{- if .Has3OrMoreRecordings}}
+| {{.Name}} | {{.Album}} |
+{{- end -}}
+{{- end -}}
+{{- end}}
+
+* All
+| Name | Recordings  | Album |
+{{- range .Tracks}}
+| {{.Name}} | {{.Recordings}} | {{.Album}} |
+{{- end}}

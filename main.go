@@ -4,10 +4,14 @@ import (
 	"bytes"
 	"flag"
 	"io"
+	"io/ioutil"
 	"log"
 	"os"
+	"path/filepath"
 	"sort"
 	"strings"
+
+	"text/template"
 
 	"github.com/zmb3/spotify"
 )
@@ -21,14 +25,20 @@ type Options struct {
 }
 
 type TrackInfo struct {
-	ID        spotify.ID
-	Name      string
-	ShortName string
-	Duration  int
-	Dissected []string
+	ID                   spotify.ID
+	Album                string
+	Name                 string
+	ShortName            string
+	Duration             int
+	Dissected            []string
+	Short                bool
+	Recordings           int
+	Has3OrMoreRecordings bool
+	Has1Recording        bool
+	Excluded             bool
 }
 
-type ByName []TrackInfo
+type ByName []*TrackInfo
 
 func (s ByName) Len() int {
 	return len(s)
@@ -45,12 +55,13 @@ func (s ByName) Less(i, j int) bool {
 	return true
 }
 
-func NewTrackInfo(track spotify.SimpleTrack) TrackInfo {
+func NewTrackInfo(album spotify.SimpleAlbum, track spotify.SimpleTrack) *TrackInfo {
 	dissected := DisectTrackName(track.Name)
 	shortName := dissected[0]
 
-	return TrackInfo{
+	return &TrackInfo{
 		ID:        track.ID,
+		Album:     album.Name,
 		Name:      track.Name,
 		ShortName: shortName,
 		Duration:  track.Duration,
@@ -113,7 +124,7 @@ func main() {
 		log.Fatalf("Error getting source: %v", err)
 	}
 
-	allTracks := make([]TrackInfo, 0)
+	allTracks := make([]*TrackInfo, 0)
 
 	for _, album := range albums {
 		tracks, err := cacher.GetAlbumTracks(album.ID)
@@ -124,7 +135,7 @@ func main() {
 		log.Printf("Album: %v (%v) (%v tracks)", album.Name, album.ReleaseDate, len(tracks))
 
 		for _, track := range tracks {
-			allTracks = append(allTracks, NewTrackInfo(track))
+			allTracks = append(allTracks, NewTrackInfo(album, track))
 		}
 	}
 
@@ -178,12 +189,14 @@ func main() {
 
 	sort.Sort(ByName(allTracks))
 
-	byShortNames := make(map[string][]TrackInfo)
+	byShortNames := make(map[string][]*TrackInfo)
 	byTitles := make(map[string]bool)
 	addingToAll := make([]spotify.ID, 0)
 	addingToShort := make([]spotify.ID, 0)
 	addingToCandidates := make([]spotify.ID, 0)
 	for _, track := range allTracks {
+		track.Excluded = excludedTracksSet.Contains(track.ID)
+
 		if _, ok := byTitles[track.Name]; !ok {
 			if track.Duration < 60*1000 {
 				addingToShort = append(addingToShort, track.ID)
@@ -196,11 +209,11 @@ func main() {
 					log.Printf("%v", track)
 				}
 
-				if !excludedTracksSet.Contains(track.ID) {
+				if !track.Excluded {
 					addingToCandidates = append(addingToCandidates, track.ID)
 
 					if _, ok := byShortNames[track.ShortName]; !ok {
-						byShortNames[track.ShortName] = make([]TrackInfo, 0)
+						byShortNames[track.ShortName] = make([]*TrackInfo, 0)
 					}
 
 					byShortNames[track.ShortName] = append(byShortNames[track.ShortName], track)
@@ -211,25 +224,42 @@ func main() {
 		}
 	}
 
+	for _, v := range byShortNames {
+		for _, track := range v {
+			track.Recordings = len(v)
+		}
+
+		if len(v) == 1 {
+			for _, track := range v {
+				track.Has1Recording = true
+			}
+		}
+		if len(v) >= 3 {
+			for _, track := range v {
+				track.Has3OrMoreRecordings = true
+			}
+		}
+	}
+
+	err = GenerateTable(allTracks)
+	if err != nil {
+		log.Fatalf("Error generating table: %v", err)
+	}
+
+	if true {
+		log.Fatalf("DONE")
+	}
+
 	if options.RebuildMultiple {
 		multipleRecordingsPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (3 or more recordings)")
 		if err != nil {
 			log.Fatalf("Error getting multiple recordings playlist: %v", err)
 		}
 
-		has3OrMoreRecordsings := make(map[spotify.ID]bool)
-		for _, v := range byShortNames {
-			if len(v) >= 3 {
-				for _, track := range v {
-					has3OrMoreRecordsings[track.ID] = true
-				}
-			}
-		}
-
 		addingTo3OrMore := make([]spotify.ID, 0)
 		for _, track := range allTracks {
-			if !excludedTracksSet.Contains(track.ID) {
-				if _, ok := has3OrMoreRecordsings[track.ID]; ok {
+			if !track.Excluded {
+				if track.Has3OrMoreRecordings {
 					addingTo3OrMore = append(addingTo3OrMore, track.ID)
 				}
 			}
@@ -253,13 +283,9 @@ func main() {
 		}
 
 		addingToSingles := make([]spotify.ID, 0)
-
-		for k, v := range byShortNames {
-			if len(v) == 1 {
-				for _, track := range v {
-					addingToSingles = append(addingToSingles, track.ID)
-				}
-				log.Printf("%v %v", k, len(v))
+		for _, track := range allTracks {
+			if track.Has1Recording {
+				addingToSingles = append(addingToSingles, track.ID)
 			}
 		}
 
@@ -313,4 +339,39 @@ func main() {
 	}
 
 	log.Printf("DONE")
+}
+
+func GenerateTable(tracks []*TrackInfo) error {
+	templateData, err := ioutil.ReadFile(filepath.Join("./", "tracks.org.template"))
+	if err != nil {
+		return err
+	}
+
+	template, err := template.New("tracks.org").Parse(string(templateData))
+	if err != nil {
+		return err
+	}
+
+	path := filepath.Join("./", "tracks.org")
+	log.Printf("Writing %s", path)
+
+	file, err := os.Create(path)
+	if err != nil {
+		return err
+	}
+
+	defer file.Close()
+
+	data := struct {
+		Tracks []*TrackInfo
+	}{
+		tracks,
+	}
+
+	err = template.Execute(file, data)
+	if err != nil {
+		return err
+	}
+
+	return nil
 }
