@@ -247,7 +247,7 @@ func main() {
 	}
 
 	if options.RebuildSingles {
-		singlesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (excluded - singles)")
+		singlesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (excluded - single recordings)")
 		if err != nil {
 			log.Fatalf("Error getting singles tracks playlist: %v", err)
 		}
