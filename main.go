@@ -13,14 +13,16 @@ import (
 )
 
 type Options struct {
-	Dry  bool
-	User string
-	Rebuild bool
+	Dry            bool
+	User           string
+	RebuildSingles bool
+	RebuildBase    bool
 }
 
 type TrackInfo struct {
 	ID        spotify.ID
 	Name      string
+	ShortName string
 	Duration  int
 	Dissected []string
 }
@@ -43,11 +45,15 @@ func (s ByName) Less(i, j int) bool {
 }
 
 func NewTrackInfo(track spotify.SimpleTrack) TrackInfo {
+	dissected := DisectTrackName(track.Name)
+	shortName := dissected[0]
+
 	return TrackInfo{
 		ID:        track.ID,
 		Name:      track.Name,
+		ShortName: shortName,
 		Duration:  track.Duration,
-		Dissected: DisectTrackName(track.Name),
+		Dissected: dissected,
 	}
 }
 
@@ -65,7 +71,8 @@ func main() {
 	var options Options
 
 	flag.BoolVar(&options.Dry, "dry", false, "dry")
-	flag.BoolVar(&options.Rebuild, "rebuild", false, "rebuild")
+	flag.BoolVar(&options.RebuildSingles, "rebuild-singles", false, "rebuild")
+	flag.BoolVar(&options.RebuildBase, "rebuild-base", false, "rebuild")
 	flag.StringVar(&options.User, "user", "jlewalle", "user")
 
 	flag.Parse()
@@ -161,10 +168,11 @@ func main() {
 		}
 	}
 
-	log.Printf("Have %d excluded tracks", len(excludedTracksSet.ToArray() ))
+	log.Printf("Have %d excluded tracks", len(excludedTracksSet.ToArray()))
 
 	sort.Sort(ByName(allTracks))
 
+	byShortNames := make(map[string][]TrackInfo)
 	titles := make(map[string]bool)
 	addingToAll := make([]spotify.ID, 0)
 	addingToShort := make([]spotify.ID, 0)
@@ -184,6 +192,12 @@ func main() {
 
 				if !excludedTracksSet.Contains(track.ID) {
 					addingToCandidates = append(addingToCandidates, track.ID)
+
+					if _, ok := byShortNames[track.ShortName]; !ok {
+						byShortNames[track.ShortName] = make([]TrackInfo, 0)
+					}
+
+					byShortNames[track.ShortName] = append(byShortNames[track.ShortName], track)
 				}
 			}
 
@@ -191,7 +205,35 @@ func main() {
 		}
 	}
 
-	if options.Rebuild {
+	if options.RebuildSingles {
+		singlesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, "the beatles (excluded - singles)")
+		if err != nil {
+			log.Fatalf("Error getting singles tracks playlist: %v", err)
+		}
+
+		addingToSingles := make([]spotify.ID, 0)
+
+		for k, v := range byShortNames {
+			if len(v) == 1 {
+				for _, track := range v {
+					addingToSingles = append(addingToSingles, track.ID)
+				}
+				log.Printf("%v %v", k, len(v))
+			}
+		}
+
+		err = RemoveAllPlaylistTracks(spotifyClient, singlesTracksPlaylist.ID)
+		if err != nil {
+			log.Fatalf("Error getting removing tracks: %v", err)
+		}
+
+		err = AddTracksToPlaylist(spotifyClient, singlesTracksPlaylist.ID, addingToSingles)
+		if err != nil {
+			log.Fatalf("Error adding tracks: %v", err)
+		}
+	}
+
+	if options.RebuildBase {
 		log.Printf("Building '%s'...", allTracksPlaylist.Name)
 
 		err = RemoveAllPlaylistTracks(spotifyClient, allTracksPlaylist.ID)
