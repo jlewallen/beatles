@@ -96,7 +96,9 @@ func main() {
 
 	// https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2?si=BPm1QDocRxW3JkNDNbmGxg
 
+	artistName := "the beatles"
 	artistId := spotify.ID("3WrFJ7ztbogyGnTHbHJFl2?si=BPm1QDocRxW3JkNDNbmGxg")
+
 	artist, err := spotifyClient.GetArtist(artistId)
 	if err != nil {
 		log.Fatalf("Error getting source: %v", err)
@@ -131,17 +133,17 @@ func main() {
 		log.Fatalf("Error getting playlists: %v", err)
 	}
 
-	allTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, "the beatles (all)")
+	allTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (all)")
 	if err != nil {
 		log.Fatalf("Error getting all tracks playlist: %v", err)
 	}
 
-	shortTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, "the beatles (short)")
+	shortTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (short)")
 	if err != nil {
 		log.Fatalf("Error getting short tracks playlist: %v", err)
 	}
 
-	candidatesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, "the beatles (candidates)")
+	candidatesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (candidates)")
 	if err != nil {
 		log.Fatalf("Error getting candidates tracks playlist: %v", err)
 	}
@@ -154,7 +156,7 @@ func main() {
 	excludedTracksSet := NewEmptyTracksSet()
 
 	for _, playlist := range playlists.Playlists {
-		if strings.HasPrefix(playlist.Name, "the beatles") {
+		if strings.HasPrefix(playlist.Name, artistName) {
 			if strings.Contains(playlist.Name, "excluded") {
 				log.Printf("Applying exclusion playlist '%s'...", playlist.Name)
 
@@ -173,12 +175,12 @@ func main() {
 	sort.Sort(ByName(allTracks))
 
 	byShortNames := make(map[string][]TrackInfo)
-	titles := make(map[string]bool)
+	byTitles := make(map[string]bool)
 	addingToAll := make([]spotify.ID, 0)
 	addingToShort := make([]spotify.ID, 0)
 	addingToCandidates := make([]spotify.ID, 0)
 	for _, track := range allTracks {
-		if _, ok := titles[track.Name]; !ok {
+		if _, ok := byTitles[track.Name]; !ok {
 			if track.Duration < 60*1000 {
 				addingToShort = append(addingToShort, track.ID)
 				if false {
@@ -201,12 +203,39 @@ func main() {
 				}
 			}
 
-			titles[track.Name] = true
+			byTitles[track.Name] = true
+		}
+	}
+
+	if true {
+		singlesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (3 or more recordings)")
+		if err != nil {
+			log.Fatalf("Error getting singles tracks playlist: %v", err)
+		}
+
+		addingTo3OrMore := make([]spotify.ID, 0)
+
+		for _, v := range byShortNames {
+			if len(v) >= 3 {
+				for _, track := range v {
+					addingTo3OrMore = append(addingTo3OrMore, track.ID)
+				}
+			}
+		}
+
+		err = RemoveAllPlaylistTracks(spotifyClient, singlesTracksPlaylist.ID)
+		if err != nil {
+			log.Fatalf("Error getting removing tracks: %v", err)
+		}
+
+		err = AddTracksToPlaylist(spotifyClient, singlesTracksPlaylist.ID, addingTo3OrMore)
+		if err != nil {
+			log.Fatalf("Error adding tracks: %v", err)
 		}
 	}
 
 	if options.RebuildSingles {
-		singlesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, "the beatles (excluded - singles)")
+		singlesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (excluded - singles)")
 		if err != nil {
 			log.Fatalf("Error getting singles tracks playlist: %v", err)
 		}
