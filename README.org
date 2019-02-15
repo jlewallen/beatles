@@ -4,11 +4,53 @@
 
 It's a long story.
 
-* 1. Very random.
-  - There are 3 versions of this song, minimum.
-  - Deep weird emotion.
-  - I Me Mine evokes similar emotion, though slightly more cheerful.
-* 2. Insanely popular. Appears on "Best Beatles Songs"
-* 3. Obscure version of famous song. 
+* Top Three
+** 1. Very random.
 
-*** TODO: Consider Remastered 2009 and Remastered 2015 a single recording.
+   [[https://open.spotify.com/user/jlewalle/playlist/1FFddEGdTVSJ6U7JHsYSnk?si=Xynth7pGSE64mnhunoJMHw][Spotify]]
+
+   - Not on Revolver
+   - Not on White
+   - There are 3 versions of this song, minimum.
+   - Deep weird emotion.
+   - I Me Mine evokes similar emotion, though slightly more cheerful.
+   - Puts it on and "floats"
+
+*** Excluded
+
+    - +It's All Too Much+ (Too few recordings)
+
+** 2. Insanely popular. Appears on "Best Beatles Songs"
+
+   [[https://open.spotify.com/user/jlewalle/playlist/1n119hyulDCJ5qzIObsWf9?si=3rbDltpZS8SGDAzV4TdUxQ][Spotify]]
+
+*** Wrong Choices
+
+    - +Here Comes The Sun+
+    - +Come Together+
+    - +Hey Jude+
+    - +Let It Be+
+    - +Strawberry Fields+
+
+*** Excluded
+
+    - +Day Tripper+ (Too few recordings)
+
+** 3. Obscure version of famous song. 
+
+   [[https://open.spotify.com/user/jlewalle/playlist/2ninxGfZ40olNI2utGY5XP?si=rBbwxT15T5SDYFjDuok7lQ][Spotify]]
+
+   - Come Together (Anthology 3 - "laughy, giggly one")
+   - Helter Skelter (Take 2 - "Doors-ish")
+   - Strawberry Fields (No candidates)
+
+** 4. While My Guitar Gently Weeps
+
+* Research
+
+  - [[https://open.spotify.com/user/jlewalle/playlist/3RKiDQsy3jgva8njeGxlTx?si=dvldx5XeTS2YFQko25AYrQ][Songs with 3 or more recordings]]
+  - [[https://open.spotify.com/user/jlewalle/playlist/2rY13VIt809icuOtNIdJZ4?si=xncvEBhcSWSBZCsrRrTGYA][Songs with George vocals minus Revolver and White]]
+  - [[https://open.spotify.com/user/jlewalle/playlist/5ETMcIXmnGN9txrafXwIyE?si=m03Ci_SzSZC92OUtL3d7Kw][All Songs]]
+
+* Future Work
+** TODO: Consider Remastered 2009 and Remastered 2015 a single recording.
