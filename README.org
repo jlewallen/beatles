@@ -31,20 +31,31 @@ It's a long story.
     - +Hey Jude+
     - +Let It Be+
     - +Strawberry Fields+
+    - +Something+
 
 *** Excluded
 
     - +Day Tripper+ (Too few recordings)
 
-** 3. Obscure version of famous song. 
+** 3. ✓ Something - Anthology 3
+
+   [[https://www.beatlesbible.com/songs/something/][Beatles Bible]]
+
+   [[https://en.wikipedia.org/wiki/Something_(Beatles_song)][Wikipedia]]
 
    [[https://open.spotify.com/user/jlewalle/playlist/2ninxGfZ40olNI2utGY5XP?si=rBbwxT15T5SDYFjDuok7lQ][Spotify]]
 
-   - Come Together (Anthology 3 - "laughy, giggly one")
-   - Helter Skelter (Take 2 - "Doors-ish")
-   - Strawberry Fields (No candidates)
+*** Candidates
 
-** 4. While My Guitar Gently Weeps
+   - +Come Together (Anthology 3 - "laughy, giggly one")+
+   - +Helter Skelter (Take 2 - "Doors-ish")+
+   - +Strawberry Fields (No candidates)+
+
+** 4. ✓ While My Guitar Gently Weeps
+
+   [[https://www.beatlesbible.com/songs/while-my-guitar-gently-weeps/][Beatles Bible]]
+
+   [[https://en.wikipedia.org/wiki/While_My_Guitar_Gently_Weeps][Wikipedia]]
 
 * Research
 
