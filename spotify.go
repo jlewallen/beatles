@@ -304,6 +304,11 @@ func (ts *TracksSet) MergeInPlace(tracks []spotify.PlaylistTrack) (ns *TracksSet
 	return ts
 }
 
+func (ts *TracksSet) Add(id spotify.ID) {
+	ts.Ids[id] = true
+	ts.Ordered = append(ts.Ordered, id)
+}
+
 func (ts *TracksSet) Contains(id spotify.ID) bool {
 	_, ok := ts.Ids[id]
 	return ok
@@ -435,4 +440,18 @@ func MapIds(ids []spotify.ID) (ifaces []interface{}) {
 		ifaces = append(ifaces, id)
 	}
 	return
+}
+
+func SetPlaylistTracks(spotifyClient *spotify.Client, id spotify.ID, tracks []spotify.ID) error {
+	err := RemoveAllPlaylistTracks(spotifyClient, id)
+	if err != nil {
+		return fmt.Errorf("Error getting removing tracks: %v", err)
+	}
+
+	err = AddTracksToPlaylist(spotifyClient, id, tracks)
+	if err != nil {
+		return fmt.Errorf("Error adding tracks: %v", err)
+	}
+
+	return err
 }
