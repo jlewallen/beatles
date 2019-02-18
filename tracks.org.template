@@ -11,5 +11,5 @@
 * All
 | Name | Recordings  | Album |
 {{- range .Tracks}}
-| {{.Name}} | {{.Recordings}} | {{.Album}} |
+| {{.Name}} | {{.Recordings}} | {{.Has3OrMoreRecordings}} | {{.Album}} |
 {{- end}}
