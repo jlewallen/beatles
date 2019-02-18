@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"flag"
+	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -109,6 +110,8 @@ func main() {
 	}
 
 	// https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2?si=BPm1QDocRxW3JkNDNbmGxg
+
+	al := NewAuditLog()
 
 	artistName := "the beatles"
 	artistId := spotify.ID("3WrFJ7ztbogyGnTHbHJFl2?si=BPm1QDocRxW3JkNDNbmGxg")
@@ -220,19 +223,18 @@ func main() {
 	addingToShort := make([]spotify.ID, 0)
 	addingToCandidates := make([]spotify.ID, 0)
 	for _, track := range allTracks {
-		track.Excluded = excludedTracksSet.Contains(track.ID)
+		if excludedTracksSet.Contains(track.ID) {
+			track.Excluded = true
+			al.Append(track.Name, "Excluded")
+
+		}
 
 		if _, ok := byTitles[track.Name]; !ok {
 			if track.Duration < 60*1000 {
 				addingToShort = append(addingToShort, track.ID)
-				if false {
-					log.Printf("%v (SHORT)", track)
-				}
+				al.Append(track.Name, "Short")
 			} else {
 				addingToAll = append(addingToAll, track.ID)
-				if false {
-					log.Printf("%v", track)
-				}
 
 				if !track.Excluded {
 					addingToCandidates = append(addingToCandidates, track.ID)
@@ -256,6 +258,7 @@ func main() {
 			if tracksOnExcludedAlbums.Contains(track.ID) {
 				for _, track := range v {
 					track.OnExcludedAlbum = true
+					al.Append(track.Name, fmt.Sprintf("Excluded album (%v)", track.Album))
 				}
 			}
 		}
@@ -366,6 +369,8 @@ func main() {
 		log.Fatalf("Error adding tracks: %v", err)
 	}
 
+	al.Write("audit.org")
+
 	log.Printf("DONE")
 }
 
@@ -399,6 +404,43 @@ func GenerateTable(tracks []*TrackInfo) error {
 	err = template.Execute(file, data)
 	if err != nil {
 		return err
+	}
+
+	return nil
+}
+
+type AuditEntry struct {
+	Track string
+	Reason string
+}
+
+type AuditLog struct {
+	Entries []AuditEntry
+}
+
+func NewAuditLog() (*AuditLog)  {
+	return &AuditLog{
+		Entries: make([]AuditEntry, 0),
+	}
+}
+
+func (al *AuditLog ) Append(track, reason string) {
+	al.Entries = append(al.Entries, AuditEntry{
+		Track: track,
+		Reason: reason,
+	})
+}
+
+func (al *AuditLog ) Write(path string) error {
+	f, err := os.Create(path)
+	if err != nil {
+		return err
+	}
+
+	defer f.Close()
+
+	for _, entry := range al.Entries {
+		f.WriteString(fmt.Sprintf("| %s | %s |\n", entry.Track, entry.Reason))
 	}
 
 	return nil
