@@ -244,3 +244,61 @@ func (sc *SpotifyCacher) GetArtistAlbums(id spotify.ID) (allAlbums []spotify.Sim
 
 	return
 }
+
+func (sc *SpotifyCacher) GetTracks(ids []spotify.ID) (tracks []spotify.FullTrack, err error) {
+	requesting := make([]spotify.ID, 0)
+	for _, id := range ids {
+		cachedFile := fmt.Sprintf("track-%s.json", id)
+		if _, err := os.Stat(cachedFile); os.IsNotExist(err) {
+			requesting = append(requesting, id)
+		}
+	}
+
+	if len(requesting) > 0 {
+		requested, spotifyErr := sc.spotifyClient.GetTracks(requesting...)
+		if spotifyErr != nil {
+			err = spotifyErr
+			return
+		}
+
+		for _, track := range requested {
+			cachedFile := fmt.Sprintf("track-%s.json", track.ID)
+
+			json, err := json.Marshal(track)
+			if err != nil {
+				return nil, fmt.Errorf("Error saving track: %v", err)
+			}
+
+			err = ioutil.WriteFile(cachedFile, json, 0644)
+			if err != nil {
+				return nil, fmt.Errorf("Error saving track: %v", err)
+			}
+		}
+	}
+
+	tracks = make([]spotify.FullTrack, 0)
+
+	for _, id := range ids {
+		cachedFile := fmt.Sprintf("track-%s.json", id)
+		if _, err := os.Stat(cachedFile); !os.IsNotExist(err) {
+			file, err := ioutil.ReadFile(cachedFile)
+			if err != nil {
+				return nil, fmt.Errorf("Error opening %v", err)
+			}
+
+			var track spotify.FullTrack
+			err = json.Unmarshal(file, &track)
+			if err != nil {
+				return nil, fmt.Errorf("Error unmarshalling %v", err)
+			}
+
+			tracks = append(tracks, track)
+
+			if VerboseLogging {
+				log.Printf("Returning cached %s", cachedFile)
+			}
+		}
+	}
+
+	return
+}

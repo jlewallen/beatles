@@ -31,13 +31,14 @@ type TrackInfo struct {
 	Name                 string
 	ShortName            string
 	Duration             int
+	Popularity           int
 	Dissected            []string
 	Short                bool
 	Recordings           int
 	Has3OrMoreRecordings bool
 	Has1Recording        bool
 	Excluded             bool
-	OnExcludedAlbum bool
+	OnExcludedAlbum      bool
 }
 
 type ByName []*TrackInfo
@@ -57,17 +58,18 @@ func (s ByName) Less(i, j int) bool {
 	return true
 }
 
-func NewTrackInfo(albumName string, track spotify.SimpleTrack) *TrackInfo {
+func NewTrackInfo(albumName string, track spotify.FullTrack) *TrackInfo {
 	dissected := DisectTrackName(track.Name)
 	shortName := dissected[0]
 
 	return &TrackInfo{
-		ID:        track.ID,
-		Album:     albumName,
-		Name:      track.Name,
-		ShortName: shortName,
-		Duration:  track.Duration,
-		Dissected: dissected,
+		ID:         track.ID,
+		Album:      albumName,
+		Name:       track.Name,
+		ShortName:  shortName,
+		Duration:   track.Duration,
+		Popularity: track.Popularity,
+		Dissected:  dissected,
 	}
 }
 
@@ -115,7 +117,7 @@ func main() {
 
 	artistName := "the beatles"
 	artistId := spotify.ID("3WrFJ7ztbogyGnTHbHJFl2?si=BPm1QDocRxW3JkNDNbmGxg")
-	excludedAlbums := []spotify.ID {
+	excludedAlbums := []spotify.ID{
 		spotify.ID("3PRoXYsngSwjEQWR5PsHWR?si=aLXprrjrQG-aKNfk9TUTGg"),
 		spotify.ID("1WMVvswNzB9i2UMh9svso5?si=4Aie4TyLQ5eHyTCuNcdymg"),
 	}
@@ -133,6 +135,7 @@ func main() {
 	}
 
 	allTracks := make([]*TrackInfo, 0)
+	allTrackIds := make([]spotify.ID, 0)
 
 	for _, album := range albums {
 		tracks, err := cacher.GetAlbumTracks(album.ID)
@@ -142,10 +145,39 @@ func main() {
 
 		log.Printf("Album: %v (%v) (%v tracks)", album.Name, album.ReleaseDate, len(tracks))
 
+		albumTrackIds := make([]spotify.ID, 0)
 		for _, track := range tracks {
-			allTracks = append(allTracks, NewTrackInfo(album.Name, track))
+			allTrackIds = append(allTrackIds, track.ID)
+			albumTrackIds = append(albumTrackIds, track.ID)
+		}
+
+		for i := 0; i < len(albumTrackIds); i += 50 {
+			batch := albumTrackIds[i:min(i+50, len(albumTrackIds))]
+
+			fullTracks, err := cacher.GetTracks(batch)
+			if err != nil {
+				log.Fatalf("Error getting full tracks: %v", err)
+			}
+
+			for _, track := range fullTracks {
+				allTracks = append(allTracks, NewTrackInfo(album.Name, track))
+			}
 		}
 	}
+
+	allFullTracks := make([]spotify.FullTrack, 0)
+
+	for i := 0; i < len(allTrackIds); i += 50 {
+		batch := allTrackIds[i:min(i+50, len(allTrackIds))]
+		fullTracks, err := cacher.GetTracks(batch)
+		if err != nil {
+			log.Fatalf("Error getting full tracks: %v", err)
+		}
+
+		allFullTracks = append(allFullTracks, fullTracks...)
+	}
+
+	log.Printf("Got %v full tracks", len(allFullTracks))
 
 	tracksOnExcludedAlbums := NewEmptyTracksSet()
 
@@ -309,7 +341,7 @@ func main() {
 
 		addingTo3OrMore := make([]spotify.ID, 0)
 		for _, track := range allTracks {
-			if !track.Excluded && !track.OnExcludedAlbum{
+			if !track.Excluded && !track.OnExcludedAlbum {
 				if track.Has3OrMoreRecordings {
 					addingTo3OrMore = append(addingTo3OrMore, track.ID)
 				}
@@ -410,7 +442,7 @@ func GenerateTable(tracks []*TrackInfo) error {
 }
 
 type AuditEntry struct {
-	Track string
+	Track  string
 	Reason string
 }
 
@@ -418,20 +450,20 @@ type AuditLog struct {
 	Entries []AuditEntry
 }
 
-func NewAuditLog() (*AuditLog)  {
+func NewAuditLog() *AuditLog {
 	return &AuditLog{
 		Entries: make([]AuditEntry, 0),
 	}
 }
 
-func (al *AuditLog ) Append(track, reason string) {
+func (al *AuditLog) Append(track, reason string) {
 	al.Entries = append(al.Entries, AuditEntry{
-		Track: track,
+		Track:  track,
 		Reason: reason,
 	})
 }
 
-func (al *AuditLog ) Write(path string) error {
+func (al *AuditLog) Write(path string) error {
 	f, err := os.Create(path)
 	if err != nil {
 		return err
