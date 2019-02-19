@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"log"
+	"math/rand"
+	"regexp"
 	"strings"
 	"time"
 
@@ -332,6 +334,29 @@ func (ts *TracksSet) ToArray() []spotify.ID {
 	return ts.Ordered
 }
 
+func (ts *TracksSet) Sample(number int) (ns *TracksSet) {
+	ids := make(map[spotify.ID]bool)
+
+	if len(ts.Ids) < number {
+		panic("Not enough tracks to sample from")
+	}
+
+	array := ts.ToArray()
+
+	for len(ids) < number {
+		i := rand.Uint32() % uint32(len(ts.Ids))
+		id := array[i]
+
+		if _, ok := ids[id]; !ok {
+			ids[id] = true
+		}
+	}
+
+	return &TracksSet{
+		Ids: ids,
+	}
+}
+
 func RemoveTracksFromPlaylist(spotifyClient *spotify.Client, id spotify.ID, ids []spotify.ID) (err error) {
 	for i := 0; i < len(ids); i += 50 {
 		batch := ids[i:min(i+50, len(ids))]
@@ -388,6 +413,24 @@ type PlaylistSet struct {
 
 func (ps *PlaylistSet) GetAllTracks() (nps *PlaylistSet) {
 	return &PlaylistSet{}
+}
+
+func (ps *PlaylistSet) Monthly() (nps *PlaylistSet) {
+	filter := regexp.MustCompile("[^A-Za-z0-9\\s]")
+	monthly := regexp.MustCompile("(?i)^((\\d\\d\\d\\d )?(january|february|march|april|may|june|july|august|september|october|november|december)( \\d\\d\\d\\d)?)$")
+
+	playlists := make([]Playlist, 0)
+	for _, pl := range ps.Playlists {
+		filtered := filter.ReplaceAllString(pl.Name, "")
+
+		if monthly.MatchString(filtered) {
+			playlists = append(playlists, pl)
+		}
+	}
+
+	return &PlaylistSet{
+		Playlists: playlists,
+	}
 }
 
 func GetTrackIdsFromPlaylistTracks(tracks []spotify.PlaylistTrack) (ids []spotify.ID) {
