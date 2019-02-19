@@ -1,15 +1,37 @@
 * Has3OrMoreRecordings and !Excluded
-| Name | Album |
-{{- range .Tracks}}
+** ByName
+
+| Name | Album | Popularity |
+{{- range .ByName}}
 {{- if .Excluded}}{{else}}
 {{- if .Has3OrMoreRecordings}}
-| {{.Name}} | {{.Album}} |
+| {{.Name}} | {{.Album}} | {{.Popularity}} | 
+{{- end -}}
+{{- end -}}
+{{- end}}
+
+** ByPopularity 
+
+| Name | Album |
+{{- range .ByPopularity}}
+{{- if .Excluded}}{{else}}
+{{- if .Has3OrMoreRecordings}}
+| {{.Name}} | {{.Album}} | {{.Popularity}} | 
 {{- end -}}
 {{- end -}}
 {{- end}}
 
 * All
+** ByName
+
+| Name | Popularity | Recordings  | Album |
+{{- range .ByName}}
+| {{.Name}} | {{.Popularity}} | {{.Recordings}} | {{.Has3OrMoreRecordings}} | {{.Album}} |
+{{- end}}
+
+** ByPopularity
+
 | Name | Recordings  | Album |
-{{- range .Tracks}}
-| {{.Name}} | {{.Recordings}} | {{.Has3OrMoreRecordings}} | {{.Album}} |
+{{- range .ByPopularity}}
+| {{.Name}} | {{.Popularity}} | {{.Recordings}} | {{.Has3OrMoreRecordings}} | {{.Album}} |
 {{- end}}

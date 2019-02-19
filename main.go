@@ -58,6 +58,20 @@ func (s ByName) Less(i, j int) bool {
 	return true
 }
 
+type ByPopularity []*TrackInfo
+
+func (s ByPopularity) Len() int {
+	return len(s)
+}
+
+func (s ByPopularity) Swap(i, j int) {
+	s[i], s[j] = s[j], s[i]
+}
+
+func (s ByPopularity) Less(i, j int) bool {
+	return s[i].Popularity > s[j].Popularity
+}
+
 func NewTrackInfo(albumName string, track spotify.FullTrack) *TrackInfo {
 	dissected := DisectTrackName(track.Name)
 	shortName := dissected[0]
@@ -407,6 +421,12 @@ func main() {
 }
 
 func GenerateTable(tracks []*TrackInfo) error {
+	byPopularity := make([]*TrackInfo, len(tracks))
+
+	copy(byPopularity, tracks)
+
+	sort.Sort(ByPopularity(byPopularity))
+
 	templateData, err := ioutil.ReadFile(filepath.Join("./", "tracks.org.template"))
 	if err != nil {
 		return err
@@ -428,9 +448,11 @@ func GenerateTable(tracks []*TrackInfo) error {
 	defer file.Close()
 
 	data := struct {
-		Tracks []*TrackInfo
+		ByName []*TrackInfo
+		ByPopularity []*TrackInfo
 	}{
 		tracks,
+		byPopularity,
 	}
 
 	err = template.Execute(file, data)
