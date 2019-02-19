@@ -264,6 +264,7 @@ func NewTracksSet(ids []spotify.ID) (ts *TracksSet) {
 
 	for _, id := range ids {
 		idsMap[id] = true
+		ordered = append(ordered, id)
 	}
 
 	return &TracksSet{
@@ -318,15 +319,18 @@ func (ts *TracksSet) Contains(id spotify.ID) bool {
 
 func (ts *TracksSet) Remove(removing *TracksSet) (ns *TracksSet) {
 	ids := make(map[spotify.ID]bool)
+	ordered := make([]spotify.ID, 0)
 
 	for _, k := range ts.Ordered {
 		if _, ok := removing.Ids[k]; !ok {
 			ids[k] = true
+			ordered = append(ordered, k)
 		}
 	}
 
 	return &TracksSet{
-		Ids: ids,
+		Ids:     ids,
+		Ordered: ordered,
 	}
 }
 
@@ -335,25 +339,30 @@ func (ts *TracksSet) ToArray() []spotify.ID {
 }
 
 func (ts *TracksSet) Sample(number int) (ns *TracksSet) {
-	ids := make(map[spotify.ID]bool)
-
 	if len(ts.Ids) < number {
 		panic("Not enough tracks to sample from")
 	}
 
 	array := ts.ToArray()
 
-	for len(ids) < number {
-		i := rand.Uint32() % uint32(len(ts.Ids))
-		id := array[i]
+	ids := make(map[spotify.ID]bool)
+	ordered := make([]spotify.ID, 0)
 
-		if _, ok := ids[id]; !ok {
-			ids[id] = true
+	if len(array) > 0 {
+		for len(ids) < number {
+			i := rand.Uint32() % uint32(len(array))
+			id := array[i]
+
+			if _, ok := ids[id]; !ok {
+				ids[id] = true
+				ordered = append(ordered, id)
+			}
 		}
 	}
 
 	return &TracksSet{
-		Ids: ids,
+		Ids:     ids,
+		Ordered: ordered,
 	}
 }
 
