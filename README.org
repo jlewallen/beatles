@@ -19,6 +19,10 @@ It's a long story.
    - Puts it on and "floats"
    - Interesting lyrics, debate over meaning and interpreting.
 
+*** Candidates
+
+    - [[https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds/][Lucy In The Sky With Diamonds]], [[https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds/][Genius]],  [[https://en.wikipedia.org/wiki/Lucy_in_the_Sky_with_Diamonds][Wikipedia]]
+
 *** Excluded
 
     - +It's All Too Much+ (Too few recordings)
@@ -89,6 +93,8 @@ It's a long story.
     - [[https://www.beatlesbible.com/songs/tomorrow-never-knows/][Tomorrow Never Knows]]
 
       No meloncholic start.
+
+    - Help!
       
 ** 3. ✓ Something - Anthology 3
 
@@ -117,8 +123,13 @@ It's a long story.
   - [[https://open.spotify.com/user/jlewalle/playlist/5ETMcIXmnGN9txrafXwIyE?si=m03Ci_SzSZC92OUtL3d7Kw][All Songs]]
 
   - Penny Lane [[https://www.beatlesbible.com/songs/penny-lane/][Beatles Bible]]
-  - I Am The Walrus [[https://www.beatlesbible.com/songs/i-am-the-walrus/][Beatles Bible]]
+  - I Am The Walrus [[https://www.beatlesbible.com/songs/i-am-the-walrus/][Beatles Bible]], [[https://en.wikipedia.org/wiki/I_Am_the_Walrus][Wikipedia]], [[http://mentalfloss.com/article/30523/who-was-walrus-analyzing-strangest-beatles-song][Article 1]], [[https://genius.com/The-beatles-i-am-the-walrus-lyrics][Genius]]
   - This Boy [[https://www.beatlesbible.com/songs/this-boy/][Beatles Bible]]
+  - She's Leaving Home [[https://en.wikipedia.org/wiki/She%27s_Leaving_Home][Wikipedia]], [[https://www.beatlesbible.com/songs/shes-leaving-home/][Beatles Bible]], [[https://genius.com/The-beatles-shes-leaving-home-lyrics][Genius]]
+  - Lovely Rita [[https://www.beatlesbible.com/songs/lovely-rita/][Beatles Bible]], [[https://genius.com/The-beatles-lovely-rita-lyrics][Genius]]
+  - Happiness Is A Warm Gun [[https://www.beatlesbible.com/songs/happiness-is-a-warm-gun/][Beatles Bible]], [[https://en.wikipedia.org/wiki/Happiness_Is_a_Warm_Gun][Wikipedia]], [[https://genius.com/The-beatles-happiness-is-a-warm-gun-lyrics][Genius]]
+  - Within You Without You [[https://www.beatlesbible.com/songs/within-you-without-you/][Beatles Bible]], [[https://genius.com/The-beatles-within-you-without-you-lyrics][Genius]], [[https://en.wikipedia.org/wiki/Within_You_Without_You][Wikipedia]]
+  - The Fool On The Hill [[https://www.beatlesbible.com/songs/the-fool-on-the-hill/][Beatles Bible]], [[https://genius.com/The-beatles-the-fool-on-the-hill-lyrics][Genius]], [[https://en.wikipedia.org/wiki/The_Fool_on_the_Hill][Wikipedia]]
 
 * Future Work
 ** TODO: Consider Remastered 2009 and Remastered 2015 a single recording.
