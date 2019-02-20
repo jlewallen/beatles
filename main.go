@@ -18,14 +18,6 @@ import (
 	"github.com/zmb3/spotify"
 )
 
-type Options struct {
-	Dry             bool
-	User            string
-	RebuildSingles  bool
-	RebuildMultiple bool
-	RebuildBase     bool
-}
-
 type TrackInfo struct {
 	ID                   spotify.ID
 	Album                string
@@ -41,6 +33,7 @@ type TrackInfo struct {
 	Has3OrMoreRecordings bool
 	Has1Recording        bool
 	Excluded             bool
+	ExcludedReasons      []string
 	OnExcludedAlbum      bool
 	Original             bool
 }
@@ -107,7 +100,22 @@ func NewTrackInfo(albumName string, albumReleaseDate string, track spotify.FullT
 		Popularity:       track.Popularity,
 		Dissected:        dissected,
 		AlbumReleaseDate: releaseDate,
+		ExcludedReasons:  make([]string, 0),
 	}
+}
+
+func (ti *TrackInfo) Exclude(reason string) {
+	ti.Excluded = true
+	for _, v := range ti.ExcludedReasons {
+		if v == reason {
+			return
+		}
+	}
+	ti.ExcludedReasons = append(ti.ExcludedReasons, reason)
+}
+
+func (ti *TrackInfo) ExcludedReason() string {
+	return strings.Join(ti.ExcludedReasons, ", ")
 }
 
 func DisectTrackName(name string) []string {
@@ -120,6 +128,15 @@ func DisectTrackName(name string) []string {
 	return parts
 }
 
+type Options struct {
+	Dry             bool
+	User            string
+	RebuildSingles  bool
+	RebuildMultiple bool
+	RebuildBase     bool
+	ReadOnlySpotify bool
+}
+
 func main() {
 	var options Options
 
@@ -127,6 +144,7 @@ func main() {
 	flag.BoolVar(&options.RebuildSingles, "rebuild-singles", false, "rebuild")
 	flag.BoolVar(&options.RebuildBase, "rebuild-base", false, "rebuild")
 	flag.BoolVar(&options.RebuildMultiple, "rebuild-multiple", true, "rebuild")
+	flag.BoolVar(&options.ReadOnlySpotify, "spotify-ro", false, "spotify-ro")
 	flag.StringVar(&options.User, "user", "jlewalle", "user")
 
 	flag.Parse()
@@ -245,7 +263,7 @@ func main() {
 		log.Fatalf("Error getting playlists: %v", err)
 	}
 
-	excludedTracksSet := NewEmptyTracksSet()
+	excludedTracks := make(map[spotify.ID]string)
 
 	for _, playlist := range playlists.Playlists {
 		if strings.HasPrefix(playlist.Name, artistName) {
@@ -254,17 +272,19 @@ func main() {
 
 				cacher.Invalidate(playlist.ID)
 
-				excludedTracks, err := cacher.GetPlaylistTracks(options.User, playlist.ID)
+				playlistTracks, err := cacher.GetPlaylistTracks(options.User, playlist.ID)
 				if err != nil {
 					log.Fatalf("Error getting tracks: %v", err)
 				}
 
-				excludedTracksSet.MergeInPlace(excludedTracks)
+				for _, track := range playlistTracks {
+					excludedTracks[track.Track.ID] = playlist.Name
+				}
 			}
 		}
 	}
 
-	log.Printf("Have %d excluded tracks", len(excludedTracksSet.ToArray()))
+	log.Printf("Have %d excluded tracks", len(excludedTracks))
 
 	byShortNames := make(map[string][]*TrackInfo)
 	byTitles := make(map[string]bool)
@@ -272,14 +292,15 @@ func main() {
 	addingToShort := make([]spotify.ID, 0)
 	addingToCandidates := make([]spotify.ID, 0)
 	for _, track := range allTracks {
-		if excludedTracksSet.Contains(track.ID) {
-			track.Excluded = true
+		if reason, ok := excludedTracks[track.ID]; ok {
+			track.Exclude(fmt.Sprintf("By %s", reason))
 			al.Append(track.Name, "Excluded")
 		}
 
 		if _, ok := byTitles[track.Name]; !ok {
 			if track.Duration < 60*1000 {
 				addingToShort = append(addingToShort, track.ID)
+				track.Exclude(fmt.Sprintf("Too short (%vs)", track.Duration/1000.0))
 				al.Append(track.Name, "Short")
 			} else {
 				addingToAll = append(addingToAll, track.ID)
@@ -312,7 +333,8 @@ func main() {
 			if tracksOnExcludedAlbums.Contains(track.ID) {
 				for _, track := range v {
 					track.OnExcludedAlbum = true
-					al.Append(track.Name, fmt.Sprintf("Excluded album (%v)", track.Album))
+					track.Exclude(fmt.Sprintf("Excluded album (%v)", track.Album))
+					al.Append(track.Name, track.ExcludedReason())
 				}
 			}
 		}
@@ -342,89 +364,91 @@ func main() {
 		log.Fatalf("Error generating table: %v", err)
 	}
 
-	if options.RebuildMultiple {
-		addingToExcluded := make([]spotify.ID, 0)
-		addingTo3OrMore := make([]spotify.ID, 0)
+	if !options.ReadOnlySpotify {
+		if options.RebuildMultiple {
+			addingToExcluded := make([]spotify.ID, 0)
+			addingTo3OrMore := make([]spotify.ID, 0)
 
-		for _, track := range allTracks {
-			if track.Has3OrMoreRecordings {
-				if !track.Excluded {
-					if track.OnExcludedAlbum {
-						addingToExcluded = append(addingToExcluded, track.ID)
-					} else {
-						addingTo3OrMore = append(addingTo3OrMore, track.ID)
-					}
-				}
-			}
-		}
-
-		byReleaseDate := make([]spotify.ID, 0)
-		originals := make([]spotify.ID, 0)
-
-		for _, track := range allTracksByReleaseDate {
-			if track.Has3OrMoreRecordings {
-				if !track.Excluded {
-					if !track.OnExcludedAlbum {
-						byReleaseDate = append(byReleaseDate, track.ID)
-
-						if track.Original {
-							originals = append(originals, track.ID)
+			for _, track := range allTracks {
+				if track.Has3OrMoreRecordings {
+					if !track.Excluded {
+						if track.OnExcludedAlbum {
+							addingToExcluded = append(addingToExcluded, track.ID)
+						} else {
+							addingTo3OrMore = append(addingTo3OrMore, track.ID)
 						}
 					}
 				}
 			}
-		}
 
-		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3)", addingTo3OrMore)
-		if err != nil {
-			log.Fatalf("Error adding tracks: %v", err)
-		}
+			byReleaseDate := make([]spotify.ID, 0)
+			originals := make([]spotify.ID, 0)
 
-		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3 originals)", originals)
-		if err != nil {
-			log.Fatalf("Error adding tracks: %v", err)
-		}
+			for _, track := range allTracksByReleaseDate {
+				if track.Has3OrMoreRecordings {
+					if !track.Excluded {
+						if !track.OnExcludedAlbum {
+							byReleaseDate = append(byReleaseDate, track.ID)
 
-		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3 by release date)", byReleaseDate)
-		if err != nil {
-			log.Fatalf("Error adding tracks: %v", err)
-		}
+							if track.Original {
+								originals = append(originals, track.ID)
+							}
+						}
+					}
+				}
+			}
 
-		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3 on excluded albums)", addingToExcluded)
-		if err != nil {
-			log.Fatalf("Error adding tracks: %v", err)
-		}
-	}
+			err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3)", addingTo3OrMore)
+			if err != nil {
+				log.Fatalf("Error adding tracks: %v", err)
+			}
 
-	if options.RebuildSingles {
-		addingToSingles := make([]spotify.ID, 0)
-		for _, track := range allTracks {
-			if track.Has1Recording {
-				addingToSingles = append(addingToSingles, track.ID)
+			err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3 originals)", originals)
+			if err != nil {
+				log.Fatalf("Error adding tracks: %v", err)
+			}
+
+			err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3 by release date)", byReleaseDate)
+			if err != nil {
+				log.Fatalf("Error adding tracks: %v", err)
+			}
+
+			err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3 on excluded albums)", addingToExcluded)
+			if err != nil {
+				log.Fatalf("Error adding tracks: %v", err)
 			}
 		}
 
-		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (excluded - single recordings)", addingToSingles)
+		if options.RebuildSingles {
+			addingToSingles := make([]spotify.ID, 0)
+			for _, track := range allTracks {
+				if track.Has1Recording {
+					addingToSingles = append(addingToSingles, track.ID)
+				}
+			}
+
+			err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (excluded - single recordings)", addingToSingles)
+			if err != nil {
+				log.Fatalf("Error adding tracks: %v", err)
+			}
+		}
+
+		if options.RebuildBase {
+			err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (all)", addingToAll)
+			if err != nil {
+				log.Fatalf("Error adding tracks: %v", err)
+			}
+
+			err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (short)", addingToShort)
+			if err != nil {
+				log.Fatalf("Error adding tracks: %v", err)
+			}
+		}
+
+		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (candidates)", addingToCandidates)
 		if err != nil {
 			log.Fatalf("Error adding tracks: %v", err)
 		}
-	}
-
-	if options.RebuildBase {
-		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (all)", addingToAll)
-		if err != nil {
-			log.Fatalf("Error adding tracks: %v", err)
-		}
-
-		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (short)", addingToShort)
-		if err != nil {
-			log.Fatalf("Error adding tracks: %v", err)
-		}
-	}
-
-	err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (candidates)", addingToCandidates)
-	if err != nil {
-		log.Fatalf("Error adding tracks: %v", err)
 	}
 
 	al.Write("audit.org")
@@ -433,43 +457,49 @@ func main() {
 }
 
 func GenerateTable(tracks []*TrackInfo) error {
+	templates := map[string]string{
+		"tracks.org.template":  "tracks.org",
+		"working.org.template": "working.org",
+	}
 	byPopularity := make([]*TrackInfo, len(tracks))
 
 	copy(byPopularity, tracks)
 
 	sort.Sort(ByPopularity(byPopularity))
 
-	templateData, err := ioutil.ReadFile(filepath.Join("./", "tracks.org.template"))
-	if err != nil {
-		return err
-	}
+	for templateName, fileName := range templates {
+		templateData, err := ioutil.ReadFile(filepath.Join("./", templateName))
+		if err != nil {
+			return err
+		}
 
-	template, err := template.New("tracks.org").Parse(string(templateData))
-	if err != nil {
-		return err
-	}
+		template, err := template.New(fileName).Parse(string(templateData))
+		if err != nil {
+			return err
+		}
 
-	path := filepath.Join("./", "tracks.org")
-	log.Printf("Writing %s", path)
+		path := filepath.Join("./", fileName)
+		log.Printf("Writing %s", path)
 
-	file, err := os.Create(path)
-	if err != nil {
-		return err
-	}
+		file, err := os.Create(path)
+		if err != nil {
+			return err
+		}
 
-	defer file.Close()
+		defer file.Close()
 
-	data := struct {
-		ByName       []*TrackInfo
-		ByPopularity []*TrackInfo
-	}{
-		tracks,
-		byPopularity,
-	}
+		data := struct {
+			ByName       []*TrackInfo
+			ByPopularity []*TrackInfo
+		}{
+			tracks,
+			byPopularity,
+		}
 
-	err = template.Execute(file, data)
-	if err != nil {
-		return err
+		err = template.Execute(file, data)
+		if err != nil {
+			return err
+		}
 	}
 
 	return nil

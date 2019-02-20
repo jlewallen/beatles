@@ -3,9 +3,16 @@
 | 1822! - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Short |
 | A Beginning (Take 4) / Don’t Pass Me By (Take 7) | Excluded |
 | A Beginning - Anthology 3 Version | Short |
-| A Day In The Life - First Mono Mix | Excluded |
-| A Day In The Life - Hummed Last Chord / Takes 8, 9, 10 And 11 | Excluded |
+| A Day In The Life | Excluded |
+| A Day In The Life - Anthology 2 Version | Excluded |
 | A Day In The Life - Orchestra Overdub | Short |
+| A Day In The Life - Remastered 2009 | Excluded |
+| A Day In The Life - Remastered 2010 | Excluded |
+| A Day In The Life - Remix | Excluded |
+| A Day In The Life - Take 1 | Excluded |
+| A Day In The Life - Take 1 With Hums | Excluded |
+| A Day In The Life - Take 2 | Excluded |
+| A Day In The Life - The Last Chord | Excluded |
 | A Hard Job Writing Them - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded |
 | A Little Rhyme - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Short |
 | A Real Treat - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Short |
@@ -77,7 +84,6 @@
 | Dear Prudence - Vocal, Guitar & Drums | Excluded |
 | Dear Wack! - Live At The BBC For "Saturday Club" / 24th August, 1963 | Short |
 | Dig It - Remastered 2009 | Short |
-| Do You Want To Know A Secret - Remastered 2009 | Excluded |
 | Doctor Robert - Remastered 2009 | Excluded |
 | Don't Bother Me - Remastered 2009 | Excluded |
 | Don't Ever Change - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Excluded |
@@ -94,16 +100,17 @@
 | From Us To You - Live At The BBC / Closing Theme From "From Us To You" / 1964 | Short |
 | From Us To You - Live At The BBC / Opening Theme From "From Us To You" / 1964 | Short |
 | George - Pop Profile - Live At The BBC / 30th November, 1965 | Excluded |
+| Getting Better | Excluded |
+| Getting Better - Remastered 2009 | Excluded |
+| Getting Better - Remix | Excluded |
+| Getting Better - Take 1 / Instrumental And Speech At The End | Excluded |
+| Getting Better - Take 12 | Excluded |
 | Gnik Nus | Short |
 | Golden Slumbers - Remastered 2009 | Excluded |
 | Good Day Sunshine - Remastered 2009 | Excluded |
 | Good Night - Unnumbered Rehearsal | Short |
 | Green With Black Shutters - Live At The BBC / 1965 | Short |
 | Hallelujah I Love Her So - Anthology 1 Version | Excluded |
-| Happiness Is A Warm Gun - 2018 Mix | Excluded |
-| Happiness Is A Warm Gun - Anthology 3 Version | Excluded |
-| Happiness Is A Warm Gun - Esher Demo | Excluded |
-| Happiness Is A Warm Gun - Remastered 2009 | Excluded |
 | Happy Birthday Dear Saturday Club - Live At The BBC For "Saturday Club" / 5th October, 1963 | Short |
 | Hello Little Girl - Anthology 1 Version | Excluded |
 | Hello! - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Short |
@@ -186,8 +193,6 @@
 | March Of The Meanies - Remastered 2009 | Excluded |
 | Matchbox - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Excluded |
 | Matchbox - Remastered 2009 | Excluded |
-| Maxwell's Silver Hammer - Anthology 3 Version | Excluded |
-| Maxwell's Silver Hammer - Remastered 2009 | Excluded |
 | Mean Mr. Mustard - Anthology 3 Version | Excluded |
 | Michelle - Remastered 2009 | Excluded |
 | Money (That's What I Want) - Anthology 1 Version | Excluded |
@@ -199,6 +204,9 @@
 | Not A Second Time - Remastered 2009 | Excluded |
 | Nothin' Shakin' - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Excluded |
 | Now Hush, Hush - Live At The BBC For "Easy Beat" / 20th October, 1963 | Short |
+| Octopus's Garden | Excluded |
+| Octopus's Garden - Anthology 3 Version | Excluded |
+| Octopus's Garden - Remastered 2009 | Excluded |
 | Oh, Can’t We? Yes We Can - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Short |
 | Only A Northern Song - Remastered 2009 | Excluded |
 | Ooh! My Arms - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Short |
@@ -327,7 +335,6 @@
 | While My Guitar Gently Weeps - Anthology 3 Version | Excluded |
 | While My Guitar Gently Weeps - Esher Demo | Excluded |
 | While My Guitar Gently Weeps - Remastered 2009 | Excluded |
-| While My Guitar Gently Weeps - Remastered 2009 | Excluded |
 | While My Guitar Gently Weeps - Third Version / Take 27 | Excluded |
 | Why Don't We Do It In The Road? - 2018 Mix | Excluded |
 | Why Don't We Do It In The Road? - Anthology 3 Version | Excluded |
@@ -335,6 +342,11 @@
 | Why Don’t We Do It In The Road? - Take 5 | Excluded |
 | Wild Honey Pie - 2018 Mix | Short |
 | Wild Honey Pie - Remastered 2009 | Short |
+| Within You Without You | Excluded |
+| Within You Without You - George Coaching The Musicians | Excluded |
+| Within You Without You - Remastered 2009 | Excluded |
+| Within You Without You - Remix | Excluded |
+| Within You Without You - Take 1 / Indian Instruments | Excluded |
 | Within You Without You / Tomorrow Never Knows | Excluded |
 | Within You, Without You - Instrumental / Anthology 2 Version | Excluded |
 | Yellow Submarine | Excluded |
@@ -345,6 +357,10 @@
 | Yesterday - Live From The ABC Theatre, Blackpool, UK/1965 / Anthology 2 Version | Excluded |
 | Yesterday - Remastered 2009 | Excluded |
 | Yesterday - Remastered 2015 | Excluded |
+| You Can't Do That - Anthology 1 Version | Excluded |
+| You Can't Do That - Live / Bonus Track | Excluded |
+| You Can't Do That - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded |
+| You Can't Do That - Remastered 2009 | Excluded |
 | You Know What To Do - Anthology 1 Version | Excluded |
 | You Like Me Too Much - Remastered 2009 | Excluded |
 | You Never Give Me Your Money - Remastered 2009 | Excluded |
@@ -352,169 +368,462 @@
 | You'll Be Mine - Anthology 1 Version | Excluded |
 | You're Going To Lose That Girl - Remastered 2009 | Excluded |
 | Young Blood - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Excluded |
+| Lovely Rita | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Lovely Rita - Remix | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Cry Baby Cry - 2018 Mix | Excluded album (The Beatles) |
+| Cry Baby Cry - Anthology 3 Version | Excluded album (Anthology 3) |
+| Cry Baby Cry - Esher Demo | Excluded album (The Beatles) |
+| Cry Baby Cry - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Cry Baby Cry - Unnumbered Rehearsal | Excluded album (The Beatles) |
+| Cry Baby Cry - 2018 Mix | Excluded album (The Beatles) |
+| Cry Baby Cry - Anthology 3 Version | Excluded album (Anthology 3) |
+| Cry Baby Cry - Esher Demo | Excluded album (The Beatles) |
+| Cry Baby Cry - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Cry Baby Cry - Unnumbered Rehearsal | Excluded album (The Beatles) |
+| Cry Baby Cry - 2018 Mix | Excluded album (The Beatles) |
+| Cry Baby Cry - Anthology 3 Version | Excluded album (Anthology 3) |
+| Cry Baby Cry - Esher Demo | Excluded album (The Beatles) |
+| Cry Baby Cry - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Cry Baby Cry - Unnumbered Rehearsal | Excluded album (The Beatles) |
+| Cry Baby Cry - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Glad All Over - Live At The BBC For "Pop Go The Beatles" / 20th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| I Want To Hold Your Hand - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| She's Leaving Home | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| She's Leaving Home - First Mono Mix | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| She's Leaving Home - Take 1 / Instrumental | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| She's Leaving Home - Take 6 / Instrumental | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Baby's In Black - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| Honey Don't - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| Things We Said Today - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| Good Morning Good Morning | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Good Morning Good Morning - Take 1 / Instrumental Breakdown | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| I'll Get You - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Mean Mr Mustard - Esher Demo | Excluded album (The Beatles) |
+| Mean Mr Mustard - Remastered 2009 | Excluded album (Abbey Road (Remastered)) |
+| Mean Mr Mustard - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| The Fool On The Hill - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Only A Northern Song - Anthology 2 Version | Marked as original (Anthology 2) |
+| You've Got To Hide Your Love Away - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| Sexy Sadie - 2018 Mix | Excluded album (The Beatles) |
+| Sexy Sadie - Anthology 3 Version | Excluded album (Anthology 3) |
+| Sexy Sadie - Esher Demo | Excluded album (The Beatles) |
+| Sexy Sadie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Sexy Sadie - Take 3 | Excluded album (The Beatles) |
+| Sexy Sadie - 2018 Mix | Excluded album (The Beatles) |
+| Sexy Sadie - Anthology 3 Version | Excluded album (Anthology 3) |
+| Sexy Sadie - Esher Demo | Excluded album (The Beatles) |
+| Sexy Sadie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Sexy Sadie - Take 3 | Excluded album (The Beatles) |
+| Sexy Sadie - 2018 Mix | Excluded album (The Beatles) |
+| Sexy Sadie - Anthology 3 Version | Excluded album (Anthology 3) |
+| Sexy Sadie - Esher Demo | Excluded album (The Beatles) |
+| Sexy Sadie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Sexy Sadie - Take 3 | Excluded album (The Beatles) |
+| Sexy Sadie - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Words Of Love - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| When I'm Sixty Four | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
 | And Your Bird Can Sing - Remastered 2009 | Excluded album (Revolver (Remastered)) |
 | And Your Bird Can Sing - Take 2 / Anthology 2 Version | Excluded album (Anthology 2) |
-| Birthday - 2018 Mix | Excluded album (The Beatles) |
-| Birthday - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Birthday - Take 2 / Instrumental Backing Track | Excluded album (The Beatles) |
-| Birthday - 2018 Mix | Excluded album (The Beatles) |
-| Birthday - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Birthday - Take 2 / Instrumental Backing Track | Excluded album (The Beatles) |
-| Good Night - 2018 Mix | Excluded album (The Beatles) |
-| Good Night - Anthology 3 Version | Excluded album (Anthology 3) |
-| Good Night - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Good Night - Take 10 With A Guitar Part From Take 5 | Excluded album (The Beatles) |
-| Good Night - Take 22 | Excluded album (The Beatles) |
-| Good Night - 2018 Mix | Excluded album (The Beatles) |
-| Good Night - Anthology 3 Version | Excluded album (Anthology 3) |
-| Good Night - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Good Night - Take 10 With A Guitar Part From Take 5 | Excluded album (The Beatles) |
-| Good Night - Take 22 | Excluded album (The Beatles) |
-| Good Night - 2018 Mix | Excluded album (The Beatles) |
-| Good Night - Anthology 3 Version | Excluded album (Anthology 3) |
-| Good Night - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Good Night - Take 10 With A Guitar Part From Take 5 | Excluded album (The Beatles) |
-| Good Night - Take 22 | Excluded album (The Beatles) |
+| And Your Bird Can Sing - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| For You Blue - Remastered 2009 | Marked as original (Let It Be (Remastered)) |
+| I Am The Walrus - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| I Me Mine - Anthology 3 Version | Marked as original (Anthology 3) |
+| If I Fell - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| Oh! Darling - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| A Hard Day's Night - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| Hello, Goodbye - Remastered 2009 | Marked as original (Magical Mystery Tour (Remastered)) |
+| I'm Down - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Think For Yourself - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
+| Don't Let Me Down - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Everybody's Got Something To Hide Except Me And My Monkey - 2018 Mix | Excluded album (The Beatles) |
+| Everybody's Got Something To Hide Except Me And My Monkey - Esher Demo | Excluded album (The Beatles) |
+| Everybody's Got Something To Hide Except Me And My Monkey - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Everybody's Got Something To Hide Except Me And My Monkey - Unnumbered Rehearsal | Excluded album (The Beatles) |
+| Everybody's Got Something To Hide Except Me And My Monkey - 2018 Mix | Excluded album (The Beatles) |
+| Everybody's Got Something To Hide Except Me And My Monkey - Esher Demo | Excluded album (The Beatles) |
+| Everybody's Got Something To Hide Except Me And My Monkey - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Everybody's Got Something To Hide Except Me And My Monkey - Unnumbered Rehearsal | Excluded album (The Beatles) |
+| Everybody's Got Something To Hide Except Me And My Monkey - 2018 Mix | Excluded album (The Beatles) |
+| Everybody's Got Something To Hide Except Me And My Monkey - Esher Demo | Excluded album (The Beatles) |
+| Everybody's Got Something To Hide Except Me And My Monkey - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Everybody's Got Something To Hide Except Me And My Monkey - Unnumbered Rehearsal | Excluded album (The Beatles) |
+| Everybody's Got Something To Hide Except Me And My Monkey - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Glass Onion | Excluded album (Love) |
+| Glass Onion - 2018 Mix | Excluded album (The Beatles) |
+| Glass Onion - Demo / Anthology 3 Version | Excluded album (Anthology 3) |
+| Glass Onion - Esher Demo | Excluded album (The Beatles) |
+| Glass Onion - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Glass Onion - Take 10 | Excluded album (The Beatles) |
+| Glass Onion - Take 33 / Anthology 3 Version | Excluded album (Anthology 3) |
+| Glass Onion | Excluded album (Love) |
+| Glass Onion - 2018 Mix | Excluded album (The Beatles) |
+| Glass Onion - Demo / Anthology 3 Version | Excluded album (Anthology 3) |
+| Glass Onion - Esher Demo | Excluded album (The Beatles) |
+| Glass Onion - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Glass Onion - Take 10 | Excluded album (The Beatles) |
+| Glass Onion - Take 33 / Anthology 3 Version | Excluded album (Anthology 3) |
+| Glass Onion | Excluded album (Love) |
+| Glass Onion - 2018 Mix | Excluded album (The Beatles) |
+| Glass Onion - Demo / Anthology 3 Version | Excluded album (Anthology 3) |
+| Glass Onion - Esher Demo | Excluded album (The Beatles) |
+| Glass Onion - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Glass Onion - Take 10 | Excluded album (The Beatles) |
+| Glass Onion - Take 33 / Anthology 3 Version | Excluded album (Anthology 3) |
+| Glass Onion - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Eight Days A Week - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| Maxwell's Silver Hammer - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| I'll Follow The Sun - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| I'm Only Sleeping - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| I'm Only Sleeping - Take 1 / Anthology 2 Version | Excluded album (Anthology 2) |
+| I'm Only Sleeping - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| Memphis, Tennessee - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Revolution 9 - 2018 Mix | Excluded album (The Beatles) |
+| Revolution 9 - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Revolution 9 - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Do You Want To Know A Secret - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| Get Back - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Devil In Her Heart - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| Eleanor Rigby | Excluded album (Yellow Submarine Songtrack) |
+| Eleanor Rigby - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| Eleanor Rigby - Remastered 2015 | Excluded album (1 (Remastered)) |
+| Eleanor Rigby - Strings Only / Anthology 2 Version | Excluded album (Anthology 2) |
+| Eleanor Rigby - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| I Feel Fine - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Revolution | Excluded album (Love) |
+| Revolution - Esher Demo | Excluded album (The Beatles) |
+| Revolution - Remastered 2009 | Excluded album (The Beatles 1967 - 1970 (Remastered)) |
+| Revolution - Take 14 / Instrumental Backing Track | Excluded album (The Beatles) |
+| Revolution - Unnumbered Rehearsal | Excluded album (The Beatles) |
+| Revolution | Excluded album (Love) |
+| Revolution - Esher Demo | Excluded album (The Beatles) |
+| Revolution - Remastered 2009 | Excluded album (The Beatles 1967 - 1970 (Remastered)) |
+| Revolution - Take 14 / Instrumental Backing Track | Excluded album (The Beatles) |
+| Revolution - Unnumbered Rehearsal | Excluded album (The Beatles) |
+| Revolution | Excluded album (Love) |
+| Revolution - Esher Demo | Excluded album (The Beatles) |
+| Revolution - Remastered 2009 | Excluded album (The Beatles 1967 - 1970 (Remastered)) |
+| Revolution - Take 14 / Instrumental Backing Track | Excluded album (The Beatles) |
+| Revolution - Unnumbered Rehearsal | Excluded album (The Beatles) |
+| Revolution - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Thank You Girl - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Blackbird - 2018 Mix | Excluded album (The Beatles) |
+| Blackbird - Anthology 3 Version | Excluded album (Anthology 3) |
+| Blackbird - Esher Demo | Excluded album (The Beatles) |
+| Blackbird - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Blackbird - Take 28 | Excluded album (The Beatles) |
+| Blackbird - 2018 Mix | Excluded album (The Beatles) |
+| Blackbird - Anthology 3 Version | Excluded album (Anthology 3) |
+| Blackbird - Esher Demo | Excluded album (The Beatles) |
+| Blackbird - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Blackbird - Take 28 | Excluded album (The Beatles) |
+| Blackbird - 2018 Mix | Excluded album (The Beatles) |
+| Blackbird - Anthology 3 Version | Excluded album (Anthology 3) |
+| Blackbird - Esher Demo | Excluded album (The Beatles) |
+| Blackbird - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Blackbird - Take 28 | Excluded album (The Beatles) |
+| Blackbird - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Lucille - Live At The BBC For "Saturday Club" / 5th October, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Junk - Anthology 3 Version | Excluded album (Anthology 3) |
+| Junk - Esher Demo | Excluded album (The Beatles) |
+| Junk - Anthology 3 Version | Marked as original (Anthology 3) |
+| Yer Blues - 2018 Mix | Excluded album (The Beatles) |
+| Yer Blues - Esher Demo | Excluded album (The Beatles) |
+| Yer Blues - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Yer Blues - Take 5 With Guide Vocal | Excluded album (The Beatles) |
+| Yer Blues - 2018 Mix | Excluded album (The Beatles) |
+| Yer Blues - Esher Demo | Excluded album (The Beatles) |
+| Yer Blues - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Yer Blues - Take 5 With Guide Vocal | Excluded album (The Beatles) |
+| Yer Blues - 2018 Mix | Excluded album (The Beatles) |
+| Yer Blues - Esher Demo | Excluded album (The Beatles) |
+| Yer Blues - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Yer Blues - Take 5 With Guide Vocal | Excluded album (The Beatles) |
+| Yer Blues - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| All Together Now - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
+| Dizzy Miss Lizzy - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| I Will - 2018 Mix | Excluded album (The Beatles) |
+| I Will - Anthology 3 Version | Excluded album (Anthology 3) |
+| I Will - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| I Will - Take 13 | Excluded album (The Beatles) |
+| I Will - 2018 Mix | Excluded album (The Beatles) |
+| I Will - Anthology 3 Version | Excluded album (Anthology 3) |
+| I Will - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| I Will - Take 13 | Excluded album (The Beatles) |
+| I Will - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Love Me Do - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| The Ballad Of John And Yoko - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| When I'm Sixty-Four - Take 2 | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| And I Love Her - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| I'm Looking Through You - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
+| No Reply - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| Ask Me Why - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| Long, Long, Long - 2018 Mix | Excluded album (The Beatles) |
+| Long, Long, Long - Take 44 | Excluded album (The Beatles) |
+| Long, Long, Long - 2018 Mix | Excluded album (The Beatles) |
+| Long, Long, Long - Take 44 | Excluded album (The Beatles) |
+| Long, Long, Long - 2018 Mix | Marked as original (The Beatles) |
+| Long, Long, Long - Take 44 | Marked as original (The Beatles) |
+| Baby It's You - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
 | Don't Pass Me By - 2018 Mix | Excluded album (The Beatles) |
 | Don't Pass Me By - Anthology 3 Version | Excluded album (Anthology 3) |
 | Don't Pass Me By - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Yer Blues - 2018 Mix | Excluded album (The Beatles) |
-| Yer Blues - Esher Demo | Excluded album (The Beatles) |
-| Yer Blues - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Yer Blues - Take 5 With Guide Vocal | Excluded album (The Beatles) |
-| Yer Blues - 2018 Mix | Excluded album (The Beatles) |
-| Yer Blues - Esher Demo | Excluded album (The Beatles) |
-| Yer Blues - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Yer Blues - Take 5 With Guide Vocal | Excluded album (The Beatles) |
-| Yer Blues - 2018 Mix | Excluded album (The Beatles) |
-| Yer Blues - Esher Demo | Excluded album (The Beatles) |
-| Yer Blues - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Yer Blues - Take 5 With Guide Vocal | Excluded album (The Beatles) |
-| Mother Nature's Son - 2018 Mix | Excluded album (The Beatles) |
-| Mother Nature's Son - Anthology 3 Version | Excluded album (Anthology 3) |
-| Mother Nature's Son - Esher Demo | Excluded album (The Beatles) |
-| Mother Nature's Son - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Mother Nature's Son - Take 15 | Excluded album (The Beatles) |
-| Mother Nature's Son - 2018 Mix | Excluded album (The Beatles) |
-| Mother Nature's Son - Anthology 3 Version | Excluded album (Anthology 3) |
-| Mother Nature's Son - Esher Demo | Excluded album (The Beatles) |
-| Mother Nature's Son - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Mother Nature's Son - Take 15 | Excluded album (The Beatles) |
-| Mother Nature's Son - 2018 Mix | Excluded album (The Beatles) |
-| Mother Nature's Son - Anthology 3 Version | Excluded album (Anthology 3) |
-| Mother Nature's Son - Esher Demo | Excluded album (The Beatles) |
-| Mother Nature's Son - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Mother Nature's Son - Take 15 | Excluded album (The Beatles) |
+| Don't Pass Me By - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| From Me To You - Mono Version / Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| Taxman - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| Taxman - Take 11 / Anthology 2 Version | Excluded album (Anthology 2) |
+| Taxman - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| Two Of Us - Remastered 2009 | Marked as original (Let It Be (Remastered)) |
+| A Day In The Life - First Mono Mix | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| A Day In The Life - Hummed Last Chord / Takes 8, 9, 10 And 11 | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Can't Buy Me Love - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| Hey Bulldog - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
+| I'll Be Back - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| Julia - 2018 Mix | Excluded album (The Beatles) |
+| Julia - Anthology 3 Version | Excluded album (Anthology 3) |
+| Julia - Esher Demo | Excluded album (The Beatles) |
+| Julia - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Julia - Two Rehearsals | Excluded album (The Beatles) |
+| Julia - 2018 Mix | Excluded album (The Beatles) |
+| Julia - Anthology 3 Version | Excluded album (Anthology 3) |
+| Julia - Esher Demo | Excluded album (The Beatles) |
+| Julia - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Julia - Two Rehearsals | Excluded album (The Beatles) |
+| Julia - 2018 Mix | Excluded album (The Beatles) |
+| Julia - Anthology 3 Version | Excluded album (Anthology 3) |
+| Julia - Esher Demo | Excluded album (The Beatles) |
+| Julia - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Julia - Two Rehearsals | Excluded album (The Beatles) |
+| Julia - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Lucy In The Sky With Diamonds - Original Mono Mix - No. 11 | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Lucy In The Sky With Diamonds - Remix | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Lucy In The Sky With Diamonds - Speech, False Start And Take 5 | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Lucy In The Sky With Diamonds - Take 1 And Speech At The End | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Norwegian Wood (This Bird Has Flown) - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| One After 909 - Remastered 2009 | Marked as original (Let It Be (Remastered)) |
+| You Know My Name (Look Up The Number) - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Ain't She Sweet - Anthology 1 Version | Marked as original (Anthology 1) |
+| All My Loving - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| Birthday - 2018 Mix | Excluded album (The Beatles) |
+| Birthday - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Birthday - Take 2 / Instrumental Backing Track | Excluded album (The Beatles) |
+| Birthday - 2018 Mix | Excluded album (The Beatles) |
+| Birthday - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Birthday - Take 2 / Instrumental Backing Track | Excluded album (The Beatles) |
+| Birthday - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Honey Pie - 2018 Mix | Excluded album (The Beatles) |
+| Honey Pie - Anthology 3 Version | Excluded album (Anthology 3) |
+| Honey Pie - Esher Demo | Excluded album (The Beatles) |
+| Honey Pie - Instrumental Backing Track | Excluded album (The Beatles) |
+| Honey Pie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Honey Pie - 2018 Mix | Excluded album (The Beatles) |
+| Honey Pie - Anthology 3 Version | Excluded album (Anthology 3) |
+| Honey Pie - Esher Demo | Excluded album (The Beatles) |
+| Honey Pie - Instrumental Backing Track | Excluded album (The Beatles) |
+| Honey Pie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Honey Pie - 2018 Mix | Excluded album (The Beatles) |
+| Honey Pie - Anthology 3 Version | Excluded album (Anthology 3) |
+| Honey Pie - Esher Demo | Excluded album (The Beatles) |
+| Honey Pie - Instrumental Backing Track | Excluded album (The Beatles) |
+| Honey Pie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Honey Pie - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| I've Got A Feeling - Remastered 2009 | Marked as original (Let It Be (Remastered)) |
+| Not Guilty - Anthology 3 Version | Excluded album (Anthology 3) |
+| Not Guilty - Esher Demo | Excluded album (The Beatles) |
+| Not Guilty - Take 102 | Excluded album (The Beatles) |
+| Not Guilty - Anthology 3 Version | Excluded album (Anthology 3) |
+| Not Guilty - Esher Demo | Excluded album (The Beatles) |
+| Not Guilty - Take 102 | Excluded album (The Beatles) |
+| Not Guilty - Anthology 3 Version | Marked as original (Anthology 3) |
+| A Taste Of Honey - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| Everybody's Trying To Be My Baby - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| There's A Place - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| You Really Got A Hold On Me - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| Day Tripper - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| Girl - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| Helter Skelter - 2018 Mix | Excluded album (The Beatles) |
+| Helter Skelter - Anthology 3 Version | Excluded album (Anthology 3) |
+| Helter Skelter - First Version / Take 2 | Excluded album (The Beatles) |
+| Helter Skelter - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Helter Skelter - Second Version / Take 17 | Excluded album (The Beatles) |
+| Helter Skelter - 2018 Mix | Excluded album (The Beatles) |
+| Helter Skelter - Anthology 3 Version | Excluded album (Anthology 3) |
+| Helter Skelter - First Version / Take 2 | Excluded album (The Beatles) |
+| Helter Skelter - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Helter Skelter - Second Version / Take 17 | Excluded album (The Beatles) |
+| Helter Skelter - 2018 Mix | Excluded album (The Beatles) |
+| Helter Skelter - Anthology 3 Version | Excluded album (Anthology 3) |
+| Helter Skelter - First Version / Take 2 | Excluded album (The Beatles) |
+| Helter Skelter - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Helter Skelter - Second Version / Take 17 | Excluded album (The Beatles) |
+| Helter Skelter - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| I'm So Tired - 2018 Mix | Excluded album (The Beatles) |
+| I'm So Tired - Anthology 3 Version | Excluded album (Anthology 3) |
+| I'm So Tired - Esher Demo | Excluded album (The Beatles) |
+| I'm So Tired - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| I'm So Tired - Take 14 | Excluded album (The Beatles) |
+| I'm So Tired - Take 7 | Excluded album (The Beatles) |
+| I'm So Tired - 2018 Mix | Excluded album (The Beatles) |
+| I'm So Tired - Anthology 3 Version | Excluded album (Anthology 3) |
+| I'm So Tired - Esher Demo | Excluded album (The Beatles) |
+| I'm So Tired - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| I'm So Tired - Take 14 | Excluded album (The Beatles) |
+| I'm So Tired - Take 7 | Excluded album (The Beatles) |
+| I'm So Tired - 2018 Mix | Excluded album (The Beatles) |
+| I'm So Tired - Anthology 3 Version | Excluded album (Anthology 3) |
+| I'm So Tired - Esher Demo | Excluded album (The Beatles) |
+| I'm So Tired - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| I'm So Tired - Take 14 | Excluded album (The Beatles) |
+| I'm So Tired - Take 7 | Excluded album (The Beatles) |
+| I'm So Tired - 2018 Mix | Excluded album (The Beatles) |
+| I'm So Tired - Anthology 3 Version | Excluded album (Anthology 3) |
+| I'm So Tired - Esher Demo | Excluded album (The Beatles) |
+| I'm So Tired - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| I'm So Tired - Take 14 | Excluded album (The Beatles) |
+| I'm So Tired - Take 7 | Excluded album (The Beatles) |
+| I'm So Tired - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Revolution 1 - 2018 Mix | Excluded album (The Beatles) |
+| Revolution 1 - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Revolution 1 - Take 18 | Excluded album (The Beatles) |
+| Revolution 1 - 2018 Mix | Excluded album (The Beatles) |
+| Revolution 1 - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Revolution 1 - Take 18 | Excluded album (The Beatles) |
+| Revolution 1 - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| What’s The New Mary Jane - Esher Demo | Excluded album (The Beatles) |
+| What’s The New Mary Jane - Take 1 | Excluded album (The Beatles) |
+| What’s The New Mary Jane - Esher Demo | Excluded album (The Beatles) |
+| What’s The New Mary Jane - Take 1 | Excluded album (The Beatles) |
+| What’s The New Mary Jane - Esher Demo | Marked as original (The Beatles) |
+| What’s The New Mary Jane - Take 1 | Marked as original (The Beatles) |
+| Lend Me Your Comb - Anthology 1 Version | Marked as original (Anthology 1) |
+| Mr Moonlight - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| Because - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| Boys - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Good Night - 2018 Mix | Excluded album (The Beatles) |
+| Good Night - Anthology 3 Version | Excluded album (Anthology 3) |
+| Good Night - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Good Night - Take 10 With A Guitar Part From Take 5 | Excluded album (The Beatles) |
+| Good Night - Take 22 | Excluded album (The Beatles) |
+| Good Night - 2018 Mix | Excluded album (The Beatles) |
+| Good Night - Anthology 3 Version | Excluded album (Anthology 3) |
+| Good Night - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Good Night - Take 10 With A Guitar Part From Take 5 | Excluded album (The Beatles) |
+| Good Night - Take 22 | Excluded album (The Beatles) |
+| Good Night - 2018 Mix | Excluded album (The Beatles) |
+| Good Night - Anthology 3 Version | Excluded album (Anthology 3) |
+| Good Night - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Good Night - Take 10 With A Guitar Part From Take 5 | Excluded album (The Beatles) |
+| Good Night - Take 22 | Excluded album (The Beatles) |
+| Good Night - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Got To Get You Into My Life - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| Got To Get You Into My Life - Take 5 / Anthology 2 Version | Excluded album (Anthology 2) |
+| Got To Get You Into My Life - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| I Got A Woman - Live At The BBC For "Pop Go The Beatles" / 13th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| It's Only Love - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| Rock And Roll Music - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| Rocky Raccoon - 2018 Mix | Excluded album (The Beatles) |
+| Rocky Raccoon - Anthology 3 Version | Excluded album (Anthology 3) |
+| Rocky Raccoon - Esher Demo | Excluded album (The Beatles) |
+| Rocky Raccoon - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Rocky Raccoon - Take 8 | Excluded album (The Beatles) |
+| Rocky Raccoon - 2018 Mix | Excluded album (The Beatles) |
+| Rocky Raccoon - Anthology 3 Version | Excluded album (Anthology 3) |
+| Rocky Raccoon - Esher Demo | Excluded album (The Beatles) |
+| Rocky Raccoon - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Rocky Raccoon - Take 8 | Excluded album (The Beatles) |
+| Rocky Raccoon - 2018 Mix | Excluded album (The Beatles) |
+| Rocky Raccoon - Anthology 3 Version | Excluded album (Anthology 3) |
+| Rocky Raccoon - Esher Demo | Excluded album (The Beatles) |
+| Rocky Raccoon - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Rocky Raccoon - Take 8 | Excluded album (The Beatles) |
+| Rocky Raccoon - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| We Can Work It Out - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Yes It Is - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Sure To Fall (In Love With You) - Live At The BBC For "Pop Go The Beatles" / 18th June, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Happiness Is A Warm Gun - 2018 Mix | Excluded album (The Beatles) |
+| Happiness Is A Warm Gun - Anthology 3 Version | Excluded album (Anthology 3) |
+| Happiness Is A Warm Gun - Esher Demo | Excluded album (The Beatles) |
+| Happiness Is A Warm Gun - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Happiness Is A Warm Gun - Take 19 | Excluded album (The Beatles) |
+| Happiness Is A Warm Gun - 2018 Mix | Excluded album (The Beatles) |
+| Happiness Is A Warm Gun - Anthology 3 Version | Excluded album (Anthology 3) |
+| Happiness Is A Warm Gun - Esher Demo | Excluded album (The Beatles) |
+| Happiness Is A Warm Gun - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Happiness Is A Warm Gun - Take 19 | Excluded album (The Beatles) |
+| Happiness Is A Warm Gun - 2018 Mix | Excluded album (The Beatles) |
+| Happiness Is A Warm Gun - Anthology 3 Version | Excluded album (Anthology 3) |
+| Happiness Is A Warm Gun - Esher Demo | Excluded album (The Beatles) |
+| Happiness Is A Warm Gun - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Happiness Is A Warm Gun - Take 19 | Excluded album (The Beatles) |
+| Happiness Is A Warm Gun - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| It's All Too Much - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
+| P.S. I Love You - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| Penny Lane | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Penny Lane - Capitol Records Mono US Promo Mix | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Penny Lane - Stereo Mix 2017 | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Penny Lane - Take 6 / Instrumental | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Penny Lane - Vocal Overdubs And Speech | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Please Mister Postman - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| The End - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| Martha My Dear - 2018 Mix | Excluded album (The Beatles) |
+| Martha My Dear - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Martha My Dear - Without Brass And Strings | Excluded album (The Beatles) |
+| Martha My Dear - 2018 Mix | Excluded album (The Beatles) |
+| Martha My Dear - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Martha My Dear - Without Brass And Strings | Excluded album (The Beatles) |
+| Martha My Dear - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Nowhere Man - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
+| Sgt. Pepper's Lonely Hearts Club Band (Reprise) - Speech And Take 8 | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Tomorrow Never Knows - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| Tomorrow Never Knows - Take 1 / Anthology 2 Version | Excluded album (Anthology 2) |
+| Tomorrow Never Knows - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| Anna (Go To Him) - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| Dig A Pony - Remastered 2009 | Marked as original (Let It Be (Remastered)) |
+| Fixing A Hole | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Fixing A Hole - Remix | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Fixing A Hole - Speech And Take 3 | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Fixing A Hole - Take 1 | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
 | Hey Jude | Excluded album (Love) |
 | Hey Jude - Anthology 3 Version | Excluded album (Anthology 3) |
 | Hey Jude - Remastered 2009 | Excluded album (Past Masters (Vols. 1 & 2 / Remastered)) |
 | Hey Jude - Remastered 2015 | Excluded album (1 (Remastered)) |
 | Hey Jude - Take 1 | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - 2018 Mix | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Esher Demo | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - 2018 Mix | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Esher Demo | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - 2018 Mix | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Esher Demo | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Helter Skelter - 2018 Mix | Excluded album (The Beatles) |
-| Helter Skelter - Anthology 3 Version | Excluded album (Anthology 3) |
-| Helter Skelter - First Version / Take 2 | Excluded album (The Beatles) |
-| Helter Skelter - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Helter Skelter - Second Version / Take 17 | Excluded album (The Beatles) |
-| Helter Skelter - 2018 Mix | Excluded album (The Beatles) |
-| Helter Skelter - Anthology 3 Version | Excluded album (Anthology 3) |
-| Helter Skelter - First Version / Take 2 | Excluded album (The Beatles) |
-| Helter Skelter - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Helter Skelter - Second Version / Take 17 | Excluded album (The Beatles) |
-| Helter Skelter - 2018 Mix | Excluded album (The Beatles) |
-| Helter Skelter - Anthology 3 Version | Excluded album (Anthology 3) |
-| Helter Skelter - First Version / Take 2 | Excluded album (The Beatles) |
-| Helter Skelter - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Helter Skelter - Second Version / Take 17 | Excluded album (The Beatles) |
+| Hey Jude - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| I'm A Loser - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
 | Lady Madonna | Excluded album (Love) |
 | Lady Madonna - Alternate Mix / Anthology 2 Version | Excluded album (Anthology 2) |
 | Lady Madonna - Remastered 2009 | Excluded album (The Beatles 1967 - 1970 (Remastered)) |
 | Lady Madonna - Remastered 2015 | Excluded album (1 (Remastered)) |
 | Lady Madonna - Take 2 / Piano & Drums | Excluded album (The Beatles) |
-| Revolution 9 - 2018 Mix | Excluded album (The Beatles) |
-| Revolution 9 - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| I'm Only Sleeping - Remastered 2009 | Excluded album (Revolver (Remastered)) |
-| I'm Only Sleeping - Take 1 / Anthology 2 Version | Excluded album (Anthology 2) |
-| I Will - 2018 Mix | Excluded album (The Beatles) |
-| I Will - Anthology 3 Version | Excluded album (Anthology 3) |
-| I Will - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| I Will - Take 13 | Excluded album (The Beatles) |
-| I Will - 2018 Mix | Excluded album (The Beatles) |
-| I Will - Anthology 3 Version | Excluded album (Anthology 3) |
-| I Will - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| I Will - Take 13 | Excluded album (The Beatles) |
-| Happiness Is A Warm Gun - Take 19 | Excluded album (The Beatles) |
-| Mean Mr Mustard - Esher Demo | Excluded album (The Beatles) |
-| Mean Mr Mustard - Remastered 2009 | Excluded album (Abbey Road (Remastered)) |
-| Long, Long, Long - 2018 Mix | Excluded album (The Beatles) |
-| Long, Long, Long - Take 44 | Excluded album (The Beatles) |
-| Long, Long, Long - 2018 Mix | Excluded album (The Beatles) |
-| Long, Long, Long - Take 44 | Excluded album (The Beatles) |
-| Sexy Sadie - 2018 Mix | Excluded album (The Beatles) |
-| Sexy Sadie - Anthology 3 Version | Excluded album (Anthology 3) |
-| Sexy Sadie - Esher Demo | Excluded album (The Beatles) |
-| Sexy Sadie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Sexy Sadie - Take 3 | Excluded album (The Beatles) |
-| Sexy Sadie - 2018 Mix | Excluded album (The Beatles) |
-| Sexy Sadie - Anthology 3 Version | Excluded album (Anthology 3) |
-| Sexy Sadie - Esher Demo | Excluded album (The Beatles) |
-| Sexy Sadie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Sexy Sadie - Take 3 | Excluded album (The Beatles) |
-| Sexy Sadie - 2018 Mix | Excluded album (The Beatles) |
-| Sexy Sadie - Anthology 3 Version | Excluded album (Anthology 3) |
-| Sexy Sadie - Esher Demo | Excluded album (The Beatles) |
-| Sexy Sadie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Sexy Sadie - Take 3 | Excluded album (The Beatles) |
-| Eleanor Rigby | Excluded album (Yellow Submarine Songtrack) |
-| Eleanor Rigby - Remastered 2009 | Excluded album (Revolver (Remastered)) |
-| Eleanor Rigby - Remastered 2015 | Excluded album (1 (Remastered)) |
-| Eleanor Rigby - Strings Only / Anthology 2 Version | Excluded album (Anthology 2) |
-| Revolution 1 - 2018 Mix | Excluded album (The Beatles) |
-| Revolution 1 - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Revolution 1 - Take 18 | Excluded album (The Beatles) |
-| Revolution 1 - 2018 Mix | Excluded album (The Beatles) |
-| Revolution 1 - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Revolution 1 - Take 18 | Excluded album (The Beatles) |
-| Got To Get You Into My Life - Remastered 2009 | Excluded album (Revolver (Remastered)) |
-| Got To Get You Into My Life - Take 5 / Anthology 2 Version | Excluded album (Anthology 2) |
-| Martha My Dear - 2018 Mix | Excluded album (The Beatles) |
-| Martha My Dear - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Martha My Dear - Without Brass And Strings | Excluded album (The Beatles) |
-| Martha My Dear - 2018 Mix | Excluded album (The Beatles) |
-| Martha My Dear - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Martha My Dear - Without Brass And Strings | Excluded album (The Beatles) |
-| Julia - 2018 Mix | Excluded album (The Beatles) |
-| Julia - Anthology 3 Version | Excluded album (Anthology 3) |
-| Julia - Esher Demo | Excluded album (The Beatles) |
-| Julia - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Julia - Two Rehearsals | Excluded album (The Beatles) |
-| Julia - 2018 Mix | Excluded album (The Beatles) |
-| Julia - Anthology 3 Version | Excluded album (Anthology 3) |
-| Julia - Esher Demo | Excluded album (The Beatles) |
-| Julia - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Julia - Two Rehearsals | Excluded album (The Beatles) |
-| Julia - 2018 Mix | Excluded album (The Beatles) |
-| Julia - Anthology 3 Version | Excluded album (Anthology 3) |
-| Julia - Esher Demo | Excluded album (The Beatles) |
-| Julia - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Julia - Two Rehearsals | Excluded album (The Beatles) |
-| Not Guilty - Anthology 3 Version | Excluded album (Anthology 3) |
-| Not Guilty - Esher Demo | Excluded album (The Beatles) |
-| Not Guilty - Take 102 | Excluded album (The Beatles) |
-| Not Guilty - Anthology 3 Version | Excluded album (Anthology 3) |
-| Not Guilty - Esher Demo | Excluded album (The Beatles) |
-| Not Guilty - Take 102 | Excluded album (The Beatles) |
+| Lady Madonna - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Your Mother Should Know - Remastered 2009 | Marked as original (Magical Mystery Tour (Remastered)) |
+| Help! - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| Mother Nature's Son - 2018 Mix | Excluded album (The Beatles) |
+| Mother Nature's Son - Anthology 3 Version | Excluded album (Anthology 3) |
+| Mother Nature's Son - Esher Demo | Excluded album (The Beatles) |
+| Mother Nature's Son - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Mother Nature's Son - Take 15 | Excluded album (The Beatles) |
+| Mother Nature's Son - 2018 Mix | Excluded album (The Beatles) |
+| Mother Nature's Son - Anthology 3 Version | Excluded album (Anthology 3) |
+| Mother Nature's Son - Esher Demo | Excluded album (The Beatles) |
+| Mother Nature's Son - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Mother Nature's Son - Take 15 | Excluded album (The Beatles) |
+| Mother Nature's Son - 2018 Mix | Excluded album (The Beatles) |
+| Mother Nature's Son - Anthology 3 Version | Excluded album (Anthology 3) |
+| Mother Nature's Son - Esher Demo | Excluded album (The Beatles) |
+| Mother Nature's Son - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Mother Nature's Son - Take 15 | Excluded album (The Beatles) |
+| Mother Nature's Son - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Old Brown Shoe - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Paperback Writer - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| The Hippy Hippy Shake - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| With A Little Help From My Friends | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| With A Little Help From My Friends - Remix | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Sgt. Pepper's Lonely Hearts Club Band - Remix | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Sgt. Pepper's Lonely Hearts Club Band - Take 1 / Instrumental | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Sgt. Pepper's Lonely Hearts Club Band - Take 9 And Speech | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Slow Down - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Chains - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| Misery - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
 | Ob-La-Di, Ob-La-Da - 2018 Mix | Excluded album (The Beatles) |
 | Ob-La-Di, Ob-La-Da - Anthology 3 Version | Excluded album (Anthology 3) |
 | Ob-La-Di, Ob-La-Da - Esher Demo | Excluded album (The Beatles) |
@@ -530,133 +839,7 @@
 | Ob-La-Di, Ob-La-Da - Esher Demo | Excluded album (The Beatles) |
 | Ob-La-Di, Ob-La-Da - Remastered 2009 | Excluded album (The Beatles 1967 - 1970 (Remastered)) |
 | Ob-La-Di, Ob-La-Da - Take 3 | Excluded album (The Beatles) |
-| Cry Baby Cry - 2018 Mix | Excluded album (The Beatles) |
-| Cry Baby Cry - Anthology 3 Version | Excluded album (Anthology 3) |
-| Cry Baby Cry - Esher Demo | Excluded album (The Beatles) |
-| Cry Baby Cry - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Cry Baby Cry - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Cry Baby Cry - 2018 Mix | Excluded album (The Beatles) |
-| Cry Baby Cry - Anthology 3 Version | Excluded album (Anthology 3) |
-| Cry Baby Cry - Esher Demo | Excluded album (The Beatles) |
-| Cry Baby Cry - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Cry Baby Cry - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Cry Baby Cry - 2018 Mix | Excluded album (The Beatles) |
-| Cry Baby Cry - Anthology 3 Version | Excluded album (Anthology 3) |
-| Cry Baby Cry - Esher Demo | Excluded album (The Beatles) |
-| Cry Baby Cry - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Cry Baby Cry - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Junk - Anthology 3 Version | Excluded album (Anthology 3) |
-| Junk - Esher Demo | Excluded album (The Beatles) |
-| Honey Pie - 2018 Mix | Excluded album (The Beatles) |
-| Honey Pie - Anthology 3 Version | Excluded album (Anthology 3) |
-| Honey Pie - Esher Demo | Excluded album (The Beatles) |
-| Honey Pie - Instrumental Backing Track | Excluded album (The Beatles) |
-| Honey Pie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Honey Pie - 2018 Mix | Excluded album (The Beatles) |
-| Honey Pie - Anthology 3 Version | Excluded album (Anthology 3) |
-| Honey Pie - Esher Demo | Excluded album (The Beatles) |
-| Honey Pie - Instrumental Backing Track | Excluded album (The Beatles) |
-| Honey Pie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Honey Pie - 2018 Mix | Excluded album (The Beatles) |
-| Honey Pie - Anthology 3 Version | Excluded album (Anthology 3) |
-| Honey Pie - Esher Demo | Excluded album (The Beatles) |
-| Honey Pie - Instrumental Backing Track | Excluded album (The Beatles) |
-| Honey Pie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| I'm So Tired - 2018 Mix | Excluded album (The Beatles) |
-| I'm So Tired - Anthology 3 Version | Excluded album (Anthology 3) |
-| I'm So Tired - Esher Demo | Excluded album (The Beatles) |
-| I'm So Tired - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| I'm So Tired - Take 14 | Excluded album (The Beatles) |
-| I'm So Tired - Take 7 | Excluded album (The Beatles) |
-| I'm So Tired - 2018 Mix | Excluded album (The Beatles) |
-| I'm So Tired - Anthology 3 Version | Excluded album (Anthology 3) |
-| I'm So Tired - Esher Demo | Excluded album (The Beatles) |
-| I'm So Tired - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| I'm So Tired - Take 14 | Excluded album (The Beatles) |
-| I'm So Tired - Take 7 | Excluded album (The Beatles) |
-| I'm So Tired - 2018 Mix | Excluded album (The Beatles) |
-| I'm So Tired - Anthology 3 Version | Excluded album (Anthology 3) |
-| I'm So Tired - Esher Demo | Excluded album (The Beatles) |
-| I'm So Tired - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| I'm So Tired - Take 14 | Excluded album (The Beatles) |
-| I'm So Tired - Take 7 | Excluded album (The Beatles) |
-| I'm So Tired - 2018 Mix | Excluded album (The Beatles) |
-| I'm So Tired - Anthology 3 Version | Excluded album (Anthology 3) |
-| I'm So Tired - Esher Demo | Excluded album (The Beatles) |
-| I'm So Tired - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| I'm So Tired - Take 14 | Excluded album (The Beatles) |
-| I'm So Tired - Take 7 | Excluded album (The Beatles) |
-| Tomorrow Never Knows - Remastered 2009 | Excluded album (Revolver (Remastered)) |
-| Tomorrow Never Knows - Take 1 / Anthology 2 Version | Excluded album (Anthology 2) |
-| What’s The New Mary Jane - Esher Demo | Excluded album (The Beatles) |
-| What’s The New Mary Jane - Take 1 | Excluded album (The Beatles) |
-| What’s The New Mary Jane - Esher Demo | Excluded album (The Beatles) |
-| What’s The New Mary Jane - Take 1 | Excluded album (The Beatles) |
-| Rocky Raccoon - 2018 Mix | Excluded album (The Beatles) |
-| Rocky Raccoon - Anthology 3 Version | Excluded album (Anthology 3) |
-| Rocky Raccoon - Esher Demo | Excluded album (The Beatles) |
-| Rocky Raccoon - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Rocky Raccoon - Take 8 | Excluded album (The Beatles) |
-| Rocky Raccoon - 2018 Mix | Excluded album (The Beatles) |
-| Rocky Raccoon - Anthology 3 Version | Excluded album (Anthology 3) |
-| Rocky Raccoon - Esher Demo | Excluded album (The Beatles) |
-| Rocky Raccoon - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Rocky Raccoon - Take 8 | Excluded album (The Beatles) |
-| Rocky Raccoon - 2018 Mix | Excluded album (The Beatles) |
-| Rocky Raccoon - Anthology 3 Version | Excluded album (Anthology 3) |
-| Rocky Raccoon - Esher Demo | Excluded album (The Beatles) |
-| Rocky Raccoon - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Rocky Raccoon - Take 8 | Excluded album (The Beatles) |
-| Glass Onion | Excluded album (Love) |
-| Glass Onion - 2018 Mix | Excluded album (The Beatles) |
-| Glass Onion - Demo / Anthology 3 Version | Excluded album (Anthology 3) |
-| Glass Onion - Esher Demo | Excluded album (The Beatles) |
-| Glass Onion - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Glass Onion - Take 10 | Excluded album (The Beatles) |
-| Glass Onion - Take 33 / Anthology 3 Version | Excluded album (Anthology 3) |
-| Glass Onion | Excluded album (Love) |
-| Glass Onion - 2018 Mix | Excluded album (The Beatles) |
-| Glass Onion - Demo / Anthology 3 Version | Excluded album (Anthology 3) |
-| Glass Onion - Esher Demo | Excluded album (The Beatles) |
-| Glass Onion - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Glass Onion - Take 10 | Excluded album (The Beatles) |
-| Glass Onion - Take 33 / Anthology 3 Version | Excluded album (Anthology 3) |
-| Glass Onion | Excluded album (Love) |
-| Glass Onion - 2018 Mix | Excluded album (The Beatles) |
-| Glass Onion - Demo / Anthology 3 Version | Excluded album (Anthology 3) |
-| Glass Onion - Esher Demo | Excluded album (The Beatles) |
-| Glass Onion - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Glass Onion - Take 10 | Excluded album (The Beatles) |
-| Glass Onion - Take 33 / Anthology 3 Version | Excluded album (Anthology 3) |
-| Revolution | Excluded album (Love) |
-| Revolution - Esher Demo | Excluded album (The Beatles) |
-| Revolution - Remastered 2009 | Excluded album (The Beatles 1967 - 1970 (Remastered)) |
-| Revolution - Take 14 / Instrumental Backing Track | Excluded album (The Beatles) |
-| Revolution - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Revolution | Excluded album (Love) |
-| Revolution - Esher Demo | Excluded album (The Beatles) |
-| Revolution - Remastered 2009 | Excluded album (The Beatles 1967 - 1970 (Remastered)) |
-| Revolution - Take 14 / Instrumental Backing Track | Excluded album (The Beatles) |
-| Revolution - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Revolution | Excluded album (Love) |
-| Revolution - Esher Demo | Excluded album (The Beatles) |
-| Revolution - Remastered 2009 | Excluded album (The Beatles 1967 - 1970 (Remastered)) |
-| Revolution - Take 14 / Instrumental Backing Track | Excluded album (The Beatles) |
-| Revolution - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Taxman - Remastered 2009 | Excluded album (Revolver (Remastered)) |
-| Taxman - Take 11 / Anthology 2 Version | Excluded album (Anthology 2) |
-| Blackbird - 2018 Mix | Excluded album (The Beatles) |
-| Blackbird - Anthology 3 Version | Excluded album (Anthology 3) |
-| Blackbird - Esher Demo | Excluded album (The Beatles) |
-| Blackbird - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Blackbird - Take 28 | Excluded album (The Beatles) |
-| Blackbird - 2018 Mix | Excluded album (The Beatles) |
-| Blackbird - Anthology 3 Version | Excluded album (Anthology 3) |
-| Blackbird - Esher Demo | Excluded album (The Beatles) |
-| Blackbird - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Blackbird - Take 28 | Excluded album (The Beatles) |
-| Blackbird - 2018 Mix | Excluded album (The Beatles) |
-| Blackbird - Anthology 3 Version | Excluded album (Anthology 3) |
-| Blackbird - Esher Demo | Excluded album (The Beatles) |
-| Blackbird - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Blackbird - Take 28 | Excluded album (The Beatles) |
+| Ob-La-Di, Ob-La-Da - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Please Please Me - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| She Came In Through The Bathroom Window - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| The Long And Winding Road - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |

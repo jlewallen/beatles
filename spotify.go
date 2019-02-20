@@ -109,8 +109,6 @@ func GetPlaylistByTitle(spotifyClient *spotify.Client, user, name string) (*spot
 }
 
 func GetPlaylist(spotifyClient *spotify.Client, user string, name string) (pl *spotify.SimplePlaylist, err error) {
-	log.Printf("Looking for '%s'...", name)
-
 	pl, err = GetPlaylistByTitle(spotifyClient, user, name)
 	if err != nil {
 		return nil, fmt.Errorf("Error getting '%s': %v", name, err)
