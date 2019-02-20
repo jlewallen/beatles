@@ -11,6 +11,7 @@ import (
 	"path/filepath"
 	"sort"
 	"strings"
+	"time"
 
 	"text/template"
 
@@ -30,6 +31,7 @@ type TrackInfo struct {
 	Album                string
 	Name                 string
 	ShortName            string
+	ReleaseDate          time.Time
 	Duration             int
 	Popularity           int
 	Dissected            []string
@@ -72,18 +74,23 @@ func (s ByPopularity) Less(i, j int) bool {
 	return s[i].Popularity > s[j].Popularity
 }
 
-func NewTrackInfo(albumName string, track spotify.FullTrack) *TrackInfo {
+func NewTrackInfo(albumName string, albumReleaseDate string, track spotify.FullTrack) *TrackInfo {
 	dissected := DisectTrackName(track.Name)
 	shortName := dissected[0]
+	releaseDate, err := time.Parse("2006-01-02", albumReleaseDate)
+	if err != nil {
+		panic(err)
+	}
 
 	return &TrackInfo{
-		ID:         track.ID,
-		Album:      albumName,
-		Name:       track.Name,
-		ShortName:  shortName,
-		Duration:   track.Duration,
-		Popularity: track.Popularity,
-		Dissected:  dissected,
+		ID:          track.ID,
+		Album:       albumName,
+		Name:        track.Name,
+		ShortName:   shortName,
+		Duration:    track.Duration,
+		Popularity:  track.Popularity,
+		Dissected:   dissected,
+		ReleaseDate: releaseDate,
 	}
 }
 
@@ -174,7 +181,7 @@ func main() {
 			}
 
 			for _, track := range fullTracks {
-				allTracks = append(allTracks, NewTrackInfo(album.Name, track))
+				allTracks = append(allTracks, NewTrackInfo(album.Name, album.ReleaseDate, track))
 			}
 		}
 	}
@@ -218,26 +225,6 @@ func main() {
 	playlists, err := cacher.GetPlaylists(options.User)
 	if err != nil {
 		log.Fatalf("Error getting playlists: %v", err)
-	}
-
-	allTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (all)")
-	if err != nil {
-		log.Fatalf("Error getting all tracks playlist: %v", err)
-	}
-
-	shortTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (short)")
-	if err != nil {
-		log.Fatalf("Error getting short tracks playlist: %v", err)
-	}
-
-	candidatesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (candidates)")
-	if err != nil {
-		log.Fatalf("Error getting candidates tracks playlist: %v", err)
-	}
-
-	err = RemoveAllPlaylistTracks(spotifyClient, candidatesTracksPlaylist.ID)
-	if err != nil {
-		log.Fatalf("Error getting removing tracks: %v", err)
 	}
 
 	excludedTracksSet := NewEmptyTracksSet()
@@ -327,58 +314,52 @@ func main() {
 	}
 
 	if options.RebuildMultiple {
-		multipleRecordingsPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (3 or more recordings)")
+		addingToExcluded := make([]spotify.ID, 0)
+		addingTo3OrMore := make([]spotify.ID, 0)
+		for _, track := range allTracks {
+			if track.Has3OrMoreRecordings {
+				if !track.Excluded {
+					if track.OnExcludedAlbum {
+						addingToExcluded = append(addingToExcluded, track.ID)
+					} else {
+						addingTo3OrMore = append(addingTo3OrMore, track.ID)
+					}
+				}
+			}
+		}
+
+		multipleRecordingsExcludedAlbumsPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (3 or more recordings on excluded albums)")
 		if err != nil {
 			log.Fatalf("Error getting multiple recordings playlist: %v", err)
 		}
 
-		addingTo3OrMore := make([]spotify.ID, 0)
-		for _, track := range allTracks {
-			if !track.Excluded {
-				if track.Has3OrMoreRecordings {
-					addingTo3OrMore = append(addingTo3OrMore, track.ID)
-				}
-			}
+		multipleRecordingsPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (3 or more recordings)")
+		if err != nil {
+			log.Fatalf("Error getting multiple recordings playlist: %v", err)
 		}
 
 		err = SetPlaylistTracks(spotifyClient, multipleRecordingsPlaylist.ID, addingTo3OrMore)
 		if err != nil {
 			log.Fatalf("Error adding tracks: %v", err)
 		}
-	}
 
-	if options.RebuildMultiple {
-		multipleRecordingsPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (3 or more recordings w/o excluded albums)")
-		if err != nil {
-			log.Fatalf("Error getting multiple recordings playlist: %v", err)
-		}
-
-		addingTo3OrMore := make([]spotify.ID, 0)
-		for _, track := range allTracks {
-			if !track.Excluded && !track.OnExcludedAlbum {
-				if track.Has3OrMoreRecordings {
-					addingTo3OrMore = append(addingTo3OrMore, track.ID)
-				}
-			}
-		}
-
-		err = SetPlaylistTracks(spotifyClient, multipleRecordingsPlaylist.ID, addingTo3OrMore)
+		err = SetPlaylistTracks(spotifyClient, multipleRecordingsExcludedAlbumsPlaylist.ID, addingToExcluded)
 		if err != nil {
 			log.Fatalf("Error adding tracks: %v", err)
 		}
 	}
 
 	if options.RebuildSingles {
-		singlesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (excluded - single recordings)")
-		if err != nil {
-			log.Fatalf("Error getting singles tracks playlist: %v", err)
-		}
-
 		addingToSingles := make([]spotify.ID, 0)
 		for _, track := range allTracks {
 			if track.Has1Recording {
 				addingToSingles = append(addingToSingles, track.ID)
 			}
+		}
+
+		singlesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (excluded - single recordings)")
+		if err != nil {
+			log.Fatalf("Error getting singles tracks playlist: %v", err)
 		}
 
 		err = SetPlaylistTracks(spotifyClient, singlesTracksPlaylist.ID, addingToSingles)
@@ -388,16 +369,21 @@ func main() {
 	}
 
 	if options.RebuildBase {
-		log.Printf("Building '%s'...", allTracksPlaylist.Name)
-
-		err = RemoveAllPlaylistTracks(spotifyClient, allTracksPlaylist.ID)
+		allTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (all)")
 		if err != nil {
-			log.Fatalf("Error getting removing tracks: %v", err)
+			log.Fatalf("Error getting all tracks playlist: %v", err)
 		}
 
-		err = AddTracksToPlaylist(spotifyClient, allTracksPlaylist.ID, addingToAll)
+		log.Printf("Building '%s'...", allTracksPlaylist.Name)
+
+		err = SetPlaylistTracks(spotifyClient, allTracksPlaylist.ID, addingToAll)
 		if err != nil {
 			log.Fatalf("Error adding tracks: %v", err)
+		}
+
+		shortTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (short)")
+		if err != nil {
+			log.Fatalf("Error getting short tracks playlist: %v", err)
 		}
 
 		log.Printf("Building '%s'...", shortTracksPlaylist.Name)
@@ -406,6 +392,11 @@ func main() {
 		if err != nil {
 			log.Fatalf("Error adding tracks: %v", err)
 		}
+	}
+
+	candidatesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (candidates)")
+	if err != nil {
+		log.Fatalf("Error getting candidates tracks playlist: %v", err)
 	}
 
 	log.Printf("Building '%s'...", candidatesTracksPlaylist.Name)
@@ -448,7 +439,7 @@ func GenerateTable(tracks []*TrackInfo) error {
 	defer file.Close()
 
 	data := struct {
-		ByName []*TrackInfo
+		ByName       []*TrackInfo
 		ByPopularity []*TrackInfo
 	}{
 		tracks,
