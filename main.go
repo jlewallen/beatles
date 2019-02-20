@@ -357,51 +357,25 @@ func main() {
 			}
 		}
 
-		singlesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (excluded - single recordings)")
-		if err != nil {
-			log.Fatalf("Error getting singles tracks playlist: %v", err)
-		}
-
-		err = SetPlaylistTracks(spotifyClient, singlesTracksPlaylist.ID, addingToSingles)
+		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (excluded - single recordings)", addingToSingles)
 		if err != nil {
 			log.Fatalf("Error adding tracks: %v", err)
 		}
 	}
 
 	if options.RebuildBase {
-		allTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (all)")
-		if err != nil {
-			log.Fatalf("Error getting all tracks playlist: %v", err)
-		}
-
-		log.Printf("Building '%s'...", allTracksPlaylist.Name)
-
-		err = SetPlaylistTracks(spotifyClient, allTracksPlaylist.ID, addingToAll)
+		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (all)", addingToAll)
 		if err != nil {
 			log.Fatalf("Error adding tracks: %v", err)
 		}
 
-		shortTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (short)")
-		if err != nil {
-			log.Fatalf("Error getting short tracks playlist: %v", err)
-		}
-
-		log.Printf("Building '%s'...", shortTracksPlaylist.Name)
-
-		err = SetPlaylistTracks(spotifyClient, shortTracksPlaylist.ID, addingToShort)
+		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (short)", addingToShort)
 		if err != nil {
 			log.Fatalf("Error adding tracks: %v", err)
 		}
 	}
 
-	candidatesTracksPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (candidates)")
-	if err != nil {
-		log.Fatalf("Error getting candidates tracks playlist: %v", err)
-	}
-
-	log.Printf("Building '%s'...", candidatesTracksPlaylist.Name)
-
-	err = SetPlaylistTracks(spotifyClient, candidatesTracksPlaylist.ID, addingToCandidates)
+	err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (candidates)", addingToCandidates)
 	if err != nil {
 		log.Fatalf("Error adding tracks: %v", err)
 	}
