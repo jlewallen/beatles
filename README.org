@@ -20,6 +20,11 @@ It's a long story.
    - Interesting lyrics, debate over meaning and interpreting.
    - Somehwat recent.
 
+*** Candidates
+
+    - The Fool On The Hill [[https://www.beatlesbible.com/songs/the-fool-on-the-hill/][Beatles Bible]], [[https://genius.com/The-beatles-the-fool-on-the-hill-lyrics][Genius]], [[https://en.wikipedia.org/wiki/The_Fool_on_the_Hill][Wikipedia]]
+    - Lucy In the Sky With Diamonds [[https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds/][Beatles Bible]], [[https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds/][Genius]],  [[https://en.wikipedia.org/wiki/Lucy_in_the_Sky_with_Diamonds][Wikipedia]]
+
 *** Wrong Choices
     - +Within You Without You+ [[https://www.beatlesbible.com/songs/within-you-without-you/][Beatles Bible]], [[https://genius.com/The-beatles-within-you-without-you-lyrics][Genius]], [[https://en.wikipedia.org/wiki/Within_You_Without_You][Wikipedia]]
 
@@ -32,11 +37,6 @@ It's a long story.
     - +Let It Be+
     - +Strawberry Fields+
     - +Something+
-
-*** Candidates
-
-    - The Fool On The Hill [[https://www.beatlesbible.com/songs/the-fool-on-the-hill/][Beatles Bible]], [[https://genius.com/The-beatles-the-fool-on-the-hill-lyrics][Genius]], [[https://en.wikipedia.org/wiki/The_Fool_on_the_Hill][Wikipedia]]
-    - Lucy In the Sky With Diamonds [[https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds/][Beatles Bible]], [[https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds/][Genius]],  [[https://en.wikipedia.org/wiki/Lucy_in_the_Sky_with_Diamonds][Wikipedia]]
 
 *** Excluded
 
