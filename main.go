@@ -31,7 +31,8 @@ type TrackInfo struct {
 	Album                string
 	Name                 string
 	ShortName            string
-	ReleaseDate          time.Time
+	AlbumReleaseDate     time.Time
+	SongReleaseDate      time.Time
 	Duration             int
 	Popularity           int
 	Dissected            []string
@@ -41,6 +42,7 @@ type TrackInfo struct {
 	Has1Recording        bool
 	Excluded             bool
 	OnExcludedAlbum      bool
+	Original             bool
 }
 
 type ByName []*TrackInfo
@@ -58,6 +60,20 @@ func (s ByName) Less(i, j int) bool {
 		return false
 	}
 	return true
+}
+
+type ByReleaseDate []*TrackInfo
+
+func (s ByReleaseDate) Len() int {
+	return len(s)
+}
+
+func (s ByReleaseDate) Swap(i, j int) {
+	s[i], s[j] = s[j], s[i]
+}
+
+func (s ByReleaseDate) Less(i, j int) bool {
+	return s[i].SongReleaseDate.Unix() > s[j].SongReleaseDate.Unix()
 }
 
 type ByPopularity []*TrackInfo
@@ -83,14 +99,14 @@ func NewTrackInfo(albumName string, albumReleaseDate string, track spotify.FullT
 	}
 
 	return &TrackInfo{
-		ID:          track.ID,
-		Album:       albumName,
-		Name:        track.Name,
-		ShortName:   shortName,
-		Duration:    track.Duration,
-		Popularity:  track.Popularity,
-		Dissected:   dissected,
-		ReleaseDate: releaseDate,
+		ID:               track.ID,
+		Album:            albumName,
+		Name:             track.Name,
+		ShortName:        shortName,
+		Duration:         track.Duration,
+		Popularity:       track.Popularity,
+		Dissected:        dissected,
+		AlbumReleaseDate: releaseDate,
 	}
 }
 
@@ -131,8 +147,6 @@ func main() {
 	cacher := SpotifyCacher{
 		spotifyClient: spotifyClient,
 	}
-
-	// https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2?si=BPm1QDocRxW3JkNDNbmGxg
 
 	al := NewAuditLog()
 
@@ -198,6 +212,12 @@ func main() {
 		allFullTracks = append(allFullTracks, fullTracks...)
 	}
 
+	sort.Sort(ByName(allTracks))
+
+	allTracksByReleaseDate := make([]*TrackInfo, len(allTracks))
+	copy(allTracksByReleaseDate, allTracks)
+	sort.Sort(ByReleaseDate(allTracksByReleaseDate))
+
 	log.Printf("Got %v full tracks", len(allFullTracks))
 
 	tracksOnExcludedAlbums := NewEmptyTracksSet()
@@ -219,8 +239,6 @@ func main() {
 			tracksOnExcludedAlbums.Add(track.ID)
 		}
 	}
-
-	log.Printf("Total Tracks: %v", len(allTracks))
 
 	playlists, err := cacher.GetPlaylists(options.User)
 	if err != nil {
@@ -248,8 +266,6 @@ func main() {
 
 	log.Printf("Have %d excluded tracks", len(excludedTracksSet.ToArray()))
 
-	sort.Sort(ByName(allTracks))
-
 	byShortNames := make(map[string][]*TrackInfo)
 	byTitles := make(map[string]bool)
 	addingToAll := make([]spotify.ID, 0)
@@ -259,7 +275,6 @@ func main() {
 		if excludedTracksSet.Contains(track.ID) {
 			track.Excluded = true
 			al.Append(track.Name, "Excluded")
-
 		}
 
 		if _, ok := byTitles[track.Name]; !ok {
@@ -285,8 +300,14 @@ func main() {
 	}
 
 	for _, v := range byShortNames {
+		songReleaseDate := v[0].AlbumReleaseDate
+
 		for _, track := range v {
 			track.Recordings = len(v)
+
+			if track.AlbumReleaseDate.Before(songReleaseDate) {
+				songReleaseDate = track.AlbumReleaseDate
+			}
 
 			if tracksOnExcludedAlbums.Contains(track.ID) {
 				for _, track := range v {
@@ -294,6 +315,14 @@ func main() {
 					al.Append(track.Name, fmt.Sprintf("Excluded album (%v)", track.Album))
 				}
 			}
+		}
+
+		for _, track := range v {
+			if track.AlbumReleaseDate == songReleaseDate {
+				al.Append(track.Name, fmt.Sprintf("Marked as original (%v)", track.Album))
+				track.Original = true
+			}
+			track.SongReleaseDate = songReleaseDate
 		}
 
 		if len(v) == 1 {
@@ -316,6 +345,7 @@ func main() {
 	if options.RebuildMultiple {
 		addingToExcluded := make([]spotify.ID, 0)
 		addingTo3OrMore := make([]spotify.ID, 0)
+
 		for _, track := range allTracks {
 			if track.Has3OrMoreRecordings {
 				if !track.Excluded {
@@ -328,22 +358,39 @@ func main() {
 			}
 		}
 
-		multipleRecordingsExcludedAlbumsPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (3 or more recordings on excluded albums)")
-		if err != nil {
-			log.Fatalf("Error getting multiple recordings playlist: %v", err)
+		byReleaseDate := make([]spotify.ID, 0)
+		originals := make([]spotify.ID, 0)
+
+		for _, track := range allTracksByReleaseDate {
+			if track.Has3OrMoreRecordings {
+				if !track.Excluded {
+					if !track.OnExcludedAlbum {
+						byReleaseDate = append(byReleaseDate, track.ID)
+
+						if track.Original {
+							originals = append(originals, track.ID)
+						}
+					}
+				}
+			}
 		}
 
-		multipleRecordingsPlaylist, err := GetPlaylist(spotifyClient, options.User, artistName+" (3 or more recordings)")
-		if err != nil {
-			log.Fatalf("Error getting multiple recordings playlist: %v", err)
-		}
-
-		err = SetPlaylistTracks(spotifyClient, multipleRecordingsPlaylist.ID, addingTo3OrMore)
+		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3)", addingTo3OrMore)
 		if err != nil {
 			log.Fatalf("Error adding tracks: %v", err)
 		}
 
-		err = SetPlaylistTracks(spotifyClient, multipleRecordingsExcludedAlbumsPlaylist.ID, addingToExcluded)
+		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3 originals)", originals)
+		if err != nil {
+			log.Fatalf("Error adding tracks: %v", err)
+		}
+
+		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3 by release date)", byReleaseDate)
+		if err != nil {
+			log.Fatalf("Error adding tracks: %v", err)
+		}
+
+		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3 on excluded albums)", addingToExcluded)
 		if err != nil {
 			log.Fatalf("Error adding tracks: %v", err)
 		}
