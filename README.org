@@ -50,6 +50,9 @@ It's a long story.
 
 **** Excluded
 
+     - +Because+
+       No drums. Popular.
+
      - +It's All Too Much+ (Too few recordings)
      - +Two Of Us+
       
@@ -168,8 +171,7 @@ It's a long story.
 
 * Research
 
-  - [[https://open.spotify.com/user/jlewalle/playlist/3RKiDQsy3jgva8njeGxlTx?si=dvldx5XeTS2YFQko25AYrQ][Songs with 3 or more recordings]]
-  - [[https://open.spotify.com/user/jlewalle/playlist/2rY13VIt809icuOtNIdJZ4?si=xncvEBhcSWSBZCsrRrTGYA][Songs with George vocals minus Revolver and White]]
+  - [[https://open.spotify.com/user/jlewalle/playlist/4qFZi6EspeyIcXpoIFZpRc?si=w3mZmNPzToil8TvZ68JwIg][Songs with George vocals minus Revolver and White]]
   - [[https://open.spotify.com/user/jlewalle/playlist/5ETMcIXmnGN9txrafXwIyE?si=m03Ci_SzSZC92OUtL3d7Kw][All Songs]]
 
   - Penny Lane [[https://www.beatlesbible.com/songs/penny-lane/][Beatles Bible]]
@@ -178,5 +180,37 @@ It's a long story.
   - She's Leaving Home [[https://en.wikipedia.org/wiki/She%27s_Leaving_Home][Wikipedia]], [[https://www.beatlesbible.com/songs/shes-leaving-home/][Beatles Bible]], [[https://genius.com/The-beatles-shes-leaving-home-lyrics][Genius]]
   - Lovely Rita [[https://www.beatlesbible.com/songs/lovely-rita/][Beatles Bible]], [[https://genius.com/The-beatles-lovely-rita-lyrics][Genius]]
 
+* Tracks George Sings On
+  | Song                               | Album                                 |
+  | Chains	                           | Please Please Me                      |
+  | Do You Want To Know A Secret       | Please Please Me                      |
+  | Don't Bother Me                    | With The Beatles                      |
+  | Roll Over Beethoven                | With The Beatles                      |
+  | Devil In Her Heart	               | With The Beatles                      |
+  | I'm Happy Just To Dance With You	 | A Hard Day's Night                    |
+  | Everybody's Trying To Be My Baby	 | Beatles For Sale                      |
+  | I Need You	                       | Help!                                 |
+  | You Like Me Too Much	             | Help!                                 |
+  | Think For Yourself	               | Rubber Soul                           |
+  | If I Needed Someone                | Rubber Soul                           |
+  | Taxman	                           | Revolver                              |
+  | Love You To                        | Revolver                              |
+  | I Want To Tell You	               | Revolver                              |
+  | Within You Without You	           | Sgt. Pepper's Lonely Hearts Club Band |
+  | Blue Jay Way	                     | Magical Mystery Tour                  |
+  | Old Brown Shoe	                   | Past Masters Vol. 2                   |
+  | The Inner Light                    | Past Masters Vol. 2                   |
+  | While My Guitar Gently Weeps       | The Beatles [White Album] (Disc 1)    |
+  | Piggies                            | The Beatles [White Album] (Disc 1)    |
+  | Long, Long, Long                   | The Beatles [White Album] (Disc 2)    |
+  | Savoy Truffle                      | The Beatles [White Album] (Disc 2)    |
+  | Only A Northern Song               | Yellow Submarine                      |
+  | It's All Too Much                  | Yellow Submarine                      |
+  | I Me Mine                          | Let It Be                             |
+  | For You Blue	                     | Let It Be                             |
+  | Something                          | Abbey Road                            |
+  | Here Comes The Sun	               | Abbey Road                            |
+
 * Future Work
+
 ** TODO: Consider Remastered 2009 and Remastered 2015 a single recording.

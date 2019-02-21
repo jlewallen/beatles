@@ -1,0 +1,8 @@
+| Name | Exclusion |
+{{- range .ByName}}
+{{- if .Excluded}}
+| {{.Name}} | {{.ExcludedReason}} | {{.ID}} |
+{{- else}}
+| {{.Name}} | | {{.ID}} |
+{{- end -}}
+{{- end}}

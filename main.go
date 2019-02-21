@@ -94,6 +94,7 @@ func NewTrackInfo(albumName string, albumReleaseDate string, track spotify.FullT
 	trackName := track.Name
 	trackName = strings.Replace(trackName, "U.S.S.R", "U.S.S.R.", -1)
 	trackName = strings.Replace(trackName, "Sgt.", "Sgt", -1)
+	trackName = strings.Replace(trackName, "Mr.", "Mr", -1)
 
 	return &TrackInfo{
 		ID:               track.ID,
@@ -191,6 +192,7 @@ func main() {
 
 	allTracks := make([]*TrackInfo, 0)
 	allTrackIds := make([]spotify.ID, 0)
+	trackIdsMap := make(map[spotify.ID]bool)
 
 	for _, album := range albums {
 		tracks, err := cacher.GetAlbumTracks(album.ID)
@@ -202,8 +204,11 @@ func main() {
 
 		albumTrackIds := make([]spotify.ID, 0)
 		for _, track := range tracks {
-			allTrackIds = append(allTrackIds, track.ID)
-			albumTrackIds = append(albumTrackIds, track.ID)
+			if _, ok := trackIdsMap [track.ID]; !ok {
+				allTrackIds = append(allTrackIds, track.ID)
+				albumTrackIds = append(albumTrackIds, track.ID)
+				trackIdsMap[track.ID] = true
+			}
 		}
 
 		for i := 0; i < len(albumTrackIds); i += 50 {
@@ -290,7 +295,6 @@ func main() {
 	log.Printf("Have %d tracks from excluded albums", len(tracksOnExcludedAlbums))
 
 	byShortNames := make(map[string][]*TrackInfo)
-	byTitles := make(map[string]bool)
 	addingToAll := make([]spotify.ID, 0)
 	addingToShort := make([]spotify.ID, 0)
 	addingToExcluded := make([]spotify.ID, 0)
@@ -309,18 +313,13 @@ func main() {
 			al.Append(track.Name, reason)
 		}
 
-		if _, ok := byTitles[track.Name]; !ok {
-			if !track.Excluded {
-				addingToAll = append(addingToAll, track.ID)
-			}
-
-			if _, ok := byShortNames[track.ShortName]; !ok {
-				byShortNames[track.ShortName] = make([]*TrackInfo, 0)
-			}
-
-			byShortNames[track.ShortName] = append(byShortNames[track.ShortName], track)
-			byTitles[track.Name] = true
+		if _, ok := byShortNames[track.ShortName]; !ok {
+			byShortNames[track.ShortName] = make([]*TrackInfo, 0)
 		}
+
+		byShortNames[track.ShortName] = append(byShortNames[track.ShortName], track)
+
+		addingToAll = append(addingToAll, track.ID)
 	}
 
 	for _, v := range byShortNames {
@@ -452,6 +451,7 @@ func GenerateTable(tracks []*TrackInfo) error {
 		"tracks.org.template":  "tracks.org",
 		"excluded.org.template": "excluded.org",
 		"candidates.org.template": "candidates.org",
+		"all.org.template": "all.org",
 	}
 	byPopularity := make([]*TrackInfo, len(tracks))
 
