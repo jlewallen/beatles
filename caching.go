@@ -16,8 +16,12 @@ type SpotifyCacher struct {
 	spotifyClient *spotify.Client
 }
 
+func getFilePath(name string, a ...interface{}) string {
+	return ".cache/" + fmt.Sprintf(name, a...)
+}
+
 func (sc *SpotifyCacher) GetPlaylists(user string) (playlists *PlaylistSet, err error) {
-	cachedFile := fmt.Sprintf("playlists-%s.json", user)
+	cachedFile := getFilePath("playlists-%s.json", user)
 	if _, err := os.Stat(cachedFile); !os.IsNotExist(err) {
 		file, err := ioutil.ReadFile(cachedFile)
 		if err != nil {
@@ -83,12 +87,12 @@ func (sc *SpotifyCacher) Invalidate(id spotify.ID) {
 		log.Printf("Invalidating playlist %v", id)
 	}
 
-	cachedFile := fmt.Sprintf("playlist-%s.json", id)
+	cachedFile := getFilePath("playlist-%s.json", id)
 	os.Remove(cachedFile)
 }
 
 func (sc *SpotifyCacher) GetPlaylistTracks(userId string, id spotify.ID) (allTracks []spotify.PlaylistTrack, err error) {
-	cachedFile := fmt.Sprintf("playlist-%s.json", id)
+	cachedFile := getFilePath("playlist-%s.json", id)
 	if _, err := os.Stat(cachedFile); !os.IsNotExist(err) {
 		file, err := ioutil.ReadFile(cachedFile)
 		if err != nil {
@@ -128,7 +132,7 @@ func (sc *SpotifyCacher) GetPlaylistTracks(userId string, id spotify.ID) (allTra
 }
 
 func (sc *SpotifyCacher) GetAlbum(id spotify.ID) (album *spotify.FullAlbum, err error) {
-	cachedFile := fmt.Sprintf("album-%s.json", id)
+	cachedFile := getFilePath("album-%s.json", id)
 	if _, err := os.Stat(cachedFile); !os.IsNotExist(err) {
 		file, err := ioutil.ReadFile(cachedFile)
 		if err != nil {
@@ -168,7 +172,7 @@ func (sc *SpotifyCacher) GetAlbum(id spotify.ID) (album *spotify.FullAlbum, err 
 }
 
 func (sc *SpotifyCacher) GetAlbumTracks(id spotify.ID) (allTracks []spotify.SimpleTrack, err error) {
-	cachedFile := fmt.Sprintf("album-tracks-%s.json", id)
+	cachedFile := getFilePath("album-tracks-%s.json", id)
 	if _, err := os.Stat(cachedFile); !os.IsNotExist(err) {
 		file, err := ioutil.ReadFile(cachedFile)
 		if err != nil {
@@ -208,7 +212,7 @@ func (sc *SpotifyCacher) GetAlbumTracks(id spotify.ID) (allTracks []spotify.Simp
 }
 
 func (sc *SpotifyCacher) GetArtistAlbums(id spotify.ID) (allAlbums []spotify.SimpleAlbum, err error) {
-	cachedFile := fmt.Sprintf("artist-albums-%s.json", id)
+	cachedFile := getFilePath("artist-albums-%s.json", id)
 	if _, err := os.Stat(cachedFile); !os.IsNotExist(err) {
 		file, err := ioutil.ReadFile(cachedFile)
 		if err != nil {
@@ -250,7 +254,7 @@ func (sc *SpotifyCacher) GetArtistAlbums(id spotify.ID) (allAlbums []spotify.Sim
 func (sc *SpotifyCacher) GetTracks(ids []spotify.ID) (tracks []spotify.FullTrack, err error) {
 	requesting := make([]spotify.ID, 0)
 	for _, id := range ids {
-		cachedFile := fmt.Sprintf("track-%s.json", id)
+		cachedFile := getFilePath("track-%s.json", id)
 		if _, err := os.Stat(cachedFile); os.IsNotExist(err) {
 			requesting = append(requesting, id)
 		}
@@ -264,7 +268,7 @@ func (sc *SpotifyCacher) GetTracks(ids []spotify.ID) (tracks []spotify.FullTrack
 		}
 
 		for _, track := range requested {
-			cachedFile := fmt.Sprintf("track-%s.json", track.ID)
+			cachedFile := getFilePath("track-%s.json", track.ID)
 
 			json, err := json.Marshal(track)
 			if err != nil {
@@ -281,7 +285,7 @@ func (sc *SpotifyCacher) GetTracks(ids []spotify.ID) (tracks []spotify.FullTrack
 	tracks = make([]spotify.FullTrack, 0)
 
 	for _, id := range ids {
-		cachedFile := fmt.Sprintf("track-%s.json", id)
+		cachedFile := getFilePath("track-%s.json", id)
 		if _, err := os.Stat(cachedFile); !os.IsNotExist(err) {
 			file, err := ioutil.ReadFile(cachedFile)
 			if err != nil {
