@@ -251,7 +251,7 @@ func main() {
 			log.Fatalf("Error getting source: %v", err)
 		}
 
-		log.Printf("Album(EXCLUDED): %v (%v) (%v tracks)", album.Name, album.ReleaseDate, len(tracks))
+		log.Printf("ExcludedAlbum: %v (%v) (%v tracks)", album.Name, album.ReleaseDate, len(tracks))
 
 		for _, track := range tracks {
 			tracksOnExcludedAlbums.Add(track.ID)
@@ -267,15 +267,15 @@ func main() {
 
 	for _, playlist := range playlists.Playlists {
 		if strings.HasPrefix(playlist.Name, artistName) {
-			if strings.Contains(playlist.Name, "excluded") {
-				log.Printf("Applying exclusion playlist '%s'...", playlist.Name)
-
+			if strings.Contains(playlist.Name, "(excluded") {
 				cacher.Invalidate(playlist.ID)
 
 				playlistTracks, err := cacher.GetPlaylistTracks(options.User, playlist.ID)
 				if err != nil {
 					log.Fatalf("Error getting tracks: %v", err)
 				}
+
+				log.Printf("Applying exclusion playlist '%s' (%v tracks)", playlist.Name, len(playlistTracks))
 
 				for _, track := range playlistTracks {
 					excludedTracks[track.Track.ID] = playlist.Name
@@ -294,7 +294,7 @@ func main() {
 	for _, track := range allTracks {
 		if reason, ok := excludedTracks[track.ID]; ok {
 			track.Exclude(fmt.Sprintf("By %s", reason))
-			al.Append(track.Name, "Excluded")
+			al.Append(track.Name, fmt.Sprintf("Excluded by %s", reason))
 		}
 
 		if _, ok := byTitles[track.Name]; !ok {
