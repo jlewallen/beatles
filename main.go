@@ -84,17 +84,18 @@ func (s ByPopularity) Less(i, j int) bool {
 }
 
 func NewTrackInfo(albumName string, albumReleaseDate string, track spotify.FullTrack) *TrackInfo {
-	dissected := DissectTrackName(track.Name)
+	trackName := track.Name
+	trackName = strings.Replace(trackName, "U.S.S.R", "U.S.S.R.", -1)
+	trackName = strings.Replace(trackName, "Sgt.", "Sgt", -1)
+	trackName = strings.Replace(trackName, "Mr.", "Mr", -1)
+	trackName = strings.Replace(trackName, "Sixty Four", "Sixty-Four", -1)
+
+	dissected := DissectTrackName(trackName)
 	shortName := dissected[0]
 	releaseDate, err := time.Parse("2006-01-02", albumReleaseDate)
 	if err != nil {
 		panic(err)
 	}
-
-	trackName := track.Name
-	trackName = strings.Replace(trackName, "U.S.S.R", "U.S.S.R.", -1)
-	trackName = strings.Replace(trackName, "Sgt.", "Sgt", -1)
-	trackName = strings.Replace(trackName, "Mr.", "Mr", -1)
 
 	return &TrackInfo{
 		ID:               track.ID,
@@ -176,6 +177,7 @@ func main() {
 	excludedAlbums := []spotify.ID{
 		spotify.ID("3PRoXYsngSwjEQWR5PsHWR"),
 		spotify.ID("1klALx0u4AavZNEvC4LrTL"),
+		spotify.ID("6QaVfG1pHYl1z15ZxkvVDW"),
 	}
 
 	artist, err := spotifyClient.GetArtist(artistId)

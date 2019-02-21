@@ -4,20 +4,20 @@
 | 1822! - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too short (10s), Too few recordings (1) |
 | A Beginning (Take 4) / Don’t Pass Me By (Take 7) | Too few recordings (1) |
 | A Beginning - Anthology 3 Version | Too short (49s), Too few recordings (1) |
-| A Day In The Life | Excluded by the beatles (excluded - guessed) |
-| A Day In The Life | Excluded by the beatles (excluded) |
-| A Day In The Life - Anthology 2 Version | Excluded by the beatles (excluded - guessed) |
-| A Day In The Life - First Mono Mix | Excluded by the beatles (excluded) |
-| A Day In The Life - Hummed Last Chord / Takes 8, 9, 10 And 11 | Excluded by the beatles (excluded) |
-| A Day In The Life - Orchestra Overdub | Too short (55s) |
-| A Day In The Life - Remastered 2009 | Excluded by the beatles (excluded - guessed) |
-| A Day In The Life - Remastered 2010 | Excluded by the beatles (excluded - guessed) |
-| A Day In The Life - Remix | Excluded by the beatles (excluded - guessed) |
-| A Day In The Life - Remix | Excluded by the beatles (excluded) |
-| A Day In The Life - Take 1 | Excluded by the beatles (excluded - guessed) |
-| A Day In The Life - Take 1 With Hums | Excluded by the beatles (excluded - guessed) |
-| A Day In The Life - Take 2 | Excluded by the beatles (excluded - guessed) |
-| A Day In The Life - The Last Chord | Excluded by the beatles (excluded - guessed) |
+| A Day In The Life | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life - Anthology 2 Version | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life - First Mono Mix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life - Hummed Last Chord / Takes 8, 9, 10 And 11 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life - Orchestra Overdub | Too short (55s), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life - Remastered 2009 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life - Remastered 2010 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life - Remix | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life - Remix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life - Take 1 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life - Take 1 With Hums | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life - Take 2 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life - The Last Chord | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | A Hard Day's Night - Anthology 1 Version | Excluded by the beatles (excluded) |
 | A Hard Day's Night - Live / Remastered | Excluded by the beatles (excluded) |
 | A Hard Day's Night - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded by the beatles (excluded) |
@@ -86,6 +86,15 @@
 | Because | Excluded by the beatles (excluded) |
 | Because - Anthology 3 Version | Excluded by the beatles (excluded) |
 | Because - Remastered 2009 | Excluded by the beatles (excluded) |
+| Being For The Benefit Of Mr Kite! | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Being For The Benefit Of Mr Kite! - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Being For The Benefit Of Mr Kite! - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Being For The Benefit Of Mr Kite! - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Being For The Benefit Of Mr Kite! - Speech From Before Take 1 / Take 4 And Speech At End | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Being For The Benefit Of Mr Kite! - Take 4 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Being For The Benefit Of Mr Kite! - Take 7 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Being For The Benefit Of Mr Kite! - Take 7 / Anthology 2 Version | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Being For The Benefit Of Mr Kite! - Takes 1 & 2 / Anthology 2 Version | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | Being For The Benefit Of Mr Kite! / I Want You (She's So Heavy) / Helter Skelter | Too few recordings (1) |
 | Besame Mucho - Anthology 1 Version | Too few recordings (1) |
 | Birthday - 2018 Mix | Excluded album (The Beatles (Remastered)) |
@@ -99,12 +108,22 @@
 | Blackbird / Yesterday | Too few recordings (1) |
 | Blue Jay Way - Remastered 2009 | Too few recordings (1) |
 | Blue Moon - Studio Jam | Too few recordings (1) |
+| Boys - Anthology 1 Version | Excluded by the beatles (excluded) |
+| Boys - Live / Remastered | Excluded by the beatles (excluded) |
+| Boys - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Excluded by the beatles (excluded) |
+| Boys - Remastered 2009 | Excluded by the beatles (excluded) |
 | Boys, What Was I Thinking... - Anthology 1 Version | Too few recordings (1) |
 | Brian Bathtubes - Live At The BBC For "Saturday Club" / 21st December, 1963 | Too short (58s), Too few recordings (1) |
 | Brian Was A Beautiful Guy...He Presented Us Well - Anthology 1 Version | Too short (10s), Too few recordings (1) |
 | Bumper Bundle - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too short (49s), Too few recordings (1) |
 | Bye, Bye - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Too short (24s), Too few recordings (1) |
 | Can You Take Me Back? - Take 1 | Too few recordings (1) |
+| Can't Buy Me Love - Anthology 1 Version | Excluded by the beatles (excluded) |
+| Can't Buy Me Love - Live / Remastered | Excluded by the beatles (excluded) |
+| Can't Buy Me Love - Live At The BBC For "From Us To You Say The Beatles" / 10th March, 1964 | Excluded by the beatles (excluded) |
+| Can't Buy Me Love - Remastered 2009 | Excluded by the beatles (excluded) |
+| Can't Buy Me Love - Remastered 2009 | Excluded by the beatles (excluded) |
+| Can't Buy Me Love - Remastered 2015 | Excluded by the beatles (excluded) |
 | Carol - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Too few recordings (1) |
 | Carry That Weight - Remastered 2009 | Too few recordings (1) |
 | Cayenne - Anthology 1 Version | Too few recordings (1) |
@@ -127,6 +146,9 @@
 | Cry Baby Cry - Unnumbered Rehearsal | Excluded album (The Beatles (Remastered)) |
 | Cry For A Shadow - Anthology 1 Version | Too few recordings (1) |
 | Crying, Waiting, Hoping - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Too few recordings (1) |
+| Day Tripper - Remastered 2009 | Excluded by the beatles (excluded) |
+| Day Tripper - Remastered 2009 | Excluded by the beatles (excluded) |
+| Day Tripper - Remastered 2015 | Excluded by the beatles (excluded) |
 | Dear Prudence - 2018 Mix | Excluded album (The Beatles (Remastered)) |
 | Dear Prudence - Esher Demo | Excluded album (The Beatles (Remastered)) |
 | Dear Prudence - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
@@ -143,6 +165,9 @@
 | Doctor Robert - Remastered 2009 | Excluded album (Revolver (Remastered)), Too few recordings (1) |
 | Don't Bother Me - Remastered 2009 | Too few recordings (1) |
 | Don't Ever Change - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Too few recordings (1) |
+| Don't Let Me Down - Naked Version / Remastered 2013 | Excluded by the beatles (excluded) |
+| Don't Let Me Down - Remastered 2009 | Excluded by the beatles (excluded) |
+| Don't Let Me Down - Remastered 2009 | Excluded by the beatles (excluded) |
 | Don't Pass Me By - 2018 Mix | Excluded album (The Beatles (Remastered)) |
 | Don't Pass Me By - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
 | Don't Pass Me By - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
@@ -165,8 +190,18 @@
 | Everybody's Got Something To Hide Except Me And My Monkey - Esher Demo | Excluded album (The Beatles (Remastered)) |
 | Everybody's Got Something To Hide Except Me And My Monkey - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
 | Everybody's Got Something To Hide Except Me And My Monkey - Unnumbered Rehearsal | Excluded album (The Beatles (Remastered)) |
+| Everybody's Trying To Be My Baby - Live At The BBC For "Top Gear" / 26th November, 1964 | Excluded by the beatles (excluded) |
+| Everybody's Trying To Be My Baby - Live From Shea Stadium, New York, USA/1965 / Anthology 2 Version | Excluded by the beatles (excluded) |
+| Everybody's Trying To Be My Baby - Remastered 2009 | Excluded by the beatles (excluded) |
 | Everybody’s Trying To Be My Baby - Live / Bonus Track | Too few recordings (1) |
 | First Of All... It Didn't Do A Thing Here - Anthology 1 Version | Too short (7s), Too few recordings (1) |
+| Fixing A Hole | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Fixing A Hole - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Fixing A Hole - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Fixing A Hole - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Fixing A Hole - Speech And Take 3 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Fixing A Hole - Speech And Take 3 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Fixing A Hole - Take 1 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | Flying - Remastered 2009 | Too few recordings (1) |
 | For No One - Remastered 2009 | Excluded album (Revolver (Remastered)), Too few recordings (1) |
 | Free As A Bird - Anthology 1 Version | Too few recordings (1) |
@@ -186,6 +221,16 @@
 | Get Back - Remastered 2009 | Excluded by the beatles (excluded) |
 | Get Back - Remastered 2009 | Excluded by the beatles (excluded) |
 | Get Back - Remastered 2015 | Excluded by the beatles (excluded) |
+| Getting Better | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Getting Better - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Getting Better - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Getting Better - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Getting Better - Take 1 / Instrumental And Speech At The End | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Getting Better - Take 1 / Instrumental And Speech At The End | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Getting Better - Take 12 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Girl | Excluded by the beatles (excluded) |
+| Girl - Remastered 2009 | Excluded by the beatles (excluded) |
+| Girl - Remastered 2009 | Excluded by the beatles (excluded) |
 | Glad All Over - Live At The BBC For "Pop Go The Beatles" / 20th August, 1963 | Too few recordings (2) |
 | Glad All Over - Live At The BBC For "Saturday Club" / 24th August, 1963 | Too few recordings (2) |
 | Glass Onion | Excluded album (The Beatles (Remastered)) |
@@ -198,12 +243,14 @@
 | Gnik Nus | Too short (55s), Too few recordings (1) |
 | Golden Slumbers - Remastered 2009 | Too few recordings (1) |
 | Good Day Sunshine - Remastered 2009 | Excluded album (Revolver (Remastered)), Too few recordings (1) |
-| Good Morning Good Morning | Excluded by the beatles (excluded) |
-| Good Morning Good Morning - Remastered 2009 | Excluded by the beatles (excluded) |
-| Good Morning Good Morning - Remix | Excluded by the beatles (excluded) |
-| Good Morning Good Morning - Take 1 / Instrumental Breakdown | Excluded by the beatles (excluded) |
-| Good Morning Good Morning - Take 8 | Excluded by the beatles (excluded) |
-| Good Morning Good Morning - Take 8 / Anthology 2 Version | Excluded by the beatles (excluded) |
+| Good Morning Good Morning | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Good Morning Good Morning - Remastered 2009 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Good Morning Good Morning - Remix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Good Morning Good Morning - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Good Morning Good Morning - Take 1 / Instrumental Breakdown | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Good Morning Good Morning - Take 8 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Good Morning Good Morning - Take 8 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Good Morning Good Morning - Take 8 / Anthology 2 Version | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | Good Night - 2018 Mix | Excluded album (The Beatles (Remastered)) |
 | Good Night - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
 | Good Night - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
@@ -222,6 +269,10 @@
 | Happy Birthday Dear Saturday Club - Live At The BBC For "Saturday Club" / 5th October, 1963 | Too short (33s), Too few recordings (1) |
 | Hello Little Girl - Anthology 1 Version | Too few recordings (1) |
 | Hello! - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too short (18s), Too few recordings (1) |
+| Hello, Goodbye - Remastered 2009 | Excluded by the beatles (excluded) |
+| Hello, Goodbye - Remastered 2009 | Excluded by the beatles (excluded) |
+| Hello, Goodbye - Remastered 2015 | Excluded by the beatles (excluded) |
+| Hello, Goodbye - Take 16 / Anthology 2 Version | Excluded by the beatles (excluded) |
 | Helter Skelter - 2018 Mix | Excluded album (The Beatles (Remastered)) |
 | Helter Skelter - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
 | Helter Skelter - First Version / Take 2 | Excluded album (The Beatles (Remastered)) |
@@ -255,6 +306,11 @@
 | I Call Your Name - Remastered 2009 | Too few recordings (1) |
 | I Don't Want To Spoil The Party - Remastered 2009 | Too few recordings (1) |
 | I Feel Fine (Studio Out-take) - Live At The BBC For "Top Gear" / 17th November, 1964 | Too few recordings (1) |
+| I Feel Fine - Live At The BBC For "Top Gear" / 26th November, 1964 | Excluded by the beatles (excluded) |
+| I Feel Fine - Live From The ABC Theatre, Blackpool, UK/1965 / Anthology 2 Version | Excluded by the beatles (excluded) |
+| I Feel Fine - Remastered 2009 | Excluded by the beatles (excluded) |
+| I Feel Fine - Remastered 2009 | Excluded by the beatles (excluded) |
+| I Feel Fine - Remastered 2015 | Excluded by the beatles (excluded) |
 | I Forgot To Remember To Forget - Live At The BBC For "From Us To You Say The Beatles" / 18th May, 1964 | Too few recordings (1) |
 | I Got A Woman - Live At The BBC For "Pop Go The Beatles" / 13th August, 1963 | Too few recordings (2) |
 | I Got A Woman - Live At The BBC For "Saturday Club" / 4th April, 1964 | Too few recordings (2) |
@@ -311,6 +367,9 @@
 | I'm So Tired - Take 14 | Excluded album (The Beatles (Remastered)) |
 | I'm So Tired - Take 7 | Excluded album (The Beatles (Remastered)) |
 | I'm Talking About You - Live At The BBC For "Saturday Club" / 16th March, 1963 | Too few recordings (1) |
+| I've Got A Feeling - Anthology 3 Version | Excluded by the beatles (excluded) |
+| I've Got A Feeling - Naked Version / Remastered 2013 | Excluded by the beatles (excluded) |
+| I've Got A Feeling - Remastered 2009 | Excluded by the beatles (excluded) |
 | I've Just Seen A Face - Remastered 2009 | Too few recordings (1) |
 | If I Fell - Live At The BBC For "Top Gear" / 16th July, 1964 | Too few recordings (2) |
 | If I Fell - Remastered 2009 | Too few recordings (2) |
@@ -341,7 +400,13 @@
 | Kansas City / Hey-Hey-Hey-Hey! - Live At The BBC For "Saturday Club" / 26th December 1964 | Excluded by the beatles (excluded) |
 | Keep Your Hands Off My Baby - Live At The BBC For "Saturday Club" / 26th January, 1963 | Too few recordings (1) |
 | Komm gib mir deine Hand - Remastered 2009 | Too few recordings (1) |
+| Lady Madonna | Excluded by the beatles (excluded) |
+| Lady Madonna - Alternate Mix / Anthology 2 Version | Excluded by the beatles (excluded) |
 | Lady Madonna - Backing Vocals From Take 3 | Too short (54s) |
+| Lady Madonna - Remastered 2009 | Excluded by the beatles (excluded) |
+| Lady Madonna - Remastered 2009 | Excluded by the beatles (excluded) |
+| Lady Madonna - Remastered 2015 | Excluded by the beatles (excluded) |
+| Lady Madonna - Take 2 / Piano & Drums | Excluded by the beatles (excluded) |
 | Leave My Kitten Alone - Anthology 1 Version | Too few recordings (1) |
 | Lend Me Your Comb - Anthology 1 Version | Too few recordings (2) |
 | Lend Me Your Comb - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Too few recordings (2) |
@@ -356,6 +421,11 @@
 | Like Dreamers Do - Anthology 1 Version | Too few recordings (1) |
 | Little Child - Remastered 2009 | Too few recordings (1) |
 | Lonesome Tears In My Eyes - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too few recordings (1) |
+| Long Tall Sally - Anthology 1 Version | Excluded by the beatles (excluded) |
+| Long Tall Sally - Live / Remastered | Excluded by the beatles (excluded) |
+| Long Tall Sally - Live At The BBC For "Pop Go The Beatles" / 13th August, 1963 | Excluded by the beatles (excluded) |
+| Long Tall Sally - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded by the beatles (excluded) |
+| Long Tall Sally - Remastered 2009 | Excluded by the beatles (excluded) |
 | Long, Long, Long - 2018 Mix | Excluded album (The Beatles (Remastered)) |
 | Long, Long, Long - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
 | Long, Long, Long - Take 44 | Excluded album (The Beatles (Remastered)) |
@@ -369,21 +439,27 @@
 | Love These Goon Shows! - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Too short (27s), Too few recordings (1) |
 | Love You To | Excluded album (Revolver (Remastered)), Too few recordings (2) |
 | Love You To - Remastered 2009 | Excluded album (Revolver (Remastered)), Too few recordings (2) |
-| Lovely Rita | Excluded by the beatles (excluded) |
-| Lovely Rita - Remastered 2009 | Excluded by the beatles (excluded) |
-| Lovely Rita - Remix | Excluded by the beatles (excluded) |
-| Lovely Rita - Speech And Take 9 | Excluded by the beatles (excluded) |
+| Lovely Rita | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lovely Rita - Remastered 2009 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lovely Rita - Remix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lovely Rita - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lovely Rita - Speech And Take 9 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lovely Rita - Speech And Take 9 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | Lower 5E - Live At The BBC For "Pop Go The Beatles" / 10th September, 1963 | Too short (23s), Too few recordings (1) |
 | Lucille - Live At The BBC For "Pop Go The Beatles" / 17th September, 1963 | Too few recordings (2) |
 | Lucille - Live At The BBC For "Saturday Club" / 5th October, 1963 | Too few recordings (2) |
-| Lucy In The Sky With Diamonds | Excluded by the beatles (excluded) |
-| Lucy In The Sky With Diamonds - Alternate Mix / Anthology 2 Version | Excluded by the beatles (excluded) |
-| Lucy In The Sky With Diamonds - Original Mono Mix - No. 11 | Excluded by the beatles (excluded) |
-| Lucy In The Sky With Diamonds - Remastered 2009 | Excluded by the beatles (excluded) |
-| Lucy In The Sky With Diamonds - Remix | Excluded by the beatles (excluded) |
-| Lucy In The Sky With Diamonds - Speech, False Start And Take 5 | Excluded by the beatles (excluded) |
-| Lucy In The Sky With Diamonds - Take 1 | Excluded by the beatles (excluded) |
-| Lucy In The Sky With Diamonds - Take 1 And Speech At The End | Excluded by the beatles (excluded) |
+| Lucy In The Sky With Diamonds | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lucy In The Sky With Diamonds | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lucy In The Sky With Diamonds | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lucy In The Sky With Diamonds - Alternate Mix / Anthology 2 Version | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lucy In The Sky With Diamonds - Original Mono Mix - No. 11 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lucy In The Sky With Diamonds - Remastered 2009 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lucy In The Sky With Diamonds - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lucy In The Sky With Diamonds - Remix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lucy In The Sky With Diamonds - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lucy In The Sky With Diamonds - Speech, False Start And Take 5 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lucy In The Sky With Diamonds - Take 1 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Lucy In The Sky With Diamonds - Take 1 And Speech At The End | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | Maggie Mae - Remastered 2009 | Too short (40s), Too few recordings (1) |
 | Magical Mystery Tour - Remastered 2009 | Too few recordings (2) |
 | Magical Mystery Tour - Remastered 2009 | Too few recordings (2) |
@@ -396,9 +472,9 @@
 | Matchbox - Remastered 2009 | Too few recordings (2) |
 | Maxwell's Silver Hammer - Anthology 3 Version | Too few recordings (2) |
 | Maxwell's Silver Hammer - Remastered 2009 | Too few recordings (2) |
-| Mean Mr Mustard - Anthology 3 Version | Too few recordings (1) |
-| Mean Mr Mustard - Esher Demo | Too few recordings (2) |
-| Mean Mr Mustard - Remastered 2009 | Too few recordings (2) |
+| Mean Mr Mustard - Anthology 3 Version | Excluded by the beatles (excluded) |
+| Mean Mr Mustard - Esher Demo | Excluded by the beatles (excluded) |
+| Mean Mr Mustard - Remastered 2009 | Excluded by the beatles (excluded) |
 | Memphis, Tennessee - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Too few recordings (2) |
 | Memphis, Tennessee - Live At The BBC For "Saturday Club" / 5th October, 1963 | Too few recordings (2) |
 | Michelle - Remastered 2009 | Too few recordings (2) |
@@ -418,21 +494,41 @@
 | Mr Moonlight - Remastered 2009 | Too few recordings (2) |
 | My Bonnie - Anthology 1 Version | Too few recordings (1) |
 | Never Mind, Eh? - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Too short (34s), Too few recordings (1) |
+| No Reply - Anthology 1 Version | Excluded by the beatles (excluded) |
+| No Reply - Anthology 1 Version / Demo | Excluded by the beatles (excluded) |
+| No Reply - Remastered 2009 | Excluded by the beatles (excluded) |
 | Norwegian Wood (This Bird Has Flown) - Remastered 2009 | Excluded by the beatles (excluded - guessed) |
 | Norwegian Wood (This Bird Has Flown) - Remastered 2009 | Excluded by the beatles (excluded - guessed) |
 | Norwegian Wood (This Bird Has Flown) - Take 1 / Anthology 2 Version | Excluded by the beatles (excluded - guessed) |
 | Not A Second Time - Remastered 2009 | Too few recordings (1) |
+| Not Guilty - Anthology 3 Version | Excluded by the beatles (excluded) |
+| Not Guilty - Esher Demo | Excluded by the beatles (excluded) |
+| Not Guilty - Take 102 | Excluded by the beatles (excluded) |
 | Nothin' Shakin' - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too few recordings (1) |
 | Now Hush, Hush - Live At The BBC For "Easy Beat" / 20th October, 1963 | Too short (24s), Too few recordings (1) |
+| Nowhere Man | Excluded by the beatles (excluded) |
+| Nowhere Man - Remastered 2009 | Excluded by the beatles (excluded) |
+| Nowhere Man - Remastered 2009 | Excluded by the beatles (excluded) |
 | Ob-La-Di, Ob-La-Da - 2018 Mix | Excluded album (The Beatles (Remastered)) |
 | Ob-La-Di, Ob-La-Da - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
 | Ob-La-Di, Ob-La-Da - Esher Demo | Excluded album (The Beatles (Remastered)) |
 | Ob-La-Di, Ob-La-Da - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
 | Ob-La-Di, Ob-La-Da - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
 | Ob-La-Di, Ob-La-Da - Take 3 | Excluded album (The Beatles (Remastered)) |
+| Octopus's Garden | Excluded by the beatles (excluded) |
+| Octopus's Garden - Anthology 3 Version | Excluded by the beatles (excluded) |
+| Octopus's Garden - Remastered 2009 | Excluded by the beatles (excluded) |
+| Octopus's Garden - Remastered 2009 | Excluded by the beatles (excluded) |
 | Oh! Darling - Anthology 3 Version | Too few recordings (2) |
 | Oh! Darling - Remastered 2009 | Too few recordings (2) |
 | Oh, Can’t We? Yes We Can - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Too short (19s), Too few recordings (1) |
+| Old Brown Shoe - Anthology 3 Version | Excluded by the beatles (excluded) |
+| Old Brown Shoe - Remastered 2009 | Excluded by the beatles (excluded) |
+| Old Brown Shoe - Remastered 2009 | Excluded by the beatles (excluded) |
+| One After 909 - Anthology 1 Version / Complete | Excluded by the beatles (excluded) |
+| One After 909 - Anthology 1 Version / False Starts | Excluded by the beatles (excluded) |
+| One After 909 - Naked Version / Remastered 2013 | Excluded by the beatles (excluded) |
+| One After 909 - Remastered 2009 | Excluded by the beatles (excluded) |
 | Ooh! My Arms - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Too short (35s), Too few recordings (1) |
 | Ooh! My Soul - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Too few recordings (1) |
 | P.S. I Love You - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too few recordings (2) |
@@ -450,6 +546,10 @@
 | Piggies - Take 12 / Instrumental Backing Track | Excluded album (The Beatles (Remastered)) |
 | Please Mister Postman - Live At The BBC For "Pop Go The Beatles" / 30th July 1963 | Too few recordings (2) |
 | Please Mister Postman - Remastered 2009 | Too few recordings (2) |
+| Please Please Me - Anthology 1 Version | Excluded by the beatles (excluded) |
+| Please Please Me - Live At The BBC For "Pop Go The Beatles" / 13th August, 1963 | Excluded by the beatles (excluded) |
+| Please Please Me - Mono Version / Remastered 2009 | Excluded by the beatles (excluded) |
+| Please Please Me - Remastered 2009 | Excluded by the beatles (excluded) |
 | Rain - Remastered 2009 | Too few recordings (1) |
 | Real Love - Anthology 2 Version | Too few recordings (1) |
 | Revolution 1 - 2018 Mix | Excluded album (The Beatles (Remastered)) |
@@ -488,17 +588,45 @@
 | Sexy Sadie - Esher Demo | Excluded album (The Beatles (Remastered)) |
 | Sexy Sadie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
 | Sexy Sadie - Take 3 | Excluded album (The Beatles (Remastered)) |
-| Sgt Pepper's Lonely Hearts Club Band | Too few recordings (2) |
-| Sgt Pepper's Lonely Hearts Club Band | Too few recordings (2) |
-| Sgt Pepper's Lonely Hearts Club Band (Reprise) | Too few recordings (1) |
+| Sgt Pepper's Lonely Hearts Club Band | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Sgt Pepper's Lonely Hearts Club Band | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Sgt Pepper's Lonely Hearts Club Band (Reprise) | Excluded by the beatles (excluded) |
+| Sgt Pepper's Lonely Hearts Club Band (Reprise) - Remix | Excluded by the beatles (excluded) |
+| Sgt Pepper's Lonely Hearts Club Band (Reprise) - Remix | Excluded by the beatles (excluded) |
+| Sgt Pepper's Lonely Hearts Club Band (Reprise) - Speech And Take 8 | Excluded by the beatles (excluded) |
+| Sgt Pepper's Lonely Hearts Club Band (Reprise) - Speech And Take 8 | Excluded by the beatles (excluded) |
+| Sgt Pepper's Lonely Hearts Club Band - Remastered 2009 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Sgt Pepper's Lonely Hearts Club Band - Remastered 2009 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Sgt Pepper's Lonely Hearts Club Band - Remix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Sgt Pepper's Lonely Hearts Club Band - Remix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Sgt Pepper's Lonely Hearts Club Band - Reprise | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Sgt Pepper's Lonely Hearts Club Band - Reprise / Anthology 2 Version | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Sgt Pepper's Lonely Hearts Club Band - Reprise / Remastered 2009 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Sgt Pepper's Lonely Hearts Club Band - Take 1 / Instrumental | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Sgt Pepper's Lonely Hearts Club Band - Take 9 And Speech | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Sgt Pepper's Lonely Hearts Club Band - Take 9 And Speech | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | Sha La La La La! - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Too short (28s), Too few recordings (1) |
 | She Came In Through The Bathroom Window - Anthology 3 Version | Too few recordings (2) |
 | She Came In Through The Bathroom Window - Remastered 2009 | Too few recordings (2) |
+| She Loves You - Anthology 1 Version / Live At The Prince Of Wales Theatre, London/1963 | Excluded by the beatles (excluded) |
+| She Loves You - Live / Remastered | Excluded by the beatles (excluded) |
+| She Loves You - Live At The BBC For "Saturday Club" / 5th October, 1963 | Excluded by the beatles (excluded) |
+| She Loves You - Mono / Remastered | Excluded by the beatles (excluded) |
+| She Loves You - Mono Version / Remastered 2009 | Excluded by the beatles (excluded) |
+| She Loves You - Remastered 2009 | Excluded by the beatles (excluded) |
 | She Said She Said - Remastered 2009 | Excluded album (Revolver (Remastered)), Too few recordings (1) |
 | She's A Woman - Live / Remastered | Excluded by the beatles (excluded) |
 | She's A Woman - Live At The BBC For "Top Gear" / 26th November, 1964 | Excluded by the beatles (excluded) |
 | She's A Woman - Live From Nippon Budokan Hall, Tokyo, Japan/1966 / Anthology 2 Version | Excluded by the beatles (excluded) |
 | She's A Woman - Remastered 2009 | Excluded by the beatles (excluded) |
+| She's Leaving Home | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| She's Leaving Home - First Mono Mix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| She's Leaving Home - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| She's Leaving Home - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| She's Leaving Home - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| She's Leaving Home - Take 1 / Instrumental | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| She's Leaving Home - Take 1 / Instrumental | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| She's Leaving Home - Take 6 / Instrumental | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | Shout - Anthology 1 Version | Too few recordings (1) |
 | Sie liebt dich - Remastered 2009 | Too few recordings (1) |
 | Slow Down - Live At The BBC For "Pop Go The Beatles" / 20th August, 1963 | Too few recordings (2) |
@@ -547,6 +675,9 @@
 | That's All Right (Mama) - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Too few recordings (1) |
 | That’s What We’re Here For - Live At The BBC For "Top Gear" / 26th November, 1964 | Too short (24s), Too few recordings (1) |
 | The 49 Weeks - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Too short (16s), Too few recordings (1) |
+| The Ballad Of John And Yoko - Remastered 2009 | Excluded by the beatles (excluded) |
+| The Ballad Of John And Yoko - Remastered 2009 | Excluded by the beatles (excluded) |
+| The Ballad Of John And Yoko - Remastered 2015 | Excluded by the beatles (excluded) |
 | The Continuing Story Of Bungalow Bill - 2018 Mix | Excluded album (The Beatles (Remastered)) |
 | The Continuing Story Of Bungalow Bill - Esher Demo | Excluded album (The Beatles (Remastered)) |
 | The Continuing Story Of Bungalow Bill - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
@@ -570,7 +701,20 @@
 | There's A Place - Remastered 2009 | Too few recordings (2) |
 | Think For Yourself | Too few recordings (2) |
 | Think For Yourself - Remastered 2009 | Too few recordings (2) |
+| This Boy - Anthology 1 Version | Excluded by the beatles (excluded) |
+| This Boy - Live At The BBC For "Saturday Club" / 21st December, 1963 | Excluded by the beatles (excluded) |
+| This Boy - Remastered 2009 | Excluded by the beatles (excluded) |
 | Three Cool Cats - Anthology 1 Version | Too few recordings (1) |
+| Ticket To Ride - Live / Remastered | Excluded by the beatles (excluded) |
+| Ticket To Ride - Live At The BBC For "The Beatles Invite You To Take A Ticket To Ride" / 7th June, 1965 | Excluded by the beatles (excluded) |
+| Ticket To Ride - Live From The ABC Theatre, Blackpool, UK/1965 / Anthology 2 Version | Excluded by the beatles (excluded) |
+| Ticket To Ride - Remastered 2009 | Excluded by the beatles (excluded) |
+| Ticket To Ride - Remastered 2009 | Excluded by the beatles (excluded) |
+| Ticket To Ride - Remastered 2015 | Excluded by the beatles (excluded) |
+| Till There Was You - Anthology 1 Version / Live At The Prince Of Wales Theatre, London/1963 | Excluded by the beatles (excluded) |
+| Till There Was You - Live At The BBC For "From Us To You Say The Beatles" / 10th March, 1964 | Excluded by the beatles (excluded) |
+| Till There Was You - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Excluded by the beatles (excluded) |
+| Till There Was You - Remastered 2009 | Excluded by the beatles (excluded) |
 | To Know Her Is To Love Her - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Too few recordings (1) |
 | Tomorrow Never Knows - Remastered 2009 | Excluded album (Revolver (Remastered)), Too few recordings (2) |
 | Tomorrow Never Knows - Take 1 / Anthology 2 Version | Excluded album (Revolver (Remastered)), Too few recordings (2) |
@@ -580,6 +724,9 @@
 | Twist And Shout - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Excluded by the beatles (excluded) |
 | Twist And Shout - Remastered 2009 | Excluded by the beatles (excluded) |
 | Wait - Remastered 2009 | Too few recordings (1) |
+| We Can Work It Out - Remastered 2009 | Excluded by the beatles (excluded) |
+| We Can Work It Out - Remastered 2009 | Excluded by the beatles (excluded) |
+| We Can Work It Out - Remastered 2015 | Excluded by the beatles (excluded) |
 | We Were Four Guys... That's All - Anthology 1 Version | Too short (11s), Too few recordings (1) |
 | We Were Performers... In Britain - Anthology 1 Version | Too short (12s), Too few recordings (1) |
 | Well, The Recording Test... By My Artists - Anthology 1 Version | Too short (32s), Too few recordings (1) |
@@ -590,6 +737,13 @@
 | What’s The New Mary Jane - Esher Demo | Too few recordings (2) |
 | What’s The New Mary Jane - Take 1 | Too few recordings (2) |
 | When I Get Home - Remastered 2009 | Too few recordings (1) |
+| When I'm Sixty-Four | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| When I'm Sixty-Four | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| When I'm Sixty-Four - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| When I'm Sixty-Four - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| When I'm Sixty-Four - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| When I'm Sixty-Four - Take 2 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| When I'm Sixty-Four - Take 2 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | While My Guitar Gently Weeps | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) |
 | While My Guitar Gently Weeps - 2018 Mix | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) |
 | While My Guitar Gently Weeps - Acoustic Version / Take 2 | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) |
@@ -604,13 +758,21 @@
 | Why Don’t We Do It In The Road? - Take 5 | Too few recordings (1) |
 | Wild Honey Pie - 2018 Mix | Too short (53s), Excluded album (The Beatles (Remastered)), Too few recordings (2) |
 | Wild Honey Pie - Remastered 2009 | Too short (52s), Excluded album (The Beatles (Remastered)), Too few recordings (2) |
-| Within You Without You | Excluded by the beatles (excluded - guessed) |
-| Within You Without You - George Coaching The Musicians | Excluded by the beatles (excluded - guessed) |
-| Within You Without You - Remastered 2009 | Excluded by the beatles (excluded - guessed) |
-| Within You Without You - Remix | Excluded by the beatles (excluded - guessed) |
-| Within You Without You - Remix | Excluded by the beatles (excluded - guessed) |
-| Within You Without You - Take 1 / Indian Instruments | Excluded by the beatles (excluded - guessed) |
-| Within You Without You - Take 1 / Indian Instruments | Excluded by the beatles (excluded - guessed) |
+| With A Little Help From My Friends | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| With A Little Help From My Friends | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| With A Little Help From My Friends - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| With A Little Help From My Friends - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| With A Little Help From My Friends - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| With A Little Help From My Friends - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| With A Little Help From My Friends - Take 1 / False Start And Take 2 / Instrumental | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| With A Little Help From My Friends - Take 1 / False Start And Take 2 / Instrumental | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Within You Without You | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Within You Without You - George Coaching The Musicians | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Within You Without You - Remastered 2009 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Within You Without You - Remix | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Within You Without You - Remix | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Within You Without You - Take 1 / Indian Instruments | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| Within You Without You - Take 1 / Indian Instruments | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | Within You Without You / Tomorrow Never Knows | Too few recordings (1) |
 | Within You, Without You - Instrumental / Anthology 2 Version | Too few recordings (1) |
 | Words Of Love - Live At The BBC For "Pop Go The Beatles" / 20th August, 1963 | Too few recordings (2) |
@@ -627,11 +789,18 @@
 | Yer Blues - Take 5 With Guide Vocal | Excluded album (The Beatles (Remastered)) |
 | Yes It Is - Anthology 2 Version | Too few recordings (2) |
 | Yes It Is - Remastered 2009 | Too few recordings (2) |
+| You Can't Do That - Anthology 1 Version | Excluded by the beatles (excluded) |
+| You Can't Do That - Live / Bonus Track | Excluded by the beatles (excluded) |
+| You Can't Do That - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded by the beatles (excluded) |
+| You Can't Do That - Remastered 2009 | Excluded by the beatles (excluded) |
 | You Know My Name (Look Up The Number) - Anthology 2 Version | Too few recordings (2) |
 | You Know My Name (Look Up The Number) - Remastered 2009 | Too few recordings (2) |
 | You Know What To Do - Anthology 1 Version | Too few recordings (1) |
 | You Like Me Too Much - Remastered 2009 | Too few recordings (1) |
 | You Never Give Me Your Money - Remastered 2009 | Too few recordings (1) |
+| You Really Got A Hold On Me - Anthology 1 Version | Excluded by the beatles (excluded) |
+| You Really Got A Hold On Me - Live At The BBC For "Saturday Club" / 24th August, 1963 | Excluded by the beatles (excluded) |
+| You Really Got A Hold On Me - Remastered 2009 | Excluded by the beatles (excluded) |
 | You Won't See Me - Remastered 2009 | Too few recordings (1) |
 | You'll Be Mine - Anthology 1 Version | Too few recordings (1) |
 | You're Going To Lose That Girl - Remastered 2009 | Too few recordings (1) |

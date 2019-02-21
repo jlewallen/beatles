@@ -4,20 +4,20 @@
 | 1822! - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too short (10s), Too few recordings (1) | 3MksxREMIslA65ZsIZHqzH |
 | A Beginning (Take 4) / Don’t Pass Me By (Take 7) | Too few recordings (1) | 4uKyLqJHDjT6mdA22ofxuM |
 | A Beginning - Anthology 3 Version | Too short (49s), Too few recordings (1) | 34dsKRJHIadrrNdCDtMwGn |
-| A Day In The Life | Excluded by the beatles (excluded - guessed) | 4Qd0ojqwezaDyHpZWlhQt5 |
-| A Day In The Life | Excluded by the beatles (excluded) | 4XiDAxr6alWzxm24i2Rt4K |
-| A Day In The Life - Anthology 2 Version | Excluded by the beatles (excluded - guessed) | 1cDu688MBQUl1b9KSoR7Gz |
-| A Day In The Life - First Mono Mix | Excluded by the beatles (excluded) | 3O01tsV0nPn9IwW1I1rYmh |
-| A Day In The Life - Hummed Last Chord / Takes 8, 9, 10 And 11 | Excluded by the beatles (excluded) | 6fUmTfvtgTFJMIMpVz6sDg |
-| A Day In The Life - Orchestra Overdub | Too short (55s) | 2cExd4UpGdZCqwmXRelHYE |
-| A Day In The Life - Remastered 2009 | Excluded by the beatles (excluded - guessed) | 0hKRSZhUGEhKU6aNSPBACZ |
-| A Day In The Life - Remastered 2010 | Excluded by the beatles (excluded - guessed) | 7lQ9vPEIo4caEIctf6bYOi |
-| A Day In The Life - Remix | Excluded by the beatles (excluded - guessed) | 18qhv7DD1sEpgWffovGnhn |
-| A Day In The Life - Remix | Excluded by the beatles (excluded) | 5V3HOUIcQTAdUmzHPcfb6F |
-| A Day In The Life - Take 1 | Excluded by the beatles (excluded - guessed) | 3FplMj2gYs4cymgvLvl8sO |
-| A Day In The Life - Take 1 With Hums | Excluded by the beatles (excluded - guessed) | 2i9KZZlTOYfX7EtMHtX5NS |
-| A Day In The Life - Take 2 | Excluded by the beatles (excluded - guessed) | 2n0qkPLHOssnZb1pB19puZ |
-| A Day In The Life - The Last Chord | Excluded by the beatles (excluded - guessed) | 7G56y9gzIayhvmTqdlThXz |
+| A Day In The Life | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4Qd0ojqwezaDyHpZWlhQt5 |
+| A Day In The Life | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4XiDAxr6alWzxm24i2Rt4K |
+| A Day In The Life - Anthology 2 Version | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 1cDu688MBQUl1b9KSoR7Gz |
+| A Day In The Life - First Mono Mix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3O01tsV0nPn9IwW1I1rYmh |
+| A Day In The Life - Hummed Last Chord / Takes 8, 9, 10 And 11 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 6fUmTfvtgTFJMIMpVz6sDg |
+| A Day In The Life - Orchestra Overdub | Too short (55s), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2cExd4UpGdZCqwmXRelHYE |
+| A Day In The Life - Remastered 2009 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 0hKRSZhUGEhKU6aNSPBACZ |
+| A Day In The Life - Remastered 2010 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 7lQ9vPEIo4caEIctf6bYOi |
+| A Day In The Life - Remix | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 18qhv7DD1sEpgWffovGnhn |
+| A Day In The Life - Remix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 5V3HOUIcQTAdUmzHPcfb6F |
+| A Day In The Life - Take 1 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3FplMj2gYs4cymgvLvl8sO |
+| A Day In The Life - Take 1 With Hums | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2i9KZZlTOYfX7EtMHtX5NS |
+| A Day In The Life - Take 2 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2n0qkPLHOssnZb1pB19puZ |
+| A Day In The Life - The Last Chord | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 7G56y9gzIayhvmTqdlThXz |
 | A Hard Day's Night - Anthology 1 Version | Excluded by the beatles (excluded) | 5ZliU9ZcQE2ShG8Rqxrsk1 |
 | A Hard Day's Night - Live / Remastered | Excluded by the beatles (excluded) | 0P0Jm9mZi11ETImhECDhpq |
 | A Hard Day's Night - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded by the beatles (excluded) | 10Pp5nEaoOtUpnfXKz1kAK |
@@ -86,15 +86,15 @@
 | Because | Excluded by the beatles (excluded) | 2VRNkdYbYUAOAcw71IqPBx |
 | Because - Anthology 3 Version | Excluded by the beatles (excluded) | 5joRE018kvW87xEknBp8cS |
 | Because - Remastered 2009 | Excluded by the beatles (excluded) | 1rxoyGj1QuPoVi8fOft1Kt |
-| Being For The Benefit Of Mr Kite! | | 6UuPrHr8Ik947c4tBDuHZe |
-| Being For The Benefit Of Mr Kite! - Remastered 2009 | | 6W35n1UlkvqhfMZstB4BXs |
-| Being For The Benefit Of Mr Kite! - Remix | | 65mQIDMBEI6KsCPphwWKrK |
-| Being For The Benefit Of Mr Kite! - Remix | | 3mMv7l7eHDHgpJqJvjXdWx |
-| Being For The Benefit Of Mr Kite! - Speech From Before Take 1 / Take 4 And Speech At End | | 01zDLN3daHhDgsJhqY9QRn |
-| Being For The Benefit Of Mr Kite! - Take 4 | | 5Fo2uGHAErsDwiIOo4wcjS |
-| Being For The Benefit Of Mr Kite! - Take 7 | | 2yw3UbhfFiopZBlECEOO05 |
-| Being For The Benefit Of Mr Kite! - Take 7 / Anthology 2 Version | | 09pDDl5WR4VAX7QKvJZkG8 |
-| Being For The Benefit Of Mr Kite! - Takes 1 & 2 / Anthology 2 Version | | 6a4VLKj9smz1GPTYdV3StU |
+| Being For The Benefit Of Mr Kite! | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 6UuPrHr8Ik947c4tBDuHZe |
+| Being For The Benefit Of Mr Kite! - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 6W35n1UlkvqhfMZstB4BXs |
+| Being For The Benefit Of Mr Kite! - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 65mQIDMBEI6KsCPphwWKrK |
+| Being For The Benefit Of Mr Kite! - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3mMv7l7eHDHgpJqJvjXdWx |
+| Being For The Benefit Of Mr Kite! - Speech From Before Take 1 / Take 4 And Speech At End | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 01zDLN3daHhDgsJhqY9QRn |
+| Being For The Benefit Of Mr Kite! - Take 4 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 5Fo2uGHAErsDwiIOo4wcjS |
+| Being For The Benefit Of Mr Kite! - Take 7 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2yw3UbhfFiopZBlECEOO05 |
+| Being For The Benefit Of Mr Kite! - Take 7 / Anthology 2 Version | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 09pDDl5WR4VAX7QKvJZkG8 |
+| Being For The Benefit Of Mr Kite! - Takes 1 & 2 / Anthology 2 Version | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 6a4VLKj9smz1GPTYdV3StU |
 | Being For The Benefit Of Mr Kite! / I Want You (She's So Heavy) / Helter Skelter | Too few recordings (1) | 2MAU8kcMbo0lHXWzZ19SNo |
 | Besame Mucho - Anthology 1 Version | Too few recordings (1) | 2Qgak11t9BJHwkicG0WJQE |
 | Birthday - 2018 Mix | Excluded album (The Beatles (Remastered)) | 1LT1LaG2hOR8VB2zzMcDjL |
@@ -108,22 +108,22 @@
 | Blackbird / Yesterday | Too few recordings (1) | 41ETKVJbZDSjATzW2wAqmc |
 | Blue Jay Way - Remastered 2009 | Too few recordings (1) | 0QIX9BS0AUCQcHYvyrsMkV |
 | Blue Moon - Studio Jam | Too few recordings (1) | 0gTzMvctZAfkIcvaaTrPne |
-| Boys - Anthology 1 Version | | 1DF1wviF12UZuUAIvzaxrG |
-| Boys - Live / Remastered | | 1dxwZJNoDbXn7zfKR2g1S5 |
-| Boys - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | | 3b4XdfAEmkrt90CRn6kJpO |
-| Boys - Remastered 2009 | | 7JxGM1R32ZqfwZou3VtnTg |
+| Boys - Anthology 1 Version | Excluded by the beatles (excluded) | 1DF1wviF12UZuUAIvzaxrG |
+| Boys - Live / Remastered | Excluded by the beatles (excluded) | 1dxwZJNoDbXn7zfKR2g1S5 |
+| Boys - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Excluded by the beatles (excluded) | 3b4XdfAEmkrt90CRn6kJpO |
+| Boys - Remastered 2009 | Excluded by the beatles (excluded) | 7JxGM1R32ZqfwZou3VtnTg |
 | Boys, What Was I Thinking... - Anthology 1 Version | Too few recordings (1) | 08eDkYC9WuOWIqiYuAeRaR |
 | Brian Bathtubes - Live At The BBC For "Saturday Club" / 21st December, 1963 | Too short (58s), Too few recordings (1) | 3xohbni06d89qSDGtITdlo |
 | Brian Was A Beautiful Guy...He Presented Us Well - Anthology 1 Version | Too short (10s), Too few recordings (1) | 56F9TjvH8JdGftpoHW0pHC |
 | Bumper Bundle - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too short (49s), Too few recordings (1) | 2irmkgFSP2s8DKzN33RDgO |
 | Bye, Bye - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Too short (24s), Too few recordings (1) | 4h21X53xAByl6QeXe6Wtjy |
 | Can You Take Me Back? - Take 1 | Too few recordings (1) | 5D6TY2nkWmC0fijXKuYQrm |
-| Can't Buy Me Love - Anthology 1 Version | | 51iWd8wHGP0N2UzRusTPBB |
-| Can't Buy Me Love - Live / Remastered | | 0WYxVnp9K6RETCRZbtlGHh |
-| Can't Buy Me Love - Live At The BBC For "From Us To You Say The Beatles" / 10th March, 1964 | | 4yYuWe6Mvr9JJcvUGupd4s |
-| Can't Buy Me Love - Remastered 2009 | | 3SdingSsFcZDZAyvcJbgAw |
-| Can't Buy Me Love - Remastered 2009 | | 0IqGdE8K3AguQWVEZ6wEV3 |
-| Can't Buy Me Love - Remastered 2015 | | 38Vb1J5W5LOs0i7SAF76pa |
+| Can't Buy Me Love - Anthology 1 Version | Excluded by the beatles (excluded) | 51iWd8wHGP0N2UzRusTPBB |
+| Can't Buy Me Love - Live / Remastered | Excluded by the beatles (excluded) | 0WYxVnp9K6RETCRZbtlGHh |
+| Can't Buy Me Love - Live At The BBC For "From Us To You Say The Beatles" / 10th March, 1964 | Excluded by the beatles (excluded) | 4yYuWe6Mvr9JJcvUGupd4s |
+| Can't Buy Me Love - Remastered 2009 | Excluded by the beatles (excluded) | 3SdingSsFcZDZAyvcJbgAw |
+| Can't Buy Me Love - Remastered 2009 | Excluded by the beatles (excluded) | 0IqGdE8K3AguQWVEZ6wEV3 |
+| Can't Buy Me Love - Remastered 2015 | Excluded by the beatles (excluded) | 38Vb1J5W5LOs0i7SAF76pa |
 | Carol - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Too few recordings (1) | 2CkSHHcBZQXxg90xAcUkhn |
 | Carry That Weight - Remastered 2009 | Too few recordings (1) | 5eZrW59C3UgBhkqNlowEID |
 | Cayenne - Anthology 1 Version | Too few recordings (1) | 2VXAlfWBNhdiMEVUTGzGOb |
@@ -146,9 +146,9 @@
 | Cry Baby Cry - Unnumbered Rehearsal | Excluded album (The Beatles (Remastered)) | 0Ryc4j2D6kRH3JZCsd1Von |
 | Cry For A Shadow - Anthology 1 Version | Too few recordings (1) | 2XWLSham4kXI9ZSo75E4Rj |
 | Crying, Waiting, Hoping - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Too few recordings (1) | 3L3fx4XnKCnZCaU3zQxBC2 |
-| Day Tripper - Remastered 2009 | | 3hNUYt4dMM9RhcWmty8oKF |
-| Day Tripper - Remastered 2009 | | 7qbRP2jO0Sq3kTYdEW1v00 |
-| Day Tripper - Remastered 2015 | | 29b2b96jozyD9GPCkOrVLs |
+| Day Tripper - Remastered 2009 | Excluded by the beatles (excluded) | 3hNUYt4dMM9RhcWmty8oKF |
+| Day Tripper - Remastered 2009 | Excluded by the beatles (excluded) | 7qbRP2jO0Sq3kTYdEW1v00 |
+| Day Tripper - Remastered 2015 | Excluded by the beatles (excluded) | 29b2b96jozyD9GPCkOrVLs |
 | Dear Prudence - 2018 Mix | Excluded album (The Beatles (Remastered)) | 21pC0RPgkThjHlwpmCtxGb |
 | Dear Prudence - Esher Demo | Excluded album (The Beatles (Remastered)) | 0dPsctAum4J6B9Z2xTRz2A |
 | Dear Prudence - Remastered 2009 | Excluded album (The Beatles (Remastered)) | 5NQYyej46WQkgCbnzGD21W |
@@ -168,9 +168,9 @@
 | Doctor Robert - Remastered 2009 | Excluded album (Revolver (Remastered)), Too few recordings (1) | 1ob06Ol8FMIPQgjpg7bMyk |
 | Don't Bother Me - Remastered 2009 | Too few recordings (1) | 7y1hMqXNa0dKQLZH7CKbUG |
 | Don't Ever Change - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Too few recordings (1) | 28FjGYrChzX3TwBcgGVqT6 |
-| Don't Let Me Down - Naked Version / Remastered 2013 | | 5BhMoGrz5KzG2fA5uzHjZ1 |
-| Don't Let Me Down - Remastered 2009 | | 3evG0BIqEFMMP7lVJh1cSf |
-| Don't Let Me Down - Remastered 2009 | | 0FP04YnQ8eDxkAH4rlwFar |
+| Don't Let Me Down - Naked Version / Remastered 2013 | Excluded by the beatles (excluded) | 5BhMoGrz5KzG2fA5uzHjZ1 |
+| Don't Let Me Down - Remastered 2009 | Excluded by the beatles (excluded) | 3evG0BIqEFMMP7lVJh1cSf |
+| Don't Let Me Down - Remastered 2009 | Excluded by the beatles (excluded) | 0FP04YnQ8eDxkAH4rlwFar |
 | Don't Pass Me By - 2018 Mix | Excluded album (The Beatles (Remastered)) | 55scbyvCEL0prcaDKYqiRG |
 | Don't Pass Me By - Anthology 3 Version | Excluded album (The Beatles (Remastered)) | 39mEVKaWHEoBazw0H88Rgv |
 | Don't Pass Me By - Remastered 2009 | Excluded album (The Beatles (Remastered)) | 4zq4rrfHZeZsTbo5vjJXSV |
@@ -193,18 +193,18 @@
 | Everybody's Got Something To Hide Except Me And My Monkey - Esher Demo | Excluded album (The Beatles (Remastered)) | 3ah9CP3ZRW1VR51UmUN8eQ |
 | Everybody's Got Something To Hide Except Me And My Monkey - Remastered 2009 | Excluded album (The Beatles (Remastered)) | 64P3zpRsDHIk7YTpRtaKYL |
 | Everybody's Got Something To Hide Except Me And My Monkey - Unnumbered Rehearsal | Excluded album (The Beatles (Remastered)) | 1azn2MmFWbhTUsBVXXXVPl |
-| Everybody's Trying To Be My Baby - Live At The BBC For "Top Gear" / 26th November, 1964 | | 3a41caYOJUePimub0OPYFi |
-| Everybody's Trying To Be My Baby - Live From Shea Stadium, New York, USA/1965 / Anthology 2 Version | | 6JEfKSfRnACibeFgpfecfi |
-| Everybody's Trying To Be My Baby - Remastered 2009 | | 4DZAH8eiqSAkMIE9l5D71U |
+| Everybody's Trying To Be My Baby - Live At The BBC For "Top Gear" / 26th November, 1964 | Excluded by the beatles (excluded) | 3a41caYOJUePimub0OPYFi |
+| Everybody's Trying To Be My Baby - Live From Shea Stadium, New York, USA/1965 / Anthology 2 Version | Excluded by the beatles (excluded) | 6JEfKSfRnACibeFgpfecfi |
+| Everybody's Trying To Be My Baby - Remastered 2009 | Excluded by the beatles (excluded) | 4DZAH8eiqSAkMIE9l5D71U |
 | Everybody’s Trying To Be My Baby - Live / Bonus Track | Too few recordings (1) | 1WoLOPeSqaijOuhi9Wm7V1 |
 | First Of All... It Didn't Do A Thing Here - Anthology 1 Version | Too short (7s), Too few recordings (1) | 2PRmNoN16eUer6bJomStcf |
-| Fixing A Hole | | 4rpFXjP4DSC9id8Fa6TWXL |
-| Fixing A Hole - Remastered 2009 | | 3pKKxkeB1pOUMHwWBmKc3Y |
-| Fixing A Hole - Remix | | 6a98mDyXTsYugJhUs1tZr4 |
-| Fixing A Hole - Remix | | 5L3ltLBs4BQADp6FgEipr7 |
-| Fixing A Hole - Speech And Take 3 | | 3jropE4BAPdywe8r42Yhxx |
-| Fixing A Hole - Speech And Take 3 | | 1RFpFW3Nz67JX5Obt7MlLm |
-| Fixing A Hole - Take 1 | | 3zguk1999hbwYTMDpsVYoo |
+| Fixing A Hole | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4rpFXjP4DSC9id8Fa6TWXL |
+| Fixing A Hole - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3pKKxkeB1pOUMHwWBmKc3Y |
+| Fixing A Hole - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 6a98mDyXTsYugJhUs1tZr4 |
+| Fixing A Hole - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 5L3ltLBs4BQADp6FgEipr7 |
+| Fixing A Hole - Speech And Take 3 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3jropE4BAPdywe8r42Yhxx |
+| Fixing A Hole - Speech And Take 3 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 1RFpFW3Nz67JX5Obt7MlLm |
+| Fixing A Hole - Take 1 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3zguk1999hbwYTMDpsVYoo |
 | Flying - Remastered 2009 | Too few recordings (1) | 1itLKsCWHtLnxALkgBk1Fa |
 | For No One - Remastered 2009 | Excluded album (Revolver (Remastered)), Too few recordings (1) | 1kDkaFlmkdEZiVUogaP9OZ |
 | For You Blue - Anthology 3 Version | | 0zbBvOTIFVESpb9GDpgy7p |
@@ -227,16 +227,16 @@
 | Get Back - Remastered 2009 | Excluded by the beatles (excluded) | 3d5v5scfknhlp6oOC7BZBs |
 | Get Back - Remastered 2009 | Excluded by the beatles (excluded) | 4MLBqAEzNN89o2M9h92Z26 |
 | Get Back - Remastered 2015 | Excluded by the beatles (excluded) | 6zmQ8bzlDIfngjy0Ba3w46 |
-| Getting Better | | 1GqRv17EiYH30nM3MYE2h5 |
-| Getting Better - Remastered 2009 | | 3LtOmWpTXLhilL5odoKysR |
-| Getting Better - Remix | | 3jR8Xw0qPyGGv8bvFtNmDw |
-| Getting Better - Remix | | 3liuLCzIoOhduPXp8kbHHA |
-| Getting Better - Take 1 / Instrumental And Speech At The End | | 4YrNun99hnmXEeo4HwMKV7 |
-| Getting Better - Take 1 / Instrumental And Speech At The End | | 2FiSf5JfTNvAFUMiiOWUdx |
-| Getting Better - Take 12 | | 486fJnwIZMzMLLd2fYqlLU |
-| Girl | | 3wviriLUfnj7GkRjoN2wD8 |
-| Girl - Remastered 2009 | | 5cXHQInwGNOSmOBTqnuYOs |
-| Girl - Remastered 2009 | | 6tQvjqDIK9GXWIC6mejms8 |
+| Getting Better | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 1GqRv17EiYH30nM3MYE2h5 |
+| Getting Better - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3LtOmWpTXLhilL5odoKysR |
+| Getting Better - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3jR8Xw0qPyGGv8bvFtNmDw |
+| Getting Better - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3liuLCzIoOhduPXp8kbHHA |
+| Getting Better - Take 1 / Instrumental And Speech At The End | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4YrNun99hnmXEeo4HwMKV7 |
+| Getting Better - Take 1 / Instrumental And Speech At The End | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2FiSf5JfTNvAFUMiiOWUdx |
+| Getting Better - Take 12 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 486fJnwIZMzMLLd2fYqlLU |
+| Girl | Excluded by the beatles (excluded) | 3wviriLUfnj7GkRjoN2wD8 |
+| Girl - Remastered 2009 | Excluded by the beatles (excluded) | 5cXHQInwGNOSmOBTqnuYOs |
+| Girl - Remastered 2009 | Excluded by the beatles (excluded) | 6tQvjqDIK9GXWIC6mejms8 |
 | Glad All Over - Live At The BBC For "Pop Go The Beatles" / 20th August, 1963 | Too few recordings (2) | 4a75E2Hcz8gQWnEAoK2WBR |
 | Glad All Over - Live At The BBC For "Saturday Club" / 24th August, 1963 | Too few recordings (2) | 2HXgCRmxRuROwntAqJy5Zq |
 | Glass Onion | Excluded album (The Beatles (Remastered)) | 5Zlm8F6P7spQVplh2EERqP |
@@ -249,14 +249,14 @@
 | Gnik Nus | Too short (55s), Too few recordings (1) | 2KGVVXu3ikPXBVL8Fi9ym4 |
 | Golden Slumbers - Remastered 2009 | Too few recordings (1) | 01SfTM5nfCou5gQL70r6gs |
 | Good Day Sunshine - Remastered 2009 | Excluded album (Revolver (Remastered)), Too few recordings (1) | 7HTH1ppjkkOe7RLoBDKXYJ |
-| Good Morning Good Morning | Excluded by the beatles (excluded) | 6HjHJTZKZeypaBQJc93yop |
-| Good Morning Good Morning - Remastered 2009 | Excluded by the beatles (excluded) | 0xIuNHHcKI1JDuBPlSwzb1 |
-| Good Morning Good Morning - Remix | Excluded by the beatles (excluded) | 4krhZH4q9oZT86bvA4HN6F |
-| Good Morning Good Morning - Remix | | 0ldihDAaEYrlk68C4oSewz |
-| Good Morning Good Morning - Take 1 / Instrumental Breakdown | Excluded by the beatles (excluded) | 5ZUnnke4Zv4oEG9XJicUVM |
-| Good Morning Good Morning - Take 8 | Excluded by the beatles (excluded) | 73U4muTtJcAhD94lWvD5zG |
-| Good Morning Good Morning - Take 8 | | 0ms3Eay3tRafE9yOiSS3Km |
-| Good Morning Good Morning - Take 8 / Anthology 2 Version | Excluded by the beatles (excluded) | 1AYDLDAmyvII4U2s1C1A0e |
+| Good Morning Good Morning | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 6HjHJTZKZeypaBQJc93yop |
+| Good Morning Good Morning - Remastered 2009 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 0xIuNHHcKI1JDuBPlSwzb1 |
+| Good Morning Good Morning - Remix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4krhZH4q9oZT86bvA4HN6F |
+| Good Morning Good Morning - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 0ldihDAaEYrlk68C4oSewz |
+| Good Morning Good Morning - Take 1 / Instrumental Breakdown | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 5ZUnnke4Zv4oEG9XJicUVM |
+| Good Morning Good Morning - Take 8 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 73U4muTtJcAhD94lWvD5zG |
+| Good Morning Good Morning - Take 8 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 0ms3Eay3tRafE9yOiSS3Km |
+| Good Morning Good Morning - Take 8 / Anthology 2 Version | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 1AYDLDAmyvII4U2s1C1A0e |
 | Good Night - 2018 Mix | Excluded album (The Beatles (Remastered)) | 2PWnAe9C52xvJYhBFNuIqm |
 | Good Night - Anthology 3 Version | Excluded album (The Beatles (Remastered)) | 23BQJjTBBmsJGTRIwcnI0b |
 | Good Night - Remastered 2009 | Excluded album (The Beatles (Remastered)) | 3T4Kt51PV4k8tx6YCtBgcl |
@@ -275,10 +275,10 @@
 | Happy Birthday Dear Saturday Club - Live At The BBC For "Saturday Club" / 5th October, 1963 | Too short (33s), Too few recordings (1) | 2UpYmhDZVmzfdsgvLavmfj |
 | Hello Little Girl - Anthology 1 Version | Too few recordings (1) | 0F3N8OIn6obTkJfZWbOMrm |
 | Hello! - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too short (18s), Too few recordings (1) | 5vMWnicTtNy4gaJCsDZq7E |
-| Hello, Goodbye - Remastered 2009 | | 0vZ97gHhemKm6c64hTfJNA |
-| Hello, Goodbye - Remastered 2009 | | 2IWBUE3nED9Apuqhdov9O6 |
-| Hello, Goodbye - Remastered 2015 | | 0hqjsgWRfMBf2s8xsvRq1M |
-| Hello, Goodbye - Take 16 / Anthology 2 Version | | 2h9o31sWMWQlHcKaMipeUq |
+| Hello, Goodbye - Remastered 2009 | Excluded by the beatles (excluded) | 0vZ97gHhemKm6c64hTfJNA |
+| Hello, Goodbye - Remastered 2009 | Excluded by the beatles (excluded) | 2IWBUE3nED9Apuqhdov9O6 |
+| Hello, Goodbye - Remastered 2015 | Excluded by the beatles (excluded) | 0hqjsgWRfMBf2s8xsvRq1M |
+| Hello, Goodbye - Take 16 / Anthology 2 Version | Excluded by the beatles (excluded) | 2h9o31sWMWQlHcKaMipeUq |
 | Help! | | 6EdSN1iGtLPhcz43QDRkdK |
 | Help! - Live / Remastered | | 55jAHaYaZtUImilMnroSna |
 | Help! - Live From The ABC Theatre, Blackpool, UK/1965 / Anthology 2 Version | | 1O0ITvyYUmkE1K1xGdR7UQ |
@@ -322,11 +322,11 @@
 | I Call Your Name - Remastered 2009 | Too few recordings (1) | 1QQSTB03vIsgjU67UnUPEL |
 | I Don't Want To Spoil The Party - Remastered 2009 | Too few recordings (1) | 3kQDIa85ZK8cKVn72NfBnl |
 | I Feel Fine (Studio Out-take) - Live At The BBC For "Top Gear" / 17th November, 1964 | Too few recordings (1) | 5yAbOoR9GOsSHywhsP3wrJ |
-| I Feel Fine - Live At The BBC For "Top Gear" / 26th November, 1964 | | 3QPv4VkwwVr0xqwZ0Ulsfz |
-| I Feel Fine - Live From The ABC Theatre, Blackpool, UK/1965 / Anthology 2 Version | | 0xgduXfu5QpXzhLcS1B3b6 |
-| I Feel Fine - Remastered 2009 | | 1Q7gCIpOjIIU0bUKcGzrG4 |
-| I Feel Fine - Remastered 2009 | | 4gxs9En3aoaOm2J5wNMMm9 |
-| I Feel Fine - Remastered 2015 | | 5hhF25sWnZvXhimOHLjTRE |
+| I Feel Fine - Live At The BBC For "Top Gear" / 26th November, 1964 | Excluded by the beatles (excluded) | 3QPv4VkwwVr0xqwZ0Ulsfz |
+| I Feel Fine - Live From The ABC Theatre, Blackpool, UK/1965 / Anthology 2 Version | Excluded by the beatles (excluded) | 0xgduXfu5QpXzhLcS1B3b6 |
+| I Feel Fine - Remastered 2009 | Excluded by the beatles (excluded) | 1Q7gCIpOjIIU0bUKcGzrG4 |
+| I Feel Fine - Remastered 2009 | Excluded by the beatles (excluded) | 4gxs9En3aoaOm2J5wNMMm9 |
+| I Feel Fine - Remastered 2015 | Excluded by the beatles (excluded) | 5hhF25sWnZvXhimOHLjTRE |
 | I Forgot To Remember To Forget - Live At The BBC For "From Us To You Say The Beatles" / 18th May, 1964 | Too few recordings (1) | 7wJQXHwL3oOllX9iFFg3wJ |
 | I Got A Woman - Live At The BBC For "Pop Go The Beatles" / 13th August, 1963 | Too few recordings (2) | 53PHRtl7ZP8gkiWiX4rm16 |
 | I Got A Woman - Live At The BBC For "Saturday Club" / 4th April, 1964 | Too few recordings (2) | 2wWRMqKJh0Yg5gnhflDnWD |
@@ -387,9 +387,9 @@
 | I'm So Tired - Take 14 | Excluded album (The Beatles (Remastered)) | 1kr9WerriI9spJXXMNDsyQ |
 | I'm So Tired - Take 7 | Excluded album (The Beatles (Remastered)) | 4y2ZKymYyNgNDyqHphwtOq |
 | I'm Talking About You - Live At The BBC For "Saturday Club" / 16th March, 1963 | Too few recordings (1) | 6MVohEoExQiPfsoTeWh5NA |
-| I've Got A Feeling - Anthology 3 Version | | 5O4gF6ZXR1ZPU8bsQ8GBpf |
-| I've Got A Feeling - Naked Version / Remastered 2013 | | 5OlB1bAkRhheDudIhWImFy |
-| I've Got A Feeling - Remastered 2009 | | 3gwRWIbr5ycEVLIAXrWaw7 |
+| I've Got A Feeling - Anthology 3 Version | Excluded by the beatles (excluded) | 5O4gF6ZXR1ZPU8bsQ8GBpf |
+| I've Got A Feeling - Naked Version / Remastered 2013 | Excluded by the beatles (excluded) | 5OlB1bAkRhheDudIhWImFy |
+| I've Got A Feeling - Remastered 2009 | Excluded by the beatles (excluded) | 3gwRWIbr5ycEVLIAXrWaw7 |
 | I've Just Seen A Face - Remastered 2009 | Too few recordings (1) | 788U1Sqej9M6c4iikuDGxO |
 | If I Fell - Live At The BBC For "Top Gear" / 16th July, 1964 | Too few recordings (2) | 3BNoR4fPimkdOSvqL8kbXW |
 | If I Fell - Remastered 2009 | Too few recordings (2) | 1hgvykolO4kBIEozATmpyj |
@@ -420,13 +420,13 @@
 | Kansas City / Hey-Hey-Hey-Hey! - Live At The BBC For "Saturday Club" / 26th December 1964 | Excluded by the beatles (excluded) | 6ov15QioxNtZxPW7nlC7uC |
 | Keep Your Hands Off My Baby - Live At The BBC For "Saturday Club" / 26th January, 1963 | Too few recordings (1) | 2wh66N0HWVzwSB0KV7mdQ6 |
 | Komm gib mir deine Hand - Remastered 2009 | Too few recordings (1) | 6oUjSwtifVaM8iIN01KVzC |
-| Lady Madonna | | 5l1eg7A2S6PtlIbo3Ms4dl |
-| Lady Madonna - Alternate Mix / Anthology 2 Version | | 2ous0jTv1yK6e6SBVCYmgo |
+| Lady Madonna | Excluded by the beatles (excluded) | 5l1eg7A2S6PtlIbo3Ms4dl |
+| Lady Madonna - Alternate Mix / Anthology 2 Version | Excluded by the beatles (excluded) | 2ous0jTv1yK6e6SBVCYmgo |
 | Lady Madonna - Backing Vocals From Take 3 | Too short (54s) | 257X3MRYsGWRIHmHfNttIQ |
-| Lady Madonna - Remastered 2009 | | 1fSHw7Gt4ha9kJew9a0a55 |
-| Lady Madonna - Remastered 2009 | | 1tM9TBNPjieSOZ2d5VAQ1y |
-| Lady Madonna - Remastered 2015 | | 1raiIrqaqRAqZmQWZlLuBd |
-| Lady Madonna - Take 2 / Piano & Drums | | 2E7V8BNpKu8EjNRIECvvS4 |
+| Lady Madonna - Remastered 2009 | Excluded by the beatles (excluded) | 1fSHw7Gt4ha9kJew9a0a55 |
+| Lady Madonna - Remastered 2009 | Excluded by the beatles (excluded) | 1tM9TBNPjieSOZ2d5VAQ1y |
+| Lady Madonna - Remastered 2015 | Excluded by the beatles (excluded) | 1raiIrqaqRAqZmQWZlLuBd |
+| Lady Madonna - Take 2 / Piano & Drums | Excluded by the beatles (excluded) | 2E7V8BNpKu8EjNRIECvvS4 |
 | Leave My Kitten Alone - Anthology 1 Version | Too few recordings (1) | 4iR7Jx9E4zY0Q7AwMyFpZZ |
 | Lend Me Your Comb - Anthology 1 Version | Too few recordings (2) | 4J3FSYFhUGp0mkaH7m2YnN |
 | Lend Me Your Comb - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Too few recordings (2) | 1AwFOm1ihDP7NQxBblwQQS |
@@ -441,11 +441,11 @@
 | Like Dreamers Do - Anthology 1 Version | Too few recordings (1) | 3eSgAvKnHbQNLdkVY7eagU |
 | Little Child - Remastered 2009 | Too few recordings (1) | 0KogQrSowDnZoU8GSpaxkj |
 | Lonesome Tears In My Eyes - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too few recordings (1) | 1wSZ0SwBymmDV96CtlGl9o |
-| Long Tall Sally - Anthology 1 Version | | 5M568NMlYbYxDLc3VXalVl |
-| Long Tall Sally - Live / Remastered | | 3gluwLob4WQKYDPDKi09Ql |
-| Long Tall Sally - Live At The BBC For "Pop Go The Beatles" / 13th August, 1963 | | 6umlrYhBfLxECERl8CBk6p |
-| Long Tall Sally - Live At The BBC For "Top Gear" / 16th July, 1964 | | 76EJLnjXsq38img1CneFVq |
-| Long Tall Sally - Remastered 2009 | | 7ds98B8y5BQltzC60Gdkri |
+| Long Tall Sally - Anthology 1 Version | Excluded by the beatles (excluded) | 5M568NMlYbYxDLc3VXalVl |
+| Long Tall Sally - Live / Remastered | Excluded by the beatles (excluded) | 3gluwLob4WQKYDPDKi09Ql |
+| Long Tall Sally - Live At The BBC For "Pop Go The Beatles" / 13th August, 1963 | Excluded by the beatles (excluded) | 6umlrYhBfLxECERl8CBk6p |
+| Long Tall Sally - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded by the beatles (excluded) | 76EJLnjXsq38img1CneFVq |
+| Long Tall Sally - Remastered 2009 | Excluded by the beatles (excluded) | 7ds98B8y5BQltzC60Gdkri |
 | Long, Long, Long - 2018 Mix | Excluded album (The Beatles (Remastered)) | 4eQVJHK0O5LctXPzsRj9LI |
 | Long, Long, Long - Remastered 2009 | Excluded album (The Beatles (Remastered)) | 40d2EcaOOCUjDzzo2YvUWn |
 | Long, Long, Long - Take 44 | Excluded album (The Beatles (Remastered)) | 7uSaLHSpFCtrtl8FICmfyb |
@@ -459,27 +459,27 @@
 | Love These Goon Shows! - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Too short (27s), Too few recordings (1) | 6k6M0rDw4bbSzVZR5o7B54 |
 | Love You To | Excluded album (Revolver (Remastered)), Too few recordings (2) | 69c15XPo8sYUqmnngPtFWj |
 | Love You To - Remastered 2009 | Excluded album (Revolver (Remastered)), Too few recordings (2) | 4RdJFhfLQcezwN5LsXl4qP |
-| Lovely Rita | Excluded by the beatles (excluded) | 1gJy93yw33uBxRHZn8KFEz |
-| Lovely Rita - Remastered 2009 | Excluded by the beatles (excluded) | 6h9W5FxX4E9lUFsyq8j1AD |
-| Lovely Rita - Remix | Excluded by the beatles (excluded) | 4gzLeEbCDmgK5XuhgXZt7x |
-| Lovely Rita - Remix | | 3CdDBopz2XipdS5ICzhWHN |
-| Lovely Rita - Speech And Take 9 | Excluded by the beatles (excluded) | 3RHJClIsYoZaUxt6O26GMd |
-| Lovely Rita - Speech And Take 9 | | 2PplbC8NQBWvFLSTzJUmAS |
+| Lovely Rita | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 1gJy93yw33uBxRHZn8KFEz |
+| Lovely Rita - Remastered 2009 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 6h9W5FxX4E9lUFsyq8j1AD |
+| Lovely Rita - Remix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4gzLeEbCDmgK5XuhgXZt7x |
+| Lovely Rita - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3CdDBopz2XipdS5ICzhWHN |
+| Lovely Rita - Speech And Take 9 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3RHJClIsYoZaUxt6O26GMd |
+| Lovely Rita - Speech And Take 9 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2PplbC8NQBWvFLSTzJUmAS |
 | Lower 5E - Live At The BBC For "Pop Go The Beatles" / 10th September, 1963 | Too short (23s), Too few recordings (1) | 7rJyaMfst2659UXAZCGP9E |
 | Lucille - Live At The BBC For "Pop Go The Beatles" / 17th September, 1963 | Too few recordings (2) | 1KhdqGq6CNKBqPddqjFCQo |
 | Lucille - Live At The BBC For "Saturday Club" / 5th October, 1963 | Too few recordings (2) | 2s4VuwtM6GII3MI3AOjJal |
-| Lucy In The Sky With Diamonds | Excluded by the beatles (excluded) | 5wLkhxwU7B9DNglfZAIrQ8 |
-| Lucy In The Sky With Diamonds | | 068kw8ocU8Nqgk96slYAUK |
-| Lucy In The Sky With Diamonds | | 10pNLTLW8QHp0FbhjA0ejS |
-| Lucy In The Sky With Diamonds - Alternate Mix / Anthology 2 Version | Excluded by the beatles (excluded) | 5n9kc5lfTBZiDAZOhbr312 |
-| Lucy In The Sky With Diamonds - Original Mono Mix - No. 11 | Excluded by the beatles (excluded) | 0E6WZbPpTm28V0Cs7NyqhV |
-| Lucy In The Sky With Diamonds - Remastered 2009 | Excluded by the beatles (excluded) | 25yQPHgC35WNnnOUqFhgVR |
-| Lucy In The Sky With Diamonds - Remastered 2009 | | 0L5bImqubaaVKPnbD6MI0x |
-| Lucy In The Sky With Diamonds - Remix | Excluded by the beatles (excluded) | 2iIRl5jf9beA2ExZWzn2nt |
-| Lucy In The Sky With Diamonds - Remix | | 5od7xyJpszivAXNkBc5SL8 |
-| Lucy In The Sky With Diamonds - Speech, False Start And Take 5 | Excluded by the beatles (excluded) | 0vEEJGrKJLleW4cziz2C6s |
-| Lucy In The Sky With Diamonds - Take 1 | Excluded by the beatles (excluded) | 3BrTDY7Lpwm7UqC1pdnbaQ |
-| Lucy In The Sky With Diamonds - Take 1 And Speech At The End | Excluded by the beatles (excluded) | 3sVmaIGrxKARMwVPSVh2QM |
+| Lucy In The Sky With Diamonds | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 5wLkhxwU7B9DNglfZAIrQ8 |
+| Lucy In The Sky With Diamonds | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 068kw8ocU8Nqgk96slYAUK |
+| Lucy In The Sky With Diamonds | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 10pNLTLW8QHp0FbhjA0ejS |
+| Lucy In The Sky With Diamonds - Alternate Mix / Anthology 2 Version | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 5n9kc5lfTBZiDAZOhbr312 |
+| Lucy In The Sky With Diamonds - Original Mono Mix - No. 11 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 0E6WZbPpTm28V0Cs7NyqhV |
+| Lucy In The Sky With Diamonds - Remastered 2009 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 25yQPHgC35WNnnOUqFhgVR |
+| Lucy In The Sky With Diamonds - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 0L5bImqubaaVKPnbD6MI0x |
+| Lucy In The Sky With Diamonds - Remix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2iIRl5jf9beA2ExZWzn2nt |
+| Lucy In The Sky With Diamonds - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 5od7xyJpszivAXNkBc5SL8 |
+| Lucy In The Sky With Diamonds - Speech, False Start And Take 5 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 0vEEJGrKJLleW4cziz2C6s |
+| Lucy In The Sky With Diamonds - Take 1 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3BrTDY7Lpwm7UqC1pdnbaQ |
+| Lucy In The Sky With Diamonds - Take 1 And Speech At The End | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3sVmaIGrxKARMwVPSVh2QM |
 | Maggie Mae - Remastered 2009 | Too short (40s), Too few recordings (1) | 2VsX1BoWSGiuVXGiFSUr6h |
 | Magical Mystery Tour - Remastered 2009 | Too few recordings (2) | 1Y9p3QkIMbd4R00BnOCY47 |
 | Magical Mystery Tour - Remastered 2009 | Too few recordings (2) | 0qHMhBZqYb99yhX9BHcIkV |
@@ -492,9 +492,9 @@
 | Matchbox - Remastered 2009 | Too few recordings (2) | 4jXXFZtmxoYU15WKTIiYrE |
 | Maxwell's Silver Hammer - Anthology 3 Version | Too few recordings (2) | 5YHukxDZURFdM8agHmGCTl |
 | Maxwell's Silver Hammer - Remastered 2009 | Too few recordings (2) | 2S8xyNRJX1XQdo3qnTuovI |
-| Mean Mr Mustard - Anthology 3 Version | Too few recordings (1) | 1EjQo8jSo5LzQJ51MIsdrA |
-| Mean Mr Mustard - Esher Demo | Too few recordings (2) | 6t4VDvfVVCriGGmBlqdhfD |
-| Mean Mr Mustard - Remastered 2009 | Too few recordings (2) | 4JOyMhad5dD81uGYLGgKrS |
+| Mean Mr Mustard - Anthology 3 Version | Excluded by the beatles (excluded) | 1EjQo8jSo5LzQJ51MIsdrA |
+| Mean Mr Mustard - Esher Demo | Excluded by the beatles (excluded) | 6t4VDvfVVCriGGmBlqdhfD |
+| Mean Mr Mustard - Remastered 2009 | Excluded by the beatles (excluded) | 4JOyMhad5dD81uGYLGgKrS |
 | Memphis, Tennessee - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Too few recordings (2) | 1GOR0CC1Wnz2nIs8KQVbIQ |
 | Memphis, Tennessee - Live At The BBC For "Saturday Club" / 5th October, 1963 | Too few recordings (2) | 1DkUmd3seTv3HZ3kfNgtxK |
 | Michelle - Remastered 2009 | Too few recordings (2) | 0FARfrl2IDyNURBj1reFWQ |
@@ -514,41 +514,41 @@
 | Mr Moonlight - Remastered 2009 | Too few recordings (2) | 6pPOkr2OxhQ6htrzOiDmq9 |
 | My Bonnie - Anthology 1 Version | Too few recordings (1) | 2jlGyLNsfSRdcTynI1D08K |
 | Never Mind, Eh? - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Too short (34s), Too few recordings (1) | 46Yu3BKMgVmS6KhvaCWG3q |
-| No Reply - Anthology 1 Version | | 49ZAFE9XpjLnrNt5gOe4R4 |
-| No Reply - Anthology 1 Version / Demo | | 48o2WPDbLpzcJZ3QIeDL75 |
-| No Reply - Remastered 2009 | | 4ltC6PrqkTtpcRNi5lvS4z |
+| No Reply - Anthology 1 Version | Excluded by the beatles (excluded) | 49ZAFE9XpjLnrNt5gOe4R4 |
+| No Reply - Anthology 1 Version / Demo | Excluded by the beatles (excluded) | 48o2WPDbLpzcJZ3QIeDL75 |
+| No Reply - Remastered 2009 | Excluded by the beatles (excluded) | 4ltC6PrqkTtpcRNi5lvS4z |
 | Norwegian Wood (This Bird Has Flown) - Remastered 2009 | Excluded by the beatles (excluded - guessed) | 35qzUISYKada65IDfoeOLT |
 | Norwegian Wood (This Bird Has Flown) - Remastered 2009 | Excluded by the beatles (excluded - guessed) | 1H7gMYGykdtwZOV6s1N0by |
 | Norwegian Wood (This Bird Has Flown) - Take 1 / Anthology 2 Version | Excluded by the beatles (excluded - guessed) | 3jleJdmTQKNUeupoZd1WVX |
 | Not A Second Time - Remastered 2009 | Too few recordings (1) | 5vl0sRtrQM1BTSAxQZFqEN |
-| Not Guilty - Anthology 3 Version | | 39QrPQjBJKKw3KPy6sUrCM |
-| Not Guilty - Esher Demo | | 1nxU2ldQdXqnqiKqCh5dvc |
-| Not Guilty - Take 102 | | 46SEFDk5qOQB606SmP3XGY |
+| Not Guilty - Anthology 3 Version | Excluded by the beatles (excluded) | 39QrPQjBJKKw3KPy6sUrCM |
+| Not Guilty - Esher Demo | Excluded by the beatles (excluded) | 1nxU2ldQdXqnqiKqCh5dvc |
+| Not Guilty - Take 102 | Excluded by the beatles (excluded) | 46SEFDk5qOQB606SmP3XGY |
 | Nothin' Shakin' - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too few recordings (1) | 5YrqrCg9WqPyhvIGlpaOst |
 | Now Hush, Hush - Live At The BBC For "Easy Beat" / 20th October, 1963 | Too short (24s), Too few recordings (1) | 0qBskWkYJLLRsfxgAhx1wc |
-| Nowhere Man | | 7qnX6mlylOFWHf75EkfGw7 |
-| Nowhere Man - Remastered 2009 | | 5SUlhldQJtOhUr2GzH5RI7 |
-| Nowhere Man - Remastered 2009 | | 3NRXwFqPsmFe2dpIrT8CzK |
+| Nowhere Man | Excluded by the beatles (excluded) | 7qnX6mlylOFWHf75EkfGw7 |
+| Nowhere Man - Remastered 2009 | Excluded by the beatles (excluded) | 5SUlhldQJtOhUr2GzH5RI7 |
+| Nowhere Man - Remastered 2009 | Excluded by the beatles (excluded) | 3NRXwFqPsmFe2dpIrT8CzK |
 | Ob-La-Di, Ob-La-Da - 2018 Mix | Excluded album (The Beatles (Remastered)) | 02FJNRUlB28e1F0R9uP2s1 |
 | Ob-La-Di, Ob-La-Da - Anthology 3 Version | Excluded album (The Beatles (Remastered)) | 3P6dbrX6Eoj8Lvj7XjRh2b |
 | Ob-La-Di, Ob-La-Da - Esher Demo | Excluded album (The Beatles (Remastered)) | 4xNXqEBx1VXuph56zyUzBg |
 | Ob-La-Di, Ob-La-Da - Remastered 2009 | Excluded album (The Beatles (Remastered)) | 3danaswvdD7sSz1ERKNfxh |
 | Ob-La-Di, Ob-La-Da - Remastered 2009 | Excluded album (The Beatles (Remastered)) | 1gFNm7cXfG1vSMcxPpSxec |
 | Ob-La-Di, Ob-La-Da - Take 3 | Excluded album (The Beatles (Remastered)) | 5DJzQBU5R8g5tDUBtHRPf9 |
-| Octopus's Garden | | 4wKLjpjrCejAXF8vebREmm |
-| Octopus's Garden - Anthology 3 Version | | 09Q1WMIt0SDMPJV32MDzFD |
-| Octopus's Garden - Remastered 2009 | | 0suLngfo7rJoetk7Ub6N8l |
-| Octopus's Garden - Remastered 2009 | | 3eZxQIML98CXyZJ6hOBp1g |
+| Octopus's Garden | Excluded by the beatles (excluded) | 4wKLjpjrCejAXF8vebREmm |
+| Octopus's Garden - Anthology 3 Version | Excluded by the beatles (excluded) | 09Q1WMIt0SDMPJV32MDzFD |
+| Octopus's Garden - Remastered 2009 | Excluded by the beatles (excluded) | 0suLngfo7rJoetk7Ub6N8l |
+| Octopus's Garden - Remastered 2009 | Excluded by the beatles (excluded) | 3eZxQIML98CXyZJ6hOBp1g |
 | Oh! Darling - Anthology 3 Version | Too few recordings (2) | 6FF2YT68F789fJpyWhTHvP |
 | Oh! Darling - Remastered 2009 | Too few recordings (2) | 2mxByJWOajjiVsLWjNXvDJ |
 | Oh, Can’t We? Yes We Can - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Too short (19s), Too few recordings (1) | 5DsvuJZEI2OfDGbpsHFRC4 |
-| Old Brown Shoe - Anthology 3 Version | | 4FusZq1zDJBVMFZRSb7cn3 |
-| Old Brown Shoe - Remastered 2009 | | 5WWclQRAdad9CwLV6rd8hX |
-| Old Brown Shoe - Remastered 2009 | | 7vMCInGW1N1uTFC1LoklEM |
-| One After 909 - Anthology 1 Version / Complete | | 20wb8OyRt37vzWLC8QjmLX |
-| One After 909 - Anthology 1 Version / False Starts | | 0VPSCNfyCMDpgRG4bwYSQ7 |
-| One After 909 - Naked Version / Remastered 2013 | | 2lq81FsCIMHXxONi1cTx71 |
-| One After 909 - Remastered 2009 | | 50qHmeex1nPTyQTwBXjSE4 |
+| Old Brown Shoe - Anthology 3 Version | Excluded by the beatles (excluded) | 4FusZq1zDJBVMFZRSb7cn3 |
+| Old Brown Shoe - Remastered 2009 | Excluded by the beatles (excluded) | 5WWclQRAdad9CwLV6rd8hX |
+| Old Brown Shoe - Remastered 2009 | Excluded by the beatles (excluded) | 7vMCInGW1N1uTFC1LoklEM |
+| One After 909 - Anthology 1 Version / Complete | Excluded by the beatles (excluded) | 20wb8OyRt37vzWLC8QjmLX |
+| One After 909 - Anthology 1 Version / False Starts | Excluded by the beatles (excluded) | 0VPSCNfyCMDpgRG4bwYSQ7 |
+| One After 909 - Naked Version / Remastered 2013 | Excluded by the beatles (excluded) | 2lq81FsCIMHXxONi1cTx71 |
+| One After 909 - Remastered 2009 | Excluded by the beatles (excluded) | 50qHmeex1nPTyQTwBXjSE4 |
 | Only A Northern Song | | 2upaZFZApLrvmkBzBFFS9m |
 | Only A Northern Song - Anthology 2 Version | | 04tl00jeM1opx4GhHnnMum |
 | Only A Northern Song - Remastered 2009 | | 4phXWLTSlC1BEogSWhJMDD |
@@ -580,10 +580,10 @@
 | Piggies - Take 12 / Instrumental Backing Track | Excluded album (The Beatles (Remastered)) | 4kn66ucNWyuNVf4DCXDpvl |
 | Please Mister Postman - Live At The BBC For "Pop Go The Beatles" / 30th July 1963 | Too few recordings (2) | 6VZF1Cn2M2FqlxPoo84afo |
 | Please Mister Postman - Remastered 2009 | Too few recordings (2) | 6wfK1R6FoLpmUA9lk5ll4T |
-| Please Please Me - Anthology 1 Version | | 5ZWOo4Ov1WohYXgSpBgd7G |
-| Please Please Me - Live At The BBC For "Pop Go The Beatles" / 13th August, 1963 | | 6r4AQXhOKOZzerkc96Qv2q |
-| Please Please Me - Mono Version / Remastered 2009 | | 473McZs08uo5AIimJyAelZ |
-| Please Please Me - Remastered 2009 | | 6EHuOufBeL6vk3TvVJB5qo |
+| Please Please Me - Anthology 1 Version | Excluded by the beatles (excluded) | 5ZWOo4Ov1WohYXgSpBgd7G |
+| Please Please Me - Live At The BBC For "Pop Go The Beatles" / 13th August, 1963 | Excluded by the beatles (excluded) | 6r4AQXhOKOZzerkc96Qv2q |
+| Please Please Me - Mono Version / Remastered 2009 | Excluded by the beatles (excluded) | 473McZs08uo5AIimJyAelZ |
+| Please Please Me - Remastered 2009 | Excluded by the beatles (excluded) | 6EHuOufBeL6vk3TvVJB5qo |
 | Polythene Pam - Anthology 3 Version | | 4gsJkdMs7JHHqfW7tsMy2z |
 | Polythene Pam - Esher Demo | | 7BiyEK4mG4Nd9zcSblIdGc |
 | Polythene Pam - Remastered 2009 | | 1FTCA6wQwulQFokDddKE68 |
@@ -631,45 +631,45 @@
 | Sexy Sadie - Esher Demo | Excluded album (The Beatles (Remastered)) | 2SB7SvBpz5X5ZnmABsLUUT |
 | Sexy Sadie - Remastered 2009 | Excluded album (The Beatles (Remastered)) | 2tBv9tAdqEbLNDi5smSjbg |
 | Sexy Sadie - Take 3 | Excluded album (The Beatles (Remastered)) | 1BcNJQGC7MD2oEuO20E5eh |
-| Sgt Pepper's Lonely Hearts Club Band | Too few recordings (2) | 6pcO0mAQbpKbqKeiFHuTRR |
-| Sgt Pepper's Lonely Hearts Club Band | Too few recordings (2) | 2GfE6RKmU6xX6zvYmwTlpO |
-| Sgt Pepper's Lonely Hearts Club Band (Reprise) | Too few recordings (1) | 4OGiLMxOysu4J7wqr10nMR |
-| Sgt Pepper's Lonely Hearts Club Band (Reprise) - Remix | | 57OwEeLrTkZgqZtbM0Tsr6 |
-| Sgt Pepper's Lonely Hearts Club Band (Reprise) - Remix | | 0SH68QO8BDQpxezIZE91Ba |
-| Sgt Pepper's Lonely Hearts Club Band (Reprise) - Speech And Take 8 | | 2LfQmUUVZTs2Or7ipA0sNR |
-| Sgt Pepper's Lonely Hearts Club Band (Reprise) - Speech And Take 8 | | 4IfD31zm39SP4hsDm9LFZ7 |
-| Sgt Pepper's Lonely Hearts Club Band - Remastered 2009 | | 4Pp9Wjiy9Ort5q0fmukPix |
-| Sgt Pepper's Lonely Hearts Club Band - Remastered 2009 | | 4fUKE8EULjQdHF4zb0M8FO |
-| Sgt Pepper's Lonely Hearts Club Band - Remix | | 6JkioJZkImC4GRzgw5MGMO |
-| Sgt Pepper's Lonely Hearts Club Band - Remix | | 3J2RmOkB4VRBv4N66Nor0y |
-| Sgt Pepper's Lonely Hearts Club Band - Reprise | | 7DJOx5DO5MAAuy589sAXCg |
-| Sgt Pepper's Lonely Hearts Club Band - Reprise / Anthology 2 Version | | 707vh955opPAK8BjNuoZYP |
-| Sgt Pepper's Lonely Hearts Club Band - Reprise / Remastered 2009 | | 42ocGQCOT0xYtV3f5kJDsD |
-| Sgt Pepper's Lonely Hearts Club Band - Take 1 / Instrumental | | 4J60mvnuHBQYd4fqpLbPnV |
-| Sgt Pepper's Lonely Hearts Club Band - Take 9 And Speech | | 33M8Tg2vvZYsmJIuGa3zZd |
-| Sgt Pepper's Lonely Hearts Club Band - Take 9 And Speech | | 1oaFPXlIXMFFgNESnW6JdZ |
+| Sgt Pepper's Lonely Hearts Club Band | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 6pcO0mAQbpKbqKeiFHuTRR |
+| Sgt Pepper's Lonely Hearts Club Band | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2GfE6RKmU6xX6zvYmwTlpO |
+| Sgt Pepper's Lonely Hearts Club Band (Reprise) | Excluded by the beatles (excluded) | 4OGiLMxOysu4J7wqr10nMR |
+| Sgt Pepper's Lonely Hearts Club Band (Reprise) - Remix | Excluded by the beatles (excluded) | 57OwEeLrTkZgqZtbM0Tsr6 |
+| Sgt Pepper's Lonely Hearts Club Band (Reprise) - Remix | Excluded by the beatles (excluded) | 0SH68QO8BDQpxezIZE91Ba |
+| Sgt Pepper's Lonely Hearts Club Band (Reprise) - Speech And Take 8 | Excluded by the beatles (excluded) | 2LfQmUUVZTs2Or7ipA0sNR |
+| Sgt Pepper's Lonely Hearts Club Band (Reprise) - Speech And Take 8 | Excluded by the beatles (excluded) | 4IfD31zm39SP4hsDm9LFZ7 |
+| Sgt Pepper's Lonely Hearts Club Band - Remastered 2009 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4Pp9Wjiy9Ort5q0fmukPix |
+| Sgt Pepper's Lonely Hearts Club Band - Remastered 2009 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4fUKE8EULjQdHF4zb0M8FO |
+| Sgt Pepper's Lonely Hearts Club Band - Remix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 6JkioJZkImC4GRzgw5MGMO |
+| Sgt Pepper's Lonely Hearts Club Band - Remix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3J2RmOkB4VRBv4N66Nor0y |
+| Sgt Pepper's Lonely Hearts Club Band - Reprise | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 7DJOx5DO5MAAuy589sAXCg |
+| Sgt Pepper's Lonely Hearts Club Band - Reprise / Anthology 2 Version | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 707vh955opPAK8BjNuoZYP |
+| Sgt Pepper's Lonely Hearts Club Band - Reprise / Remastered 2009 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 42ocGQCOT0xYtV3f5kJDsD |
+| Sgt Pepper's Lonely Hearts Club Band - Take 1 / Instrumental | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4J60mvnuHBQYd4fqpLbPnV |
+| Sgt Pepper's Lonely Hearts Club Band - Take 9 And Speech | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 33M8Tg2vvZYsmJIuGa3zZd |
+| Sgt Pepper's Lonely Hearts Club Band - Take 9 And Speech | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 1oaFPXlIXMFFgNESnW6JdZ |
 | Sha La La La La! - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Too short (28s), Too few recordings (1) | 6GGYXa8pIYOCUgNnl3fnP8 |
 | She Came In Through The Bathroom Window - Anthology 3 Version | Too few recordings (2) | 4DnyEu7xKDA4Xn54LmQi17 |
 | She Came In Through The Bathroom Window - Remastered 2009 | Too few recordings (2) | 2jtUGFsqanQ82zqDlhiKIp |
-| She Loves You - Anthology 1 Version / Live At The Prince Of Wales Theatre, London/1963 | | 1S8yrFPr3n7K0szQCVu1Ta |
-| She Loves You - Live / Remastered | | 0GUp9QOezipeh6BOV1kguV |
-| She Loves You - Live At The BBC For "Saturday Club" / 5th October, 1963 | | 0Xvir6Q79hoZxetCmOuUAT |
-| She Loves You - Mono / Remastered | | 6nEkxYIEnrbYH7h1hJ8Xn6 |
-| She Loves You - Mono Version / Remastered 2009 | | 0qsS2A3hwicJCLtcaR6JRQ |
-| She Loves You - Remastered 2009 | | 48JM82SHQTBYkhEYhMaOaa |
+| She Loves You - Anthology 1 Version / Live At The Prince Of Wales Theatre, London/1963 | Excluded by the beatles (excluded) | 1S8yrFPr3n7K0szQCVu1Ta |
+| She Loves You - Live / Remastered | Excluded by the beatles (excluded) | 0GUp9QOezipeh6BOV1kguV |
+| She Loves You - Live At The BBC For "Saturday Club" / 5th October, 1963 | Excluded by the beatles (excluded) | 0Xvir6Q79hoZxetCmOuUAT |
+| She Loves You - Mono / Remastered | Excluded by the beatles (excluded) | 6nEkxYIEnrbYH7h1hJ8Xn6 |
+| She Loves You - Mono Version / Remastered 2009 | Excluded by the beatles (excluded) | 0qsS2A3hwicJCLtcaR6JRQ |
+| She Loves You - Remastered 2009 | Excluded by the beatles (excluded) | 48JM82SHQTBYkhEYhMaOaa |
 | She Said She Said - Remastered 2009 | Excluded album (Revolver (Remastered)), Too few recordings (1) | 3VSuWxZM6x6V3ig5nYtikL |
 | She's A Woman - Live / Remastered | Excluded by the beatles (excluded) | 6lynokJ0Ilm55qB4FdVeG7 |
 | She's A Woman - Live At The BBC For "Top Gear" / 26th November, 1964 | Excluded by the beatles (excluded) | 4ekQhyK6Kmi6uNGlxqW1ec |
 | She's A Woman - Live From Nippon Budokan Hall, Tokyo, Japan/1966 / Anthology 2 Version | Excluded by the beatles (excluded) | 0VCmXZ1RjOol1o5ivDLHYI |
 | She's A Woman - Remastered 2009 | Excluded by the beatles (excluded) | 6vsb1bU8oW7iqtjH2GeEaS |
-| She's Leaving Home | | 7BgUsF8L4cMhtBlPzo8den |
-| She's Leaving Home - First Mono Mix | | 1J6HWdkiLhk3s8eoEVn8yN |
-| She's Leaving Home - Remastered 2009 | | 3PjMtNzwhDHqxoKudm6GvF |
-| She's Leaving Home - Remix | | 3mjQT6aE0mvrffreC9OvWa |
-| She's Leaving Home - Remix | | 4Ggjly9D6YlPfywZOViMaG |
-| She's Leaving Home - Take 1 / Instrumental | | 1w344nykRKrqN2JsMIUlvR |
-| She's Leaving Home - Take 1 / Instrumental | | 6FsdVfBnVYANpYBHo7qezC |
-| She's Leaving Home - Take 6 / Instrumental | | 2rMTGwQjnOcK6T0yBCDmvb |
+| She's Leaving Home | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 7BgUsF8L4cMhtBlPzo8den |
+| She's Leaving Home - First Mono Mix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 1J6HWdkiLhk3s8eoEVn8yN |
+| She's Leaving Home - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3PjMtNzwhDHqxoKudm6GvF |
+| She's Leaving Home - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3mjQT6aE0mvrffreC9OvWa |
+| She's Leaving Home - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4Ggjly9D6YlPfywZOViMaG |
+| She's Leaving Home - Take 1 / Instrumental | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 1w344nykRKrqN2JsMIUlvR |
+| She's Leaving Home - Take 1 / Instrumental | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 6FsdVfBnVYANpYBHo7qezC |
+| She's Leaving Home - Take 6 / Instrumental | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2rMTGwQjnOcK6T0yBCDmvb |
 | Shout - Anthology 1 Version | Too few recordings (1) | 5e5M9lzsVTPsICwCVwhJKL |
 | Sie liebt dich - Remastered 2009 | Too few recordings (1) | 5rkgbGIOTBGlKTAawWb06X |
 | Slow Down - Live At The BBC For "Pop Go The Beatles" / 20th August, 1963 | Too few recordings (2) | 1uZrVKf1USthibXjbJ25Yl |
@@ -718,9 +718,9 @@
 | That's All Right (Mama) - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Too few recordings (1) | 6zsbf8RSb8YODtTclmMgAb |
 | That’s What We’re Here For - Live At The BBC For "Top Gear" / 26th November, 1964 | Too short (24s), Too few recordings (1) | 3SAWWWqMxZX3wew3dACrBO |
 | The 49 Weeks - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Too short (16s), Too few recordings (1) | 0dTcNeWaYDZIvJxD2QrH4H |
-| The Ballad Of John And Yoko - Remastered 2009 | | 0iwo02NoGqyooxs81iEkz3 |
-| The Ballad Of John And Yoko - Remastered 2009 | | 6r7JAngkBzKGDKRUzLgY2U |
-| The Ballad Of John And Yoko - Remastered 2015 | | 1F7s27lLKshLPt9TPCgMDL |
+| The Ballad Of John And Yoko - Remastered 2009 | Excluded by the beatles (excluded) | 0iwo02NoGqyooxs81iEkz3 |
+| The Ballad Of John And Yoko - Remastered 2009 | Excluded by the beatles (excluded) | 6r7JAngkBzKGDKRUzLgY2U |
+| The Ballad Of John And Yoko - Remastered 2015 | Excluded by the beatles (excluded) | 1F7s27lLKshLPt9TPCgMDL |
 | The Continuing Story Of Bungalow Bill - 2018 Mix | Excluded album (The Beatles (Remastered)) | 7KXaC0HCD4VoIZOzWfdirZ |
 | The Continuing Story Of Bungalow Bill - Esher Demo | Excluded album (The Beatles (Remastered)) | 4Fq5tBgj3RwAhffVY5p1Nl |
 | The Continuing Story Of Bungalow Bill - Remastered 2009 | Excluded album (The Beatles (Remastered)) | 5Z3Rd1fMcaty8g5Pn7yhBQ |
@@ -752,20 +752,20 @@
 | Things We Said Today - Remastered 2009 | | 0voUr8lubIafUVJlauJxYF |
 | Think For Yourself | Too few recordings (2) | 0JRBoJ0LwENEiSqaaqbEeG |
 | Think For Yourself - Remastered 2009 | Too few recordings (2) | 64bKVrkaXQAKx04dLHqCNz |
-| This Boy - Anthology 1 Version | | 7h0PH8SyWoXnkTdnRvoO8W |
-| This Boy - Live At The BBC For "Saturday Club" / 21st December, 1963 | | 5AJaoXVdWEQhvYNsVfFflI |
-| This Boy - Remastered 2009 | | 0oQshbv1BFLZ61b1tQ4Eqg |
+| This Boy - Anthology 1 Version | Excluded by the beatles (excluded) | 7h0PH8SyWoXnkTdnRvoO8W |
+| This Boy - Live At The BBC For "Saturday Club" / 21st December, 1963 | Excluded by the beatles (excluded) | 5AJaoXVdWEQhvYNsVfFflI |
+| This Boy - Remastered 2009 | Excluded by the beatles (excluded) | 0oQshbv1BFLZ61b1tQ4Eqg |
 | Three Cool Cats - Anthology 1 Version | Too few recordings (1) | 6xAiyH80RTPPMBZwvWpTEN |
-| Ticket To Ride - Live / Remastered | | 2FP07Rr3ZwFmJZXsaj7hjE |
-| Ticket To Ride - Live At The BBC For "The Beatles Invite You To Take A Ticket To Ride" / 7th June, 1965 | | 7b9lvYjHp2vhh4HnXIWmi5 |
-| Ticket To Ride - Live From The ABC Theatre, Blackpool, UK/1965 / Anthology 2 Version | | 1ORS4W9bT6v8v3Yy45KsDY |
-| Ticket To Ride - Remastered 2009 | | 55RzZKWf4ICmLH4ulzkXNG |
-| Ticket To Ride - Remastered 2009 | | 7CZiDzGVjUssMSOXrDNYHL |
-| Ticket To Ride - Remastered 2015 | | 7nhrlsT1P4qsslp28UA1BI |
-| Till There Was You - Anthology 1 Version / Live At The Prince Of Wales Theatre, London/1963 | | 2eAw0Q28Vl6O3XRVbocu1k |
-| Till There Was You - Live At The BBC For "From Us To You Say The Beatles" / 10th March, 1964 | | 2SxoyLEyWDrmOCojLtdmsO |
-| Till There Was You - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | | 4JZK2mTiWNFsEGJ14Z0ptX |
-| Till There Was You - Remastered 2009 | | 0ESIjVxnDnCDaTPo6sStHm |
+| Ticket To Ride - Live / Remastered | Excluded by the beatles (excluded) | 2FP07Rr3ZwFmJZXsaj7hjE |
+| Ticket To Ride - Live At The BBC For "The Beatles Invite You To Take A Ticket To Ride" / 7th June, 1965 | Excluded by the beatles (excluded) | 7b9lvYjHp2vhh4HnXIWmi5 |
+| Ticket To Ride - Live From The ABC Theatre, Blackpool, UK/1965 / Anthology 2 Version | Excluded by the beatles (excluded) | 1ORS4W9bT6v8v3Yy45KsDY |
+| Ticket To Ride - Remastered 2009 | Excluded by the beatles (excluded) | 55RzZKWf4ICmLH4ulzkXNG |
+| Ticket To Ride - Remastered 2009 | Excluded by the beatles (excluded) | 7CZiDzGVjUssMSOXrDNYHL |
+| Ticket To Ride - Remastered 2015 | Excluded by the beatles (excluded) | 7nhrlsT1P4qsslp28UA1BI |
+| Till There Was You - Anthology 1 Version / Live At The Prince Of Wales Theatre, London/1963 | Excluded by the beatles (excluded) | 2eAw0Q28Vl6O3XRVbocu1k |
+| Till There Was You - Live At The BBC For "From Us To You Say The Beatles" / 10th March, 1964 | Excluded by the beatles (excluded) | 2SxoyLEyWDrmOCojLtdmsO |
+| Till There Was You - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Excluded by the beatles (excluded) | 4JZK2mTiWNFsEGJ14Z0ptX |
+| Till There Was You - Remastered 2009 | Excluded by the beatles (excluded) | 0ESIjVxnDnCDaTPo6sStHm |
 | To Know Her Is To Love Her - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Too few recordings (1) | 3PzNwVdR8BNzKCBahvAYOm |
 | Tomorrow Never Knows - Remastered 2009 | Excluded album (Revolver (Remastered)), Too few recordings (2) | 00oZhqZIQfL9P5CjOP6JsO |
 | Tomorrow Never Knows - Take 1 / Anthology 2 Version | Excluded album (Revolver (Remastered)), Too few recordings (2) | 0xIgBJDW61Di0kYra3pP6H |
@@ -778,9 +778,9 @@
 | Two Of Us - Naked Version / Remastered 2013 | | 6uJwK7c62pfQrG9tTkHivn |
 | Two Of Us - Remastered 2009 | | 0CaBBQsaAiRHhiLmzi7ZRp |
 | Wait - Remastered 2009 | Too few recordings (1) | 0CGbof9amBnsNlRhZ8IY2H |
-| We Can Work It Out - Remastered 2009 | | 7tBAxQ6hD4mhr1sYQhwWDP |
-| We Can Work It Out - Remastered 2009 | | 7LNiAjyg9P2GKINTtN6Yt8 |
-| We Can Work It Out - Remastered 2015 | | 1hTUFqJuQAMjXVGwUPWDqi |
+| We Can Work It Out - Remastered 2009 | Excluded by the beatles (excluded) | 7tBAxQ6hD4mhr1sYQhwWDP |
+| We Can Work It Out - Remastered 2009 | Excluded by the beatles (excluded) | 7LNiAjyg9P2GKINTtN6Yt8 |
+| We Can Work It Out - Remastered 2015 | Excluded by the beatles (excluded) | 1hTUFqJuQAMjXVGwUPWDqi |
 | We Were Four Guys... That's All - Anthology 1 Version | Too short (11s), Too few recordings (1) | 0jDbkso4fyDcabgMbNeWSk |
 | We Were Performers... In Britain - Anthology 1 Version | Too short (12s), Too few recordings (1) | 7DXOPIYA56ZxclUpljJ47u |
 | Well, The Recording Test... By My Artists - Anthology 1 Version | Too short (32s), Too few recordings (1) | 6n9Bd0cf6dqhwArqSdwfko |
@@ -791,13 +791,13 @@
 | What’s The New Mary Jane - Esher Demo | Too few recordings (2) | 4WbKV0Jstn431Vw1Yaq50T |
 | What’s The New Mary Jane - Take 1 | Too few recordings (2) | 3IZCKnMPEthk8zg0nR2Lnd |
 | When I Get Home - Remastered 2009 | Too few recordings (1) | 4oLQ0imA5IDtNUnhFKY87q |
-| When I'm Sixty Four | | 5wHLDukHz5Mc4r9DzYK1Mt |
-| When I'm Sixty Four | | 1zdBFL2UtwbCEubEdcdSmU |
-| When I'm Sixty Four - Remastered 2009 | | 1NrbnHlR2BFREcyWXHIHip |
-| When I'm Sixty-Four - Remix | | 1aIwEwu8BE3s5j7hmvZRt9 |
-| When I'm Sixty-Four - Remix | | 0AvygKcKeMyZlFmDzbqcYK |
-| When I'm Sixty-Four - Take 2 | | 7jREybynLwTN2T91oUWqyG |
-| When I'm Sixty-Four - Take 2 | | 5UOd4rjE1TYeEQrQRTQHKv |
+| When I'm Sixty-Four | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 5wHLDukHz5Mc4r9DzYK1Mt |
+| When I'm Sixty-Four | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 1zdBFL2UtwbCEubEdcdSmU |
+| When I'm Sixty-Four - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 1NrbnHlR2BFREcyWXHIHip |
+| When I'm Sixty-Four - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 1aIwEwu8BE3s5j7hmvZRt9 |
+| When I'm Sixty-Four - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 0AvygKcKeMyZlFmDzbqcYK |
+| When I'm Sixty-Four - Take 2 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 7jREybynLwTN2T91oUWqyG |
+| When I'm Sixty-Four - Take 2 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 5UOd4rjE1TYeEQrQRTQHKv |
 | While My Guitar Gently Weeps | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) | 0FzGKD3N0jK6nNOyOJBvNG |
 | While My Guitar Gently Weeps - 2018 Mix | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) | 0ZqSsO2xoVvcrhpiRuqCmt |
 | While My Guitar Gently Weeps - Acoustic Version / Take 2 | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) | 3WI9MiICexrmvgCjqfMOcw |
@@ -812,21 +812,21 @@
 | Why Don’t We Do It In The Road? - Take 5 | Too few recordings (1) | 3BOMaaOFlOXCu00eyMbajU |
 | Wild Honey Pie - 2018 Mix | Too short (53s), Excluded album (The Beatles (Remastered)), Too few recordings (2) | 76YBf6AwWhPG62H2LZftFQ |
 | Wild Honey Pie - Remastered 2009 | Too short (52s), Excluded album (The Beatles (Remastered)), Too few recordings (2) | 6j67aNAPeQ31uw4qw4rpLa |
-| With A Little Help From My Friends | | 4CEoeG1rCKomLu9DtRvX5l |
-| With A Little Help From My Friends | | 3M5PklZ0bZrjQBtPYyiz7F |
-| With A Little Help From My Friends - Remastered 2009 | | 2RnPATK99oGOZygnD2GTO6 |
-| With A Little Help From My Friends - Remastered 2009 | | 4nnQT7RxMvRwqVGf742xfj |
-| With A Little Help From My Friends - Remix | | 08XKCwMrwEAyyfTCTGkkhg |
-| With A Little Help From My Friends - Remix | | 2YsKxAJKUJx93BKxzQ3RTr |
-| With A Little Help From My Friends - Take 1 / False Start And Take 2 / Instrumental | | 2gtkJPo38dvr8JqOd1hExc |
-| With A Little Help From My Friends - Take 1 / False Start And Take 2 / Instrumental | | 2gawXn44H4l6M5rUT26uZC |
-| Within You Without You | Excluded by the beatles (excluded - guessed) | 6g2rBp8zgjFtV1kWQk9Ty0 |
-| Within You Without You - George Coaching The Musicians | Excluded by the beatles (excluded - guessed) | 1cUJR1XBKqBUKCsc9J1DRH |
-| Within You Without You - Remastered 2009 | Excluded by the beatles (excluded - guessed) | 3Umg8CDhO8dOSj7yBTInYb |
-| Within You Without You - Remix | Excluded by the beatles (excluded - guessed) | 0zOVNfqK09eYVHhv5N3lNY |
-| Within You Without You - Remix | Excluded by the beatles (excluded - guessed) | 0kEDYd5bgOdo2yjTaXGMi4 |
-| Within You Without You - Take 1 / Indian Instruments | Excluded by the beatles (excluded - guessed) | 2EVjL6ljSRdzvHvFgCXS7K |
-| Within You Without You - Take 1 / Indian Instruments | Excluded by the beatles (excluded - guessed) | 4GKAZbOP8bx93464aL0hk9 |
+| With A Little Help From My Friends | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4CEoeG1rCKomLu9DtRvX5l |
+| With A Little Help From My Friends | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3M5PklZ0bZrjQBtPYyiz7F |
+| With A Little Help From My Friends - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2RnPATK99oGOZygnD2GTO6 |
+| With A Little Help From My Friends - Remastered 2009 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4nnQT7RxMvRwqVGf742xfj |
+| With A Little Help From My Friends - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 08XKCwMrwEAyyfTCTGkkhg |
+| With A Little Help From My Friends - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2YsKxAJKUJx93BKxzQ3RTr |
+| With A Little Help From My Friends - Take 1 / False Start And Take 2 / Instrumental | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2gtkJPo38dvr8JqOd1hExc |
+| With A Little Help From My Friends - Take 1 / False Start And Take 2 / Instrumental | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2gawXn44H4l6M5rUT26uZC |
+| Within You Without You | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 6g2rBp8zgjFtV1kWQk9Ty0 |
+| Within You Without You - George Coaching The Musicians | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 1cUJR1XBKqBUKCsc9J1DRH |
+| Within You Without You - Remastered 2009 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3Umg8CDhO8dOSj7yBTInYb |
+| Within You Without You - Remix | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 0zOVNfqK09eYVHhv5N3lNY |
+| Within You Without You - Remix | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 0kEDYd5bgOdo2yjTaXGMi4 |
+| Within You Without You - Take 1 / Indian Instruments | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2EVjL6ljSRdzvHvFgCXS7K |
+| Within You Without You - Take 1 / Indian Instruments | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4GKAZbOP8bx93464aL0hk9 |
 | Within You Without You / Tomorrow Never Knows | Too few recordings (1) | 7ABfgkjRNW5LwDzLIKcygW |
 | Within You, Without You - Instrumental / Anthology 2 Version | Too few recordings (1) | 1hvxJUNNfkx7gbLcgDndRK |
 | Words Of Love - Live At The BBC For "Pop Go The Beatles" / 20th August, 1963 | Too few recordings (2) | 32O18bd2TXidvDc24fWb8d |
@@ -848,18 +848,18 @@
 | Yesterday - Remastered 2009 | | 3iD2CCv5bsJRIaqJRYD0uJ |
 | Yesterday - Remastered 2009 | | 3BQHpFgAp4l80e1XslIjNI |
 | Yesterday - Remastered 2015 | | 4E5rL7YL0hVUPqeMSpjEF2 |
-| You Can't Do That - Anthology 1 Version | | 4rct77ReWXjKK3hLTZ9v9I |
-| You Can't Do That - Live / Bonus Track | | 4Dw9HFzXqmdJRM8vfc1FId |
-| You Can't Do That - Live At The BBC For "Top Gear" / 16th July, 1964 | | 3szBij9Q2RnaJ6EPGzy7CF |
-| You Can't Do That - Remastered 2009 | | 5b9G4dtK3Tdguuy9BO3Nwo |
+| You Can't Do That - Anthology 1 Version | Excluded by the beatles (excluded) | 4rct77ReWXjKK3hLTZ9v9I |
+| You Can't Do That - Live / Bonus Track | Excluded by the beatles (excluded) | 4Dw9HFzXqmdJRM8vfc1FId |
+| You Can't Do That - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded by the beatles (excluded) | 3szBij9Q2RnaJ6EPGzy7CF |
+| You Can't Do That - Remastered 2009 | Excluded by the beatles (excluded) | 5b9G4dtK3Tdguuy9BO3Nwo |
 | You Know My Name (Look Up The Number) - Anthology 2 Version | Too few recordings (2) | 4P3jtMSG6TFKviMyhppV5O |
 | You Know My Name (Look Up The Number) - Remastered 2009 | Too few recordings (2) | 2k7gS1tS9OHeS3e8MatzgJ |
 | You Know What To Do - Anthology 1 Version | Too few recordings (1) | 1n8oABN9yti0owTEKcms0q |
 | You Like Me Too Much - Remastered 2009 | Too few recordings (1) | 0y1LLH0NiwOD5tM3aNMXTr |
 | You Never Give Me Your Money - Remastered 2009 | Too few recordings (1) | 1jOLTO379yIu9aMnCkpMQl |
-| You Really Got A Hold On Me - Anthology 1 Version | | 6u8BoFwaowF6MkE1PRJ5D8 |
-| You Really Got A Hold On Me - Live At The BBC For "Saturday Club" / 24th August, 1963 | | 0FOQrQzq84QWxLKTD9cF7u |
-| You Really Got A Hold On Me - Remastered 2009 | | 7rgUYidQh5tH0YlXCoKaYJ |
+| You Really Got A Hold On Me - Anthology 1 Version | Excluded by the beatles (excluded) | 6u8BoFwaowF6MkE1PRJ5D8 |
+| You Really Got A Hold On Me - Live At The BBC For "Saturday Club" / 24th August, 1963 | Excluded by the beatles (excluded) | 0FOQrQzq84QWxLKTD9cF7u |
+| You Really Got A Hold On Me - Remastered 2009 | Excluded by the beatles (excluded) | 7rgUYidQh5tH0YlXCoKaYJ |
 | You Won't See Me - Remastered 2009 | Too few recordings (1) | 4LLBKnNCrSRrSjSTuiwjE9 |
 | You'll Be Mine - Anthology 1 Version | Too few recordings (1) | 175jiRVJ6N6ayJQ1FXim57 |
 | You're Going To Lose That Girl - Remastered 2009 | Too few recordings (1) | 70HNt0eoBVqr4ss68U8x3B |
