@@ -290,7 +290,6 @@ func main() {
 	byTitles := make(map[string]bool)
 	addingToAll := make([]spotify.ID, 0)
 	addingToShort := make([]spotify.ID, 0)
-	addingToCandidates := make([]spotify.ID, 0)
 	for _, track := range allTracks {
 		if reason, ok := excludedTracks[track.ID]; ok {
 			track.Exclude(fmt.Sprintf("By %s", reason))
@@ -306,8 +305,6 @@ func main() {
 				addingToAll = append(addingToAll, track.ID)
 
 				if !track.Excluded {
-					addingToCandidates = append(addingToCandidates, track.ID)
-
 					if _, ok := byShortNames[track.ShortName]; !ok {
 						byShortNames[track.ShortName] = make([]*TrackInfo, 0)
 					}
@@ -443,11 +440,6 @@ func main() {
 			if err != nil {
 				log.Fatalf("Error adding tracks: %v", err)
 			}
-		}
-
-		err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (candidates)", addingToCandidates)
-		if err != nil {
-			log.Fatalf("Error adding tracks: %v", err)
 		}
 	}
 
