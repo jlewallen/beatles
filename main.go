@@ -395,25 +395,24 @@ func main() {
 				}
 			}
 
-			err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3)", addingTo3OrMore)
-			if err != nil {
-				log.Fatalf("Error adding tracks: %v", err)
-			}
+		err = MaybeSetPlaylistTracksByName(spotifyClient, options.ReadOnlySpotify, options.User, artistName+" (R >= 3)", addingTo3OrMore)
+		if err != nil {
+			log.Fatalf("Error adding tracks: %v", err)
+		}
 
-			err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3 originals)", originals)
-			if err != nil {
-				log.Fatalf("Error adding tracks: %v", err)
-			}
+		err = MaybeSetPlaylistTracksByName(spotifyClient, options.ReadOnlySpotify, options.User, artistName+" (R >= 3 originals)", originals)
+		if err != nil {
+			log.Fatalf("Error adding tracks: %v", err)
+		}
 
-			err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3 by release date)", byReleaseDate)
-			if err != nil {
-				log.Fatalf("Error adding tracks: %v", err)
-			}
+		err = MaybeSetPlaylistTracksByName(spotifyClient, options.ReadOnlySpotify, options.User, artistName+" (R >= 3 by release date)", byReleaseDate)
+		if err != nil {
+			log.Fatalf("Error adding tracks: %v", err)
+		}
 
-			err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (R >= 3 on excluded albums)", addingToExcluded)
-			if err != nil {
-				log.Fatalf("Error adding tracks: %v", err)
-			}
+		err = MaybeSetPlaylistTracksByName(spotifyClient, options.ReadOnlySpotify, options.User, artistName+" (R >= 3 on excluded albums)", addingToExcluded)
+		if err != nil {
+			log.Fatalf("Error adding tracks: %v", err)
 		}
 
 		if options.RebuildSingles {
@@ -424,19 +423,19 @@ func main() {
 				}
 			}
 
-			err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (excluded - single recordings)", addingToSingles)
+			err = MaybeSetPlaylistTracksByName(spotifyClient, options.ReadOnlySpotify, options.User, artistName+" (excluded - single recordings)", addingToSingles)
 			if err != nil {
 				log.Fatalf("Error adding tracks: %v", err)
 			}
 		}
 
 		if options.RebuildBase {
-			err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (all)", addingToAll)
+			err = MaybeSetPlaylistTracksByName(spotifyClient, options.ReadOnlySpotify, options.User, artistName+" (all)", addingToAll)
 			if err != nil {
 				log.Fatalf("Error adding tracks: %v", err)
 			}
 
-			err = SetPlaylistTracksByName(spotifyClient, options.User, artistName+" (short)", addingToShort)
+			err = MaybeSetPlaylistTracksByName(spotifyClient, options.ReadOnlySpotify, options.User, artistName+" (short)", addingToShort)
 			if err != nil {
 				log.Fatalf("Error adding tracks: %v", err)
 			}

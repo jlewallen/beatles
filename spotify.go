@@ -492,6 +492,21 @@ func MapIds(ids []spotify.ID) (ifaces []interface{}) {
 	return
 }
 
+func MaybeSetPlaylistTracksByName(spotifyClient *spotify.Client, readOnly bool, userName, playlistName string, tracks []spotify.ID) error {
+	log.Printf("Setting %v tracks on '%s'", len(tracks), playlistName)
+
+	if readOnly {
+		return nil
+	}
+
+	playlist, err := GetPlaylist(spotifyClient, userName, playlistName)
+	if err != nil {
+		return err
+	}
+
+	return SetPlaylistTracks(spotifyClient, playlist.ID, tracks)
+}
+
 func SetPlaylistTracksByName(spotifyClient *spotify.Client, userName, playlistName string, tracks []spotify.ID) error {
 	log.Printf("Setting %v tracks on '%s'", len(tracks), playlistName)
 
@@ -502,6 +517,7 @@ func SetPlaylistTracksByName(spotifyClient *spotify.Client, userName, playlistNa
 
 	return SetPlaylistTracks(spotifyClient, playlist.ID, tracks)
 }
+
 func SetPlaylistTracks(spotifyClient *spotify.Client, id spotify.ID, tracks []spotify.ID) error {
 	err := RemoveAllPlaylistTracks(spotifyClient, id)
 	if err != nil {
