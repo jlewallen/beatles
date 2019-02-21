@@ -1,938 +1,979 @@
-| (You're So Square) Baby I Don’t Care - Studio Jam | Short |
-| 12 Bar Original - Anthology 2 Version | Excluded |
-| 1822! - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Short |
-| A Beginning (Take 4) / Don’t Pass Me By (Take 7) | Excluded |
-| A Beginning - Anthology 3 Version | Short |
-| A Day In The Life | Excluded |
-| A Day In The Life - Anthology 2 Version | Excluded |
-| A Day In The Life - Orchestra Overdub | Short |
-| A Day In The Life - Remastered 2009 | Excluded |
-| A Day In The Life - Remastered 2010 | Excluded |
-| A Day In The Life - Remix | Excluded |
-| A Day In The Life - Take 1 | Excluded |
-| A Day In The Life - Take 1 With Hums | Excluded |
-| A Day In The Life - Take 2 | Excluded |
-| A Day In The Life - The Last Chord | Excluded |
-| A Hard Job Writing Them - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded |
-| A Little Rhyme - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Short |
-| A Real Treat - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Short |
-| A Shot Of Rhythm And Blues - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Excluded |
-| Absolutely Fab - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Short |
-| Across The Universe - Naked Version / Remastered 2013 | Excluded |
-| Across The Universe - Remastered 2009 | Excluded |
-| Across The Universe - Take 2 / Anthology 2 Version | Excluded |
-| Across The Universe - Take 6 | Excluded |
-| Across The Universe - World Wildlife Fund Version / Remastered 2009 | Excluded |
-| Act Naturally - Remastered 2009 | Excluded |
-| All I've Got To Do - Remastered 2009 | Excluded |
-| All My Loving - Anthology 1 Version | Excluded |
-| All My Loving - Live / Remastered | Excluded |
-| All My Loving - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Excluded |
-| All My Loving - Remastered 2009 | Excluded |
-| All Things Must Pass - Anthology 3 Version | Excluded |
-| All You Need Is Love | Excluded |
-| All You Need Is Love - Remastered 2009 | Excluded |
-| All You Need Is Love - Remastered 2015 | Excluded |
-| And Here We Are Again - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Short |
-| And I Love Her - Anthology 1 Version | Excluded |
-| And I Love Her - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded |
-| And I Love Her - Remastered 2009 | Excluded |
-| Another Girl - Remastered 2009 | Excluded |
-| Any Time At All - Remastered 2009 | Excluded |
-| Baby You're A Rich Man | Excluded |
-| Baby, You're A Rich Man - Remastered 2009 | Excluded |
-| Back In The U.S.S.R | Excluded |
-| Back In The U.S.S.R. - 2018 Mix | Excluded |
-| Back In The U.S.S.R. - Esher Demo | Excluded |
-| Back In The U.S.S.R. - Remastered 2009 | Excluded |
-| Back In The U.S.S.R. - Take 5 / Instrumental Backing Track | Excluded |
-| Bad Boy - Remastered 2009 | Excluded |
-| Beatles Greetings - Live At The BBC For "The Public Ear" / 3rd November, 1963 | Short |
-| Beautiful Dreamer - Live At The BBC For "Saturday Club" / 26th January, 1963 | Excluded |
-| Because | Excluded |
-| Because - Anthology 3 Version | Excluded |
-| Because - Remastered 2009 | Excluded |
-| Being For The Benefit Of Mr Kite! | Excluded |
-| Being For The Benefit Of Mr Kite! - Take 7 / Anthology 2 Version | Excluded |
-| Being For The Benefit Of Mr Kite! - Takes 1 & 2 / Anthology 2 Version | Excluded |
-| Being For The Benefit Of Mr Kite! / I Want You (She's So Heavy) / Helter Skelter | Excluded |
-| Being For The Benefit Of Mr. Kite! - Remastered 2009 | Excluded |
-| Being For The Benefit Of Mr. Kite! - Remix | Excluded |
-| Being For The Benefit Of Mr. Kite! - Speech From Before Take 1 / Take 4 And Speech At End | Excluded |
-| Being For The Benefit Of Mr. Kite! - Take 4 | Excluded |
-| Being For The Benefit Of Mr. Kite! - Take 7 | Excluded |
-| Besame Mucho - Anthology 1 Version | Excluded |
-| Blackbird / Yesterday | Excluded |
-| Blue Jay Way - Remastered 2009 | Excluded |
-| Blue Moon - Studio Jam | Excluded |
-| Boys - Anthology 1 Version | Excluded |
-| Boys - Live / Remastered | Excluded |
-| Boys - Remastered 2009 | Excluded |
-| Boys, What Was I Thinking... - Anthology 1 Version | Excluded |
-| Brian Bathtubes - Live At The BBC For "Saturday Club" / 21st December, 1963 | Short |
-| Brian Was A Beautiful Guy...He Presented Us Well - Anthology 1 Version | Short |
-| Bumper Bundle - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Short |
-| Bye, Bye - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Short |
-| Can You Take Me Back? - Take 1 | Excluded |
-| Can't Buy Me Love - Anthology 1 Version | Excluded |
-| Can't Buy Me Love - Live / Remastered | Excluded |
-| Can't Buy Me Love - Live At The BBC For "From Us To You Say The Beatles" / 10th March, 1964 | Excluded |
-| Can't Buy Me Love - Remastered 2009 | Excluded |
-| Can't Buy Me Love - Remastered 2015 | Excluded |
-| Carol - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Excluded |
-| Carry That Weight - Remastered 2009 | Excluded |
-| Cayenne - Anthology 1 Version | Excluded |
-| Child Of Nature - Esher Demo | Excluded |
-| Circles - Esher Demo | Excluded |
-| Clarabella - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Excluded |
-| Come And Get It - Anthology 3 Version | Excluded |
-| Come Together - Anthology 3 Version | Excluded |
-| Come Together - Remastered 2009 | Excluded |
-| Come Together - Remastered 2015 | Excluded |
-| Come Together / Dear Prudence / Cry Baby Cry | Excluded |
-| Crinsk Dee Night - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded |
-| Cry For A Shadow - Anthology 1 Version | Excluded |
-| Crying, Waiting, Hoping - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Excluded |
-| Dear Prudence - 2018 Mix | Excluded |
-| Dear Prudence - Esher Demo | Excluded |
-| Dear Prudence - Remastered 2009 | Excluded |
-| Dear Prudence - Vocal, Guitar & Drums | Excluded |
-| Dear Wack! - Live At The BBC For "Saturday Club" / 24th August, 1963 | Short |
-| Dig It - Remastered 2009 | Short |
-| Dizzy Miss Lizzy - Live / Remastered | Excluded |
-| Dizzy Miss Lizzy - Live At The BBC For "The Beatles Invite You To Take A Ticket To Ride" / 7th June, 1965 | Excluded |
-| Dizzy Miss Lizzy - Remastered 2009 | Excluded |
-| Doctor Robert - Remastered 2009 | Excluded |
-| Don't Bother Me - Remastered 2009 | Excluded |
-| Don't Ever Change - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Excluded |
-| Drive My Car - Remastered 2009 | Excluded |
-| Drive My Car / The Word / What You're Doing | Excluded |
-| Eight Days A Week - Anthology 1 Version / Complete | Excluded |
-| Eight Days A Week - Anthology 1 Version / False Starts | Excluded |
-| Eight Days A Week - Remastered 2009 | Excluded |
-| Eight Days A Week - Remastered 2015 | Excluded |
-| Eleanor Rigby / Julia | Excluded |
-| Every Little Thing - Remastered 2009 | Excluded |
-| Everybody's Trying To Be My Baby - Live At The BBC For "Top Gear" / 26th November, 1964 | Excluded |
-| Everybody's Trying To Be My Baby - Live From Shea Stadium, New York, USA/1965 / Anthology 2 Version | Excluded |
-| Everybody's Trying To Be My Baby - Remastered 2009 | Excluded |
-| Everybody’s Trying To Be My Baby - Live / Bonus Track | Excluded |
-| First Of All... It Didn't Do A Thing Here - Anthology 1 Version | Short |
-| Fixing A Hole | Excluded |
-| Fixing A Hole - Remastered 2009 | Excluded |
-| Fixing A Hole - Remix | Excluded |
-| Fixing A Hole - Speech And Take 3 | Excluded |
-| Fixing A Hole - Take 1 | Excluded |
-| Flying - Remastered 2009 | Excluded |
-| For No One - Remastered 2009 | Excluded |
-| For You Blue - Anthology 3 Version | Excluded |
-| For You Blue - Naked Version / Remastered 2013 | Excluded |
-| For You Blue - Remastered 2009 | Excluded |
-| Free As A Bird - Anthology 1 Version | Excluded |
-| From Fluff To You - Live At The BBC For "From Us To You Say The Beatles" / 10th March, 1964 | Short |
-| From Me To You - Anthology 1 Version | Excluded |
-| From Me To You - Live At The BBC For "Easy Beat" / 20th October, 1963 | Excluded |
-| From Me To You - Mono / Remastered | Excluded |
-| From Me To You - Mono Version / Remastered 2009 | Excluded |
-| From Me To You - Remastered 2009 | Excluded |
-| From Us To You - Live At The BBC / Closing Theme From "From Us To You" / 1964 | Short |
-| From Us To You - Live At The BBC / Opening Theme From "From Us To You" / 1964 | Short |
-| George - Pop Profile - Live At The BBC / 30th November, 1965 | Excluded |
-| Get Back | Excluded |
-| Get Back - Anthology 3 Version | Excluded |
-| Get Back - Naked Version / Remastered 2013 | Excluded |
-| Get Back - Remastered 2009 | Excluded |
-| Get Back - Remastered 2015 | Excluded |
-| Getting Better | Excluded |
-| Getting Better - Remastered 2009 | Excluded |
-| Getting Better - Remix | Excluded |
-| Getting Better - Take 1 / Instrumental And Speech At The End | Excluded |
-| Getting Better - Take 12 | Excluded |
-| Gnik Nus | Short |
-| Golden Slumbers - Remastered 2009 | Excluded |
-| Good Day Sunshine - Remastered 2009 | Excluded |
-| Good Morning Good Morning | Excluded |
-| Good Morning Good Morning - Remastered 2009 | Excluded |
-| Good Morning Good Morning - Remix | Excluded |
-| Good Morning Good Morning - Take 1 / Instrumental Breakdown | Excluded |
-| Good Morning Good Morning - Take 8 | Excluded |
-| Good Morning Good Morning - Take 8 / Anthology 2 Version | Excluded |
-| Good Night - Unnumbered Rehearsal | Short |
-| Green With Black Shutters - Live At The BBC / 1965 | Short |
-| Hallelujah I Love Her So - Anthology 1 Version | Excluded |
-| Happy Birthday Dear Saturday Club - Live At The BBC For "Saturday Club" / 5th October, 1963 | Short |
-| Hello Little Girl - Anthology 1 Version | Excluded |
-| Hello! - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Short |
-| Hello, Goodbye - Remastered 2009 | Excluded |
-| Hello, Goodbye - Remastered 2015 | Excluded |
-| Hello, Goodbye - Take 16 / Anthology 2 Version | Excluded |
-| Help! | Excluded |
-| Help! - Live / Remastered | Excluded |
-| Help! - Live From The ABC Theatre, Blackpool, UK/1965 / Anthology 2 Version | Excluded |
-| Help! - Remastered 2009 | Excluded |
-| Help! - Remastered 2015 | Excluded |
-| Her Majesty - Remastered 2009 | Short |
-| Here Comes The Sun - Remastered 2009 | Excluded |
-| Here Comes The Sun - Remastered 2009 | Excluded |
-| Here Comes The Sun / The Inner Light | Excluded |
-| Here, There And Everywhere - Remastered 2009 | Excluded |
-| Hey Paul…. - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Short |
-| Hold Me Tight - Remastered 2009 | Excluded |
-| Honey Don't - Live At The BBC For "Pop Go The Beatles" / 3rd September, 1963 | Excluded |
-| Honey Don't - Live At The BBC For "Top Gear" / 26th November, 1964 | Excluded |
-| Honey Don't - Remastered 2009 | Excluded |
-| How About It, Gorgeous? - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Short |
-| How Do You Do It? - Anthology 1 Version | Excluded |
-| I Call Your Name - Remastered 2009 | Excluded |
-| I Don't Want To Spoil The Party - Remastered 2009 | Excluded |
-| I Feel Fine (Studio Out-take) - Live At The BBC For "Top Gear" / 17th November, 1964 | Excluded |
-| I Feel Fine - Live At The BBC For "Top Gear" / 26th November, 1964 | Excluded |
-| I Feel Fine - Live From The ABC Theatre, Blackpool, UK/1965 / Anthology 2 Version | Excluded |
-| I Feel Fine - Remastered 2009 | Excluded |
-| I Feel Fine - Remastered 2015 | Excluded |
-| I Forgot To Remember To Forget - Live At The BBC For "From Us To You Say The Beatles" / 18th May, 1964 | Excluded |
-| I Got To Find My Baby - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Excluded |
-| I Just Don't Understand - Live At The BBC For "Pop Go The Beatles" / 20th August, 1963 | Excluded |
-| I Me Mine - Remastered 2009 | Excluded |
-| I Need You - Remastered 2009 | Excluded |
-| I Saw Her Standing There - Anthology 1 Version | Excluded |
-| I Saw Her Standing There - Live At The BBC For "Easy Beat" / 20th October 1963 | Excluded |
-| I Saw Her Standing There - Live At The BBC For "Saturday Club" / 5th October, 1963 | Excluded |
-| I Saw Her Standing There - Remastered 2009 | Excluded |
-| I Secured Them... A Beatle Drink Even Then - Anthology 1 Version | Short |
-| I Should Have Known Better - Remastered 2009 | Excluded |
-| I Wanna Be Your Man - Anthology 1 Version | Excluded |
-| I Wanna Be Your Man - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Excluded |
-| I Wanna Be Your Man - Remastered 2009 | Excluded |
-| I Want To Hold Your Hand | Excluded |
-| I Want To Hold Your Hand - Anthology 1 Version | Excluded |
-| I Want To Hold Your Hand - Live / Bonus Track | Excluded |
-| I Want To Hold Your Hand - Live At The BBC For "The Beatles Say From Us To You" / 26th December, 1963 | Excluded |
-| I Want To Hold Your Hand - Remastered 2009 | Excluded |
-| I Want To Hold Your Hand - Remastered 2015 | Excluded |
-| I Want To Tell You - Remastered 2009 | Excluded |
-| I Want You (She's So Heavy) - Remastered 2009 | Excluded |
-| I Will - Take 29 | Short |
-| I'll Be Back - Anthology 1 Version / Complete | Excluded |
-| I'll Be Back - Anthology 1 Version / Demo | Excluded |
-| I'll Be Back - Remastered 2009 | Excluded |
-| I'll Be On My Way - Live At The BBC For "Side By Side" / 24th June, 1963 | Excluded |
-| I'll Cry Instead - Remastered 2009 | Excluded |
-| I'll Get You - Anthology 1 Version | Excluded |
-| I'll Get You - Live At The BBC For "Saturday Club" / 5th October, 1963 | Excluded |
-| I'll Get You - Remastered 2009 | Excluded |
-| I'm Gonna Sit Right Down And Cry (Over You) - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Excluded |
-| I'm Happy Just To Dance With You - Remastered 2009 | Excluded |
-| I'm Only Sleeping - Rehearsal / Instrumental / Anthology 2 Version | Short |
-| I'm Talking About You - Live At The BBC For "Saturday Club" / 16th March, 1963 | Excluded |
-| I've Got A Feeling - Anthology 3 Version | Excluded |
-| I've Got A Feeling - Naked Version / Remastered 2013 | Excluded |
-| I've Got A Feeling - Remastered 2009 | Excluded |
-| I've Just Seen A Face - Remastered 2009 | Excluded |
-| If I Needed Someone - Remastered 2009 | Excluded |
-| If I Wasn’t In America - Live At The BBC For "Saturday Club" / 15th February, 1964 | Short |
-| If You've Got Trouble - Anthology 2 Version | Excluded |
-| In My Life - Remastered 2009 | Excluded |
-| In Spite Of All The Danger - Anthology 1 Version | Excluded |
-| It Won't Be Long - Remastered 2009 | Excluded |
-| John - Pop Profile - Live At The BBC / 30th November, 1965 | Excluded |
-| Johnny B Goode - Live At The BBC For "Saturday Club" / 15th February, 1964 | Excluded |
-| Just A Rumour - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Short |
-| Kansas City / Hey-Hey-Hey-Hey - Medley / Remastered 2009 | Excluded |
-| Kansas City / Hey-Hey-Hey-Hey! - Anthology 1 Version / Medley | Excluded |
-| Kansas City / Hey-Hey-Hey-Hey! - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Excluded |
-| Kansas City / Hey-Hey-Hey-Hey! - Live At The BBC For "Saturday Club" / 26th December 1964 | Excluded |
-| Keep Your Hands Off My Baby - Live At The BBC For "Saturday Club" / 26th January, 1963 | Excluded |
-| Komm gib mir deine Hand - Remastered 2009 | Excluded |
-| Lady Madonna - Backing Vocals From Take 3 | Short |
-| Leave My Kitten Alone - Anthology 1 Version | Excluded |
-| Let It Be - Anthology 3 Version | Excluded |
-| Let It Be - Naked Version / Remastered 2013 | Excluded |
-| Let It Be - Remastered 2009 | Excluded |
-| Let It Be - Remastered 2015 | Excluded |
-| Let It Be - Unnumbered Rehearsal | Excluded |
-| Lift Lid Again - Live At The BBC For "Saturday Club" / 24th August, 1963 | Short |
-| Like Dreamers Do - Anthology 1 Version | Excluded |
-| Little Child - Remastered 2009 | Excluded |
-| Lonesome Tears In My Eyes - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Excluded |
-| Long Tall Sally - Anthology 1 Version | Excluded |
-| Long Tall Sally - Live / Remastered | Excluded |
-| Long Tall Sally - Live At The BBC For "Pop Go The Beatles" / 13th August, 1963 | Excluded |
-| Long Tall Sally - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded |
-| Long Tall Sally - Remastered 2009 | Excluded |
-| Long, Long, Long - Remastered 2009 | Excluded |
-| Los Paranoias - Studio Jam | Excluded |
-| Love Me Do - Anthology 1 Version | Excluded |
-| Love Me Do - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Excluded |
-| Love Me Do - Mono / Remastered | Excluded |
-| Love Me Do - Mono Version / Remastered 2009 | Excluded |
-| Love Me Do - Remastered 2009 | Excluded |
-| Love Me Do - Single Version / Remastered 2009 | Excluded |
-| Love These Goon Shows! - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Short |
-| Love You To | Excluded |
-| Love You To - Remastered 2009 | Excluded |
-| Lovely Rita | Excluded |
-| Lovely Rita - Remastered 2009 | Excluded |
-| Lovely Rita - Remix | Excluded |
-| Lovely Rita - Speech And Take 9 | Excluded |
-| Lower 5E - Live At The BBC For "Pop Go The Beatles" / 10th September, 1963 | Short |
-| Lucy In The Sky With Diamonds | Excluded |
-| Lucy In The Sky With Diamonds - Alternate Mix / Anthology 2 Version | Excluded |
-| Lucy In The Sky With Diamonds - Original Mono Mix - No. 11 | Excluded |
-| Lucy In The Sky With Diamonds - Remastered 2009 | Excluded |
-| Lucy In The Sky With Diamonds - Remix | Excluded |
-| Lucy In The Sky With Diamonds - Speech, False Start And Take 5 | Excluded |
-| Lucy In The Sky With Diamonds - Take 1 | Excluded |
-| Lucy In The Sky With Diamonds - Take 1 And Speech At The End | Excluded |
-| Maggie Mae - Remastered 2009 | Short |
-| Magical Mystery Tour - Remastered 2009 | Excluded |
-| Mailman, Bring Me No More Blues - Anthology 3 Version | Excluded |
-| March Of The Meanies - Remastered 2009 | Excluded |
-| Matchbox - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Excluded |
-| Matchbox - Remastered 2009 | Excluded |
-| Mean Mr. Mustard - Anthology 3 Version | Excluded |
-| Michelle - Remastered 2009 | Excluded |
-| Money (That's What I Want) - Anthology 1 Version | Excluded |
-| Money (That's What I Want) - Live At The BBC For "The Beatles Say From Us To You" / 26th December, 1963 | Excluded |
-| Money (That's What I Want) - Remastered 2009 | Excluded |
-| Moonlight Bay - Anthology 1 Version | Short |
-| My Bonnie - Anthology 1 Version | Excluded |
-| Never Mind, Eh? - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Short |
-| No Reply - Anthology 1 Version | Excluded |
-| No Reply - Anthology 1 Version / Demo | Excluded |
-| No Reply - Remastered 2009 | Excluded |
-| Not A Second Time - Remastered 2009 | Excluded |
-| Nothin' Shakin' - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Excluded |
-| Now Hush, Hush - Live At The BBC For "Easy Beat" / 20th October, 1963 | Short |
-| Octopus's Garden | Excluded |
-| Octopus's Garden - Anthology 3 Version | Excluded |
-| Octopus's Garden - Remastered 2009 | Excluded |
-| Oh, Can’t We? Yes We Can - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Short |
-| One After 909 - Anthology 1 Version / Complete | Excluded |
-| One After 909 - Anthology 1 Version / False Starts | Excluded |
-| One After 909 - Naked Version / Remastered 2013 | Excluded |
-| One After 909 - Remastered 2009 | Excluded |
-| Only A Northern Song - Remastered 2009 | Excluded |
-| Ooh! My Arms - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Short |
-| Ooh! My Soul - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Excluded |
-| Paul - Pop Profile - Live At The BBC / 2nd May, 1966 | Excluded |
-| Penny Lane | Excluded |
-| Penny Lane - Alternate Mix / Anthology 2 Version | Excluded |
-| Penny Lane - Capitol Records Mono US Promo Mix | Excluded |
-| Penny Lane - Remastered 2009 | Excluded |
-| Penny Lane - Remastered 2015 | Excluded |
-| Penny Lane - Stereo Mix 2017 | Excluded |
-| Penny Lane - Take 6 / Instrumental | Excluded |
-| Penny Lane - Vocal Overdubs And Speech | Excluded |
-| Pepperland - Remastered 2009 | Excluded |
-| Pepperland Laid Waste - Remastered 2009 | Excluded |
-| Piggies - 2018 Mix | Excluded |
-| Piggies - Anthology 3 Version | Excluded |
-| Piggies - Esher Demo | Excluded |
-| Piggies - Remastered 2009 | Excluded |
-| Piggies - Take 12 / Instrumental Backing Track | Excluded |
-| Please Please Me - Anthology 1 Version | Excluded |
-| Please Please Me - Live At The BBC For "Pop Go The Beatles" / 13th August, 1963 | Excluded |
-| Please Please Me - Mono Version / Remastered 2009 | Excluded |
-| Please Please Me - Remastered 2009 | Excluded |
-| Polythene Pam - Remastered 2009 | Excluded |
-| Rain - Remastered 2009 | Excluded |
-| Real Love - Anthology 2 Version | Excluded |
-| Riding On A Bus - Live At The BBC For "Top Gear" / 26th November, 1964 | Short |
-| Ringo - Pop Profile - Live At The BBC / 2nd May, 1966 | Excluded |
-| Ringo? Yep! - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Short |
-| Rip It Up / Shake, Rattle And Roll / Blue Suede Shoes - Medley / Anthology 3 Version | Excluded |
-| Rock and Roll Music - Live At The BBC For "Saturday Club" / 26th December, 1964 | Excluded |
-| Roll Over Beethoven - Anthology 1 Version | Excluded |
-| Roll Over Beethoven - Live / Remastered | Excluded |
-| Roll Over Beethoven - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Excluded |
-| Roll Over Beethoven - Live At The BBC For "Pop Go The Beatles" / 3rd September, 1963 | Excluded |
-| Roll Over Beethoven - Remastered 2009 | Excluded |
-| Run For Your Life - Remastered 2009 | Excluded |
-| Savoy Truffle - 2018 Mix | Excluded |
-| Savoy Truffle - Instrumental Backing Track | Excluded |
-| Savoy Truffle - Remastered 2009 | Excluded |
-| Sea Of Holes - Remastered 2009 | Excluded |
-| Sea Of Monsters - Remastered 2009 | Excluded |
-| Sea Of Time - Remastered 2009 | Excluded |
-| Searchin' - Anthology 1 Version | Excluded |
-| Set Fire To That Lot! - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Short |
-| Sgt Pepper's Lonely Hearts Club Band | Excluded |
-| Sgt Pepper's Lonely Hearts Club Band (Reprise) | Excluded |
-| Sgt. Pepper's Lonely Hearts Club Band - Remastered 2009 | Excluded |
-| Sgt. Pepper's Lonely Hearts Club Band - Remix | Excluded |
-| Sgt. Pepper's Lonely Hearts Club Band - Reprise | Excluded |
-| Sgt. Pepper's Lonely Hearts Club Band - Reprise / Anthology 2 Version | Excluded |
-| Sgt. Pepper's Lonely Hearts Club Band - Reprise / Remastered 2009 | Excluded |
-| Sgt. Pepper's Lonely Hearts Club Band - Take 1 / Instrumental | Excluded |
-| Sgt. Pepper's Lonely Hearts Club Band - Take 9 And Speech | Excluded |
-| Sha La La La La! - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Short |
-| She Loves You - Anthology 1 Version / Live At The Prince Of Wales Theatre, London/1963 | Excluded |
-| She Loves You - Live / Remastered | Excluded |
-| She Loves You - Live At The BBC For "Saturday Club" / 5th October, 1963 | Excluded |
-| She Loves You - Mono / Remastered | Excluded |
-| She Loves You - Mono Version / Remastered 2009 | Excluded |
-| She Loves You - Remastered 2009 | Excluded |
-| She Said She Said - Remastered 2009 | Excluded |
-| She's A Woman - Live / Remastered | Excluded |
-| She's A Woman - Live At The BBC For "Top Gear" / 26th November, 1964 | Excluded |
-| She's A Woman - Live From Nippon Budokan Hall, Tokyo, Japan/1966 / Anthology 2 Version | Excluded |
-| She's A Woman - Remastered 2009 | Excluded |
-| Shout - Anthology 1 Version | Excluded |
-| Sie liebt dich - Remastered 2009 | Excluded |
-| So How Come (No One Loves Me) - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Excluded |
-| Soldier Of Love - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Excluded |
-| Some Other Guy - Live At The BBC For "Easy Beat" / 23rd June, 1963 | Excluded |
-| Something - Anthology 3 Version | Excluded |
-| Something - Remastered 2009 | Excluded |
-| Something - Remastered 2015 | Excluded |
-| Something / Blue Jay Way | Excluded |
-| Sometimes I'd Borrow...Those Still Exist - Anthology 1 Version | Short |
-| Sour Milk Sea - Esher Demo | Excluded |
-| St Louis Blues - Studio Jam | Short |
-| Step Inside Love - Studio Jam | Excluded |
-| Step Inside Love / Los Paranoias - Medley / Anthology 3 Version | Excluded |
-| Strawberry Fields Forever | Excluded |
-| Strawberry Fields Forever - Demo Sequence / Anthology 2 Version | Excluded |
-| Strawberry Fields Forever - Remastered 2009 | Excluded |
-| Strawberry Fields Forever - Stereo Mix 2015 | Excluded |
-| Strawberry Fields Forever - Take 1 | Excluded |
-| Strawberry Fields Forever - Take 1 / Anthology 2 Version | Excluded |
-| Strawberry Fields Forever - Take 26 | Excluded |
-| Strawberry Fields Forever - Take 4 | Excluded |
-| Strawberry Fields Forever - Take 7 | Excluded |
-| Strawberry Fields Forever - Take 7 And Edit Piece / Anthology 2 Version | Excluded |
-| Sun King - Remastered 2009 | Excluded |
-| Sweet Little Sixteen - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Excluded |
-| Teddy Boy - Anthology 3 Version | Excluded |
-| Tell Me What You See - Remastered 2009 | Excluded |
-| Tell Me Why - Remastered 2009 | Excluded |
-| That Means A Lot - Anthology 2 Version | Excluded |
-| That'll Be The Day - Anthology 1 Version | Excluded |
-| That's All Right (Mama) - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Excluded |
-| That’s What We’re Here For - Live At The BBC For "Top Gear" / 26th November, 1964 | Short |
-| The 49 Weeks - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Short |
-| The Continuing Story Of Bungalow Bill - 2018 Mix | Excluded |
-| The Continuing Story Of Bungalow Bill - Esher Demo | Excluded |
-| The Continuing Story Of Bungalow Bill - Remastered 2009 | Excluded |
-| The Continuing Story Of Bungalow Bill - Take 2 | Excluded |
-| The Honeymoon Song - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Excluded |
-| The Inner Light - Remastered 2009 | Excluded |
-| The Inner Light - Take 6 / Instrumental Backing Track | Excluded |
-| The Long And Winding Road - Anthology 3 Version | Excluded |
-| The Long And Winding Road - Naked Version / Remastered 2013 | Excluded |
-| The Long And Winding Road - Remastered 2009 | Excluded |
-| The Long And Winding Road - Remastered 2015 | Excluded |
-| The Night Before - Remastered 2009 | Excluded |
-| The Sheik Of Araby - Anthology 1 Version | Excluded |
-| The Word - Remastered 2009 | Excluded |
-| Things We Said Today - Live / Remastered | Excluded |
-| Things We Said Today - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded |
-| Things We Said Today - Remastered 2009 | Excluded |
-| This Boy - Anthology 1 Version | Excluded |
-| This Boy - Live At The BBC For "Saturday Club" / 21st December, 1963 | Excluded |
-| This Boy - Remastered 2009 | Excluded |
-| Three Cool Cats - Anthology 1 Version | Excluded |
-| Ticket To Ride - Live / Remastered | Excluded |
-| Ticket To Ride - Live At The BBC For "The Beatles Invite You To Take A Ticket To Ride" / 7th June, 1965 | Excluded |
-| Ticket To Ride - Live From The ABC Theatre, Blackpool, UK/1965 / Anthology 2 Version | Excluded |
-| Ticket To Ride - Remastered 2009 | Excluded |
-| Ticket To Ride - Remastered 2015 | Excluded |
-| Till There Was You - Anthology 1 Version / Live At The Prince Of Wales Theatre, London/1963 | Excluded |
-| Till There Was You - Live At The BBC For "From Us To You Say The Beatles" / 10th March, 1964 | Excluded |
-| Till There Was You - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Excluded |
-| Till There Was You - Remastered 2009 | Excluded |
-| To Know Her Is To Love Her - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Excluded |
-| Too Much Monkey Business - Live At The BBC For "Pop Go The Beatles" / 10th September, 1963 | Excluded |
-| Twist And Shout - Anthology 1 Version / Live At The Prince Of Wales Theatre, London/1963 | Excluded |
-| Twist And Shout - Live / Remastered | Excluded |
-| Twist And Shout - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Excluded |
-| Twist And Shout - Remastered 2009 | Excluded |
-| Two Of Us - Anthology 3 Version | Excluded |
-| Two Of Us - Naked Version / Remastered 2013 | Excluded |
-| Two Of Us - Remastered 2009 | Excluded |
-| Wait - Remastered 2009 | Excluded |
-| We Were Four Guys... That's All - Anthology 1 Version | Short |
-| We Were Performers... In Britain - Anthology 1 Version | Short |
-| Well, The Recording Test... By My Artists - Anthology 1 Version | Short |
-| What Goes On - Remastered 2009 | Excluded |
-| What Is It, George? - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Short |
-| What You're Doing - Remastered 2009 | Excluded |
-| What's The New Mary Jane - Anthology 3 Version | Excluded |
-| When I Get Home - Remastered 2009 | Excluded |
-| While My Guitar Gently Weeps | Excluded |
-| While My Guitar Gently Weeps - 2018 Mix | Excluded |
-| While My Guitar Gently Weeps - Acoustic Version / Take 2 | Excluded |
-| While My Guitar Gently Weeps - Anthology 3 Version | Excluded |
-| While My Guitar Gently Weeps - Esher Demo | Excluded |
-| While My Guitar Gently Weeps - Remastered 2009 | Excluded |
-| While My Guitar Gently Weeps - Third Version / Take 27 | Excluded |
-| Why Don't We Do It In The Road? - 2018 Mix | Excluded |
-| Why Don't We Do It In The Road? - Anthology 3 Version | Excluded |
-| Why Don't We Do It In The Road? - Remastered 2009 | Excluded |
-| Why Don’t We Do It In The Road? - Take 5 | Excluded |
-| Wild Honey Pie - 2018 Mix | Short |
-| Wild Honey Pie - Remastered 2009 | Short |
-| With A Little Help From My Friends | Excluded |
-| With A Little Help From My Friends - Remastered 2009 | Excluded |
-| With A Little Help From My Friends - Remix | Excluded |
-| With A Little Help From My Friends - Take 1 / False Start And Take 2 / Instrumental | Excluded |
-| Within You Without You | Excluded |
-| Within You Without You - George Coaching The Musicians | Excluded |
-| Within You Without You - Remastered 2009 | Excluded |
-| Within You Without You - Remix | Excluded |
-| Within You Without You - Take 1 / Indian Instruments | Excluded |
-| Within You Without You / Tomorrow Never Knows | Excluded |
-| Within You, Without You - Instrumental / Anthology 2 Version | Excluded |
-| Yellow Submarine | Excluded |
-| Yellow Submarine - Remastered 2009 | Excluded |
-| Yellow Submarine - Remastered 2015 | Excluded |
-| Yellow Submarine In Pepperland - Remastered 2009 | Excluded |
-| Yesterday - Anthology 2 Version | Excluded |
-| Yesterday - Live From The ABC Theatre, Blackpool, UK/1965 / Anthology 2 Version | Excluded |
-| Yesterday - Remastered 2009 | Excluded |
-| Yesterday - Remastered 2015 | Excluded |
-| You Can't Do That - Anthology 1 Version | Excluded |
-| You Can't Do That - Live / Bonus Track | Excluded |
-| You Can't Do That - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded |
-| You Can't Do That - Remastered 2009 | Excluded |
-| You Know What To Do - Anthology 1 Version | Excluded |
-| You Like Me Too Much - Remastered 2009 | Excluded |
-| You Never Give Me Your Money - Remastered 2009 | Excluded |
-| You Really Got A Hold On Me - Anthology 1 Version | Excluded |
-| You Really Got A Hold On Me - Live At The BBC For "Saturday Club" / 24th August, 1963 | Excluded |
-| You Really Got A Hold On Me - Remastered 2009 | Excluded |
-| You Won't See Me - Remastered 2009 | Excluded |
-| You'll Be Mine - Anthology 1 Version | Excluded |
-| You're Going To Lose That Girl - Remastered 2009 | Excluded |
-| Young Blood - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Excluded |
-| And Your Bird Can Sing - Remastered 2009 | Excluded album (Revolver (Remastered)) |
-| And Your Bird Can Sing - Take 2 / Anthology 2 Version | Excluded album (Anthology 2) |
-| And Your Bird Can Sing - Remastered 2009 | Marked as original (Revolver (Remastered)) |
-| Devil In Her Heart - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
-| Not Guilty - Anthology 3 Version | Excluded album (Anthology 3) |
-| Not Guilty - Esher Demo | Excluded album (The Beatles) |
-| Not Guilty - Take 102 | Excluded album (The Beatles) |
-| Not Guilty - Anthology 3 Version | Excluded album (Anthology 3) |
-| Not Guilty - Esher Demo | Excluded album (The Beatles) |
-| Not Guilty - Take 102 | Excluded album (The Beatles) |
-| Not Guilty - Anthology 3 Version | Marked as original (Anthology 3) |
-| Slow Down - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
-| Revolution | Excluded album (Love) |
-| Revolution - Esher Demo | Excluded album (The Beatles) |
-| Revolution - Remastered 2009 | Excluded album (The Beatles 1967 - 1970 (Remastered)) |
-| Revolution - Take 14 / Instrumental Backing Track | Excluded album (The Beatles) |
-| Revolution - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Revolution | Excluded album (Love) |
-| Revolution - Esher Demo | Excluded album (The Beatles) |
-| Revolution - Remastered 2009 | Excluded album (The Beatles 1967 - 1970 (Remastered)) |
-| Revolution - Take 14 / Instrumental Backing Track | Excluded album (The Beatles) |
-| Revolution - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Revolution | Excluded album (Love) |
-| Revolution - Esher Demo | Excluded album (The Beatles) |
-| Revolution - Remastered 2009 | Excluded album (The Beatles 1967 - 1970 (Remastered)) |
-| Revolution - Take 14 / Instrumental Backing Track | Excluded album (The Beatles) |
-| Revolution - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Revolution - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
-| Ask Me Why - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
-| Eleanor Rigby | Excluded album (Yellow Submarine Songtrack) |
-| Eleanor Rigby - Remastered 2009 | Excluded album (Revolver (Remastered)) |
-| Eleanor Rigby - Remastered 2015 | Excluded album (1 (Remastered)) |
-| Eleanor Rigby - Strings Only / Anthology 2 Version | Excluded album (Anthology 2) |
-| Eleanor Rigby - Remastered 2009 | Marked as original (Revolver (Remastered)) |
-| Everybody's Got Something To Hide Except Me And My Monkey - 2018 Mix | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Esher Demo | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - 2018 Mix | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Esher Demo | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - 2018 Mix | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Esher Demo | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Everybody's Got Something To Hide Except Me And My Monkey - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Helter Skelter - 2018 Mix | Excluded album (The Beatles) |
-| Helter Skelter - Anthology 3 Version | Excluded album (Anthology 3) |
-| Helter Skelter - First Version / Take 2 | Excluded album (The Beatles) |
-| Helter Skelter - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Helter Skelter - Second Version / Take 17 | Excluded album (The Beatles) |
-| Helter Skelter - 2018 Mix | Excluded album (The Beatles) |
-| Helter Skelter - Anthology 3 Version | Excluded album (Anthology 3) |
-| Helter Skelter - First Version / Take 2 | Excluded album (The Beatles) |
-| Helter Skelter - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Helter Skelter - Second Version / Take 17 | Excluded album (The Beatles) |
-| Helter Skelter - 2018 Mix | Excluded album (The Beatles) |
-| Helter Skelter - Anthology 3 Version | Excluded album (Anthology 3) |
-| Helter Skelter - First Version / Take 2 | Excluded album (The Beatles) |
-| Helter Skelter - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Helter Skelter - Second Version / Take 17 | Excluded album (The Beatles) |
-| Helter Skelter - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Honey Pie - 2018 Mix | Excluded album (The Beatles) |
-| Honey Pie - Anthology 3 Version | Excluded album (Anthology 3) |
-| Honey Pie - Esher Demo | Excluded album (The Beatles) |
-| Honey Pie - Instrumental Backing Track | Excluded album (The Beatles) |
-| Honey Pie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Honey Pie - 2018 Mix | Excluded album (The Beatles) |
-| Honey Pie - Anthology 3 Version | Excluded album (Anthology 3) |
-| Honey Pie - Esher Demo | Excluded album (The Beatles) |
-| Honey Pie - Instrumental Backing Track | Excluded album (The Beatles) |
-| Honey Pie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Honey Pie - 2018 Mix | Excluded album (The Beatles) |
-| Honey Pie - Anthology 3 Version | Excluded album (Anthology 3) |
-| Honey Pie - Esher Demo | Excluded album (The Beatles) |
-| Honey Pie - Instrumental Backing Track | Excluded album (The Beatles) |
-| Honey Pie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Honey Pie - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Martha My Dear - 2018 Mix | Excluded album (The Beatles) |
-| Martha My Dear - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Martha My Dear - Without Brass And Strings | Excluded album (The Beatles) |
-| Martha My Dear - 2018 Mix | Excluded album (The Beatles) |
-| Martha My Dear - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Martha My Dear - Without Brass And Strings | Excluded album (The Beatles) |
-| Martha My Dear - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Paperback Writer - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
-| When I'm Sixty Four | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
-| Yes It Is - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
-| The Ballad Of John And Yoko - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
-| Blackbird - 2018 Mix | Excluded album (The Beatles) |
-| Blackbird - Anthology 3 Version | Excluded album (Anthology 3) |
-| Blackbird - Esher Demo | Excluded album (The Beatles) |
-| Blackbird - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Blackbird - Take 28 | Excluded album (The Beatles) |
-| Blackbird - 2018 Mix | Excluded album (The Beatles) |
-| Blackbird - Anthology 3 Version | Excluded album (Anthology 3) |
-| Blackbird - Esher Demo | Excluded album (The Beatles) |
-| Blackbird - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Blackbird - Take 28 | Excluded album (The Beatles) |
-| Blackbird - 2018 Mix | Excluded album (The Beatles) |
-| Blackbird - Anthology 3 Version | Excluded album (Anthology 3) |
-| Blackbird - Esher Demo | Excluded album (The Beatles) |
-| Blackbird - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Blackbird - Take 28 | Excluded album (The Beatles) |
-| Blackbird - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Do You Want To Know A Secret - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
-| Don't Pass Me By - 2018 Mix | Excluded album (The Beatles) |
-| Don't Pass Me By - Anthology 3 Version | Excluded album (Anthology 3) |
-| Don't Pass Me By - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Don't Pass Me By - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Junk - Anthology 3 Version | Excluded album (Anthology 3) |
-| Junk - Esher Demo | Excluded album (The Beatles) |
-| Junk - Anthology 3 Version | Marked as original (Anthology 3) |
-| Mr Moonlight - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
-| Revolution 1 - 2018 Mix | Excluded album (The Beatles) |
-| Revolution 1 - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Revolution 1 - Take 18 | Excluded album (The Beatles) |
-| Revolution 1 - 2018 Mix | Excluded album (The Beatles) |
-| Revolution 1 - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Revolution 1 - Take 18 | Excluded album (The Beatles) |
-| Revolution 1 - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| She Came In Through The Bathroom Window - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| (You're So Square) Baby I Don’t Care - Studio Jam | Too short (42s) |
+| 1822! - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too short (10s) |
+| A Beginning - Anthology 3 Version | Too short (49s) |
+| A Day In The Life | Excluded by the beatles (excluded - guessed) |
+| A Day In The Life - Anthology 2 Version | Excluded by the beatles (excluded - guessed) |
+| A Day In The Life - Orchestra Overdub | Too short (55s) |
+| A Day In The Life - Remastered 2009 | Excluded by the beatles (excluded - guessed) |
+| A Day In The Life - Remastered 2010 | Excluded by the beatles (excluded - guessed) |
+| A Day In The Life - Remix | Excluded by the beatles (excluded - guessed) |
+| A Day In The Life - Take 1 | Excluded by the beatles (excluded - guessed) |
+| A Day In The Life - Take 1 With Hums | Excluded by the beatles (excluded - guessed) |
+| A Day In The Life - Take 2 | Excluded by the beatles (excluded - guessed) |
+| A Day In The Life - The Last Chord | Excluded by the beatles (excluded - guessed) |
+| A Little Rhyme - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Too short (25s) |
+| A Real Treat - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too short (36s) |
+| Absolutely Fab - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too short (27s) |
+| Across The Universe - Naked Version / Remastered 2013 | Excluded by the beatles (excluded - guessed) |
+| Across The Universe - Remastered 2009 | Excluded by the beatles (excluded - guessed) |
+| Across The Universe - Take 2 / Anthology 2 Version | Excluded by the beatles (excluded - guessed) |
+| Across The Universe - Take 6 | Excluded by the beatles (excluded - guessed) |
+| Across The Universe - World Wildlife Fund Version / Remastered 2009 | Excluded by the beatles (excluded - guessed) |
+| All My Loving - Anthology 1 Version | Excluded by the beatles (excluded) |
+| All My Loving - Live / Remastered | Excluded by the beatles (excluded) |
+| All My Loving - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Excluded by the beatles (excluded) |
+| All My Loving - Remastered 2009 | Excluded by the beatles (excluded) |
+| All You Need Is Love | Excluded by the beatles (excluded) |
+| All You Need Is Love - Remastered 2009 | Excluded by the beatles (excluded) |
+| All You Need Is Love - Remastered 2015 | Excluded by the beatles (excluded) |
+| And Here We Are Again - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too short (15s) |
+| Back In The U.S.S.R.. - 2018 Mix | Excluded by the beatles (excluded) |
+| Back In The U.S.S.R.. - Esher Demo | Excluded by the beatles (excluded) |
+| Back In The U.S.S.R.. - Remastered 2009 | Excluded by the beatles (excluded) |
+| Back In The U.S.S.R.. - Take 5 / Instrumental Backing Track | Excluded by the beatles (excluded) |
+| Beatles Greetings - Live At The BBC For "The Public Ear" / 3rd November, 1963 | Too short (13s) |
+| Brian Bathtubes - Live At The BBC For "Saturday Club" / 21st December, 1963 | Too short (58s) |
+| Brian Was A Beautiful Guy...He Presented Us Well - Anthology 1 Version | Too short (10s) |
+| Bumper Bundle - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too short (49s) |
+| Bye, Bye - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Too short (24s) |
+| Come Together - Anthology 3 Version | Excluded by the beatles (excluded - guessed) |
+| Come Together - Remastered 2009 | Excluded by the beatles (excluded - guessed) |
+| Come Together - Remastered 2015 | Excluded by the beatles (excluded - guessed) |
+| Dear Wack! - Live At The BBC For "Saturday Club" / 24th August, 1963 | Too short (42s) |
+| Dig It - Remastered 2009 | Too short (50s) |
+| Dizzy Miss Lizzy - Live / Remastered | Excluded by the beatles (excluded) |
+| Dizzy Miss Lizzy - Live At The BBC For "The Beatles Invite You To Take A Ticket To Ride" / 7th June, 1965 | Excluded by the beatles (excluded) |
+| Dizzy Miss Lizzy - Remastered 2009 | Excluded by the beatles (excluded) |
+| First Of All... It Didn't Do A Thing Here - Anthology 1 Version | Too short (7s) |
+| From Fluff To You - Live At The BBC For "From Us To You Say The Beatles" / 10th March, 1964 | Too short (28s) |
+| From Me To You - Anthology 1 Version | Excluded by the beatles (excluded) |
+| From Me To You - Live At The BBC For "Easy Beat" / 20th October, 1963 | Excluded by the beatles (excluded) |
+| From Me To You - Mono / Remastered | Excluded by the beatles (excluded) |
+| From Me To You - Mono Version / Remastered 2009 | Excluded by the beatles (excluded) |
+| From Me To You - Remastered 2009 | Excluded by the beatles (excluded) |
+| From Us To You - Live At The BBC / Closing Theme From "From Us To You" / 1964 | Too short (38s) |
+| From Us To You - Live At The BBC / Opening Theme From "From Us To You" / 1964 | Too short (29s) |
+| Get Back | Excluded by the beatles (excluded) |
+| Get Back - Anthology 3 Version | Excluded by the beatles (excluded) |
+| Get Back - Naked Version / Remastered 2013 | Excluded by the beatles (excluded) |
+| Get Back - Remastered 2009 | Excluded by the beatles (excluded) |
+| Get Back - Remastered 2015 | Excluded by the beatles (excluded) |
+| Gnik Nus | Too short (55s) |
+| Good Night - Unnumbered Rehearsal | Too short (39s) |
+| Green With Black Shutters - Live At The BBC / 1965 | Too short (56s) |
+| Happy Birthday Dear Saturday Club - Live At The BBC For "Saturday Club" / 5th October, 1963 | Too short (33s) |
+| Hello! - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too short (18s) |
+| Her Majesty - Remastered 2009 | Too short (25s) |
+| Hey Jude | Excluded by the beatles (excluded - guessed) |
+| Hey Jude - Anthology 3 Version | Excluded by the beatles (excluded - guessed) |
+| Hey Jude - Remastered 2009 | Excluded by the beatles (excluded - guessed) |
+| Hey Jude - Remastered 2015 | Excluded by the beatles (excluded - guessed) |
+| Hey Jude - Take 1 | Excluded by the beatles (excluded - guessed) |
+| Hey Paul…. - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too short (21s) |
+| How About It, Gorgeous? - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Too short (37s) |
+| I Me Mine - Anthology 3 Version | Excluded by the beatles (excluded - guessed) |
+| I Me Mine - Naked Version / Remastered 2013 | Excluded by the beatles (excluded - guessed) |
+| I Me Mine - Remastered 2009 | Excluded by the beatles (excluded - guessed) |
+| I Secured Them... A Beatle Drink Even Then - Anthology 1 Version | Too short (18s) |
+| I Will - Take 29 | Too short (26s) |
+| I'm Only Sleeping - Rehearsal / Instrumental / Anthology 2 Version | Too short (40s) |
+| If I Wasn’t In America - Live At The BBC For "Saturday Club" / 15th February, 1964 | Too short (44s) |
+| Just A Rumour - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Too short (20s) |
+| Lady Madonna - Backing Vocals From Take 3 | Too short (54s) |
+| Let It Be - Anthology 3 Version | Excluded by the beatles (excluded - guessed) |
+| Let It Be - Naked Version / Remastered 2013 | Excluded by the beatles (excluded - guessed) |
+| Let It Be - Remastered 2009 | Excluded by the beatles (excluded - guessed) |
+| Let It Be - Remastered 2015 | Excluded by the beatles (excluded - guessed) |
+| Let It Be - Unnumbered Rehearsal | Excluded by the beatles (excluded - guessed) |
+| Lift Lid Again - Live At The BBC For "Saturday Club" / 24th August, 1963 | Too short (37s) |
+| Love These Goon Shows! - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Too short (27s) |
+| Lower 5E - Live At The BBC For "Pop Go The Beatles" / 10th September, 1963 | Too short (23s) |
+| Maggie Mae - Remastered 2009 | Too short (40s) |
+| Moonlight Bay - Anthology 1 Version | Too short (49s) |
+| Never Mind, Eh? - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Too short (34s) |
+| Now Hush, Hush - Live At The BBC For "Easy Beat" / 20th October, 1963 | Too short (24s) |
+| Oh, Can’t We? Yes We Can - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Too short (19s) |
+| Ooh! My Arms - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Too short (35s) |
+| Riding On A Bus - Live At The BBC For "Top Gear" / 26th November, 1964 | Too short (54s) |
+| Ringo? Yep! - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Too short (13s) |
+| Set Fire To That Lot! - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Too short (27s) |
+| Sha La La La La! - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Too short (28s) |
+| Something - Anthology 3 Version | Excluded by the beatles (excluded - guessed) |
+| Something - Remastered 2009 | Excluded by the beatles (excluded - guessed) |
+| Something - Remastered 2015 | Excluded by the beatles (excluded - guessed) |
+| Sometimes I'd Borrow...Those Still Exist - Anthology 1 Version | Too short (17s) |
+| St Louis Blues - Studio Jam | Too short (51s) |
+| Strawberry Fields Forever | Excluded by the beatles (excluded - guessed) |
+| Strawberry Fields Forever - Demo Sequence / Anthology 2 Version | Excluded by the beatles (excluded - guessed) |
+| Strawberry Fields Forever - Remastered 2009 | Excluded by the beatles (excluded - guessed) |
+| Strawberry Fields Forever - Stereo Mix 2015 | Excluded by the beatles (excluded - guessed) |
+| Strawberry Fields Forever - Take 1 | Excluded by the beatles (excluded - guessed) |
+| Strawberry Fields Forever - Take 1 / Anthology 2 Version | Excluded by the beatles (excluded - guessed) |
+| Strawberry Fields Forever - Take 26 | Excluded by the beatles (excluded - guessed) |
+| Strawberry Fields Forever - Take 4 | Excluded by the beatles (excluded - guessed) |
+| Strawberry Fields Forever - Take 7 | Excluded by the beatles (excluded - guessed) |
+| Strawberry Fields Forever - Take 7 And Edit Piece / Anthology 2 Version | Excluded by the beatles (excluded - guessed) |
+| That’s What We’re Here For - Live At The BBC For "Top Gear" / 26th November, 1964 | Too short (24s) |
+| The 49 Weeks - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Too short (16s) |
+| The Fool On The Hill | Excluded by the beatles (excluded - guessed) |
+| The Fool On The Hill - Demo / Anthology 2 Version | Excluded by the beatles (excluded - guessed) |
+| The Fool On The Hill - Remastered 2009 | Excluded by the beatles (excluded - guessed) |
+| The Fool On The Hill - Take 4 / Anthology 2 Version | Excluded by the beatles (excluded - guessed) |
+| We Were Four Guys... That's All - Anthology 1 Version | Too short (11s) |
+| We Were Performers... In Britain - Anthology 1 Version | Too short (12s) |
+| Well, The Recording Test... By My Artists - Anthology 1 Version | Too short (32s) |
+| What Is It, George? - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Too short (31s) |
+| While My Guitar Gently Weeps | Excluded by the beatles (excluded - guessed) |
+| While My Guitar Gently Weeps - 2018 Mix | Excluded by the beatles (excluded - guessed) |
+| While My Guitar Gently Weeps - Acoustic Version / Take 2 | Excluded by the beatles (excluded - guessed) |
+| While My Guitar Gently Weeps - Anthology 3 Version | Excluded by the beatles (excluded - guessed) |
+| While My Guitar Gently Weeps - Esher Demo | Excluded by the beatles (excluded - guessed) |
+| While My Guitar Gently Weeps - Remastered 2009 | Excluded by the beatles (excluded - guessed) |
+| While My Guitar Gently Weeps - Third Version / Take 27 | Excluded by the beatles (excluded - guessed) |
+| Wild Honey Pie - 2018 Mix | Too short (53s) |
+| Wild Honey Pie - Remastered 2009 | Too short (52s) |
+| Within You Without You | Excluded by the beatles (excluded - guessed) |
+| Within You Without You - George Coaching The Musicians | Excluded by the beatles (excluded - guessed) |
+| Within You Without You - Remastered 2009 | Excluded by the beatles (excluded - guessed) |
+| Within You Without You - Remix | Excluded by the beatles (excluded - guessed) |
+| Within You Without You - Take 1 / Indian Instruments | Excluded by the beatles (excluded - guessed) |
+| Happiness Is A Warm Gun - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Happiness Is A Warm Gun - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| Happiness Is A Warm Gun - Esher Demo | Excluded album (The Beatles (Remastered)) |
+| Happiness Is A Warm Gun - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Happiness Is A Warm Gun - Take 19 | Excluded album (The Beatles (Remastered)) |
+| Happiness Is A Warm Gun - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Here Comes The Sun - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Here Comes The Sun - Remastered 2009 | Too few recordings (1) |
+| I Don't Want To Spoil The Party - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| I Don't Want To Spoil The Party - Remastered 2009 | Too few recordings (1) |
+| I'm Talking About You - Live At The BBC For "Saturday Club" / 16th March, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| I'm Talking About You - Live At The BBC For "Saturday Club" / 16th March, 1963 | Too few recordings (1) |
+| Dig It - Remastered 2009 | Marked as original (Let It Be (Remastered)) |
+| Dig It - Remastered 2009 | Too few recordings (1) |
+| Every Little Thing - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| Every Little Thing - Remastered 2009 | Too few recordings (1) |
+| Got To Get You Into My Life - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| Got To Get You Into My Life - Take 5 / Anthology 2 Version | Excluded album (Revolver (Remastered)) |
+| Got To Get You Into My Life - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| Got To Get You Into My Life - Remastered 2009 | Too few recordings (2) |
+| Got To Get You Into My Life - Take 5 / Anthology 2 Version | Too few recordings (2) |
+| Glad All Over - Live At The BBC For "Pop Go The Beatles" / 20th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Glad All Over - Live At The BBC For "Pop Go The Beatles" / 20th August, 1963 | Too few recordings (2) |
+| Glad All Over - Live At The BBC For "Saturday Club" / 24th August, 1963 | Too few recordings (2) |
+| I Forgot To Remember To Forget - Live At The BBC For "From Us To You Say The Beatles" / 18th May, 1964 | Marked as original (Live At The BBC (Remastered)) |
+| I Forgot To Remember To Forget - Live At The BBC For "From Us To You Say The Beatles" / 18th May, 1964 | Too few recordings (1) |
+| One After 909 - Remastered 2009 | Marked as original (Let It Be (Remastered)) |
+| Step Inside Love - Studio Jam | Marked as original (The Beatles) |
+| Step Inside Love - Studio Jam | Too few recordings (1) |
+| All My Loving - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| Come And Get It - Anthology 3 Version | Marked as original (Anthology 3) |
+| Come And Get It - Anthology 3 Version | Too few recordings (1) |
+| From Me To You - Mono Version / Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| What You're Doing - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| What You're Doing - Remastered 2009 | Too few recordings (1) |
+| Back In The U.S.S.R. | Marked as original (Love) |
+| Back In The U.S.S.R. | Too few recordings (1) |
+| Dig A Pony - Remastered 2009 | Marked as original (Let It Be (Remastered)) |
+| Money (That's What I Want) - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| Golden Slumbers - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| Golden Slumbers - Remastered 2009 | Too few recordings (1) |
+| I Want You (She's So Heavy) - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| I Want You (She's So Heavy) - Remastered 2009 | Too few recordings (1) |
+| Komm gib mir deine Hand - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Komm gib mir deine Hand - Remastered 2009 | Too few recordings (1) |
+| My Bonnie - Anthology 1 Version | Marked as original (Anthology 1) |
+| My Bonnie - Anthology 1 Version | Too few recordings (1) |
+| Sexy Sadie - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Sexy Sadie - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| Sexy Sadie - Esher Demo | Excluded album (The Beatles (Remastered)) |
+| Sexy Sadie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Sexy Sadie - Take 3 | Excluded album (The Beatles (Remastered)) |
+| Sexy Sadie - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Birthday - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Birthday - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Birthday - Take 2 / Instrumental Backing Track | Excluded album (The Beatles (Remastered)) |
+| Birthday - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| For You Blue - Remastered 2009 | Marked as original (Let It Be (Remastered)) |
+| Getting Better | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| We Can Work It Out - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| We Can Work It Out - Remastered 2009 | Too few recordings (2) |
+| We Can Work It Out - Remastered 2015 | Too few recordings (2) |
+| What Goes On - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
+| What Goes On - Remastered 2009 | Too few recordings (1) |
 | Words Of Love - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
-| A Hard Day's Night - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
-| A Taste Of Honey - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
-| Day Tripper - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
-| Don't Let Me Down - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
-| You Know My Name (Look Up The Number) - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
-| Rocky Raccoon - 2018 Mix | Excluded album (The Beatles) |
-| Rocky Raccoon - Anthology 3 Version | Excluded album (Anthology 3) |
-| Rocky Raccoon - Esher Demo | Excluded album (The Beatles) |
-| Rocky Raccoon - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Rocky Raccoon - Take 8 | Excluded album (The Beatles) |
-| Rocky Raccoon - 2018 Mix | Excluded album (The Beatles) |
-| Rocky Raccoon - Anthology 3 Version | Excluded album (Anthology 3) |
-| Rocky Raccoon - Esher Demo | Excluded album (The Beatles) |
-| Rocky Raccoon - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Rocky Raccoon - Take 8 | Excluded album (The Beatles) |
-| Rocky Raccoon - 2018 Mix | Excluded album (The Beatles) |
-| Rocky Raccoon - Anthology 3 Version | Excluded album (Anthology 3) |
-| Rocky Raccoon - Esher Demo | Excluded album (The Beatles) |
-| Rocky Raccoon - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Rocky Raccoon - Take 8 | Excluded album (The Beatles) |
-| Rocky Raccoon - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Boys - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
-| I Got A Woman - Live At The BBC For "Pop Go The Beatles" / 13th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
-| It's Only Love - Remastered 2009 | Marked as original (Help! (Remastered)) |
-| Julia - 2018 Mix | Excluded album (The Beatles) |
-| Julia - Anthology 3 Version | Excluded album (Anthology 3) |
-| Julia - Esher Demo | Excluded album (The Beatles) |
-| Julia - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Julia - Two Rehearsals | Excluded album (The Beatles) |
-| Julia - 2018 Mix | Excluded album (The Beatles) |
-| Julia - Anthology 3 Version | Excluded album (Anthology 3) |
-| Julia - Esher Demo | Excluded album (The Beatles) |
-| Julia - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Julia - Two Rehearsals | Excluded album (The Beatles) |
-| Julia - 2018 Mix | Excluded album (The Beatles) |
-| Julia - Anthology 3 Version | Excluded album (Anthology 3) |
-| Julia - Esher Demo | Excluded album (The Beatles) |
-| Julia - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Julia - Two Rehearsals | Excluded album (The Beatles) |
-| Julia - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Mean Mr Mustard - Esher Demo | Excluded album (The Beatles) |
-| Mean Mr Mustard - Remastered 2009 | Excluded album (Abbey Road (Remastered)) |
+| Words Of Love - Live At The BBC For "Pop Go The Beatles" / 20th August, 1963 | Too few recordings (2) |
+| Words Of Love - Remastered 2009 | Too few recordings (2) |
+| She's A Woman - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| This Boy - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| When I Get Home - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| When I Get Home - Remastered 2009 | Too few recordings (1) |
+| I've Got A Feeling - Remastered 2009 | Marked as original (Let It Be (Remastered)) |
+| If I Needed Someone - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
+| If I Needed Someone - Remastered 2009 | Too few recordings (1) |
+| 12 Bar Original - Anthology 2 Version | Marked as original (Anthology 2) |
+| 12 Bar Original - Anthology 2 Version | Too few recordings (1) |
+| I Just Don't Understand - Live At The BBC For "Pop Go The Beatles" / 20th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| I Just Don't Understand - Live At The BBC For "Pop Go The Beatles" / 20th August, 1963 | Too few recordings (1) |
+| I'm Gonna Sit Right Down And Cry (Over You) - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| I'm Gonna Sit Right Down And Cry (Over You) - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Too few recordings (1) |
+| Michelle - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| Michelle - Remastered 2009 | Too few recordings (1) |
+| Paperback Writer - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Paperback Writer - Remastered 2009 | Too few recordings (2) |
+| Paperback Writer - Remastered 2015 | Too few recordings (2) |
+| She Loves You - Mono Version / Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| St Louis Blues - Studio Jam | Marked as original (The Beatles) |
+| St Louis Blues - Studio Jam | Too few recordings (1) |
+| You Never Give Me Your Money - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| You Never Give Me Your Money - Remastered 2009 | Too few recordings (1) |
+| Don't Ever Change - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Don't Ever Change - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Too few recordings (1) |
+| Everybody’s Trying To Be My Baby - Live / Bonus Track | Marked as original (Live At The Hollywood Bowl) |
+| Everybody’s Trying To Be My Baby - Live / Bonus Track | Too few recordings (1) |
 | Mean Mr Mustard - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
-| Ob-La-Di, Ob-La-Da - 2018 Mix | Excluded album (The Beatles) |
-| Ob-La-Di, Ob-La-Da - Anthology 3 Version | Excluded album (Anthology 3) |
-| Ob-La-Di, Ob-La-Da - Esher Demo | Excluded album (The Beatles) |
-| Ob-La-Di, Ob-La-Da - Remastered 2009 | Excluded album (The Beatles 1967 - 1970 (Remastered)) |
-| Ob-La-Di, Ob-La-Da - Take 3 | Excluded album (The Beatles) |
-| Ob-La-Di, Ob-La-Da - 2018 Mix | Excluded album (The Beatles) |
-| Ob-La-Di, Ob-La-Da - Anthology 3 Version | Excluded album (Anthology 3) |
-| Ob-La-Di, Ob-La-Da - Esher Demo | Excluded album (The Beatles) |
-| Ob-La-Di, Ob-La-Da - Remastered 2009 | Excluded album (The Beatles 1967 - 1970 (Remastered)) |
-| Ob-La-Di, Ob-La-Da - Take 3 | Excluded album (The Beatles) |
-| Ob-La-Di, Ob-La-Da - 2018 Mix | Excluded album (The Beatles) |
-| Ob-La-Di, Ob-La-Da - Anthology 3 Version | Excluded album (Anthology 3) |
-| Ob-La-Di, Ob-La-Da - Esher Demo | Excluded album (The Beatles) |
-| Ob-La-Di, Ob-La-Da - Remastered 2009 | Excluded album (The Beatles 1967 - 1970 (Remastered)) |
-| Ob-La-Di, Ob-La-Da - Take 3 | Excluded album (The Beatles) |
-| Ob-La-Di, Ob-La-Da - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
-| Revolution 9 - 2018 Mix | Excluded album (The Beatles) |
+| Mean Mr Mustard - Esher Demo | Too few recordings (2) |
+| Mean Mr Mustard - Remastered 2009 | Too few recordings (2) |
+| Please Mister Postman - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| Please Mister Postman - Live At The BBC For "Pop Go The Beatles" / 30th July 1963 | Too few recordings (2) |
+| Please Mister Postman - Remastered 2009 | Too few recordings (2) |
+| You Know My Name (Look Up The Number) - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| You Know My Name (Look Up The Number) - Anthology 2 Version | Too few recordings (2) |
+| You Know My Name (Look Up The Number) - Remastered 2009 | Too few recordings (2) |
+| Bye, Bye - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Bye, Bye - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Too few recordings (1) |
+| Can You Take Me Back? - Take 1 | Marked as original (The Beatles) |
+| Can You Take Me Back? - Take 1 | Too few recordings (1) |
+| George - Pop Profile - Live At The BBC / 30th November, 1965 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| George - Pop Profile - Live At The BBC / 30th November, 1965 | Too few recordings (1) |
+| Things We Said Today - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| Young Blood - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Young Blood - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Too few recordings (1) |
+| I Need You - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| I Need You - Remastered 2009 | Too few recordings (1) |
+| Ooh! My Arms - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Ooh! My Arms - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Too few recordings (1) |
+| Tell Me What You See - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| Tell Me What You See - Remastered 2009 | Too few recordings (1) |
+| Mailman, Bring Me No More Blues - Anthology 3 Version | Marked as original (Anthology 3) |
+| Mailman, Bring Me No More Blues - Anthology 3 Version | Too few recordings (1) |
+| Rain - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Rain - Remastered 2009 | Too few recordings (1) |
+| That's All Right (Mama) - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| That's All Right (Mama) - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Too few recordings (1) |
+| Yellow Submarine In Pepperland - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
+| Yellow Submarine In Pepperland - Remastered 2009 | Too few recordings (1) |
+| All Together Now - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
+| All Together Now | Too few recordings (2) |
+| All Together Now - Remastered 2009 | Too few recordings (2) |
+| Free As A Bird - Anthology 1 Version | Marked as original (Anthology 1) |
+| Free As A Bird - Anthology 1 Version | Too few recordings (1) |
+| Little Child - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| Little Child - Remastered 2009 | Too few recordings (1) |
+| So How Come (No One Loves Me) - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| So How Come (No One Loves Me) - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too few recordings (1) |
+| Tomorrow Never Knows - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| Tomorrow Never Knows - Take 1 / Anthology 2 Version | Excluded album (Revolver (Remastered)) |
+| Tomorrow Never Knows - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| Tomorrow Never Knows - Remastered 2009 | Too few recordings (2) |
+| Tomorrow Never Knows - Take 1 / Anthology 2 Version | Too few recordings (2) |
+| Within You, Without You - Instrumental / Anthology 2 Version | Marked as original (Anthology 2) |
+| Within You, Without You - Instrumental / Anthology 2 Version | Too few recordings (1) |
+| Come Together - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Love These Goon Shows! - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Love These Goon Shows! - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Too few recordings (1) |
+| Sgt Pepper's Lonely Hearts Club Band (Reprise) | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Sgt Pepper's Lonely Hearts Club Band (Reprise) | Too few recordings (1) |
+| It's Only Love - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| It's Only Love - Anthology 2 Version | Too few recordings (2) |
+| It's Only Love - Remastered 2009 | Too few recordings (2) |
+| Mean Mr. Mustard - Anthology 3 Version | Marked as original (Anthology 3) |
+| Mean Mr. Mustard - Anthology 3 Version | Too few recordings (1) |
+| Devil In Her Heart - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| Devil In Her Heart - Live At The BBC For "Pop Go The Beatles" / 25th September, 1963 | Too few recordings (2) |
+| Devil In Her Heart - Remastered 2009 | Too few recordings (2) |
+| Drive My Car / The Word / What You're Doing | Marked as original (Love) |
+| Drive My Car / The Word / What You're Doing | Too few recordings (1) |
+| Good Night - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Good Night - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| Good Night - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Good Night - Take 10 With A Guitar Part From Take 5 | Excluded album (The Beatles (Remastered)) |
+| Good Night - Take 22 | Excluded album (The Beatles (Remastered)) |
+| Good Night - Unnumbered Rehearsal | Excluded album (The Beatles (Remastered)) |
+| Good Night - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| We Were Performers... In Britain - Anthology 1 Version | Marked as original (Anthology 1) |
+| We Were Performers... In Britain - Anthology 1 Version | Too few recordings (1) |
+| I Got A Woman - Live At The BBC For "Pop Go The Beatles" / 13th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| I Got A Woman - Live At The BBC For "Pop Go The Beatles" / 13th August, 1963 | Too few recordings (2) |
+| I Got A Woman - Live At The BBC For "Saturday Club" / 4th April, 1964 | Too few recordings (2) |
+| Please Please Me - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| Twist And Shout - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| Everybody's Trying To Be My Baby - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| Get Back - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| It Won't Be Long - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| It Won't Be Long - Remastered 2009 | Too few recordings (1) |
+| Lucille - Live At The BBC For "Saturday Club" / 5th October, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Lucille - Live At The BBC For "Pop Go The Beatles" / 17th September, 1963 | Too few recordings (2) |
+| Lucille - Live At The BBC For "Saturday Club" / 5th October, 1963 | Too few recordings (2) |
+| Nothin' Shakin' - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Nothin' Shakin' - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too few recordings (1) |
+| A Hard Day's Night - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| Another Girl - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| Another Girl - Remastered 2009 | Too few recordings (1) |
+| Brian Bathtubes - Live At The BBC For "Saturday Club" / 21st December, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Brian Bathtubes - Live At The BBC For "Saturday Club" / 21st December, 1963 | Too few recordings (1) |
+| Sgt Pepper's Lonely Hearts Club Band | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Sgt Pepper's Lonely Hearts Club Band | Too few recordings (1) |
+| The Fool On The Hill - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Within You Without You | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Help! - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| Hey Jude - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| I Am The Walrus - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| I Want To Tell You - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| I Want To Tell You - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| I Want To Tell You - Remastered 2009 | Too few recordings (1) |
+| Blue Jay Way - Remastered 2009 | Marked as original (Magical Mystery Tour (Remastered)) |
+| Blue Jay Way - Remastered 2009 | Too few recordings (1) |
+| Gnik Nus | Marked as original (Love) |
+| Gnik Nus | Too few recordings (1) |
+| Hello Little Girl - Anthology 1 Version | Marked as original (Anthology 1) |
+| Hello Little Girl - Anthology 1 Version | Too few recordings (1) |
+| Sour Milk Sea - Esher Demo | Marked as original (The Beatles) |
+| Sour Milk Sea - Esher Demo | Too few recordings (1) |
+| Sun King - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| Sun King - Remastered 2009 | Too few recordings (1) |
+| Hello! - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Hello! - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too few recordings (1) |
+| I'll Get You - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Piggies - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Piggies - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| Piggies - Esher Demo | Excluded album (The Beatles (Remastered)) |
+| Piggies - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Piggies - Take 12 / Instrumental Backing Track | Excluded album (The Beatles (Remastered)) |
+| Piggies - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Blackbird - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Blackbird - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| Blackbird - Esher Demo | Excluded album (The Beatles (Remastered)) |
+| Blackbird - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Blackbird - Take 28 | Excluded album (The Beatles (Remastered)) |
+| Blackbird - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Crying, Waiting, Hoping - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Crying, Waiting, Hoping - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Too few recordings (1) |
+| Don't Let Me Down - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Don't Let Me Down - Naked Version / Remastered 2013 | Too few recordings (2) |
+| Don't Let Me Down - Remastered 2009 | Too few recordings (2) |
+| Happy Birthday Dear Saturday Club - Live At The BBC For "Saturday Club" / 5th October, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Happy Birthday Dear Saturday Club - Live At The BBC For "Saturday Club" / 5th October, 1963 | Too few recordings (1) |
+| Julia - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Julia - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| Julia - Esher Demo | Excluded album (The Beatles (Remastered)) |
+| Julia - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Julia - Two Rehearsals | Excluded album (The Beatles (Remastered)) |
+| Julia - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| A Beginning (Take 4) / Don’t Pass Me By (Take 7) | Marked as original (The Beatles) |
+| A Beginning (Take 4) / Don’t Pass Me By (Take 7) | Too few recordings (1) |
+| Across The Universe - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| All I've Got To Do - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| All I've Got To Do - Remastered 2009 | Too few recordings (1) |
+| Ringo - Pop Profile - Live At The BBC / 2nd May, 1966 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Ringo - Pop Profile - Live At The BBC / 2nd May, 1966 | Too few recordings (1) |
+| Sea Of Time - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
+| Sea Of Time - Remastered 2009 | Too few recordings (1) |
+| Strawberry Fields Forever | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Never Mind, Eh? - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Never Mind, Eh? - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Too few recordings (1) |
+| Revolution 1 - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Revolution 1 - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Revolution 1 - Take 18 | Excluded album (The Beatles (Remastered)) |
+| Revolution 1 - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Riding On A Bus - Live At The BBC For "Top Gear" / 26th November, 1964 | Marked as original (Live At The BBC (Remastered)) |
+| Riding On A Bus - Live At The BBC For "Top Gear" / 26th November, 1964 | Too few recordings (1) |
+| You Can't Do That - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| Carry That Weight - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| Carry That Weight - Remastered 2009 | Too few recordings (1) |
+| Here Comes The Sun / The Inner Light | Marked as original (Love) |
+| Here Comes The Sun / The Inner Light | Too few recordings (1) |
+| Moonlight Bay - Anthology 1 Version | Marked as original (Anthology 1) |
+| Moonlight Bay - Anthology 1 Version | Too few recordings (1) |
+| Revolution - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| The Inner Light - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| The Inner Light - Remastered 2009 | Too few recordings (2) |
+| The Inner Light - Take 6 / Instrumental Backing Track | Too few recordings (2) |
+| Being For The Benefit Of Mr Kite! | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Cry For A Shadow - Anthology 1 Version | Marked as original (Anthology 1) |
+| Cry For A Shadow - Anthology 1 Version | Too few recordings (1) |
+| I'm Only Sleeping - Rehearsal / Instrumental / Anthology 2 Version | Excluded album (Revolver (Remastered)) |
+| I'm Only Sleeping - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| I'm Only Sleeping - Take 1 / Anthology 2 Version | Excluded album (Revolver (Remastered)) |
+| I'm Only Sleeping - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| While My Guitar Gently Weeps - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| You've Got To Hide Your Love Away - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| You've Got To Hide Your Love Away - Remastered 2009 | Too few recordings (2) |
+| You've Got To Hide Your Love Away - Take 5 / Anthology 2 Version | Too few recordings (2) |
+| A Taste Of Honey - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| A Taste Of Honey - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too few recordings (2) |
+| A Taste Of Honey - Remastered 2009 | Too few recordings (2) |
+| Dear Prudence - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Dear Prudence - Esher Demo | Excluded album (The Beatles (Remastered)) |
+| Dear Prudence - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Dear Prudence - Vocal, Guitar & Drums | Excluded album (The Beatles (Remastered)) |
+| Dear Prudence - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| What’s The New Mary Jane - Esher Demo | Marked as original (The Beatles) |
+| What’s The New Mary Jane - Esher Demo | Too few recordings (2) |
+| What’s The New Mary Jane - Take 1 | Too few recordings (2) |
+| Mr Moonlight - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| Mr Moonlight - Anthology 1 Version | Too few recordings (2) |
+| Mr Moonlight - Remastered 2009 | Too few recordings (2) |
+| Set Fire To That Lot! - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Set Fire To That Lot! - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Too few recordings (1) |
+| She Said She Said - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| She Said She Said - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| She Said She Said - Remastered 2009 | Too few recordings (1) |
+| Some Other Guy - Live At The BBC For "Easy Beat" / 23rd June, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Some Other Guy - Live At The BBC For "Easy Beat" / 23rd June, 1963 | Too few recordings (1) |
+| A Day In The Life | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| I Got To Find My Baby - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| I Got To Find My Baby - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Too few recordings (1) |
+| Johnny B Goode - Live At The BBC For "Saturday Club" / 15th February, 1964 | Marked as original (Live At The BBC (Remastered)) |
+| Johnny B Goode - Live At The BBC For "Saturday Club" / 15th February, 1964 | Too few recordings (1) |
+| Savoy Truffle - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Savoy Truffle - Instrumental Backing Track | Excluded album (The Beatles (Remastered)) |
+| Savoy Truffle - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Savoy Truffle - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| That’s What We’re Here For - Live At The BBC For "Top Gear" / 26th November, 1964 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| That’s What We’re Here For - Live At The BBC For "Top Gear" / 26th November, 1964 | Too few recordings (1) |
+| When I'm Sixty Four | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| When I'm Sixty Four | Too few recordings (2) |
+| When I'm Sixty Four - Remastered 2009 | Too few recordings (2) |
+| Baby, You're A Rich Man - Remastered 2009 | Marked as original (Magical Mystery Tour (Remastered)) |
+| Baby, You're A Rich Man - Remastered 2009 | Too few recordings (1) |
+| Her Majesty - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| Her Majesty - Remastered 2009 | Too few recordings (1) |
+| Lend Me Your Comb - Anthology 1 Version | Marked as original (Anthology 1) |
+| Lend Me Your Comb - Anthology 1 Version | Too few recordings (2) |
+| Lend Me Your Comb - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Too few recordings (2) |
+| That'll Be The Day - Anthology 1 Version | Marked as original (Anthology 1) |
+| That'll Be The Day - Anthology 1 Version | Too few recordings (1) |
+| Yes It Is - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Yes It Is - Anthology 2 Version | Too few recordings (2) |
+| Yes It Is - Remastered 2009 | Too few recordings (2) |
+| Helter Skelter - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Helter Skelter - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| Helter Skelter - First Version / Take 2 | Excluded album (The Beatles (Remastered)) |
+| Helter Skelter - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Helter Skelter - Second Version / Take 17 | Excluded album (The Beatles (Remastered)) |
+| Helter Skelter - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| I'm Down - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| I'm Down - Remastered 2009 | Too few recordings (2) |
+| I'm Down - Take 1 / Anthology 2 Version | Too few recordings (2) |
+| Not Guilty - Anthology 3 Version | Marked as original (Anthology 3) |
+| Good Day Sunshine - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| Good Day Sunshine - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| Good Day Sunshine - Remastered 2009 | Too few recordings (1) |
+| How Do You Do It? - Anthology 1 Version | Marked as original (Anthology 1) |
+| How Do You Do It? - Anthology 1 Version | Too few recordings (1) |
+| Long Tall Sally - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Within You Without You / Tomorrow Never Knows | Marked as original (Love) |
+| Within You Without You / Tomorrow Never Knows | Too few recordings (1) |
+| 1822! - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| 1822! - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too few recordings (1) |
+| Because - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| Day Tripper - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| Day Tripper - Remastered 2009 | Too few recordings (2) |
+| Day Tripper - Remastered 2015 | Too few recordings (2) |
+| Los Paranoias - Studio Jam | Marked as original (The Beatles) |
+| Los Paranoias - Studio Jam | Too few recordings (1) |
+| Ringo? Yep! - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Marked as original (Live At The BBC (Remastered)) |
+| Ringo? Yep! - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Too few recordings (1) |
+| Shout - Anthology 1 Version | Marked as original (Anthology 1) |
+| Shout - Anthology 1 Version | Too few recordings (1) |
+| That Means A Lot - Anthology 2 Version | Marked as original (Anthology 2) |
+| That Means A Lot - Anthology 2 Version | Too few recordings (1) |
+| (You're So Square) Baby I Don’t Care - Studio Jam | Marked as original (The Beatles) |
+| (You're So Square) Baby I Don’t Care - Studio Jam | Too few recordings (1) |
+| Flying - Remastered 2009 | Marked as original (Magical Mystery Tour (Remastered)) |
+| Flying - Remastered 2009 | Too few recordings (1) |
+| John - Pop Profile - Live At The BBC / 30th November, 1965 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| John - Pop Profile - Live At The BBC / 30th November, 1965 | Too few recordings (1) |
+| I'll Be On My Way - Live At The BBC For "Side By Side" / 24th June, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| I'll Be On My Way - Live At The BBC For "Side By Side" / 24th June, 1963 | Too few recordings (1) |
+| Love Me Do - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| Mother Nature's Son - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Mother Nature's Son - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| Mother Nature's Son - Esher Demo | Excluded album (The Beatles (Remastered)) |
+| Mother Nature's Son - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Mother Nature's Son - Take 15 | Excluded album (The Beatles (Remastered)) |
+| Mother Nature's Son - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Oh, Can’t We? Yes We Can - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Oh, Can’t We? Yes We Can - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Too few recordings (1) |
+| Wild Honey Pie - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Wild Honey Pie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Wild Honey Pie - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Wild Honey Pie - 2018 Mix | Too few recordings (2) |
+| Wild Honey Pie - Remastered 2009 | Too few recordings (2) |
+| All You Need Is Love - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Carol - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Carol - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Too few recordings (1) |
+| Fixing A Hole | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Yesterday - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| Maggie Mae - Remastered 2009 | Marked as original (Let It Be (Remastered)) |
+| Maggie Mae - Remastered 2009 | Too few recordings (1) |
+| Old Brown Shoe - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Old Brown Shoe - Anthology 3 Version | Too few recordings (2) |
+| Old Brown Shoe - Remastered 2009 | Too few recordings (2) |
+| Ask Me Why - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| Ask Me Why - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Too few recordings (2) |
+| Ask Me Why - Remastered 2009 | Too few recordings (2) |
+| Hello, Goodbye - Remastered 2009 | Marked as original (Magical Mystery Tour (Remastered)) |
+| Lovely Rita | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Being For The Benefit Of Mr Kite! / I Want You (She's So Heavy) / Helter Skelter | Marked as original (Love) |
+| Being For The Benefit Of Mr Kite! / I Want You (She's So Heavy) / Helter Skelter | Too few recordings (1) |
+| She Came In Through The Bathroom Window - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| She Came In Through The Bathroom Window - Anthology 3 Version | Too few recordings (2) |
+| She Came In Through The Bathroom Window - Remastered 2009 | Too few recordings (2) |
+| We Were Four Guys... That's All - Anthology 1 Version | Marked as original (Anthology 1) |
+| We Were Four Guys... That's All - Anthology 1 Version | Too few recordings (1) |
+| Baby's In Black - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| Baby's In Black - Live / Bonus Track | Too few recordings (2) |
+| Baby's In Black - Remastered 2009 | Too few recordings (2) |
+| Doctor Robert - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| Doctor Robert - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| Doctor Robert - Remastered 2009 | Too few recordings (1) |
+| Revolution 9 - 2018 Mix | Excluded album (The Beatles (Remastered)) |
 | Revolution 9 - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
 | Revolution 9 - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Sgt. Pepper's Lonely Hearts Club Band (Reprise) - Speech And Take 8 | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
-| She's Leaving Home | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
-| She's Leaving Home - First Mono Mix | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
-| She's Leaving Home - Take 1 / Instrumental | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
-| She's Leaving Home - Take 6 / Instrumental | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
-| The End - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
-| Tomorrow Never Knows - Remastered 2009 | Excluded album (Revolver (Remastered)) |
-| Tomorrow Never Knows - Take 1 / Anthology 2 Version | Excluded album (Anthology 2) |
-| Tomorrow Never Knows - Remastered 2009 | Marked as original (Revolver (Remastered)) |
-| P.S. I Love You - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
-| Baby It's You - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
-| Dig A Pony - Remastered 2009 | Marked as original (Let It Be (Remastered)) |
-| Hey Jude | Excluded album (Love) |
-| Hey Jude - Anthology 3 Version | Excluded album (Anthology 3) |
-| Hey Jude - Remastered 2009 | Excluded album (Past Masters (Vols. 1 & 2 / Remastered)) |
-| Hey Jude - Remastered 2015 | Excluded album (1 (Remastered)) |
-| Hey Jude - Take 1 | Excluded album (The Beatles) |
-| Hey Jude - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
-| It's All Too Much - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
-| Maxwell's Silver Hammer - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| Revolution 9 - 2018 Mix | Too few recordings (2) |
+| Revolution 9 - Remastered 2009 | Too few recordings (2) |
+| Green With Black Shutters - Live At The BBC / 1965 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Green With Black Shutters - Live At The BBC / 1965 | Too few recordings (1) |
+| Keep Your Hands Off My Baby - Live At The BBC For "Saturday Club" / 26th January, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Keep Your Hands Off My Baby - Live At The BBC For "Saturday Club" / 26th January, 1963 | Too few recordings (1) |
+| Like Dreamers Do - Anthology 1 Version | Marked as original (Anthology 1) |
+| Like Dreamers Do - Anthology 1 Version | Too few recordings (1) |
+| No Reply - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| Everybody's Got Something To Hide Except Me And My Monkey - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Everybody's Got Something To Hide Except Me And My Monkey - Esher Demo | Excluded album (The Beatles (Remastered)) |
+| Everybody's Got Something To Hide Except Me And My Monkey - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Everybody's Got Something To Hide Except Me And My Monkey - Unnumbered Rehearsal | Excluded album (The Beatles (Remastered)) |
+| Everybody's Got Something To Hide Except Me And My Monkey - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| For No One - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| For No One - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| For No One - Remastered 2009 | Too few recordings (1) |
+| Good Morning Good Morning | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Only A Northern Song - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
+| Pepperland - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
+| Pepperland - Remastered 2009 | Too few recordings (1) |
+| The Honeymoon Song - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| The Honeymoon Song - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Too few recordings (1) |
+| The Night Before - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| The Night Before - Remastered 2009 | Too few recordings (1) |
+| Till There Was You - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| A Real Treat - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| A Real Treat - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too few recordings (1) |
+| If You've Got Trouble - Anthology 2 Version | Marked as original (Anthology 2) |
+| If You've Got Trouble - Anthology 2 Version | Too few recordings (1) |
+| Now Hush, Hush - Live At The BBC For "Easy Beat" / 20th October, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Now Hush, Hush - Live At The BBC For "Easy Beat" / 20th October, 1963 | Too few recordings (1) |
+| Why Don't We Do It In The Road? - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Why Don't We Do It In The Road? - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| Why Don't We Do It In The Road? - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Why Don't We Do It In The Road? - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Sha La La La La! - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Sha La La La La! - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Too few recordings (1) |
+| Something - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| Too Much Monkey Business - Live At The BBC For "Pop Go The Beatles" / 10th September, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Too Much Monkey Business - Live At The BBC For "Pop Go The Beatles" / 10th September, 1963 | Too few recordings (1) |
+| Beatles Greetings - Live At The BBC For "The Public Ear" / 3rd November, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Beatles Greetings - Live At The BBC For "The Public Ear" / 3rd November, 1963 | Too few recordings (1) |
+| I Wanna Be Your Man - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| I'll Be Back - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| Long, Long, Long - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Long, Long, Long - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Long, Long, Long - Take 44 | Excluded album (The Beatles (Remastered)) |
+| Long, Long, Long - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
 | Misery - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
-| Old Brown Shoe - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
-| The Hippy Hippy Shake - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Marked as original (Live At The BBC (Remastered)) |
-| We Can Work It Out - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
-| Glad All Over - Live At The BBC For "Pop Go The Beatles" / 20th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
-| Glass Onion | Excluded album (Love) |
-| Glass Onion - 2018 Mix | Excluded album (The Beatles) |
-| Glass Onion - Demo / Anthology 3 Version | Excluded album (Anthology 3) |
-| Glass Onion - Esher Demo | Excluded album (The Beatles) |
-| Glass Onion - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Glass Onion - Take 10 | Excluded album (The Beatles) |
-| Glass Onion - Take 33 / Anthology 3 Version | Excluded album (Anthology 3) |
-| Glass Onion | Excluded album (Love) |
-| Glass Onion - 2018 Mix | Excluded album (The Beatles) |
-| Glass Onion - Demo / Anthology 3 Version | Excluded album (Anthology 3) |
-| Glass Onion - Esher Demo | Excluded album (The Beatles) |
-| Glass Onion - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Glass Onion - Take 10 | Excluded album (The Beatles) |
-| Glass Onion - Take 33 / Anthology 3 Version | Excluded album (Anthology 3) |
-| Glass Onion | Excluded album (Love) |
-| Glass Onion - 2018 Mix | Excluded album (The Beatles) |
-| Glass Onion - Demo / Anthology 3 Version | Excluded album (Anthology 3) |
-| Glass Onion - Esher Demo | Excluded album (The Beatles) |
-| Glass Onion - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Glass Onion - Take 10 | Excluded album (The Beatles) |
-| Glass Onion - Take 33 / Anthology 3 Version | Excluded album (Anthology 3) |
-| Glass Onion - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Got To Get You Into My Life - Remastered 2009 | Excluded album (Revolver (Remastered)) |
-| Got To Get You Into My Life - Take 5 / Anthology 2 Version | Excluded album (Anthology 2) |
-| Got To Get You Into My Life - Remastered 2009 | Marked as original (Revolver (Remastered)) |
-| I'm Only Sleeping - Remastered 2009 | Excluded album (Revolver (Remastered)) |
-| I'm Only Sleeping - Take 1 / Anthology 2 Version | Excluded album (Anthology 2) |
-| I'm Only Sleeping - Remastered 2009 | Marked as original (Revolver (Remastered)) |
-| Polythene Pam - Anthology 3 Version | Excluded album (Anthology 3) |
-| Polythene Pam - Esher Demo | Excluded album (The Beatles) |
-| Polythene Pam - Anthology 3 Version | Marked as original (Anthology 3) |
-| Lend Me Your Comb - Anthology 1 Version | Marked as original (Anthology 1) |
-| Rock And Roll Music - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
-| What’s The New Mary Jane - Esher Demo | Excluded album (The Beatles) |
-| What’s The New Mary Jane - Take 1 | Excluded album (The Beatles) |
-| What’s The New Mary Jane - Esher Demo | Excluded album (The Beatles) |
-| What’s The New Mary Jane - Take 1 | Excluded album (The Beatles) |
-| What’s The New Mary Jane - Esher Demo | Marked as original (The Beatles) |
-| What’s The New Mary Jane - Take 1 | Marked as original (The Beatles) |
-| Baby's In Black - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
-| I'll Follow The Sun - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
-| I'm Down - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
-| I'm So Tired - 2018 Mix | Excluded album (The Beatles) |
-| I'm So Tired - Anthology 3 Version | Excluded album (Anthology 3) |
-| I'm So Tired - Esher Demo | Excluded album (The Beatles) |
-| I'm So Tired - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| I'm So Tired - Take 14 | Excluded album (The Beatles) |
-| I'm So Tired - Take 7 | Excluded album (The Beatles) |
-| I'm So Tired - 2018 Mix | Excluded album (The Beatles) |
-| I'm So Tired - Anthology 3 Version | Excluded album (Anthology 3) |
-| I'm So Tired - Esher Demo | Excluded album (The Beatles) |
-| I'm So Tired - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| I'm So Tired - Take 14 | Excluded album (The Beatles) |
-| I'm So Tired - Take 7 | Excluded album (The Beatles) |
-| I'm So Tired - 2018 Mix | Excluded album (The Beatles) |
-| I'm So Tired - Anthology 3 Version | Excluded album (Anthology 3) |
-| I'm So Tired - Esher Demo | Excluded album (The Beatles) |
-| I'm So Tired - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| I'm So Tired - Take 14 | Excluded album (The Beatles) |
-| I'm So Tired - Take 7 | Excluded album (The Beatles) |
-| I'm So Tired - 2018 Mix | Excluded album (The Beatles) |
-| I'm So Tired - Anthology 3 Version | Excluded album (Anthology 3) |
-| I'm So Tired - Esher Demo | Excluded album (The Beatles) |
-| I'm So Tired - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| I'm So Tired - Take 14 | Excluded album (The Beatles) |
-| I'm So Tired - Take 7 | Excluded album (The Beatles) |
-| I'm So Tired - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Your Mother Should Know - Remastered 2009 | Marked as original (Magical Mystery Tour (Remastered)) |
-| Birthday - 2018 Mix | Excluded album (The Beatles) |
-| Birthday - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Birthday - Take 2 / Instrumental Backing Track | Excluded album (The Beatles) |
-| Birthday - 2018 Mix | Excluded album (The Beatles) |
-| Birthday - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Birthday - Take 2 / Instrumental Backing Track | Excluded album (The Beatles) |
-| Birthday - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Good Night - 2018 Mix | Excluded album (The Beatles) |
-| Good Night - Anthology 3 Version | Excluded album (Anthology 3) |
-| Good Night - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Good Night - Take 10 With A Guitar Part From Take 5 | Excluded album (The Beatles) |
-| Good Night - Take 22 | Excluded album (The Beatles) |
-| Good Night - 2018 Mix | Excluded album (The Beatles) |
-| Good Night - Anthology 3 Version | Excluded album (Anthology 3) |
-| Good Night - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Good Night - Take 10 With A Guitar Part From Take 5 | Excluded album (The Beatles) |
-| Good Night - Take 22 | Excluded album (The Beatles) |
-| Good Night - 2018 Mix | Excluded album (The Beatles) |
-| Good Night - Anthology 3 Version | Excluded album (Anthology 3) |
-| Good Night - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Good Night - Take 10 With A Guitar Part From Take 5 | Excluded album (The Beatles) |
-| Good Night - Take 22 | Excluded album (The Beatles) |
-| Good Night - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| I Will - 2018 Mix | Excluded album (The Beatles) |
-| I Will - Anthology 3 Version | Excluded album (Anthology 3) |
-| I Will - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| I Will - Take 13 | Excluded album (The Beatles) |
-| I Will - 2018 Mix | Excluded album (The Beatles) |
-| I Will - Anthology 3 Version | Excluded album (Anthology 3) |
-| I Will - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| I Will - Take 13 | Excluded album (The Beatles) |
-| I Will - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Memphis, Tennessee - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Marked as original (Live At The BBC (Remastered)) |
-| Sexy Sadie - 2018 Mix | Excluded album (The Beatles) |
-| Sexy Sadie - Anthology 3 Version | Excluded album (Anthology 3) |
-| Sexy Sadie - Esher Demo | Excluded album (The Beatles) |
-| Sexy Sadie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Sexy Sadie - Take 3 | Excluded album (The Beatles) |
-| Sexy Sadie - 2018 Mix | Excluded album (The Beatles) |
-| Sexy Sadie - Anthology 3 Version | Excluded album (Anthology 3) |
-| Sexy Sadie - Esher Demo | Excluded album (The Beatles) |
-| Sexy Sadie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Sexy Sadie - Take 3 | Excluded album (The Beatles) |
-| Sexy Sadie - 2018 Mix | Excluded album (The Beatles) |
-| Sexy Sadie - Anthology 3 Version | Excluded album (Anthology 3) |
-| Sexy Sadie - Esher Demo | Excluded album (The Beatles) |
-| Sexy Sadie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Sexy Sadie - Take 3 | Excluded album (The Beatles) |
-| Sexy Sadie - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| You've Got To Hide Your Love Away - Remastered 2009 | Marked as original (Help! (Remastered)) |
-| Only A Northern Song - Anthology 2 Version | Marked as original (Anthology 2) |
-| Ain't She Sweet - Anthology 1 Version | Marked as original (Anthology 1) |
-| Cry Baby Cry - 2018 Mix | Excluded album (The Beatles) |
-| Cry Baby Cry - Anthology 3 Version | Excluded album (Anthology 3) |
-| Cry Baby Cry - Esher Demo | Excluded album (The Beatles) |
-| Cry Baby Cry - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Cry Baby Cry - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Cry Baby Cry - 2018 Mix | Excluded album (The Beatles) |
-| Cry Baby Cry - Anthology 3 Version | Excluded album (Anthology 3) |
-| Cry Baby Cry - Esher Demo | Excluded album (The Beatles) |
-| Cry Baby Cry - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Cry Baby Cry - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Cry Baby Cry - 2018 Mix | Excluded album (The Beatles) |
-| Cry Baby Cry - Anthology 3 Version | Excluded album (Anthology 3) |
-| Cry Baby Cry - Esher Demo | Excluded album (The Beatles) |
-| Cry Baby Cry - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Cry Baby Cry - Unnumbered Rehearsal | Excluded album (The Beatles) |
-| Cry Baby Cry - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Girl - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
-| I Me Mine - Anthology 3 Version | Marked as original (Anthology 3) |
-| Lady Madonna | Excluded album (Love) |
-| Lady Madonna - Alternate Mix / Anthology 2 Version | Excluded album (Anthology 2) |
-| Lady Madonna - Remastered 2009 | Excluded album (The Beatles 1967 - 1970 (Remastered)) |
-| Lady Madonna - Remastered 2015 | Excluded album (1 (Remastered)) |
-| Lady Madonna - Take 2 / Piano & Drums | Excluded album (The Beatles) |
-| Lady Madonna - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
-| Norwegian Wood (This Bird Has Flown) - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
-| Oh! Darling - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
-| Taxman - Remastered 2009 | Excluded album (Revolver (Remastered)) |
-| Taxman - Take 11 / Anthology 2 Version | Excluded album (Anthology 2) |
-| Taxman - Remastered 2009 | Marked as original (Revolver (Remastered)) |
-| All Together Now - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
-| Anna (Go To Him) - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
-| Hey Bulldog - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
-| I'm A Loser - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
-| I'm Looking Through You - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
-| If I Fell - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| Misery - Live At The BBC For "Here We Go" / 12th March, 1963 | Too few recordings (2) |
+| Misery - Remastered 2009 | Too few recordings (2) |
+| Teddy Boy - Anthology 3 Version | Marked as original (Anthology 3) |
+| Teddy Boy - Anthology 3 Version | Too few recordings (1) |
 | Thank You Girl - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
-| Think For Yourself - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
-| Chains - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
-| I Am The Walrus - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
-| Lucille - Live At The BBC For "Saturday Club" / 5th October, 1963 | Marked as original (Live At The BBC (Remastered)) |
-| Mother Nature's Son - 2018 Mix | Excluded album (The Beatles) |
-| Mother Nature's Son - Anthology 3 Version | Excluded album (Anthology 3) |
-| Mother Nature's Son - Esher Demo | Excluded album (The Beatles) |
-| Mother Nature's Son - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Mother Nature's Son - Take 15 | Excluded album (The Beatles) |
-| Mother Nature's Son - 2018 Mix | Excluded album (The Beatles) |
-| Mother Nature's Son - Anthology 3 Version | Excluded album (Anthology 3) |
-| Mother Nature's Son - Esher Demo | Excluded album (The Beatles) |
-| Mother Nature's Son - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Mother Nature's Son - Take 15 | Excluded album (The Beatles) |
-| Mother Nature's Son - 2018 Mix | Excluded album (The Beatles) |
-| Mother Nature's Son - Anthology 3 Version | Excluded album (Anthology 3) |
-| Mother Nature's Son - Esher Demo | Excluded album (The Beatles) |
-| Mother Nature's Son - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Mother Nature's Son - Take 15 | Excluded album (The Beatles) |
-| Mother Nature's Son - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Sure To Fall (In Love With You) - Live At The BBC For "Pop Go The Beatles" / 18th June, 1963 | Marked as original (Live At The BBC (Remastered)) |
-| The Fool On The Hill - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
-| There's A Place - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
-| A Day In The Life - First Mono Mix | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
-| A Day In The Life - Hummed Last Chord / Takes 8, 9, 10 And 11 | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
-| Happiness Is A Warm Gun - 2018 Mix | Excluded album (The Beatles) |
-| Happiness Is A Warm Gun - Anthology 3 Version | Excluded album (Anthology 3) |
-| Happiness Is A Warm Gun - Esher Demo | Excluded album (The Beatles) |
-| Happiness Is A Warm Gun - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Happiness Is A Warm Gun - Take 19 | Excluded album (The Beatles) |
-| Happiness Is A Warm Gun - 2018 Mix | Excluded album (The Beatles) |
-| Happiness Is A Warm Gun - Anthology 3 Version | Excluded album (Anthology 3) |
-| Happiness Is A Warm Gun - Esher Demo | Excluded album (The Beatles) |
-| Happiness Is A Warm Gun - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Happiness Is A Warm Gun - Take 19 | Excluded album (The Beatles) |
-| Happiness Is A Warm Gun - 2018 Mix | Excluded album (The Beatles) |
-| Happiness Is A Warm Gun - Anthology 3 Version | Excluded album (Anthology 3) |
-| Happiness Is A Warm Gun - Esher Demo | Excluded album (The Beatles) |
-| Happiness Is A Warm Gun - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Happiness Is A Warm Gun - Take 19 | Excluded album (The Beatles) |
-| Happiness Is A Warm Gun - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
-| Long, Long, Long - 2018 Mix | Excluded album (The Beatles) |
-| Long, Long, Long - Take 44 | Excluded album (The Beatles) |
-| Long, Long, Long - 2018 Mix | Excluded album (The Beatles) |
-| Long, Long, Long - Take 44 | Excluded album (The Beatles) |
-| Long, Long, Long - 2018 Mix | Marked as original (The Beatles) |
-| Long, Long, Long - Take 44 | Marked as original (The Beatles) |
-| Nowhere Man - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
-| Please Mister Postman - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| Thank You Girl - Live At The BBC For "Easy Beat" / 23rd June, 1963 | Too few recordings (2) |
+| Thank You Girl - Remastered 2009 | Too few recordings (2) |
+| I Call Your Name - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| I Call Your Name - Remastered 2009 | Too few recordings (1) |
+| I'll Follow The Sun - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| I'll Follow The Sun - Live At The BBC For "Top Gear" / 26th November, 1964 | Too few recordings (2) |
+| I'll Follow The Sun - Remastered 2009 | Too few recordings (2) |
+| It's All Too Much - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
+| It's All Too Much | Too few recordings (2) |
+| It's All Too Much - Remastered 2009 | Too few recordings (2) |
+| Sometimes I'd Borrow...Those Still Exist - Anthology 1 Version | Marked as original (Anthology 1) |
+| Sometimes I'd Borrow...Those Still Exist - Anthology 1 Version | Too few recordings (1) |
+| Circles - Esher Demo | Marked as original (The Beatles) |
+| Circles - Esher Demo | Too few recordings (1) |
+| If I Fell - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| If I Fell - Live At The BBC For "Top Gear" / 16th July, 1964 | Too few recordings (2) |
+| If I Fell - Remastered 2009 | Too few recordings (2) |
+| Memphis, Tennessee - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Memphis, Tennessee - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Too few recordings (2) |
+| Memphis, Tennessee - Live At The BBC For "Saturday Club" / 5th October, 1963 | Too few recordings (2) |
+| I Feel Fine (Studio Out-take) - Live At The BBC For "Top Gear" / 17th November, 1964 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| I Feel Fine (Studio Out-take) - Live At The BBC For "Top Gear" / 17th November, 1964 | Too few recordings (1) |
+| I Me Mine - Remastered 2009 | Marked as original (Let It Be (Remastered)) |
+| Junk - Anthology 3 Version | Marked as original (Anthology 3) |
+| Junk - Anthology 3 Version | Too few recordings (2) |
+| Junk - Esher Demo | Too few recordings (2) |
+| The Ballad Of John And Yoko - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| The Ballad Of John And Yoko - Remastered 2009 | Too few recordings (2) |
+| The Ballad Of John And Yoko - Remastered 2015 | Too few recordings (2) |
+| And Here We Are Again - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| And Here We Are Again - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too few recordings (1) |
+| Back In The U.S.S.R.. - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Blackbird / Yesterday | Marked as original (Love) |
+| Blackbird / Yesterday | Too few recordings (1) |
+| Drive My Car - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
+| Drive My Car - Remastered 2009 | Too few recordings (1) |
+| Martha My Dear - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Martha My Dear - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Martha My Dear - Without Brass And Strings | Excluded album (The Beatles (Remastered)) |
+| Martha My Dear - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Wait - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
+| Wait - Remastered 2009 | Too few recordings (1) |
+| Three Cool Cats - Anthology 1 Version | Marked as original (Anthology 1) |
+| Three Cool Cats - Anthology 1 Version | Too few recordings (1) |
+| Well, The Recording Test... By My Artists - Anthology 1 Version | Marked as original (Anthology 1) |
+| Well, The Recording Test... By My Artists - Anthology 1 Version | Too few recordings (1) |
 | When I'm Sixty-Four - Take 2 | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
-| Yer Blues - 2018 Mix | Excluded album (The Beatles) |
-| Yer Blues - Esher Demo | Excluded album (The Beatles) |
+| When I'm Sixty-Four - Remix | Too few recordings (2) |
+| When I'm Sixty-Four - Take 2 | Too few recordings (2) |
+| Yer Blues - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Yer Blues - Esher Demo | Excluded album (The Beatles (Remastered)) |
 | Yer Blues - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Yer Blues - Take 5 With Guide Vocal | Excluded album (The Beatles) |
-| Yer Blues - 2018 Mix | Excluded album (The Beatles) |
-| Yer Blues - Esher Demo | Excluded album (The Beatles) |
-| Yer Blues - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Yer Blues - Take 5 With Guide Vocal | Excluded album (The Beatles) |
-| Yer Blues - 2018 Mix | Excluded album (The Beatles) |
-| Yer Blues - Esher Demo | Excluded album (The Beatles) |
-| Yer Blues - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
-| Yer Blues - Take 5 With Guide Vocal | Excluded album (The Beatles) |
+| Yer Blues - Take 5 With Guide Vocal | Excluded album (The Beatles (Remastered)) |
 | Yer Blues - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| First Of All... It Didn't Do A Thing Here - Anthology 1 Version | Marked as original (Anthology 1) |
+| First Of All... It Didn't Do A Thing Here - Anthology 1 Version | Too few recordings (1) |
+| Kansas City / Hey-Hey-Hey-Hey - Medley / Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| Kansas City / Hey-Hey-Hey-Hey - Medley / Remastered 2009 | Too few recordings (1) |
+| Octopus's Garden - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| Boys, What Was I Thinking... - Anthology 1 Version | Marked as original (Anthology 1) |
+| Boys, What Was I Thinking... - Anthology 1 Version | Too few recordings (1) |
+| In My Life - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| In My Life - Remastered 2009 | Too few recordings (1) |
+| Tell Me Why - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| Tell Me Why - Remastered 2009 | Too few recordings (1) |
+| Nowhere Man - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
+| Nowhere Man | Too few recordings (2) |
+| Nowhere Man - Remastered 2009 | Too few recordings (2) |
+| Ooh! My Soul - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Ooh! My Soul - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Too few recordings (1) |
+| Searchin' - Anthology 1 Version | Marked as original (Anthology 1) |
+| Searchin' - Anthology 1 Version | Too few recordings (1) |
+| And Your Bird Can Sing - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| And Your Bird Can Sing - Take 2 / Anthology 2 Version | Excluded album (Revolver (Remastered)) |
+| And Your Bird Can Sing - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| And Your Bird Can Sing - Remastered 2009 | Too few recordings (2) |
+| And Your Bird Can Sing - Take 2 / Anthology 2 Version | Too few recordings (2) |
+| Eight Days A Week - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| I've Just Seen A Face - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| I've Just Seen A Face - Remastered 2009 | Too few recordings (1) |
+| I'm Happy Just To Dance With You - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| I'm Happy Just To Dance With You - Remastered 2009 | Too few recordings (1) |
+| I'm So Tired - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| I'm So Tired - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| I'm So Tired - Esher Demo | Excluded album (The Beatles (Remastered)) |
+| I'm So Tired - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| I'm So Tired - Take 14 | Excluded album (The Beatles (Remastered)) |
+| I'm So Tired - Take 7 | Excluded album (The Beatles (Remastered)) |
+| I'm So Tired - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Polythene Pam - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| Sgt Pepper's Lonely Hearts Club Band - Remix | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Soldier Of Love - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Soldier Of Love - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Too few recordings (1) |
+| Bad Boy - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Bad Boy - Remastered 2009 | Too few recordings (1) |
+| Boys - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| From Fluff To You - Live At The BBC For "From Us To You Say The Beatles" / 10th March, 1964 | Marked as original (Live At The BBC (Remastered)) |
+| From Fluff To You - Live At The BBC For "From Us To You Say The Beatles" / 10th March, 1964 | Too few recordings (1) |
+| What Is It, George? - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| What Is It, George? - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Too few recordings (1) |
+| The Sheik Of Araby - Anthology 1 Version | Marked as original (Anthology 1) |
+| The Sheik Of Araby - Anthology 1 Version | Too few recordings (1) |
+| The Word - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
+| The Word - Remastered 2009 | Too few recordings (1) |
+| How About It, Gorgeous? - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| How About It, Gorgeous? - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Too few recordings (1) |
+| Real Love - Anthology 2 Version | Marked as original (Anthology 2) |
+| Real Love - Anthology 2 Version | Too few recordings (1) |
+| Roll Over Beethoven - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| Step Inside Love / Los Paranoias - Medley / Anthology 3 Version | Marked as original (Anthology 3) |
+| Step Inside Love / Los Paranoias - Medley / Anthology 3 Version | Too few recordings (1) |
+| Why Don’t We Do It In The Road? - Take 5 | Marked as original (The Beatles) |
+| Why Don’t We Do It In The Road? - Take 5 | Too few recordings (1) |
+| Eleanor Rigby | Excluded album (Revolver (Remastered)) |
+| Eleanor Rigby - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| Eleanor Rigby - Remastered 2015 | Excluded album (Revolver (Remastered)) |
+| Eleanor Rigby - Strings Only / Anthology 2 Version | Excluded album (Revolver (Remastered)) |
+| Eleanor Rigby - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| In Spite Of All The Danger - Anthology 1 Version | Marked as original (Anthology 1) |
+| In Spite Of All The Danger - Anthology 1 Version | Too few recordings (1) |
+| Lady Madonna - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Baby It's You - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| Baby It's You - Live At The BBC For "Pop Go The Beatles" / 11th June, 1963 | Too few recordings (2) |
+| Baby It's You - Remastered 2009 | Too few recordings (2) |
+| Lucy In The Sky With Diamonds - Original Mono Mix - No. 11 | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Think For Yourself - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
+| Think For Yourself | Too few recordings (2) |
+| Think For Yourself - Remastered 2009 | Too few recordings (2) |
+| Being For The Benefit Of Mr. Kite! - Remix | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Child Of Nature - Esher Demo | Marked as original (The Beatles) |
+| Child Of Nature - Esher Demo | Too few recordings (1) |
+| Magical Mystery Tour - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Magical Mystery Tour - Remastered 2009 | Too few recordings (1) |
+| March Of The Meanies - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
+| March Of The Meanies - Remastered 2009 | Too few recordings (1) |
+| Norwegian Wood (This Bird Has Flown) - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| Norwegian Wood (This Bird Has Flown) - Remastered 2009 | Too few recordings (2) |
+| Norwegian Wood (This Bird Has Flown) - Take 1 / Anthology 2 Version | Too few recordings (2) |
+| Glass Onion | Excluded album (The Beatles (Remastered)) |
+| Glass Onion - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Glass Onion - Demo / Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| Glass Onion - Esher Demo | Excluded album (The Beatles (Remastered)) |
+| Glass Onion - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Glass Onion - Take 10 | Excluded album (The Beatles (Remastered)) |
+| Glass Onion - Take 33 / Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| Glass Onion - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Hey Paul…. - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Hey Paul…. - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too few recordings (1) |
+| Lower 5E - Live At The BBC For "Pop Go The Beatles" / 10th September, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Lower 5E - Live At The BBC For "Pop Go The Beatles" / 10th September, 1963 | Too few recordings (1) |
+| With A Little Help From My Friends | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Absolutely Fab - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Absolutely Fab - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too few recordings (1) |
+| Hallelujah I Love Her So - Anthology 1 Version | Marked as original (Anthology 1) |
+| Hallelujah I Love Her So - Anthology 1 Version | Too few recordings (1) |
+| There's A Place - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| There's A Place - Live At The BBC For "Pop Go The Beatles" / 3rd September, 1963 | Too few recordings (2) |
+| There's A Place - Remastered 2009 | Too few recordings (2) |
+| Kansas City / Hey-Hey-Hey-Hey! - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Let It Be - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Paul - Pop Profile - Live At The BBC / 2nd May, 1966 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Paul - Pop Profile - Live At The BBC / 2nd May, 1966 | Too few recordings (1) |
+| Rip It Up / Shake, Rattle And Roll / Blue Suede Shoes - Medley / Anthology 3 Version | Marked as original (Anthology 3) |
+| Rip It Up / Shake, Rattle And Roll / Blue Suede Shoes - Medley / Anthology 3 Version | Too few recordings (1) |
+| Sea Of Holes - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
+| Sea Of Holes - Remastered 2009 | Too few recordings (1) |
+| A Shot Of Rhythm And Blues - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| A Shot Of Rhythm And Blues - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Too few recordings (1) |
+| Honey Don't - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| I Want To Hold Your Hand - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| Ticket To Ride - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| Beautiful Dreamer - Live At The BBC For "Saturday Club" / 26th January, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Beautiful Dreamer - Live At The BBC For "Saturday Club" / 26th January, 1963 | Too few recordings (1) |
+| I Secured Them... A Beatle Drink Even Then - Anthology 1 Version | Marked as original (Anthology 1) |
+| I Secured Them... A Beatle Drink Even Then - Anthology 1 Version | Too few recordings (1) |
+| The End - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| The End - Anthology 3 Version | Too few recordings (2) |
+| The End - Remastered 2009 | Too few recordings (2) |
+| Slow Down - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Slow Down - Live At The BBC For "Pop Go The Beatles" / 20th August, 1963 | Too few recordings (2) |
+| Slow Down - Remastered 2009 | Too few recordings (2) |
+| Ain't She Sweet - Anthology 1 Version | Marked as original (Anthology 1) |
+| Ain't She Sweet - Anthology 1 Version | Too few recordings (2) |
+| Ain't She Sweet - Anthology 3 Version | Too few recordings (2) |
+| I'm A Loser - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| I'm A Loser - Live At The BBC For "Top Gear" / 26th November, 1964 | Too few recordings (2) |
+| I'm A Loser - Remastered 2009 | Too few recordings (2) |
+| If I Wasn’t In America - Live At The BBC For "Saturday Club" / 15th February, 1964 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| If I Wasn’t In America - Live At The BBC For "Saturday Club" / 15th February, 1964 | Too few recordings (1) |
+| P.S. I Love You - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| P.S. I Love You - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too few recordings (2) |
+| P.S. I Love You - Remastered 2009 | Too few recordings (2) |
+| Yellow Submarine | Excluded album (Revolver (Remastered)) |
+| Yellow Submarine - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| Yellow Submarine - Remastered 2015 | Excluded album (Revolver (Remastered)) |
+| Yellow Submarine - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| You'll Be Mine - Anthology 1 Version | Marked as original (Anthology 1) |
+| You'll Be Mine - Anthology 1 Version | Too few recordings (1) |
+| Act Naturally - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| Act Naturally - Remastered 2009 | Too few recordings (1) |
+| Blue Moon - Studio Jam | Marked as original (The Beatles) |
+| Blue Moon - Studio Jam | Too few recordings (1) |
+| Don't Bother Me - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| Don't Bother Me - Remastered 2009 | Too few recordings (1) |
+| Pepperland Laid Waste - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
+| Pepperland Laid Waste - Remastered 2009 | Too few recordings (1) |
+| Rock and Roll Music - Live At The BBC For "Saturday Club" / 26th December, 1964 | Marked as original (Live At The BBC (Remastered)) |
+| Rock and Roll Music - Live At The BBC For "Saturday Club" / 26th December, 1964 | Too few recordings (1) |
+| You Know What To Do - Anthology 1 Version | Marked as original (Anthology 1) |
+| You Know What To Do - Anthology 1 Version | Too few recordings (1) |
+| Bumper Bundle - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Bumper Bundle - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too few recordings (1) |
+| Do You Want To Know A Secret - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| Do You Want To Know A Secret - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Too few recordings (2) |
+| Do You Want To Know A Secret - Remastered 2009 | Too few recordings (2) |
+| Hey Bulldog - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
+| Hey Bulldog | Too few recordings (2) |
+| Hey Bulldog - Remastered 2009 | Too few recordings (2) |
+| Your Mother Should Know - Remastered 2009 | Marked as original (Magical Mystery Tour (Remastered)) |
+| Your Mother Should Know - Remastered 2009 | Too few recordings (2) |
+| Your Mother Should Know - Take 27 / Anthology 2 Version | Too few recordings (2) |
+| Crinsk Dee Night - Live At The BBC For "Top Gear" / 16th July, 1964 | Marked as original (Live At The BBC (Remastered)) |
+| Crinsk Dee Night - Live At The BBC For "Top Gear" / 16th July, 1964 | Too few recordings (1) |
+| From Us To You - Live At The BBC / Closing Theme From "From Us To You" / 1964 | Marked as original (Live At The BBC (Remastered)) |
+| From Us To You - Live At The BBC / Closing Theme From "From Us To You" / 1964 | Too few recordings (2) |
+| From Us To You - Live At The BBC / Opening Theme From "From Us To You" / 1964 | Too few recordings (2) |
+| The 49 Weeks - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| The 49 Weeks - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Too few recordings (1) |
+| Sweet Little Sixteen - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Sweet Little Sixteen - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too few recordings (1) |
+| Taxman - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| Taxman - Take 11 / Anthology 2 Version | Excluded album (Revolver (Remastered)) |
+| Taxman - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| Taxman - Remastered 2009 | Too few recordings (2) |
+| Taxman - Take 11 / Anthology 2 Version | Too few recordings (2) |
+| You're Going To Lose That Girl - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| You're Going To Lose That Girl - Remastered 2009 | Too few recordings (1) |
+| Cry Baby Cry - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Cry Baby Cry - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| Cry Baby Cry - Esher Demo | Excluded album (The Beatles (Remastered)) |
+| Cry Baby Cry - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Cry Baby Cry - Unnumbered Rehearsal | Excluded album (The Beatles (Remastered)) |
+| Cry Baby Cry - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Eleanor Rigby / Julia | Marked as original (Love) |
+| Eleanor Rigby / Julia | Too few recordings (1) |
+| Here, There And Everywhere - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| Here, There And Everywhere - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| Here, There And Everywhere - Remastered 2009 | Too few recordings (1) |
+| Something / Blue Jay Way | Marked as original (Love) |
+| Something / Blue Jay Way | Too few recordings (1) |
+| The Hippy Hippy Shake - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| The Hippy Hippy Shake - Live At The BBC For "Pop Go The Beatles" / 10th September, 1963 | Too few recordings (2) |
+| The Hippy Hippy Shake - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Too few recordings (2) |
+| Baby You're A Rich Man | Marked as original (Yellow Submarine Songtrack) |
+| Baby You're A Rich Man | Too few recordings (1) |
+| Chains - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| Chains - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too few recordings (2) |
+| Chains - Remastered 2009 | Too few recordings (2) |
+| Just A Rumour - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Marked as original (Live At The BBC (Remastered)) |
+| Just A Rumour - Live At The BBC For "From Us To You Say The Beatles" / 30th March, 1964 | Too few recordings (1) |
+| Sure To Fall (In Love With You) - Live At The BBC For "Pop Go The Beatles" / 18th June, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Sure To Fall (In Love With You) - Live At The BBC For "Pop Go The Beatles" / 18th June, 1963 | Too few recordings (2) |
+| Sure To Fall (In Love With You) - Live At The BBC For "Pop Go The Beatles" / 24th September, 1963 | Too few recordings (2) |
+| You Won't See Me - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
+| You Won't See Me - Remastered 2009 | Too few recordings (1) |
+| Any Time At All - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| Any Time At All - Remastered 2009 | Too few recordings (1) |
+| Lift Lid Again - Live At The BBC For "Saturday Club" / 24th August, 1963 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| Lift Lid Again - Live At The BBC For "Saturday Club" / 24th August, 1963 | Too few recordings (1) |
+| Rocky Raccoon - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Rocky Raccoon - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| Rocky Raccoon - Esher Demo | Excluded album (The Beatles (Remastered)) |
+| Rocky Raccoon - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Rocky Raccoon - Take 8 | Excluded album (The Beatles (Remastered)) |
+| Rocky Raccoon - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| Dizzy Miss Lizzy - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| Girl - Remastered 2009 | Marked as original (The Beatles 1962 - 1966 (Remastered)) |
+| Girl | Too few recordings (2) |
+| Girl - Remastered 2009 | Too few recordings (2) |
+| Lonesome Tears In My Eyes - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Lonesome Tears In My Eyes - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too few recordings (1) |
+| Sea Of Monsters - Remastered 2009 | Marked as original (Yellow Submarine (Remastered)) |
+| Sea Of Monsters - Remastered 2009 | Too few recordings (1) |
+| Sie liebt dich - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Sie liebt dich - Remastered 2009 | Too few recordings (1) |
+| A Little Rhyme - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| A Little Rhyme - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Too few recordings (1) |
+| And I Love Her - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| Anna (Go To Him) - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| Anna (Go To Him) - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Too few recordings (2) |
+| Anna (Go To Him) - Remastered 2009 | Too few recordings (2) |
+| The Long And Winding Road - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| To Know Her Is To Love Her - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| To Know Her Is To Love Her - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Too few recordings (1) |
+| What's The New Mary Jane - Anthology 3 Version | Marked as original (Anthology 3) |
+| What's The New Mary Jane - Anthology 3 Version | Too few recordings (1) |
+| Run For Your Life - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
+| Run For Your Life - Remastered 2009 | Too few recordings (1) |
+| A Hard Job Writing Them - Live At The BBC For "Top Gear" / 16th July, 1964 | Marked as original (On Air - Live At The BBC (Vol.2)) |
+| A Hard Job Writing Them - Live At The BBC For "Top Gear" / 16th July, 1964 | Too few recordings (1) |
+| Brian Was A Beautiful Guy...He Presented Us Well - Anthology 1 Version | Marked as original (Anthology 1) |
+| Brian Was A Beautiful Guy...He Presented Us Well - Anthology 1 Version | Too few recordings (1) |
+| Dear Wack! - Live At The BBC For "Saturday Club" / 24th August, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Dear Wack! - Live At The BBC For "Saturday Club" / 24th August, 1963 | Too few recordings (1) |
+| I'll Cry Instead - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| I'll Cry Instead - Remastered 2009 | Too few recordings (1) |
+| She's Leaving Home | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| The Continuing Story Of Bungalow Bill - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| The Continuing Story Of Bungalow Bill - Esher Demo | Excluded album (The Beatles (Remastered)) |
+| The Continuing Story Of Bungalow Bill - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| The Continuing Story Of Bungalow Bill - Take 2 | Excluded album (The Beatles (Remastered)) |
+| The Continuing Story Of Bungalow Bill - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| A Beginning - Anthology 3 Version | Marked as original (Anthology 3) |
+| A Beginning - Anthology 3 Version | Too few recordings (1) |
+| Don't Pass Me By - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Don't Pass Me By - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| Don't Pass Me By - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Don't Pass Me By - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| I Should Have Known Better - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| I Should Have Known Better - Remastered 2009 | Too few recordings (1) |
+| Not A Second Time - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| Not A Second Time - Remastered 2009 | Too few recordings (1) |
+| Oh! Darling - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| Oh! Darling - Anthology 3 Version | Too few recordings (2) |
+| Oh! Darling - Remastered 2009 | Too few recordings (2) |
+| Hold Me Tight - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| Hold Me Tight - Remastered 2009 | Too few recordings (1) |
+| I Saw Her Standing There - Remastered 2009 | Marked as original (Please Please Me (Remastered)) |
+| I Will - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| I Will - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| I Will - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| I Will - Take 13 | Excluded album (The Beatles (Remastered)) |
+| I Will - Take 29 | Excluded album (The Beatles (Remastered)) |
+| I Will - Remastered 2009 | Marked as original (The Beatles (Remastered)) |
+| I'm Looking Through You - Remastered 2009 | Marked as original (Rubber Soul (Remastered)) |
+| I'm Looking Through You - Anthology 2 Version | Too few recordings (2) |
+| I'm Looking Through You - Remastered 2009 | Too few recordings (2) |
+| Matchbox - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Matchbox - Live At The BBC For "Pop Go The Beatles" / 30th July, 1963 | Too few recordings (2) |
+| Matchbox - Remastered 2009 | Too few recordings (2) |
+| All Things Must Pass - Anthology 3 Version | Marked as original (Anthology 3) |
+| All Things Must Pass - Anthology 3 Version | Too few recordings (1) |
+| Besame Mucho - Anthology 1 Version | Marked as original (Anthology 1) |
+| Besame Mucho - Anthology 1 Version | Too few recordings (1) |
+| Can't Buy Me Love - Remastered 2009 | Marked as original (A Hard Day's Night (Remastered)) |
+| Sgt Pepper's Lonely Hearts Club Band (Reprise) - Speech And Take 8 | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Sgt Pepper's Lonely Hearts Club Band (Reprise) - Remix | Too few recordings (2) |
+| Sgt Pepper's Lonely Hearts Club Band (Reprise) - Speech And Take 8 | Too few recordings (2) |
+| Love You To | Excluded album (Revolver (Remastered)) |
+| Love You To - Remastered 2009 | Excluded album (Revolver (Remastered)) |
+| Love You To - Remastered 2009 | Marked as original (Revolver (Remastered)) |
+| Love You To | Too few recordings (2) |
+| Love You To - Remastered 2009 | Too few recordings (2) |
+| Maxwell's Silver Hammer - Remastered 2009 | Marked as original (Abbey Road (Remastered)) |
+| Maxwell's Silver Hammer - Anthology 3 Version | Too few recordings (2) |
+| Maxwell's Silver Hammer - Remastered 2009 | Too few recordings (2) |
+| Penny Lane | Marked as original (Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)) |
+| Clarabella - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Marked as original (Live At The BBC (Remastered)) |
+| Clarabella - Live At The BBC For "Pop Go The Beatles" / 16th July, 1963 | Too few recordings (1) |
+| I Feel Fine - Remastered 2009 | Marked as original (Past Masters (Vols. 1 & 2 / Remastered)) |
+| Leave My Kitten Alone - Anthology 1 Version | Marked as original (Anthology 1) |
+| Leave My Kitten Alone - Anthology 1 Version | Too few recordings (1) |
+| Ob-La-Di, Ob-La-Da - Remastered 2009 | Marked as original (The Beatles 1967 - 1970 (Remastered)) |
+| Rock And Roll Music - Remastered 2009 | Marked as original (Beatles For Sale (Remastered)) |
+| Rock And Roll Music - Live From Nippon Budokan Hall, Tokyo, Japan/1966 / Anthology 2 Version | Too few recordings (2) |
+| Rock And Roll Music - Remastered 2009 | Too few recordings (2) |
+| Two Of Us - Remastered 2009 | Marked as original (Let It Be (Remastered)) |
+| You Like Me Too Much - Remastered 2009 | Marked as original (Help! (Remastered)) |
+| You Like Me Too Much - Remastered 2009 | Too few recordings (1) |
+| You Really Got A Hold On Me - Remastered 2009 | Marked as original (With The Beatles (Remastered)) |
+| Cayenne - Anthology 1 Version | Marked as original (Anthology 1) |
+| Cayenne - Anthology 1 Version | Too few recordings (1) |
+| Come Together / Dear Prudence / Cry Baby Cry | Marked as original (Love) |
+| Come Together / Dear Prudence / Cry Baby Cry | Too few recordings (1) |
+| Honey Pie - 2018 Mix | Excluded album (The Beatles (Remastered)) |
+| Honey Pie - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
+| Honey Pie - Esher Demo | Excluded album (The Beatles (Remastered)) |
+| Honey Pie - Instrumental Backing Track | Excluded album (The Beatles (Remastered)) |
+| Honey Pie - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| Honey Pie - Remastered 2009 | Marked as original (The Beatles (Remastered)) |

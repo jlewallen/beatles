@@ -84,17 +84,21 @@ func (s ByPopularity) Less(i, j int) bool {
 }
 
 func NewTrackInfo(albumName string, albumReleaseDate string, track spotify.FullTrack) *TrackInfo {
-	dissected := DisectTrackName(track.Name)
+	dissected := DissectTrackName(track.Name)
 	shortName := dissected[0]
 	releaseDate, err := time.Parse("2006-01-02", albumReleaseDate)
 	if err != nil {
 		panic(err)
 	}
 
+	trackName := track.Name
+	trackName = strings.Replace(trackName, "U.S.S.R", "U.S.S.R.", -1)
+	trackName = strings.Replace(trackName, "Sgt.", "Sgt", -1)
+
 	return &TrackInfo{
 		ID:               track.ID,
 		Album:            albumName,
-		Name:             track.Name,
+		Name:             trackName,
 		ShortName:        shortName,
 		Duration:         track.Duration,
 		Popularity:       track.Popularity,
@@ -118,8 +122,8 @@ func (ti *TrackInfo) ExcludedReason() string {
 	return strings.Join(ti.ExcludedReasons, ", ")
 }
 
-func DisectTrackName(name string) []string {
-	parts := strings.Split(name, "-")
+func DissectTrackName(name string) []string {
+	parts := strings.Split(name, " - ")
 
 	for i, p := range parts {
 		parts[i] = strings.TrimSpace(p)
@@ -131,7 +135,6 @@ func DisectTrackName(name string) []string {
 type Options struct {
 	Dry             bool
 	User            string
-	RebuildSingles  bool
 	RebuildMultiple bool
 	RebuildBase     bool
 	ReadOnlySpotify bool
@@ -141,7 +144,6 @@ func main() {
 	var options Options
 
 	flag.BoolVar(&options.Dry, "dry", false, "dry")
-	flag.BoolVar(&options.RebuildSingles, "rebuild-singles", false, "rebuild")
 	flag.BoolVar(&options.RebuildBase, "rebuild-base", false, "rebuild")
 	flag.BoolVar(&options.RebuildMultiple, "rebuild-multiple", true, "rebuild")
 	flag.BoolVar(&options.ReadOnlySpotify, "spotify-ro", false, "spotify-ro")
@@ -238,7 +240,7 @@ func main() {
 
 	log.Printf("Got %v full tracks", len(allFullTracks))
 
-	tracksOnExcludedAlbums := NewEmptyTracksSet()
+	tracksOnExcludedAlbums := make(map[spotify.ID]string)
 
 	for _, albumId := range excludedAlbums {
 		album, err := cacher.GetAlbum(albumId)
@@ -254,7 +256,7 @@ func main() {
 		log.Printf("ExcludedAlbum: %v (%v) (%v tracks)", album.Name, album.ReleaseDate, len(tracks))
 
 		for _, track := range tracks {
-			tracksOnExcludedAlbums.Add(track.ID)
+			tracksOnExcludedAlbums[track.ID] = album.Name
 		}
 	}
 
@@ -285,35 +287,38 @@ func main() {
 	}
 
 	log.Printf("Have %d excluded tracks", len(excludedTracks))
-	log.Printf("Have %d tracks from excluded albums", len(tracksOnExcludedAlbums.ToArray()))
+	log.Printf("Have %d tracks from excluded albums", len(tracksOnExcludedAlbums))
 
 	byShortNames := make(map[string][]*TrackInfo)
 	byTitles := make(map[string]bool)
 	addingToAll := make([]spotify.ID, 0)
 	addingToShort := make([]spotify.ID, 0)
+	addingToExcluded := make([]spotify.ID, 0)
 	for _, track := range allTracks {
 		if reason, ok := excludedTracks[track.ID]; ok {
-			track.Exclude(fmt.Sprintf("By %s", reason))
-			al.Append(track.Name, fmt.Sprintf("Excluded by %s", reason))
+			addingToExcluded = append(addingToExcluded, track.ID)
+			reason := fmt.Sprintf("Excluded by %s", reason)
+			track.Exclude(reason)
+			al.Append(track.Name, reason)
+		}
+
+		if track.Duration < 60*1000 {
+			addingToShort = append(addingToShort, track.ID)
+			reason := fmt.Sprintf("Too short (%vs)", track.Duration/1000.0)
+			track.Exclude(reason)
+			al.Append(track.Name, reason)
 		}
 
 		if _, ok := byTitles[track.Name]; !ok {
-			if track.Duration < 60*1000 {
-				addingToShort = append(addingToShort, track.ID)
-				track.Exclude(fmt.Sprintf("Too short (%vs)", track.Duration/1000.0))
-				al.Append(track.Name, "Short")
-			} else {
+			if !track.Excluded {
 				addingToAll = append(addingToAll, track.ID)
-
-				if !track.Excluded {
-					if _, ok := byShortNames[track.ShortName]; !ok {
-						byShortNames[track.ShortName] = make([]*TrackInfo, 0)
-					}
-
-					byShortNames[track.ShortName] = append(byShortNames[track.ShortName], track)
-				}
 			}
 
+			if _, ok := byShortNames[track.ShortName]; !ok {
+				byShortNames[track.ShortName] = make([]*TrackInfo, 0)
+			}
+
+			byShortNames[track.ShortName] = append(byShortNames[track.ShortName], track)
 			byTitles[track.Name] = true
 		}
 	}
@@ -328,21 +333,26 @@ func main() {
 				songReleaseDate = track.AlbumReleaseDate
 			}
 
-			if tracksOnExcludedAlbums.Contains(track.ID) {
+			if albumName, ok := tracksOnExcludedAlbums[track.ID]; ok {
 				for _, track := range v {
 					track.OnExcludedAlbum = true
-					track.Exclude(fmt.Sprintf("Excluded album (%v)", track.Album))
-					al.Append(track.Name, track.ExcludedReason())
+					reason := fmt.Sprintf("Excluded album (%v)", albumName)
+					track.Exclude(reason)
+					al.Append(track.Name, reason)
 				}
 			}
+		}
+
+		for _, track := range v {
+			track.SongReleaseDate = songReleaseDate
 		}
 
 		for _, track := range v {
 			if track.AlbumReleaseDate == songReleaseDate {
 				al.Append(track.Name, fmt.Sprintf("Marked as original (%v)", track.Album))
 				track.Original = true
+				break
 			}
-			track.SongReleaseDate = songReleaseDate
 		}
 
 		if len(v) == 1 {
@@ -353,6 +363,12 @@ func main() {
 		if len(v) >= 3 {
 			for _, track := range v {
 				track.Has3OrMoreRecordings = true
+			}
+		} else {
+			for _, track := range v {
+				reason := fmt.Sprintf("Too few recordings (%v)", len(v))
+				track.Exclude(reason)
+				al.Append(track.Name, reason)
 			}
 		}
 	}
@@ -413,20 +429,6 @@ func main() {
 			log.Fatalf("Error adding tracks: %v", err)
 		}
 
-		if options.RebuildSingles {
-			addingToSingles := make([]spotify.ID, 0)
-			for _, track := range allTracks {
-				if track.Has1Recording {
-					addingToSingles = append(addingToSingles, track.ID)
-				}
-			}
-
-			err = MaybeSetPlaylistTracksByName(spotifyClient, options.ReadOnlySpotify, options.User, artistName+" (excluded - single recordings)", addingToSingles)
-			if err != nil {
-				log.Fatalf("Error adding tracks: %v", err)
-			}
-		}
-
 		if options.RebuildBase {
 			err = MaybeSetPlaylistTracksByName(spotifyClient, options.ReadOnlySpotify, options.User, artistName+" (all)", addingToAll)
 			if err != nil {
@@ -448,7 +450,8 @@ func main() {
 func GenerateTable(tracks []*TrackInfo) error {
 	templates := map[string]string{
 		"tracks.org.template":  "tracks.org",
-		"working.org.template": "working.org",
+		"excluded.org.template": "excluded.org",
+		"candidates.org.template": "candidates.org",
 	}
 	byPopularity := make([]*TrackInfo, len(tracks))
 

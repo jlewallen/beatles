@@ -1,0 +1,8 @@
+| Short Name | Name | Album | Popularity | Notes |
+{{- range .ByName}}
+{{- if .Excluded}}{{else}}
+{{- if .Original}}
+| {{.ShortName}} | {{.Name}} | {{.Album}} | {{.Popularity}} | |
+{{- end -}}
+{{- end -}}
+{{- end}}

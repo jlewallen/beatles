@@ -1,0 +1,6 @@
+| Short Name | Name | Album | Exclusion | ID |
+{{- range .ByName}}
+{{- if .Excluded}}
+| {{.ShortName}} | {{.Name}} | {{.Album}} | {{.ExcludedReason}} | {{.ID}} |
+{{- end -}}
+{{- end}}
