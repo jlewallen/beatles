@@ -224,8 +224,8 @@
 | Get Back - Anthology 3 Version | Excluded by the beatles (excluded) | 02Jay4VHbuhz9FRce8Ch1F |
 | Get Back - Naked Version / Remastered 2013 | Excluded by the beatles (excluded) | 121AmMmQnBWZh8HNjZwuK6 |
 | Get Back - Remastered 2009 | Excluded by the beatles (excluded) | 5V8Ma6MQwoBf7Z7Lq2w26s |
-| Get Back - Remastered 2009 | | 3d5v5scfknhlp6oOC7BZBs |
-| Get Back - Remastered 2009 | | 4MLBqAEzNN89o2M9h92Z26 |
+| Get Back - Remastered 2009 | Excluded by the beatles (excluded) | 3d5v5scfknhlp6oOC7BZBs |
+| Get Back - Remastered 2009 | Excluded by the beatles (excluded) | 4MLBqAEzNN89o2M9h92Z26 |
 | Get Back - Remastered 2015 | Excluded by the beatles (excluded) | 6zmQ8bzlDIfngjy0Ba3w46 |
 | Getting Better | | 1GqRv17EiYH30nM3MYE2h5 |
 | Getting Better - Remastered 2009 | | 3LtOmWpTXLhilL5odoKysR |
@@ -556,9 +556,9 @@
 | Ooh! My Soul - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Too few recordings (1) | 76ncj5k8RGPo49wEyDzrb7 |
 | P.S. I Love You - Live At The BBC For "Pop Go The Beatles" / 25th June, 1963 | Too few recordings (2) | 3kHZUMP24ImkH9PHgjljKB |
 | P.S. I Love You - Remastered 2009 | Too few recordings (2) | 7Msq9qojB7yORuJvz49iUy |
-| Paperback Writer - Remastered 2009 | | 4401c08DdNwwGEg8WGCkQf |
-| Paperback Writer - Remastered 2009 | | 3OtsmzTZs50ahEnHKVvozC |
-| Paperback Writer - Remastered 2015 | | 0Ui8KPWZbJJQ2Y0CIQuVqX |
+| Paperback Writer - Remastered 2009 | Excluded by the beatles (excluded) | 4401c08DdNwwGEg8WGCkQf |
+| Paperback Writer - Remastered 2009 | Excluded by the beatles (excluded) | 3OtsmzTZs50ahEnHKVvozC |
+| Paperback Writer - Remastered 2015 | Excluded by the beatles (excluded) | 0Ui8KPWZbJJQ2Y0CIQuVqX |
 | Paul - Pop Profile - Live At The BBC / 2nd May, 1966 | Too few recordings (1) | 24bJH3a3m8QB67jlhndpiP |
 | Penny Lane | | 1sjmKmR4u9xDeJHjDCn2bZ |
 | Penny Lane - Alternate Mix / Anthology 2 Version | | 1KlP1Nct3GYNJsDbdmTASb |

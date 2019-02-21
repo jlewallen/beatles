@@ -43,8 +43,6 @@
 | For You Blue - Anthology 3 Version | Anthology 3 | 26 |
 | For You Blue - Naked Version / Remastered 2013 | Let It Be... Naked (Remastered) | 41 |
 | For You Blue - Remastered 2009 | Let It Be (Remastered) | 47 |
-| Get Back - Remastered 2009 | The Beatles 1967 - 1970 (Remastered) | 39 |
-| Get Back - Remastered 2009 | Let It Be (Remastered) | 63 |
 | Getting Better | Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition) | 55 |
 | Getting Better - Remastered 2009 | Sgt. Pepper's Lonely Hearts Club Band (Remastered) | 52 |
 | Getting Better - Remix | Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition) | 39 |
@@ -123,9 +121,6 @@
 | Only A Northern Song | Yellow Submarine Songtrack | 39 |
 | Only A Northern Song - Anthology 2 Version | Anthology 2 | 26 |
 | Only A Northern Song - Remastered 2009 | Yellow Submarine (Remastered) | 41 |
-| Paperback Writer - Remastered 2009 | Past Masters (Vols. 1 & 2 / Remastered) | 36 |
-| Paperback Writer - Remastered 2009 | The Beatles 1962 - 1966 (Remastered) | 36 |
-| Paperback Writer - Remastered 2015 | 1 (Remastered) | 60 |
 | Penny Lane | Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition) | 31 |
 | Penny Lane - Alternate Mix / Anthology 2 Version | Anthology 2 | 30 |
 | Penny Lane - Capitol Records Mono US Promo Mix | Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition) | 21 |
@@ -251,7 +246,6 @@
 | With A Little Help From My Friends - Remastered 2009 | Sgt. Pepper's Lonely Hearts Club Band (Remastered) | 65 |
 | Don't Let Me Down - Remastered 2009 | The Beatles 1967 - 1970 (Remastered) | 63 |
 | Ticket To Ride - Remastered 2009 | Help! (Remastered) | 63 |
-| Get Back - Remastered 2009 | Let It Be (Remastered) | 63 |
 | Hello, Goodbye - Remastered 2009 | Magical Mystery Tour (Remastered) | 63 |
 | We Can Work It Out - Remastered 2015 | 1 (Remastered) | 63 |
 | You've Got To Hide Your Love Away - Remastered 2009 | Help! (Remastered) | 63 |
@@ -262,7 +256,6 @@
 | She's Leaving Home - Remastered 2009 | Sgt. Pepper's Lonely Hearts Club Band (Remastered) | 62 |
 | When I'm Sixty Four - Remastered 2009 | Sgt. Pepper's Lonely Hearts Club Band (Remastered) | 61 |
 | I Feel Fine - Remastered 2015 | 1 (Remastered) | 61 |
-| Paperback Writer - Remastered 2015 | 1 (Remastered) | 60 |
 | Girl - Remastered 2009 | Rubber Soul (Remastered) | 60 |
 | Nowhere Man - Remastered 2009 | Rubber Soul (Remastered) | 60 |
 | Lady Madonna - Remastered 2015 | 1 (Remastered) | 60 |
@@ -351,7 +344,6 @@
 | Yesterday - Remastered 2009 | The Beatles 1962 - 1966 (Remastered) | 40 |
 | Can't Buy Me Love - Live / Remastered | Live At The Hollywood Bowl | 39 |
 | Revolution - Take 14 / Instrumental Backing Track | The Beatles | 39 |
-| Get Back - Remastered 2009 | The Beatles 1967 - 1970 (Remastered) | 39 |
 | Being For The Benefit Of Mr Kite! - Remix | Sgt. Pepper's Lonely Hearts Club Band (Deluxe Edition) | 39 |
 | Not Guilty - Take 102 | The Beatles | 39 |
 | Sgt Pepper's Lonely Hearts Club Band - Reprise | Love | 39 |
@@ -378,8 +370,6 @@
 | One After 909 - Anthology 1 Version / Complete | Anthology 1 | 37 |
 | Nowhere Man - Remastered 2009 | The Beatles 1962 - 1966 (Remastered) | 36 |
 | Lady Madonna - Take 2 / Piano & Drums | The Beatles | 36 |
-| Paperback Writer - Remastered 2009 | Past Masters (Vols. 1 & 2 / Remastered) | 36 |
-| Paperback Writer - Remastered 2009 | The Beatles 1962 - 1966 (Remastered) | 36 |
 | Girl - Remastered 2009 | The Beatles 1962 - 1966 (Remastered) | 36 |
 | Being For The Benefit Of Mr Kite! - Remix | Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition) | 36 |
 | We Can Work It Out - Remastered 2009 | Past Masters (Vols. 1 & 2 / Remastered) | 36 |
