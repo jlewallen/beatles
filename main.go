@@ -285,6 +285,7 @@ func main() {
 	}
 
 	log.Printf("Have %d excluded tracks", len(excludedTracks))
+	log.Printf("Have %d tracks from excluded albums", len(tracksOnExcludedAlbums.ToArray()))
 
 	byShortNames := make(map[string][]*TrackInfo)
 	byTitles := make(map[string]bool)
@@ -361,39 +362,36 @@ func main() {
 		log.Fatalf("Error generating table: %v", err)
 	}
 
-	if !options.ReadOnlySpotify {
-		if options.RebuildMultiple {
-			addingToExcluded := make([]spotify.ID, 0)
-			addingTo3OrMore := make([]spotify.ID, 0)
+	if options.RebuildMultiple {
+		addingToExcluded := make([]spotify.ID, 0)
+		addingTo3OrMore := make([]spotify.ID, 0)
 
-			for _, track := range allTracks {
-				if track.Has3OrMoreRecordings {
+		for _, track := range allTracks {
+			if track.Has3OrMoreRecordings {
+				if track.OnExcludedAlbum {
+					addingToExcluded = append(addingToExcluded, track.ID)
+				} else {
 					if !track.Excluded {
-						if track.OnExcludedAlbum {
-							addingToExcluded = append(addingToExcluded, track.ID)
-						} else {
-							addingTo3OrMore = append(addingTo3OrMore, track.ID)
-						}
+						addingTo3OrMore = append(addingTo3OrMore, track.ID)
 					}
 				}
 			}
+		}
 
-			byReleaseDate := make([]spotify.ID, 0)
-			originals := make([]spotify.ID, 0)
+		byReleaseDate := make([]spotify.ID, 0)
+		originals := make([]spotify.ID, 0)
 
-			for _, track := range allTracksByReleaseDate {
-				if track.Has3OrMoreRecordings {
-					if !track.Excluded {
-						if !track.OnExcludedAlbum {
-							byReleaseDate = append(byReleaseDate, track.ID)
+		for _, track := range allTracksByReleaseDate {
+			if track.Has3OrMoreRecordings {
+				if !track.Excluded {
+					byReleaseDate = append(byReleaseDate, track.ID)
 
-							if track.Original {
-								originals = append(originals, track.ID)
-							}
-						}
+					if track.Original {
+						originals = append(originals, track.ID)
 					}
 				}
 			}
+		}
 
 		err = MaybeSetPlaylistTracksByName(spotifyClient, options.ReadOnlySpotify, options.User, artistName+" (R >= 3)", addingTo3OrMore)
 		if err != nil {
