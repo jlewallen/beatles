@@ -171,8 +171,8 @@ func main() {
 	artistName := "the beatles"
 	artistId := spotify.ID("3WrFJ7ztbogyGnTHbHJFl2?si=BPm1QDocRxW3JkNDNbmGxg")
 	excludedAlbums := []spotify.ID{
-		spotify.ID("3PRoXYsngSwjEQWR5PsHWR?si=aLXprrjrQG-aKNfk9TUTGg"),
-		spotify.ID("1WMVvswNzB9i2UMh9svso5?si=4Aie4TyLQ5eHyTCuNcdymg"),
+		spotify.ID("3PRoXYsngSwjEQWR5PsHWR"),
+		spotify.ID("1klALx0u4AavZNEvC4LrTL"),
 	}
 
 	artist, err := spotifyClient.GetArtist(artistId)
@@ -196,7 +196,7 @@ func main() {
 			log.Fatalf("Error getting source: %v", err)
 		}
 
-		log.Printf("Album: %v (%v) (%v tracks)", album.Name, album.ReleaseDate, len(tracks))
+		log.Printf("Album: %v (%v) (%v tracks) (%v)", album.Name, album.ReleaseDate, len(tracks), album.ID)
 
 		albumTrackIds := make([]spotify.ID, 0)
 		for _, track := range tracks {
@@ -243,7 +243,7 @@ func main() {
 	for _, albumId := range excludedAlbums {
 		album, err := cacher.GetAlbum(albumId)
 		if err != nil {
-			log.Fatalf("Error getting source: %v", err)
+			log.Fatalf("Error getting album %v: %v", albumId, err)
 		}
 
 		tracks, err := cacher.GetAlbumTracks(album.ID)
