@@ -1,123 +1,109 @@
-#+TITLE:  README for beatles
+#+TITLE:  Beatles Discography Tools
 #+EMAIL:  jlewallen@gmail.commit
 
+This repository has my notes and tools for disecting the beatles discography to help me find a friend's top 3 songs.
 
-It's a long story.
+* Resources
 
-[[https://www.beatlesbible.com/songs/][Beatles Bible]]
+ - [[http://web.mit.edu/scholvin/www/harrison/hbeatles.htm][Songs By George Harrison]]
+ - [[https://www.beatlesbible.com/songs/][Beatles Bible]]
+ - [[http://www.columbia.edu/~brennan/beatles/][The Usenet Guide to Beatles Recording Variations]]
+ - [[http://wgo.signal11.org.uk/wgo.htm][What Goes On - The Beatles Anomalies List]]
 
 * 1. Very random.
-
-  [[https://open.spotify.com/user/jlewalle/playlist/1FFddEGdTVSJ6U7JHsYSnk?si=Xynth7pGSE64mnhunoJMHw][Spotify]]
 
   - Not on Revolver
   - Not on White
   - Not on Sgt. Pepper's ("They are all in different albums anyways.")
   - There are 3 versions of this song, minimum.
+  - Similar style to I Me Mine, slightly more cheerful. [[http://www.icce.rug.nl/~soundscapes/DATABASES/AWP/imm.shtml][Alex W. Pollack]], [[https://en.wikipedia.org/wiki/I_Me_Mine][Wikipedia]], [[https://www.beatlesbible.com/songs/i-me-mine/][Beatles Bible]], [[https://genius.com/The-beatles-i-me-mine-lyrics][Genius]]
   - Deep weird emotion.
-  - Similar style to I Me Mine, slightly more cheerful.
-  - Puts it on and "floats"
+  - Puts it on and /floats/.
   - Interesting lyrics, debate over meaning and interpreting.
-  - Newer song.
   - Songs with talking/discussions about the music.
+  - Newer song.
   - Ringo Talks
-  - Not overproduced. Raw.
-  - I Me Mine is frustration. Drama.
+  - Not overproduced, raw.
+  - I Me Mine is about frustration, drama.
 
 **** Candidates
 
-      - Dig A Pony
-      - The Continuing Story Of Bungalow Bill
+      - *Dig A Pony* [[https://www.beatlesbible.com/songs/dig-a-pony/][Beatles Bible]], [[https://genius.com/The-beatles-dig-a-pony-lyrics][Genius]], [[https://en.wikipedia.org/wiki/Dig_a_Pony][Wikipedia]], [[http://www.icce.rug.nl/~soundscapes/DATABASES/AWP/dap.shtml][Alex W. Pollack]]
+
+        Ringo speaks in the beginning. Anthology version has talking after the
+        song. Stylisticly checks out. Lyrically interesting. It's got parts with
+        waltz timing just like I Me Mine. It's a raw sound, having been recorded
+        on top of Apple Studios on January 30th.
 
 **** Wrong Choices
-     - +The Fool On The Hill+ [[https://www.beatlesbible.com/songs/the-fool-on-the-hill/][Beatles Bible]], [[https://genius.com/The-beatles-the-fool-on-the-hill-lyrics][Genius]], [[https://en.wikipedia.org/wiki/The_Fool_on_the_Hill][Wikipedia]]
+     - *The Fool On The Hill* [[https://www.beatlesbible.com/songs/the-fool-on-the-hill/][Beatles Bible]], [[https://genius.com/The-beatles-the-fool-on-the-hill-lyrics][Genius]], [[https://en.wikipedia.org/wiki/The_Fool_on_the_Hill][Wikipedia]]
 
-       +I think this is the one. The only thing is the lyrics don't have as much
+       *I think this is the one. The only thing is the lyrics don't have as much
        debate as I expected. I'm hoping the debate over who the fool actually is
-       turns out to be enough.+
+       turns out to be enough.*
 
        [[http://www.beatlesebooks.com/fool-on-the-hill][Article 1]]
 
        [[https://scholarsandrogues.com/2017/02/19/the-fool-on-the-hill-mccartneys-ode-to-differentness/][Article 2]]
 
-       Fail. Not at all like I Me Mine.
+       Fail! Not at all like I Me Mine.
 
-     - +Within You Without You+ [[https://www.beatlesbible.com/songs/within-you-without-you/][Beatles Bible]], [[https://genius.com/The-beatles-within-you-without-you-lyrics][Genius]], [[https://en.wikipedia.org/wiki/Within_You_Without_You][Wikipedia]]
+     - *Within You Without You* [[https://www.beatlesbible.com/songs/within-you-without-you/][Beatles Bible]], [[https://genius.com/The-beatles-within-you-without-you-lyrics][Genius]], [[https://en.wikipedia.org/wiki/Within_You_Without_You][Wikipedia]]
 
-       Not at all like I Me Mine.
+       Fail! Not at all like I Me Mine.
 
-     - +Here Comes The Sun+
-     - +Across the Universe+
-     - +Come Together+
-     - +Hey Jude+
-     - +Let It Be+
-     - +Strawberry Fields+
-     - +Something+
-     - +Norwegian Wood+
-     - +Eleanor Rigby+
+     - *Here Comes The Sun*, *Across the Universe*, *Come Together*, *Hey Jude*, *Let It Be*, *Strawberry Fields*, *Something*, *Norwegian Wood*, *Eleanor Rigby*
 
 **** Excluded
 
-     - +Because+
-     - +Yesterday+
+     - *It's All Too Much*
+
+       Too few recordings
+
+     - *Because*, *Yesterday*
 
        No drums. Popular.
 
-     - +It's All Too Much+ (Too few recordings)
-     - +Two Of Us+
-      
-       Not like I Me Mine enough.
-
-     - +Happiness Is A Warm Gun+ [[https://www.beatlesbible.com/songs/happiness-is-a-warm-gun/][Beatles Bible]], [[https://en.wikipedia.org/wiki/Happiness_Is_a_Warm_Gun][Wikipedia]], [[https://genius.com/The-beatles-happiness-is-a-warm-gun-lyrics][Genius]] (Album)
-     - +Lucy In the Sky With Diamonds+ [[https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds/][Beatles Bible]], [[https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds/][Genius]],  [[https://en.wikipedia.org/wiki/Lucy_in_the_Sky_with_Diamonds][Wikipedia]]
-     - +Yesterday+
-     - +Because+
-     - +The Long And Winding Road+
-     - +Get Back+
+     - *Happiness Is A Warm Gun* [[https://www.beatlesbible.com/songs/happiness-is-a-warm-gun/][Beatles Bible]], [[https://en.wikipedia.org/wiki/Happiness_Is_a_Warm_Gun][Wikipedia]], [[https://genius.com/The-beatles-happiness-is-a-warm-gun-lyrics][Genius]] (Album)
+     - *Lucy In the Sky With Diamonds* [[https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds/][Beatles Bible]], [[https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds/][Genius]],  [[https://en.wikipedia.org/wiki/Lucy_in_the_Sky_with_Diamonds][Wikipedia]]
+     - *Yesterday*, *Because*, *The Long And Winding Road*, *Get Back*
       
        Too popular.
 
-     - +Lovely Rita+ +From Me To You+ +Getting Better+ +Polythene Pam+ +I've Got A Feeling+ +I'm Looking Through You+ +Oh! Darling+ +Ticket To Ride+ +Things We Said Today+ +Love Me Do+ +Penny Lane+ +Please Please Me+ +Hello, Goodbye+ +I Want To Hold Your Hand+ +One After 909+ +Sgt. Pepper's+ +Dizzy Miss Lizzy+ +Honey Don't+ +A Hard Day's Night+ +All My Loving+ +Fixing A Hole+ +I'll Get You+ +With A Little Help From My Friends+ +I Feel Fine+ +Good Morning Good Morning+ +From Me To You+ +No Reply+ +All My Loving+ +Help!+ +I'll Be Back+ +Everybody's Trying To Be My Baby+ +Get Back+ +Can't Buy Me Love+ +A Hard Day's Night+ +For You Blue+ +You Really Got A Hold On Me+ +And I Love Her+ +Cry Baby Cry+
+     - *Two Of Us*, *The Continuing Story Of Bungalow Bill*, *She's Leaving Home* [[https://www.beatlesbible.com/songs/shes-leaving-home/][Beatles Bible]], [[https://genius.com/The-beatles-shes-leaving-home-lyrics][Genius,]] [[https://en.wikipedia.org/wiki/She%27s_Leaving_Home][Wikipedia]]
+
+       Not the right vibe or like I Me Mine enough.
+
+     - *Lovely Rita*, *From Me To You*, *Getting Better*, *Polythene Pam*, *I've Got A Feeling*, *I'm Looking Through You*, *Oh! Darling*, *Ticket To Ride*, *Things We Said Today*, *Love Me Do*, *Penny Lane*, *Please Please Me*, *Hello, Goodbye*, *I Want To Hold Your Hand*, *One After 909*, *Sgt. Pepper's*, *Dizzy Miss Lizzy*, *Honey Don't*, *A Hard Day's Night*, *All My Loving*, *Fixing A Hole*, *I'll Get You*, *With A Little Help From My Friends*, *I Feel Fine*, *Good Morning Good Morning*, *From Me To You*, *No Reply*, *All My Loving*, *Help!*, *I'll Be Back*, *Everybody's Trying To Be My Baby*, *Get Back*, *Can't Buy Me Love*, *A Hard Day's Night*, *For You Blue*, *You Really Got A Hold On Me*, *And I Love Her*, *Cry Baby Cry*
 
        Not the right vibe.
 
-     - With A Little Help From My Friends
+**** Seth Conversation Considerations
 
-**** Considerations
-***** Seth Convo
-
-      - +She Loves You+ (No Ringo talking)
-      - +The Night Before+ (Too few recordings)
-      - +Yellow Submarine+ (Ringo talks, not very stylisticly like I Me Mine)
-      - +Things We Said Today+ (Not very stylisticly like I Me Mine)
-      - +Helter Skelter+ (White Album)
-      - I've Got A Feeling
-      - Two Of Us
-      - +Golden Slumbers+
-      - +Sun King+
-      - It's Only Love
-      - Girl
-
-      - She's Leaving Home, [[https://www.beatlesbible.com/songs/shes-leaving-home/][Beatles Bible]], [[https://genius.com/The-beatles-shes-leaving-home-lyrics][Genius,]] [[https://en.wikipedia.org/wiki/She%27s_Leaving_Home][Wikipedia]]
-
-        Kind of a dark vibe, not totally though. Not sure how interesting the lyrics are, though. Not like I Me Mine enough I don't think.
+     - *She Loves You* (No Ringo talking)
+     - *Yellow Submarine* (Ringo talks, stylisticly off)
+     - *Things We Said Today* (Not very stylisticly like I Me Mine)
+     - *Helter Skelter* (White Album)
+     - *Golden Slumbers*, *Sun King*, *It's Only Love*, *Girl* (Too few recordings)
+     - *I've Got A Feeling*
+     - *Two Of Us*
+     - *The Night Before*
 
 * 2. ✓ A Day In The Life
 
-  [[https://open.spotify.com/user/jlewalle/playlist/1n119hyulDCJ5qzIObsWf9?si=3rbDltpZS8SGDAzV4TdUxQ][Spotify]]
-
- - Insanely Popular.
- - Would appear on any "Best Beatles Songs"
- - Is a masterpiece.
- - Meloncholic moments and then walks through different feelings.
- - Story behind the song solidified the favorite position.
- - A song that demonstrated how well ahead of their time they were.
- - Very early discovery.
- - Best of Ringo, subtle and perfect.
+  - [[https://www.beatlesbible.com/songs/a-day-in-the-life/][Beatles Bible]], [[https://genius.com/The-beatles-a-day-in-the-life-lyrics][Genius]], [[https://en.wikipedia.org/wiki/A_Day_in_the_Life][Wikipedia]]
+  - Insanely Popular.
+  - Would appear on any "Best Beatles Songs"
+  - Is a masterpiece.
+  - Meloncholic moments and then walks through different feelings.
+  - Story behind the song solidified the favorite position.
+  - A song that demonstrated how well ahead of their time they were.
+  - Very early discovery.
+  - Best of Ringo, subtle and perfect.
 
 **** Candidates
 
-     - [[https://www.beatlesbible.com/songs/a-day-in-the-life/][A Day In The Life]], [[https://genius.com/The-beatles-a-day-in-the-life-lyrics][Genius]], [[https://en.wikipedia.org/wiki/A_Day_in_the_Life][Wikipedia]]
+     - *A Day In The Life* [[https://www.beatlesbible.com/songs/a-day-in-the-life/][Beatles Bible]], [[https://genius.com/The-beatles-a-day-in-the-life-lyrics][Genius]], [[https://en.wikipedia.org/wiki/A_Day_in_the_Life][Wikipedia]]
 
        My favorite so far. Obviously very influential and demonstrates their pioneering. Very famous and *some* emotional diversity, lyrically. I think the majority of the emotional range comes from the music, which works.
 
@@ -127,70 +113,60 @@ It's a long story.
 
        [[https://www.rollingstone.com/music/music-features/beatles-a-day-in-the-life-10-things-you-didnt-know-191427/][Article 2]]
 
-     - [[https://www.beatlesbible.com/songs/in-my-life/][In My Life]]
+     - *In My Life* [[https://www.beatlesbible.com/songs/in-my-life/][Beatles Bible]]
 
        A tour of Liverpool/home. I dunno if this necessarily fills the above criteria. Nothing really stood out on this as super revolutionary in reading about the history of the song.
 
-     - [[https://www.beatlesbible.com/songs/yesterday/][Yesterday]], [[https://genius.com/The-beatles-yesterday-lyrics][Genius]], [[https://en.wikipedia.org/wiki/Yesterday_(Beatles_song)][Wikipedia]]
+     - *Yesterday* [[https://www.beatlesbible.com/songs/yesterday/][Beatles Bible]], [[https://genius.com/The-beatles-yesterday-lyrics][Genius]], [[https://en.wikipedia.org/wiki/Yesterday_(Beatles_song)][Wikipedia]]
 
        I like the story of how the melody here came to Paul, in a dream. A far more interesting backstory.
        Defnitely starts meloncholic, doesn't necessarily walk you through different feelings after, though.
 
-     - [[https://www.beatlesbible.com/songs/because/][Because]], [[https://genius.com/The-beatles-because-lyrics][Genius]], [[https://en.wikipedia.org/wiki/Because_(Beatles_song)][Wikipedia]]
+     - *Because* [[https://www.beatlesbible.com/songs/because/][Because]], [[https://genius.com/The-beatles-because-lyrics][Genius]], [[https://en.wikipedia.org/wiki/Because_(Beatles_song)][Wikipedia]]
 
        This song seems too simple, emotionally.
 
-     - [[https://www.beatlesbible.com/songs/i-want-to-hold-your-hand/][I Want To Hold Your Hand]], [[https://genius.com/The-beatles-i-want-to-hold-your-hand-lyrics][Genius]], [[https://en.wikipedia.org/wiki/I_Want_to_Hold_Your_Hand][Wikipedia]]
+     - *I Want To Hold Your Hand* [[https://www.beatlesbible.com/songs/i-want-to-hold-your-hand/][Beatles Bible]], [[https://genius.com/The-beatles-i-want-to-hold-your-hand-lyrics][Genius]], [[https://en.wikipedia.org/wiki/I_Want_to_Hold_Your_Hand][Wikipedia]]
 
        Not much of a meloncholic start, if you ask me.
 
-     - Penny Lane [[https://www.beatlesbible.com/songs/penny-lane/][Beatles Bible]]
+     - *Penny Lane* [[https://www.beatlesbible.com/songs/penny-lane/][Beatles Bible]]
 
        Not much of a meloncholic start nor does this seem to demonstrate any pioneering.
 
-     - [[https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds/][Lucy In The Sky With Diamonds]], [[https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds/][Genius]],  [[https://en.wikipedia.org/wiki/Lucy_in_the_Sky_with_Diamonds][Wikipedia]]
+     - *Lucy In The Sky With Diamonds* [[https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds/][Beatles Bible]], [[https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds/][Genius]],  [[https://en.wikipedia.org/wiki/Lucy_in_the_Sky_with_Diamonds][Wikipedia]]
 
        No meloncholic start.
 
-     - [[https://www.beatlesbible.com/songs/tomorrow-never-knows/][Tomorrow Never Knows]]
+     - *Tomorrow Never Knows* [[https://www.beatlesbible.com/songs/tomorrow-never-knows/][Beatles Bible]]
 
        No meloncholic start.
-
-     - Help!
       
 **** Wrong Choices
 
-     - +Here Comes The Sun+
-     - +Across the Universe+
-     - +Come Together+
-     - +Hey Jude+
-     - +Let It Be+
-     - +Strawberry Fields+
-     - +Something+
+     - *Here Comes The Sun*, *Across the Universe*, *Come Together*, *Hey Jude*, *Let It Be*, *Strawberry Fields*, *Something*
 
 **** Excluded
 
-     - +Day Tripper+ (Too few recordings)
+     - *Day Tripper* (Too few recordings)
 
 * 3. ✓ Something - Anthology 3
 
-  [[https://www.beatlesbible.com/songs/something/][Beatles Bible]]
+  - [[https://www.beatlesbible.com/songs/something/][Beatles Bible]], [[https://genius.com/The-beatles-something-lyrics][Genius]], [[https://en.wikipedia.org/wiki/Something_(Beatles_song)][Wikipedia]]
 
-  [[https://en.wikipedia.org/wiki/Something_(Beatles_song)][Wikipedia]]
-
-  [[https://open.spotify.com/user/jlewalle/playlist/2ninxGfZ40olNI2utGY5XP?si=rBbwxT15T5SDYFjDuok7lQ][Spotify]]
+    I got lucky with this one and guessed Something for #2 and she felt
+    obligated to reveal I was on track for #3. Thankfully, there's only one
+    alternate recording that really works.
 
 **** Candidates
 
-    - +Come Together (Anthology 3 - "laughy, giggly one")+
-    - +Helter Skelter (Take 2 - "Doors-ish")+
-    - +Strawberry Fields (No candidates)+
+    - *Come Together* (Anthology 3 - "laughy, giggly one")
+    - *Helter Skelter* (Take 2 - "Doors-ish")
+    - *Strawberry Fields* (No candidates)
 
 * 4. ✓ While My Guitar Gently Weeps
 
-  [[https://www.beatlesbible.com/songs/while-my-guitar-gently-weeps/][Beatles Bible]]
-
-  [[https://en.wikipedia.org/wiki/While_My_Guitar_Gently_Weeps][Wikipedia]]
+  - [[https://www.beatlesbible.com/songs/while-my-guitar-gently-weeps/][Beatles Bible]], [[https://en.wikipedia.org/wiki/While_My_Guitar_Gently_Weeps][Wikipedia]], [[https://genius.com/The-beatles-while-my-guitar-gently-weeps-lyrics][Genius]]
 
 * Research
 
@@ -203,37 +179,34 @@ It's a long story.
   - She's Leaving Home [[https://en.wikipedia.org/wiki/She%27s_Leaving_Home][Wikipedia]], [[https://www.beatlesbible.com/songs/shes-leaving-home/][Beatles Bible]], [[https://genius.com/The-beatles-shes-leaving-home-lyrics][Genius]]
   - Lovely Rita [[https://www.beatlesbible.com/songs/lovely-rita/][Beatles Bible]], [[https://genius.com/The-beatles-lovely-rita-lyrics][Genius]]
 
-* Tracks George Sings On
-  | Song                               | Album                                 |
-  | Chains	                           | Please Please Me                      |
-  | Do You Want To Know A Secret       | Please Please Me                      |
-  | Don't Bother Me                    | With The Beatles                      |
-  | Roll Over Beethoven                | With The Beatles                      |
-  | Devil In Her Heart	               | With The Beatles                      |
-  | I'm Happy Just To Dance With You	 | A Hard Day's Night                    |
-  | Everybody's Trying To Be My Baby	 | Beatles For Sale                      |
-  | I Need You	                       | Help!                                 |
-  | You Like Me Too Much	             | Help!                                 |
-  | Think For Yourself	               | Rubber Soul                           |
-  | If I Needed Someone                | Rubber Soul                           |
-  | Taxman	                           | Revolver                              |
-  | Love You To                        | Revolver                              |
-  | I Want To Tell You	               | Revolver                              |
-  | Within You Without You	           | Sgt. Pepper's Lonely Hearts Club Band |
-  | Blue Jay Way	                     | Magical Mystery Tour                  |
-  | Old Brown Shoe	                   | Past Masters Vol. 2                   |
-  | The Inner Light                    | Past Masters Vol. 2                   |
-  | While My Guitar Gently Weeps       | The Beatles [White Album] (Disc 1)    |
-  | Piggies                            | The Beatles [White Album] (Disc 1)    |
-  | Long, Long, Long                   | The Beatles [White Album] (Disc 2)    |
-  | Savoy Truffle                      | The Beatles [White Album] (Disc 2)    |
-  | Only A Northern Song               | Yellow Submarine                      |
-  | It's All Too Much                  | Yellow Submarine                      |
-  | I Me Mine                          | Let It Be                             |
-  | For You Blue	                     | Let It Be                             |
-  | Something                          | Abbey Road                            |
-  | Here Comes The Sun	               | Abbey Road                            |
+** Tracks George Sings On
+   | Song                               | Album                                 |
+   | Chains	                           | Please Please Me                      |
+   | Do You Want To Know A Secret       | Please Please Me                      |
+   | Don't Bother Me                    | With The Beatles                      |
+   | Roll Over Beethoven                | With The Beatles                      |
+   | Devil In Her Heart	               | With The Beatles                      |
+   | I'm Happy Just To Dance With You	 | A Hard Day's Night                    |
+   | Everybody's Trying To Be My Baby	 | Beatles For Sale                      |
+   | I Need You	                       | Help!                                 |
+   | You Like Me Too Much	             | Help!                                 |
+   | Think For Yourself	               | Rubber Soul                           |
+   | If I Needed Someone                | Rubber Soul                           |
+   | Taxman	                           | Revolver                              |
+   | Love You To                        | Revolver                              |
+   | I Want To Tell You	               | Revolver                              |
+   | Within You Without You	           | Sgt. Pepper's Lonely Hearts Club Band |
+   | Blue Jay Way	                     | Magical Mystery Tour                  |
+   | Old Brown Shoe	                   | Past Masters Vol. 2                   |
+   | The Inner Light                    | Past Masters Vol. 2                   |
+   | While My Guitar Gently Weeps       | The Beatles [White Album] (Disc 1)    |
+   | Piggies                            | The Beatles [White Album] (Disc 1)    |
+   | Long, Long, Long                   | The Beatles [White Album] (Disc 2)    |
+   | Savoy Truffle                      | The Beatles [White Album] (Disc 2)    |
+   | Only A Northern Song               | Yellow Submarine                      |
+   | It's All Too Much                  | Yellow Submarine                      |
+   | I Me Mine                          | Let It Be                             |
+   | For You Blue	                     | Let It Be                             |
+   | Something                          | Abbey Road                            |
+   | Here Comes The Sun	               | Abbey Road                            |
 
-* Future Work
-
-** TODO: Consider Remastered 2009 and Remastered 2015 a single recording.

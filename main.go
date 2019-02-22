@@ -32,7 +32,7 @@ type TrackInfo struct {
 	Recordings           int
 	Has3OrMoreRecordings bool
 	Has1Recording        bool
-	Guessed bool
+	Guessed              bool
 	Excluded             bool
 	ExcludedReasons      []string
 	OnExcludedAlbum      bool
