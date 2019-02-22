@@ -5,15 +5,15 @@
 | A Beginning (Take 4) / Don’t Pass Me By (Take 7) | Too few recordings (1) |
 | A Beginning - Anthology 3 Version | Too short (49s), Too few recordings (1) |
 | A Day In The Life | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
-| A Day In The Life | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | A Day In The Life - Anthology 2 Version | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
-| A Day In The Life - First Mono Mix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
-| A Day In The Life - Hummed Last Chord / Takes 8, 9, 10 And 11 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life - First Mono Mix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life - Hummed Last Chord / Takes 8, 9, 10 And 11 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | A Day In The Life - Orchestra Overdub | Too short (55s), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | A Day In The Life - Remastered 2009 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | A Day In The Life - Remastered 2010 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | A Day In The Life - Remix | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
-| A Day In The Life - Remix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
+| A Day In The Life - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | A Day In The Life - Take 1 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | A Day In The Life - Take 1 With Hums | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
 | A Day In The Life - Take 2 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) |
@@ -50,16 +50,9 @@
 | All Together Now | Too few recordings (2) |
 | All Together Now - Remastered 2009 | Too few recordings (2) |
 | All You Need Is Love | Excluded by the beatles (excluded) |
-| All You Need Is Love | Excluded by the beatles (excluded) |
-| All You Need Is Love - Remastered 2009 | Excluded by the beatles (excluded) |
-| All You Need Is Love - Remastered 2009 | Excluded by the beatles (excluded) |
 | All You Need Is Love - Remastered 2009 | Excluded by the beatles (excluded) |
 | All You Need Is Love - Remastered 2015 | Excluded by the beatles (excluded) |
 | And Here We Are Again - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too short (15s), Too few recordings (1) |
-| And I Love Her - Anthology 1 Version | Excluded by the beatles (excluded) |
-| And I Love Her - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded by the beatles (excluded) |
-| And I Love Her - Remastered 2009 | Excluded by the beatles (excluded) |
-| And I Love Her - Remastered 2009 | Excluded by the beatles (excluded) |
 | And Your Bird Can Sing - Remastered 2009 | Excluded album (Revolver (Remastered)), Too few recordings (2) |
 | And Your Bird Can Sing - Take 2 / Anthology 2 Version | Excluded album (Revolver (Remastered)), Too few recordings (2) |
 | Anna (Go To Him) - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Too few recordings (2) |
@@ -179,12 +172,12 @@
 | Eight Days A Week - Remastered 2009 | Excluded by the beatles (excluded) |
 | Eight Days A Week - Remastered 2009 | Excluded by the beatles (excluded) |
 | Eight Days A Week - Remastered 2015 | Excluded by the beatles (excluded) |
-| Eleanor Rigby | Excluded album (Revolver (Remastered)) |
-| Eleanor Rigby - Remastered 2009 | Excluded album (Revolver (Remastered)) |
-| Eleanor Rigby - Remastered 2009 | Excluded album (Revolver (Remastered)) |
-| Eleanor Rigby - Remastered 2015 | Excluded album (Revolver (Remastered)) |
-| Eleanor Rigby - Strings Only / Anthology 2 Version | Excluded album (Revolver (Remastered)) |
-| Eleanor Rigby / Julia | Too few recordings (1) |
+| Eleanor Rigby | Excluded by the beatles (excluded - guessed), Excluded album (Revolver (Remastered)) |
+| Eleanor Rigby - Remastered 2009 | Excluded by the beatles (excluded - guessed), Excluded album (Revolver (Remastered)) |
+| Eleanor Rigby - Remastered 2009 | Excluded by the beatles (excluded - guessed), Excluded album (Revolver (Remastered)) |
+| Eleanor Rigby - Remastered 2015 | Excluded by the beatles (excluded - guessed), Excluded album (Revolver (Remastered)) |
+| Eleanor Rigby - Strings Only / Anthology 2 Version | Excluded by the beatles (excluded - guessed), Excluded album (Revolver (Remastered)) |
+| Eleanor Rigby / Julia | Excluded by the beatles (excluded - guessed), Too few recordings (1) |
 | Every Little Thing - Remastered 2009 | Too few recordings (1) |
 | Everybody's Got Something To Hide Except Me And My Monkey - 2018 Mix | Excluded album (The Beatles (Remastered)) |
 | Everybody's Got Something To Hide Except Me And My Monkey - Esher Demo | Excluded album (The Beatles (Remastered)) |
@@ -694,6 +687,11 @@
 | The Honeymoon Song - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Too few recordings (1) |
 | The Inner Light - Remastered 2009 | Too few recordings (2) |
 | The Inner Light - Take 6 / Instrumental Backing Track | Too few recordings (2) |
+| The Long And Winding Road - Anthology 3 Version | Excluded by the beatles (excluded) |
+| The Long And Winding Road - Naked Version / Remastered 2013 | Excluded by the beatles (excluded) |
+| The Long And Winding Road - Remastered 2009 | Excluded by the beatles (excluded) |
+| The Long And Winding Road - Remastered 2009 | Excluded by the beatles (excluded) |
+| The Long And Winding Road - Remastered 2015 | Excluded by the beatles (excluded) |
 | The Night Before - Remastered 2009 | Too few recordings (1) |
 | The Sheik Of Araby - Anthology 1 Version | Too few recordings (1) |
 | The Word - Remastered 2009 | Too few recordings (1) |
@@ -750,7 +748,7 @@
 | While My Guitar Gently Weeps - Anthology 3 Version | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) |
 | While My Guitar Gently Weeps - Esher Demo | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) |
 | While My Guitar Gently Weeps - Remastered 2009 | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) |
-| While My Guitar Gently Weeps - Remastered 2009 | Excluded album (The Beatles (Remastered)) |
+| While My Guitar Gently Weeps - Remastered 2009 | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) |
 | While My Guitar Gently Weeps - Third Version / Take 27 | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) |
 | Why Don't We Do It In The Road? - 2018 Mix | Excluded album (The Beatles (Remastered)) |
 | Why Don't We Do It In The Road? - Anthology 3 Version | Excluded album (The Beatles (Remastered)) |
@@ -789,6 +787,11 @@
 | Yer Blues - Take 5 With Guide Vocal | Excluded album (The Beatles (Remastered)) |
 | Yes It Is - Anthology 2 Version | Too few recordings (2) |
 | Yes It Is - Remastered 2009 | Too few recordings (2) |
+| Yesterday - Anthology 2 Version | Excluded by the beatles (excluded) |
+| Yesterday - Live From The ABC Theatre, Blackpool, UK/1965 / Anthology 2 Version | Excluded by the beatles (excluded) |
+| Yesterday - Remastered 2009 | Excluded by the beatles (excluded) |
+| Yesterday - Remastered 2009 | Excluded by the beatles (excluded) |
+| Yesterday - Remastered 2015 | Excluded by the beatles (excluded) |
 | You Can't Do That - Anthology 1 Version | Excluded by the beatles (excluded) |
 | You Can't Do That - Live / Bonus Track | Excluded by the beatles (excluded) |
 | You Can't Do That - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded by the beatles (excluded) |

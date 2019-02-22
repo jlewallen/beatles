@@ -32,6 +32,7 @@ type TrackInfo struct {
 	Recordings           int
 	Has3OrMoreRecordings bool
 	Has1Recording        bool
+	Guessed bool
 	Excluded             bool
 	ExcludedReasons      []string
 	OnExcludedAlbum      bool
@@ -206,7 +207,7 @@ func main() {
 
 		albumTrackIds := make([]spotify.ID, 0)
 		for _, track := range tracks {
-			if _, ok := trackIdsMap [track.ID]; !ok {
+			if _, ok := trackIdsMap[track.ID]; !ok {
 				allTrackIds = append(allTrackIds, track.ID)
 				albumTrackIds = append(albumTrackIds, track.ID)
 				trackIdsMap[track.ID] = true
@@ -273,6 +274,7 @@ func main() {
 	}
 
 	excludedTracks := make(map[spotify.ID]string)
+	guessedTracks := make(map[spotify.ID]string)
 
 	for _, playlist := range playlists.Playlists {
 		if strings.HasPrefix(playlist.Name, artistName) {
@@ -288,6 +290,9 @@ func main() {
 
 				for _, track := range playlistTracks {
 					excludedTracks[track.Track.ID] = playlist.Name
+					if strings.Contains(playlist.Name, "guessed") {
+						guessedTracks[track.Track.ID] = playlist.Name
+					}
 				}
 			}
 		}
@@ -306,6 +311,10 @@ func main() {
 			reason := fmt.Sprintf("Excluded by %s", reason)
 			track.Exclude(reason)
 			al.Append(track.Name, reason)
+		}
+
+		if _, ok := guessedTracks[track.ID]; ok {
+			track.Guessed = true
 		}
 
 		if track.Duration < 60*1000 {
@@ -382,6 +391,7 @@ func main() {
 	if options.RebuildMultiple {
 		addingToExcluded := make([]spotify.ID, 0)
 		addingTo3OrMore := make([]spotify.ID, 0)
+		addingTo3OrMoreUnfiltered := make([]spotify.ID, 0)
 
 		for _, track := range allTracks {
 			if track.Has3OrMoreRecordings {
@@ -391,12 +401,17 @@ func main() {
 					if !track.Excluded {
 						addingTo3OrMore = append(addingTo3OrMore, track.ID)
 					}
+
+					if !track.Excluded || track.Excluded && !track.Guessed {
+						addingTo3OrMoreUnfiltered = append(addingTo3OrMoreUnfiltered, track.ID)
+					}
 				}
 			}
 		}
 
 		byReleaseDate := make([]spotify.ID, 0)
 		originals := make([]spotify.ID, 0)
+		originalsUnfiltered := make([]spotify.ID, 0)
 
 		for _, track := range allTracksByReleaseDate {
 			if track.Has3OrMoreRecordings {
@@ -407,7 +422,17 @@ func main() {
 						originals = append(originals, track.ID)
 					}
 				}
+				if track.Original {
+					if !track.Excluded || track.Excluded && !track.Guessed {
+						originalsUnfiltered = append(originalsUnfiltered, track.ID)
+					}
+				}
 			}
+		}
+
+		err = MaybeSetPlaylistTracksByName(spotifyClient, options.ReadOnlySpotify, options.User, artistName+" (R >= 3 unfiltered)", addingTo3OrMoreUnfiltered)
+		if err != nil {
+			log.Fatalf("Error adding tracks: %v", err)
 		}
 
 		err = MaybeSetPlaylistTracksByName(spotifyClient, options.ReadOnlySpotify, options.User, artistName+" (R >= 3)", addingTo3OrMore)
@@ -416,6 +441,11 @@ func main() {
 		}
 
 		err = MaybeSetPlaylistTracksByName(spotifyClient, options.ReadOnlySpotify, options.User, artistName+" (R >= 3 originals)", originals)
+		if err != nil {
+			log.Fatalf("Error adding tracks: %v", err)
+		}
+
+		err = MaybeSetPlaylistTracksByName(spotifyClient, options.ReadOnlySpotify, options.User, artistName+" (R >= 3 originals unfiltered)", originalsUnfiltered)
 		if err != nil {
 			log.Fatalf("Error adding tracks: %v", err)
 		}
@@ -450,10 +480,10 @@ func main() {
 
 func GenerateTable(tracks []*TrackInfo) error {
 	templates := map[string]string{
-		"tracks.org.template":  "tracks.org",
-		"excluded.org.template": "excluded.org",
+		"tracks.org.template":     "tracks.org",
+		"excluded.org.template":   "excluded.org",
 		"candidates.org.template": "candidates.org",
-		"all.org.template": "all.org",
+		"all.org.template":        "all.org",
 	}
 	byPopularity := make([]*TrackInfo, len(tracks))
 

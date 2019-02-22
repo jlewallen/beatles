@@ -5,15 +5,15 @@
 | A Beginning (Take 4) / Don’t Pass Me By (Take 7) | Too few recordings (1) | 4uKyLqJHDjT6mdA22ofxuM |
 | A Beginning - Anthology 3 Version | Too short (49s), Too few recordings (1) | 34dsKRJHIadrrNdCDtMwGn |
 | A Day In The Life | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4Qd0ojqwezaDyHpZWlhQt5 |
-| A Day In The Life | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4XiDAxr6alWzxm24i2Rt4K |
+| A Day In The Life | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 4XiDAxr6alWzxm24i2Rt4K |
 | A Day In The Life - Anthology 2 Version | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 1cDu688MBQUl1b9KSoR7Gz |
-| A Day In The Life - First Mono Mix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3O01tsV0nPn9IwW1I1rYmh |
-| A Day In The Life - Hummed Last Chord / Takes 8, 9, 10 And 11 | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 6fUmTfvtgTFJMIMpVz6sDg |
+| A Day In The Life - First Mono Mix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3O01tsV0nPn9IwW1I1rYmh |
+| A Day In The Life - Hummed Last Chord / Takes 8, 9, 10 And 11 | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 6fUmTfvtgTFJMIMpVz6sDg |
 | A Day In The Life - Orchestra Overdub | Too short (55s), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2cExd4UpGdZCqwmXRelHYE |
 | A Day In The Life - Remastered 2009 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 0hKRSZhUGEhKU6aNSPBACZ |
 | A Day In The Life - Remastered 2010 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 7lQ9vPEIo4caEIctf6bYOi |
 | A Day In The Life - Remix | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 18qhv7DD1sEpgWffovGnhn |
-| A Day In The Life - Remix | Excluded by the beatles (excluded), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 5V3HOUIcQTAdUmzHPcfb6F |
+| A Day In The Life - Remix | Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 5V3HOUIcQTAdUmzHPcfb6F |
 | A Day In The Life - Take 1 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 3FplMj2gYs4cymgvLvl8sO |
 | A Day In The Life - Take 1 With Hums | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2i9KZZlTOYfX7EtMHtX5NS |
 | A Day In The Life - Take 2 | Excluded by the beatles (excluded - guessed), Excluded album (Sgt. Pepper's Lonely Hearts Club Band (Remastered)) | 2n0qkPLHOssnZb1pB19puZ |
@@ -50,16 +50,16 @@
 | All Together Now | Too few recordings (2) | 4KELrBm2uoyn9tq6fZ5P98 |
 | All Together Now - Remastered 2009 | Too few recordings (2) | 2ck8lFrYAch2GPtdhpTHe3 |
 | All You Need Is Love | Excluded by the beatles (excluded) | 5zqJlEJcn0EfnvAScH8swK |
-| All You Need Is Love | Excluded by the beatles (excluded) | 3oGGipilQmZTol8qFTR6u1 |
+| All You Need Is Love | | 3oGGipilQmZTol8qFTR6u1 |
 | All You Need Is Love - Remastered 2009 | Excluded by the beatles (excluded) | 6tzFM08UuwxhuftjfUqaQA |
-| All You Need Is Love - Remastered 2009 | Excluded by the beatles (excluded) | 2Z8cY4QpZTFUZxCQCpvNe1 |
-| All You Need Is Love - Remastered 2009 | Excluded by the beatles (excluded) | 68BTFws92cRztMS1oQ7Ewj |
+| All You Need Is Love - Remastered 2009 | | 2Z8cY4QpZTFUZxCQCpvNe1 |
+| All You Need Is Love - Remastered 2009 | | 68BTFws92cRztMS1oQ7Ewj |
 | All You Need Is Love - Remastered 2015 | Excluded by the beatles (excluded) | 6KqiVlOLfDzJViJVAPym1p |
 | And Here We Are Again - Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963 | Too short (15s), Too few recordings (1) | 1GOrFU6g2HwRn5oo9oBmfV |
-| And I Love Her - Anthology 1 Version | Excluded by the beatles (excluded) | 74Z5zhIzC2X2UQPS4OLNNp |
-| And I Love Her - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded by the beatles (excluded) | 3wy3xxoRctKNrKAzv9m4jV |
-| And I Love Her - Remastered 2009 | Excluded by the beatles (excluded) | 65vdMBskhx3akkG9vQlSH1 |
-| And I Love Her - Remastered 2009 | Excluded by the beatles (excluded) | 5BZshzyuOfIGxmVt6RK7vn |
+| And I Love Her - Anthology 1 Version | | 74Z5zhIzC2X2UQPS4OLNNp |
+| And I Love Her - Live At The BBC For "Top Gear" / 16th July, 1964 | | 3wy3xxoRctKNrKAzv9m4jV |
+| And I Love Her - Remastered 2009 | | 65vdMBskhx3akkG9vQlSH1 |
+| And I Love Her - Remastered 2009 | | 5BZshzyuOfIGxmVt6RK7vn |
 | And Your Bird Can Sing - Remastered 2009 | Excluded album (Revolver (Remastered)), Too few recordings (2) | 4KRgqwb4kvBuTz1utbYxfb |
 | And Your Bird Can Sing - Take 2 / Anthology 2 Version | Excluded album (Revolver (Remastered)), Too few recordings (2) | 4gBHbKEHw2QjmgYkS9ixKJ |
 | Anna (Go To Him) - Live At The BBC For "Pop Go The Beatles" / 27th August, 1963 | Too few recordings (2) | 07C5ez7XXvd9sE5YM3X83F |
@@ -182,12 +182,12 @@
 | Eight Days A Week - Remastered 2009 | Excluded by the beatles (excluded) | 1Dg4dFJr3HW7sbA7vPejre |
 | Eight Days A Week - Remastered 2009 | Excluded by the beatles (excluded) | 1kN5RXxIYrSbCgO8ke88rV |
 | Eight Days A Week - Remastered 2015 | Excluded by the beatles (excluded) | 5ylLypaOksxWd75YrGtx2N |
-| Eleanor Rigby | Excluded album (Revolver (Remastered)) | 6EOKwO6WaLal58MSsi6U4W |
-| Eleanor Rigby - Remastered 2009 | Excluded album (Revolver (Remastered)) | 5GjPQ0eI7AgmOnADn1EO6Q |
-| Eleanor Rigby - Remastered 2009 | Excluded album (Revolver (Remastered)) | 1zhZzC08dfpyuFdct8Oj1Z |
-| Eleanor Rigby - Remastered 2015 | Excluded album (Revolver (Remastered)) | 0Wv8IXRUDZOfmFJHC1VOFI |
-| Eleanor Rigby - Strings Only / Anthology 2 Version | Excluded album (Revolver (Remastered)) | 7zu69MoR2wxz9rvcxcqD9I |
-| Eleanor Rigby / Julia | Too few recordings (1) | 41a5geUkthuhkKG4eQrmwk |
+| Eleanor Rigby | Excluded by the beatles (excluded - guessed), Excluded album (Revolver (Remastered)) | 6EOKwO6WaLal58MSsi6U4W |
+| Eleanor Rigby - Remastered 2009 | Excluded by the beatles (excluded - guessed), Excluded album (Revolver (Remastered)) | 5GjPQ0eI7AgmOnADn1EO6Q |
+| Eleanor Rigby - Remastered 2009 | Excluded by the beatles (excluded - guessed), Excluded album (Revolver (Remastered)) | 1zhZzC08dfpyuFdct8Oj1Z |
+| Eleanor Rigby - Remastered 2015 | Excluded by the beatles (excluded - guessed), Excluded album (Revolver (Remastered)) | 0Wv8IXRUDZOfmFJHC1VOFI |
+| Eleanor Rigby - Strings Only / Anthology 2 Version | Excluded by the beatles (excluded - guessed), Excluded album (Revolver (Remastered)) | 7zu69MoR2wxz9rvcxcqD9I |
+| Eleanor Rigby / Julia | Excluded by the beatles (excluded - guessed), Too few recordings (1) | 41a5geUkthuhkKG4eQrmwk |
 | Every Little Thing - Remastered 2009 | Too few recordings (1) | 2CxTkdvhDuQrOxl8xXkdJS |
 | Everybody's Got Something To Hide Except Me And My Monkey - 2018 Mix | Excluded album (The Beatles (Remastered)) | 4pBM26oKtRWYK2UbYD4OlJ |
 | Everybody's Got Something To Hide Except Me And My Monkey - Esher Demo | Excluded album (The Beatles (Remastered)) | 3ah9CP3ZRW1VR51UmUN8eQ |
@@ -737,11 +737,11 @@
 | The Honeymoon Song - Live At The BBC For "Pop Go The Beatles" / 6th August, 1963 | Too few recordings (1) | 4nN3sSVDpCqf3TW4tpDBAS |
 | The Inner Light - Remastered 2009 | Too few recordings (2) | 379hxtlY5LvbPQa5LL6dPo |
 | The Inner Light - Take 6 / Instrumental Backing Track | Too few recordings (2) | 1N5MR6p2DwOQ8puC9mSMoR |
-| The Long And Winding Road - Anthology 3 Version | | 3ZrzaOfVkXwiqW9agBgH0E |
-| The Long And Winding Road - Naked Version / Remastered 2013 | | 6p6E3pMc9moSp5kV3BLN0y |
-| The Long And Winding Road - Remastered 2009 | | 61RZZePxOOTDVxIud3iyin |
-| The Long And Winding Road - Remastered 2009 | | 3mlMpmY8oZIBFc39D9zLbh |
-| The Long And Winding Road - Remastered 2015 | | 5xhP99gVBIkpr7omcdCeiy |
+| The Long And Winding Road - Anthology 3 Version | Excluded by the beatles (excluded) | 3ZrzaOfVkXwiqW9agBgH0E |
+| The Long And Winding Road - Naked Version / Remastered 2013 | Excluded by the beatles (excluded) | 6p6E3pMc9moSp5kV3BLN0y |
+| The Long And Winding Road - Remastered 2009 | Excluded by the beatles (excluded) | 61RZZePxOOTDVxIud3iyin |
+| The Long And Winding Road - Remastered 2009 | Excluded by the beatles (excluded) | 3mlMpmY8oZIBFc39D9zLbh |
+| The Long And Winding Road - Remastered 2015 | Excluded by the beatles (excluded) | 5xhP99gVBIkpr7omcdCeiy |
 | The Night Before - Remastered 2009 | Too few recordings (1) | 5xcfepnz1v7a83T8An9gjw |
 | The Sheik Of Araby - Anthology 1 Version | Too few recordings (1) | 5ZZWchqd0TY6QwVgKROk51 |
 | The Word - Remastered 2009 | Too few recordings (1) | 4GBaPHvAyj4V2jeobD9tsy |
@@ -804,7 +804,7 @@
 | While My Guitar Gently Weeps - Anthology 3 Version | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) | 6EUaGREjo3DA7ADpqzvXVQ |
 | While My Guitar Gently Weeps - Esher Demo | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) | 1Ov0M27IkghTJT00xvmlSO |
 | While My Guitar Gently Weeps - Remastered 2009 | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) | 6JBjqwVQNIPpXHedQaP82R |
-| While My Guitar Gently Weeps - Remastered 2009 | Excluded album (The Beatles (Remastered)) | 389QX9Q1eUOEZ19vtzzI9O |
+| While My Guitar Gently Weeps - Remastered 2009 | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) | 389QX9Q1eUOEZ19vtzzI9O |
 | While My Guitar Gently Weeps - Third Version / Take 27 | Excluded by the beatles (excluded - guessed), Excluded album (The Beatles (Remastered)) | 3FOfmIalZpjHRtFwfuEYwN |
 | Why Don't We Do It In The Road? - 2018 Mix | Excluded album (The Beatles (Remastered)) | 6CD4ZmCgYyiECTOWjm5LqC |
 | Why Don't We Do It In The Road? - Anthology 3 Version | Excluded album (The Beatles (Remastered)) | 6BxdghTqOTxfw5wyUgqK3j |
@@ -843,11 +843,11 @@
 | Yer Blues - Take 5 With Guide Vocal | Excluded album (The Beatles (Remastered)) | 1CbjjBlbTpMo9EGnwqPWe3 |
 | Yes It Is - Anthology 2 Version | Too few recordings (2) | 4QejjzjGI7oysGZ9tDIAqF |
 | Yes It Is - Remastered 2009 | Too few recordings (2) | 2rQvZscmpb6a7ejDiKprcL |
-| Yesterday - Anthology 2 Version | | 5pAtqxDnVQFsZrc3SviBHt |
-| Yesterday - Live From The ABC Theatre, Blackpool, UK/1965 / Anthology 2 Version | | 7MapOJ5Tqf5MpQBoAqANwB |
-| Yesterday - Remastered 2009 | | 3iD2CCv5bsJRIaqJRYD0uJ |
-| Yesterday - Remastered 2009 | | 3BQHpFgAp4l80e1XslIjNI |
-| Yesterday - Remastered 2015 | | 4E5rL7YL0hVUPqeMSpjEF2 |
+| Yesterday - Anthology 2 Version | Excluded by the beatles (excluded) | 5pAtqxDnVQFsZrc3SviBHt |
+| Yesterday - Live From The ABC Theatre, Blackpool, UK/1965 / Anthology 2 Version | Excluded by the beatles (excluded) | 7MapOJ5Tqf5MpQBoAqANwB |
+| Yesterday - Remastered 2009 | Excluded by the beatles (excluded) | 3iD2CCv5bsJRIaqJRYD0uJ |
+| Yesterday - Remastered 2009 | Excluded by the beatles (excluded) | 3BQHpFgAp4l80e1XslIjNI |
+| Yesterday - Remastered 2015 | Excluded by the beatles (excluded) | 4E5rL7YL0hVUPqeMSpjEF2 |
 | You Can't Do That - Anthology 1 Version | Excluded by the beatles (excluded) | 4rct77ReWXjKK3hLTZ9v9I |
 | You Can't Do That - Live / Bonus Track | Excluded by the beatles (excluded) | 4Dw9HFzXqmdJRM8vfc1FId |
 | You Can't Do That - Live At The BBC For "Top Gear" / 16th July, 1964 | Excluded by the beatles (excluded) | 3szBij9Q2RnaJ6EPGzy7CF |
