@@ -473,7 +473,7 @@ func main() {
 		}
 	}
 
-	al.Write("audit.org")
+	al.Write("data/audit.org")
 
 	log.Printf("DONE")
 }
@@ -502,7 +502,7 @@ func GenerateTable(tracks []*TrackInfo) error {
 			return err
 		}
 
-		path := filepath.Join("./", fileName)
+		path := filepath.Join("./data", fileName)
 		log.Printf("Writing %s", path)
 
 		file, err := os.Create(path)

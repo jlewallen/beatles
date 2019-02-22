@@ -118,8 +118,6 @@ func (sc *SpotifyCacher) GetPlaylistTracks(userId string, id spotify.ID) (allTra
 		return
 	}
 
-	log.Printf("GOT TRACKS")
-
 	json, err := json.Marshal(allTracks)
 	if err != nil {
 		return nil, fmt.Errorf("Error saving playlist tracks: %v", err)

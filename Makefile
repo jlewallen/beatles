@@ -1,16 +1,19 @@
+all: docs
+
 beatles: *.go
 	go build -o $@ $^
 
-clean:
-	rm -f beatles
-
-docs:
+data/all.org: beatles
 	./beatles --spotify-ro
-	pandoc all.org > all.html
-	pandoc excluded.org > excluded.html
-	pandoc candidates.org > candidates.html
-	pandoc tracks.org > tracks.html
-	pandoc audit.org > audit.html
+
+docs: data/all.html data/tracks.html data/excluded.html data/audit.html data/candidates.html
+
+%.html: %.org
+	pandoc $^ > $@
 
 fmt:
 	go fmt *.go
+
+clean:
+	rm -f beatles
+	rm -f data/*.org data/*.html

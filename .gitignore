@@ -2,4 +2,4 @@ secrets.go
 *.json
 *.log
 beatles
-.cache
+.cache/*json
