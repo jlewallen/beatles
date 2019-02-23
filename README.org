@@ -3,6 +3,11 @@
 
 This repository has my notes and tools for disecting the beatles discography to help me find a friend's top 3 songs.
 
+* The Top 3
+** 1. ✓ Dig A Pony
+** 2. ✓ A Day In The Life
+** 3. ✓ Something - Anthology 3
+** 4. ✓ While My Guitar Gently Weeps
 * Resources
 
  - [[http://web.mit.edu/scholvin/www/harrison/hbeatles.htm][Songs By George Harrison]]
@@ -10,7 +15,7 @@ This repository has my notes and tools for disecting the beatles discography to 
  - [[http://www.columbia.edu/~brennan/beatles/][The Usenet Guide to Beatles Recording Variations]]
  - [[http://wgo.signal11.org.uk/wgo.htm][What Goes On - The Beatles Anomalies List]]
 
-* 1. Very random.
+* 1. ✓ Dig A Pony
 
   - Not on Revolver
   - Not on White
